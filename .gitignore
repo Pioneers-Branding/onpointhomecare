@@ -1,0 +1,12 @@
+# Raw client media dump: ~1.6 GB of HEIC stills and MOV/MP4 clips that browsers
+# cannot display, plus files above GitHub's 100 MB limit. The web-ready versions
+# used by the site live in assets/images/photos/.
+assets/latest-images/
+assets/*.zip
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
