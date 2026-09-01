@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
   initWizard();
   initTestimonialsSlider();
+  initScrollReveal();
 });
 
 /**
@@ -388,3 +389,47 @@ function resetAutoPlay() {
   startAutoPlay();
 }
 
+
+/**
+ * Scroll reveal — sections and their card grids ease in the first time they
+ * enter the viewport. Purely decorative, so it is skipped entirely when the
+ * visitor has asked for reduced motion or the browser lacks IntersectionObserver;
+ * in both cases the .reveal opt-in class is simply never applied and content
+ * renders at its final state.
+ */
+function initScrollReveal() {
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReducedMotion || !('IntersectionObserver' in window)) return;
+
+  const targets = document.querySelectorAll(
+    '.section-header-center, .trust-card, .service-card, .cognitive-card, ' +
+    '.comparison-card, .why-card, .step-card, .family-persona-card, ' +
+    '.intro-grid, .community-grid, .leadership-container-card, .cta-inner-card'
+  );
+  if (!targets.length) return;
+
+  const DURATION = 700;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      observer.unobserve(el);
+      el.classList.add('is-revealed');
+      // Drop the reveal classes once the transition is done. They declare a
+      // transform, which would otherwise out-rank the cards' :hover lift.
+      const delay = parseInt(el.style.getPropertyValue('--reveal-delay'), 10) || 0;
+      setTimeout(() => {
+        el.classList.remove('reveal', 'is-revealed');
+        el.style.removeProperty('--reveal-delay');
+      }, DURATION + delay + 60);
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+
+  targets.forEach((el, i) => {
+    el.classList.add('reveal');
+    // Stagger siblings within a grid so rows cascade rather than pop as one.
+    el.style.setProperty('--reveal-delay', `${(i % 4) * 70}ms`);
+    observer.observe(el);
+  });
+}

@@ -4349,3 +4349,731 @@ button, input, select, textarea {
     padding: 1.75rem 1.25rem;
   }
 }
+
+/* ==========================================================================
+   SECTION DEPTH SYSTEM
+   Ambient backgrounds, photographic bands and surface textures.
+   Every layer is a pointer-events-free pseudo-element, so no markup depends
+   on it and content always sits above it.
+   ========================================================================== */
+
+:root {
+  /* Grain — inline SVG turbulence, zero network cost */
+  --tex-noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23g)'/%3E%3C/svg%3E");
+
+  /* Dot fields */
+  --tex-dot-teal: radial-gradient(circle, rgba(14, 55, 105, 0.11) 1px, transparent 1.5px);
+  --tex-dot-sage: radial-gradient(circle, rgba(121, 167, 165, 0.30) 1px, transparent 1.6px);
+  --tex-dot-sand: radial-gradient(circle, rgba(197, 155, 109, 0.24) 1px, transparent 1.6px);
+  --tex-dot-white: radial-gradient(circle, rgba(255, 255, 255, 0.16) 1px, transparent 1.6px);
+
+  /* Hairline grid */
+  --tex-grid-teal:
+    linear-gradient(rgba(14, 55, 105, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 55, 105, 0.05) 1px, transparent 1px);
+  --tex-grid-white:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+
+  /* Diagonal weaves */
+  --tex-weave-teal: repeating-linear-gradient(135deg, rgba(14, 55, 105, 0.04) 0 1px, transparent 1px 10px);
+  --tex-weave-sand: repeating-linear-gradient(135deg, rgba(197, 155, 109, 0.10) 0 1px, transparent 1px 11px);
+
+  --tex-size-dot: 22px 22px;
+  --tex-size-grid: 56px 56px;
+}
+
+/* --- Shared stacking contract ------------------------------------------- */
+
+.hero-section,
+.trust-strip-section,
+.intro-section,
+.services-section,
+.featured-dementia-section,
+.comparison-section,
+.why-choose-section,
+.leadership-section,
+.how-it-works-section,
+.family-support-section,
+.community-section,
+.testimonials-section,
+.faq-section,
+.large-cta-section,
+.contact-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.hero-section > .container,
+.trust-strip-section > .container,
+.intro-section > .container,
+.services-section > .container,
+.featured-dementia-section > .container,
+.comparison-section > .container,
+.why-choose-section > .container,
+.leadership-section > .container,
+.how-it-works-section > .container,
+.family-support-section > .container,
+.community-section > .container,
+.testimonials-section > .container,
+.faq-section > .container,
+.large-cta-section > .container,
+.contact-section > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section::before, .hero-section::after,
+.trust-strip-section::before, .trust-strip-section::after,
+.intro-section::before, .intro-section::after,
+.services-section::before, .services-section::after,
+.featured-dementia-section::before, .featured-dementia-section::after,
+.comparison-section::before, .comparison-section::after,
+.why-choose-section::before, .why-choose-section::after,
+.leadership-section::before, .leadership-section::after,
+.how-it-works-section::before, .how-it-works-section::after,
+.family-support-section::before, .family-support-section::after,
+.community-section::before, .community-section::after,
+.testimonials-section::before, .testimonials-section::after,
+.faq-section::before, .faq-section::after,
+.contact-section::before, .contact-section::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- 1. Hero — warm dawn wash, sage bloom, dot field, base fade ---------- */
+
+.hero-section {
+  background:
+    radial-gradient(ellipse 60% 55% at 82% 12%, rgba(121, 167, 165, 0.20) 0%, transparent 62%),
+    radial-gradient(ellipse 70% 60% at 6% 88%, rgba(244, 239, 234, 0.95) 0%, transparent 58%),
+    linear-gradient(178deg, #FFFDFA 0%, var(--bg-warm-white) 55%, #F3EFE9 100%);
+}
+
+.hero-section::before {
+  inset: 0;
+  background-image: var(--tex-dot-sage);
+  background-size: var(--tex-size-dot);
+  -webkit-mask-image: radial-gradient(ellipse 70% 80% at 88% 8%, #000 0%, transparent 70%);
+  mask-image: radial-gradient(ellipse 70% 80% at 88% 8%, #000 0%, transparent 70%);
+  opacity: 0.85;
+}
+
+.hero-section::after {
+  inset: auto 0 -1px 0;
+  height: 160px;
+  background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.85) 100%);
+}
+
+/* Soft light-leak behind the hero photograph */
+.hero-media {
+  position: relative;
+}
+
+.hero-media::before {
+  content: "";
+  position: absolute;
+  inset: -12% -10% -8% -6%;
+  background: radial-gradient(circle at 55% 45%, rgba(14, 55, 105, 0.14) 0%, transparent 68%);
+  filter: blur(28px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-image-wrapper,
+.hero-floating-card {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- 2. Trust strip — fine diagonal weave over a lifted white band ------- */
+
+.trust-strip-section {
+  background:
+    linear-gradient(180deg, #FFFFFF 0%, #FCFAF7 62%, var(--bg-warm-white) 100%);
+}
+
+.trust-strip-section::before {
+  inset: 0;
+  background-image: var(--tex-weave-teal);
+  opacity: 0.9;
+}
+
+.trust-strip-section::after {
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(121, 167, 165, 0.55) 30%, rgba(14, 55, 105, 0.45) 70%, transparent 100%);
+}
+
+/* --- 3. Intro — sand gradient, teal bloom, dot field --------------------- */
+
+.intro-section {
+  background:
+    linear-gradient(180deg, var(--bg-warm-white) 0%, #F7F3EE 48%, var(--bg-warm-white) 100%);
+}
+
+.intro-section::before {
+  inset: 0;
+  background-image: var(--tex-dot-teal);
+  background-size: var(--tex-size-dot);
+  -webkit-mask-image: linear-gradient(105deg, #000 0%, transparent 42%);
+  mask-image: linear-gradient(105deg, #000 0%, transparent 42%);
+  opacity: 0.7;
+}
+
+.intro-section::after {
+  width: 46vw;
+  height: 46vw;
+  max-width: 620px;
+  max-height: 620px;
+  top: -14%;
+  right: -12%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(121, 167, 165, 0.20) 0%, transparent 66%);
+}
+
+/* --- 4. Services — clean white with a whisper grid and tinted corners ---- */
+
+.services-section {
+  background:
+    radial-gradient(ellipse 50% 40% at 0% 0%, rgba(237, 242, 248, 0.9) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 45% at 100% 100%, rgba(238, 245, 244, 0.9) 0%, transparent 62%),
+    #FFFFFF;
+}
+
+.services-section::before {
+  inset: 0;
+  background-image: var(--tex-grid-teal);
+  background-size: var(--tex-size-grid);
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 0%, transparent 78%);
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 0%, transparent 78%);
+  opacity: 0.85;
+}
+
+/* --- 5. Dementia feature — photographic band under a deep teal veil ------ */
+
+.featured-dementia-section {
+  background:
+    linear-gradient(150deg, #071F3A 0%, #0E3769 52%, #123F76 100%);
+}
+
+/* Photograph, heavily veiled so type keeps full AA contrast */
+.featured-dementia-section::before {
+  inset: 0;
+  background-image: url("assets/images/Dementia-Memory-Care.webp");
+  background-size: cover;
+  background-position: center 35%;
+  opacity: 0.18;
+  mix-blend-mode: luminosity;
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 22%, #000 70%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 22%, #000 70%, transparent 100%);
+}
+
+/* Grain + vignette + light dot field on top of the photo */
+.featured-dementia-section::after {
+  inset: 0;
+  background-image:
+    var(--tex-dot-white),
+    radial-gradient(ellipse 75% 65% at 50% 45%, transparent 0%, rgba(7, 31, 58, 0.65) 100%);
+  background-size: 26px 26px, cover;
+  opacity: 0.9;
+}
+
+.featured-dementia-section .container::before {
+  content: "";
+  position: absolute;
+  inset: -6rem -50vw;
+  background-image: var(--tex-noise);
+  opacity: 0.035;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* --- 6. Comparison — split tone matching the two cards ------------------- */
+
+.comparison-section {
+  background:
+    linear-gradient(100deg, rgba(238, 245, 244, 0.85) 0%, rgba(250, 248, 245, 1) 45%, rgba(244, 239, 234, 0.9) 100%);
+}
+
+.comparison-section::before {
+  inset: 0;
+  background-image: var(--tex-weave-sand);
+  opacity: 0.75;
+}
+
+.comparison-section::after {
+  width: 40vw;
+  height: 40vw;
+  max-width: 540px;
+  max-height: 540px;
+  bottom: -16%;
+  left: -10%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(14, 55, 105, 0.07) 0%, transparent 68%);
+}
+
+/* --- 7. Why choose — sage glow behind a whisper grid --------------------- */
+
+.why-choose-section {
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 0%, rgba(238, 245, 244, 0.95) 0%, transparent 65%),
+    #FFFFFF;
+}
+
+.why-choose-section::before {
+  inset: 0;
+  background-image: var(--tex-dot-sage);
+  background-size: var(--tex-size-dot);
+  -webkit-mask-image: radial-gradient(ellipse 60% 70% at 50% 100%, #000 0%, transparent 72%);
+  mask-image: radial-gradient(ellipse 60% 70% at 50% 100%, #000 0%, transparent 72%);
+  opacity: 0.7;
+}
+
+.why-choose-section::after {
+  inset: auto 0 0 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(14, 55, 105, 0.12) 50%, transparent);
+}
+
+/* --- 8. Leadership — tinted band so the white card floats ---------------- */
+
+.leadership-section {
+  background:
+    linear-gradient(180deg, #FFFFFF 0%, #EDF2F8 30%, #E7EEF6 70%, var(--bg-warm-white) 100%);
+}
+
+.leadership-section::before {
+  inset: 0;
+  background-image: var(--tex-grid-teal);
+  background-size: var(--tex-size-grid);
+  opacity: 0.9;
+}
+
+.leadership-section::after {
+  width: 34vw;
+  height: 34vw;
+  max-width: 460px;
+  max-height: 460px;
+  top: 8%;
+  left: -8%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(121, 167, 165, 0.24) 0%, transparent 68%);
+}
+
+/* --- 9. How it works — warm paper, grid, and a dashed step connector ----- */
+
+.how-it-works-section {
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 100%, rgba(244, 239, 234, 0.7) 0%, transparent 65%),
+    #FFFFFF;
+}
+
+.how-it-works-section::before {
+  inset: 0;
+  background-image: var(--tex-grid-teal);
+  background-size: var(--tex-size-grid);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, transparent 72%);
+  mask-image: linear-gradient(180deg, #000 0%, transparent 72%);
+}
+
+.how-it-works-section .steps-grid {
+  position: relative;
+}
+
+/* Dashed journey line threading the four steps; cards mask it into segments */
+.how-it-works-section .steps-grid::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 6%;
+  right: 6%;
+  height: 2px;
+  background-image: linear-gradient(90deg, rgba(14, 55, 105, 0.30) 0 8px, transparent 8px 16px);
+  background-size: 16px 2px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.how-it-works-section .step-card {
+  z-index: 1;
+}
+
+/* --- 10. Family support — warm sand paper with grain -------------------- */
+
+.family-support-section {
+  background:
+    radial-gradient(ellipse 55% 45% at 12% 8%, rgba(121, 167, 165, 0.16) 0%, transparent 60%),
+    radial-gradient(ellipse 55% 50% at 92% 92%, rgba(197, 155, 109, 0.14) 0%, transparent 62%),
+    linear-gradient(180deg, var(--bg-warm-white) 0%, #F5F0EA 50%, var(--bg-warm-white) 100%);
+}
+
+.family-support-section::before {
+  inset: 0;
+  background-image: var(--tex-dot-sand);
+  background-size: var(--tex-size-dot);
+  opacity: 0.55;
+}
+
+.family-support-section::after {
+  inset: 0;
+  background-image: var(--tex-noise);
+  opacity: 0.03;
+}
+
+/* --- 11. Community — soft teal wash on the copy side --------------------- */
+
+.community-section {
+  background:
+    linear-gradient(95deg, rgba(237, 242, 248, 0.9) 0%, rgba(237, 242, 248, 0.35) 42%, #FFFFFF 70%);
+}
+
+.community-section::before {
+  inset: 0;
+  background-image: var(--tex-dot-teal);
+  background-size: var(--tex-size-dot);
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, transparent 48%);
+  mask-image: linear-gradient(90deg, #000 0%, transparent 48%);
+  opacity: 0.75;
+}
+
+.community-section::after {
+  width: 38vw;
+  height: 38vw;
+  max-width: 500px;
+  max-height: 500px;
+  bottom: -14%;
+  right: -10%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(121, 167, 165, 0.18) 0%, transparent 68%);
+}
+
+/* --- 12. Testimonials — warm band with an oversized quote watermark ------ */
+
+.testimonials-section {
+  background:
+    radial-gradient(ellipse 60% 50% at 85% 10%, rgba(121, 167, 165, 0.16) 0%, transparent 62%),
+    linear-gradient(180deg, #F7F3EE 0%, var(--bg-warm-white) 55%, #F4EFEA 100%);
+}
+
+.testimonials-section::before {
+  inset: 0;
+  background-image: var(--tex-weave-sand);
+  opacity: 0.7;
+}
+
+.testimonials-section::after {
+  content: "\201C";
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 34rem;
+  line-height: 0.72;
+  color: rgba(14, 55, 105, 0.045);
+  top: -2rem;
+  left: 2%;
+  z-index: 0;
+  user-select: none;
+}
+
+/* --- 13. FAQ — centred paper column ------------------------------------- */
+
+.faq-section {
+  background:
+    radial-gradient(ellipse 55% 65% at 50% 45%, rgba(246, 244, 240, 0.95) 0%, transparent 70%),
+    #FFFFFF;
+}
+
+.faq-section::before {
+  inset: 0;
+  background-image: var(--tex-dot-teal);
+  background-size: var(--tex-size-dot);
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, transparent 26%, transparent 74%, #000 100%);
+  mask-image: linear-gradient(90deg, #000 0%, transparent 26%, transparent 74%, #000 100%);
+  opacity: 0.6;
+}
+
+/* --- 14. Large CTA — photographic card under a deep teal gradient -------- */
+
+.large-cta-section {
+  background: linear-gradient(180deg, var(--bg-warm-white) 0%, #F2EDE7 100%);
+}
+
+.large-cta-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--tex-weave-teal);
+  opacity: 0.8;
+}
+
+.cta-inner-card {
+  background-color: var(--primary-teal-dark);
+  background-image:
+    linear-gradient(120deg, rgba(7, 31, 58, 0.94) 0%, rgba(14, 55, 105, 0.90) 48%, rgba(18, 63, 118, 0.86) 100%),
+    url("assets/images/photos/care-aide-with-client.jpg");
+  background-size: cover, cover;
+  background-position: center, center 32%;
+  background-repeat: no-repeat, no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: 0 28px 70px rgba(9, 40, 72, 0.34);
+}
+
+/* Grain + concentric rings over the CTA photograph */
+.cta-inner-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    var(--tex-dot-white),
+    repeating-radial-gradient(circle at 92% 8%, rgba(255, 255, 255, 0.055) 0 1px, transparent 1px 46px);
+  background-size: 26px 26px, cover;
+}
+
+/* --- 15. Contact — warm base, teal bloom, dot field ---------------------- */
+
+.contact-section {
+  background:
+    radial-gradient(ellipse 50% 45% at 6% 6%, rgba(237, 242, 248, 0.95) 0%, transparent 62%),
+    radial-gradient(ellipse 55% 50% at 96% 94%, rgba(238, 245, 244, 0.9) 0%, transparent 64%),
+    linear-gradient(180deg, #F7F3EE 0%, var(--bg-warm-white) 100%);
+}
+
+.contact-section::before {
+  inset: 0;
+  background-image: var(--tex-grid-teal);
+  background-size: var(--tex-size-grid);
+  -webkit-mask-image: radial-gradient(ellipse 85% 75% at 50% 45%, #000 0%, transparent 80%);
+  mask-image: radial-gradient(ellipse 85% 75% at 50% 45%, #000 0%, transparent 80%);
+}
+
+.contact-section::after {
+  inset: 0;
+  background-image: var(--tex-noise);
+  opacity: 0.028;
+}
+
+/* --- Section header ornamentation ---------------------------------------- */
+
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #FFFFFF 0%, var(--primary-teal-ultra-light) 100%);
+  border: 1px solid rgba(14, 55, 105, 0.12);
+  box-shadow: 0 2px 10px rgba(14, 55, 105, 0.05);
+}
+
+.section-tag::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--secondary-sage-dark);
+  flex-shrink: 0;
+}
+
+.section-tag-light {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.section-tag-light::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--secondary-sage-light);
+  flex-shrink: 0;
+}
+
+/* Hairline flourish beneath centred section headings */
+.section-header-center .section-heading,
+.section-header-center .section-heading-white {
+  position: relative;
+  padding-bottom: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.section-header-center .section-heading::after,
+.section-header-center .section-heading-white::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 3px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--secondary-sage) 0%, var(--primary-teal) 100%);
+}
+
+.section-header-center .section-heading-white::after {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, var(--secondary-sage-light) 100%);
+}
+
+/* --- Responsive & accessibility tuning for the depth layers -------------- */
+
+@media (max-width: 1024px) {
+  /* Keep the journey line only where four steps sit in one row */
+  .how-it-works-section .steps-grid::before {
+    display: none;
+  }
+
+  .testimonials-section::after {
+    font-size: 22rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Textures read as noise on small screens — soften them */
+  .hero-section::before,
+  .intro-section::before,
+  .services-section::before,
+  .why-choose-section::before,
+  .leadership-section::before,
+  .how-it-works-section::before,
+  .community-section::before,
+  .faq-section::before,
+  .contact-section::before {
+    opacity: 0.4;
+  }
+
+  .testimonials-section::after {
+    font-size: 15rem;
+    left: -1rem;
+  }
+
+  .featured-dementia-section::before {
+    opacity: 0.13;
+  }
+
+  .cta-inner-card {
+    background-position: center, center 28%;
+  }
+
+  /* Ambient blobs scale off-canvas on narrow viewports */
+  .intro-section::after,
+  .comparison-section::after,
+  .leadership-section::after,
+  .community-section::after {
+    width: 70vw;
+    height: 70vw;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Print: strip every ambient layer so pages stay legible and cheap to ink */
+@media print {
+  .hero-section::before, .hero-section::after,
+  .trust-strip-section::before, .trust-strip-section::after,
+  .intro-section::before, .intro-section::after,
+  .services-section::before,
+  .featured-dementia-section::before, .featured-dementia-section::after,
+  .comparison-section::before, .comparison-section::after,
+  .why-choose-section::before, .why-choose-section::after,
+  .leadership-section::before, .leadership-section::after,
+  .how-it-works-section::before,
+  .family-support-section::before, .family-support-section::after,
+  .community-section::before, .community-section::after,
+  .testimonials-section::before, .testimonials-section::after,
+  .faq-section::before,
+  .large-cta-section::before,
+  .contact-section::before, .contact-section::after,
+  .hero-media::before {
+    display: none !important;
+  }
+}
+
+/* Dementia band uses its own centred header wrapper */
+.dementia-header-block .section-heading-white {
+  position: relative;
+  padding-bottom: 1.15rem;
+}
+
+.dementia-header-block .section-heading-white::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 3px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, var(--secondary-sage-light) 100%);
+}
+
+/* --- Scroll reveal (opt-in class applied by app.js) ---------------------- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1) var(--reveal-delay, 0ms),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal.is-revealed {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* --- Sub-page hero banners inherit the same material treatment ----------- */
+
+.page-header-banner {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.page-header-banner > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.page-header-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    var(--tex-dot-white),
+    var(--tex-grid-white);
+  background-size: 26px 26px, var(--tex-size-grid);
+}
+
+.page-header-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 65% 90% at 88% 0%, rgba(121, 167, 165, 0.28) 0%, transparent 62%),
+    radial-gradient(ellipse 70% 80% at 50% 120%, rgba(7, 31, 58, 0.45) 0%, transparent 60%);
+}
