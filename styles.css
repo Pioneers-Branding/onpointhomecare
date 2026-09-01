@@ -1,5 +1,5 @@
 /* ==========================================================================
-   OnPoint Nurse and Home Care - Kenya Elder Care Website
+   OnPoint Nurse and Home Care - Metro Vancouver (Canada) Elder Care Website
    Design System & Style Framework
    ========================================================================== */
 
@@ -212,16 +212,20 @@ button, input, select, textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.55rem;
-  padding: 0.85rem 1.65rem;
+  gap: 0.6rem;
+  padding: 0.85rem 1.75rem;
   font-family: var(--font-primary);
   font-weight: 600;
-  font-size: 0.975rem;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  flex-shrink: 0;
   border-radius: var(--radius-full);
   border: 1px solid transparent;
   cursor: pointer;
   transition: var(--transition-normal);
   text-align: center;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -1021,7 +1025,7 @@ button, input, select, textarea {
   aspect-ratio: 4 / 3;
   border-radius: var(--radius-xl);
   object-fit: cover;
-  object-position: center 32%; /* keeps faces in frame when cropping portrait sources */
+  object-position: center center;
   display: block;
 }
 
@@ -1087,53 +1091,136 @@ button, input, select, textarea {
    ========================================================================== */
 
 .trust-strip-section {
-  background-color: #FFFFFF;
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
-  padding: 3rem 0;
-  margin-top: 2rem;
+  background: linear-gradient(180deg, #FFFFFF 0%, var(--bg-warm-white) 100%);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  padding: 3.5rem 0;
+  position: relative;
+  z-index: 5;
 }
 
+.trust-cards-grid,
 .trust-strip-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
+.trust-card,
 .trust-item {
+  background: #FFFFFF;
+  border: 1px solid rgba(14, 55, 105, 0.08);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(14, 55, 105, 0.04);
   display: flex;
-  align-items: flex-start;
-  gap: 1rem;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.trust-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-teal) 0%, var(--secondary-sage) 100%);
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.trust-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(14, 55, 105, 0.09);
+  border-color: rgba(14, 55, 105, 0.18);
+}
+
+.trust-card:hover::before {
+  opacity: 1;
+}
+
+.trust-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .trust-icon-box {
-  width: 46px;
-  height: 46px;
-  background-color: var(--primary-teal-ultra-light);
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--primary-teal-ultra-light) 0%, #DCEBEA 100%);
   color: var(--primary-teal);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  border: 1px solid rgba(78, 135, 140, 0.15);
+  transition: all var(--transition-normal);
+}
+
+.trust-card:hover .trust-icon-box {
+  background: var(--primary-teal);
+  color: #FFFFFF;
+  transform: scale(1.05);
 }
 
 .trust-icon-box svg {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
+}
+
+.trust-badge {
+  font-size: 0.725rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-sage-dark);
+  background-color: var(--secondary-sage-bg);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(78, 135, 140, 0.2);
+}
+
+.trust-card-body {
+  display: flex;
+  flex-direction: column;
 }
 
 .trust-item-title {
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--primary-teal-dark);
-  margin-bottom: 0.25rem;
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
 }
 
 .trust-item-desc {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: var(--text-muted);
-  line-height: 1.45;
+  line-height: 1.55;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .trust-cards-grid,
+  .trust-strip-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .trust-cards-grid,
+  .trust-strip-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 /* ==========================================================================
@@ -1674,19 +1761,43 @@ button, input, select, textarea {
 }
 
 .comparison-footer-banner {
-  background-color: var(--primary-teal-ultra-light);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, var(--primary-teal-ultra-light) 0%, #EBF3F5 100%);
+  border: 1px solid rgba(14, 55, 105, 0.12);
+  border-radius: var(--radius-xl);
+  padding: 1.75rem 2.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 2.5rem;
+  box-shadow: 0 4px 16px rgba(14, 55, 105, 0.04);
 }
 
-.banner-text p {
-  font-size: 0.95rem;
+.comparison-footer-banner .banner-text {
+  flex: 1;
+}
+
+.comparison-footer-banner .banner-text p {
+  font-size: 1rem;
+  line-height: 1.6;
   color: var(--primary-teal-dark);
+  margin: 0;
+}
+
+.comparison-footer-banner .btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 860px) {
+  .comparison-footer-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.5rem;
+  }
+  .comparison-footer-banner .btn {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
@@ -2082,10 +2193,10 @@ button, input, select, textarea {
 }
 
 /* ==========================================================================
-   Kenya Community Section
+   Metro Vancouver Community Section
    ========================================================================== */
 
-.kenya-community-section {
+.community-section {
   padding: 6rem 0;
   background-color: #FFFFFF;
 }
@@ -2169,76 +2280,268 @@ button, input, select, textarea {
 }
 
 /* ==========================================================================
-   Testimonials
+   Testimonials Slider
    ========================================================================== */
 
 .testimonials-section {
   padding: 6rem 0;
   background-color: var(--bg-warm-white);
+  position: relative;
+  overflow: hidden;
 }
 
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.testimonials-header-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
   gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.testimonials-header-left {
+  max-width: 650px;
+}
+
+.testimonials-header-left .section-heading {
+  margin-bottom: 0.75rem;
+}
+
+.slider-controls-top {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.slider-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-color);
+  background: #FFFFFF;
+  color: var(--primary-teal);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+}
+
+.slider-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.slider-btn:hover:not(:disabled) {
+  background-color: var(--primary-teal);
+  color: #FFFFFF;
+  border-color: var(--primary-teal);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.slider-btn:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.slider-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  border-color: var(--border-light);
+}
+
+.testimonials-slider-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem 0.25rem 1.5rem 0.25rem;
+  margin: -0.75rem -0.25rem 0 -0.25rem;
+  cursor: grab;
+  user-select: none;
+}
+
+.testimonials-slider-wrapper:active {
+  cursor: grabbing;
+}
+
+.testimonials-slider-track {
+  display: flex;
+  gap: 1.75rem;
+  transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform;
+}
+
+.testimonial-slide {
+  flex: 0 0 calc(33.333% - 1.17rem);
+  min-width: 0;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .testimonial-slide {
+    flex: 0 0 calc(50% - 0.875rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .testimonial-slide {
+    flex: 0 0 100%;
+  }
+  .slider-controls-top {
+    align-self: flex-start;
+  }
 }
 
 .testimonial-card {
   background: #FFFFFF;
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl);
   padding: 2.25rem 2rem;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 18px rgba(14, 55, 105, 0.05);
   display: flex;
   flex-direction: column;
+  position: relative;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(14, 55, 105, 0.1);
+}
+
+.testimonial-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .testimonial-stars {
   color: #F39C12;
   font-size: 1.1rem;
   letter-spacing: 2px;
-  margin-bottom: 1.25rem;
+}
+
+.verified-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background-color: var(--secondary-sage-bg);
+  color: var(--secondary-sage-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(78, 135, 140, 0.25);
+}
+
+.quote-mark {
+  font-size: 3rem;
+  line-height: 1;
+  font-family: Georgia, serif;
+  color: var(--secondary-sage-light);
+  margin-bottom: -0.75rem;
+  opacity: 0.6;
 }
 
 .testimonial-quote {
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.65;
   color: var(--text-charcoal);
   font-style: italic;
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
   flex-grow: 1;
 }
 
 .testimonial-author {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 0.95rem;
   border-top: 1px solid var(--border-light);
   padding-top: 1.25rem;
 }
 
 .author-avatar {
-  width: 42px;
-  height: 42px;
-  background-color: var(--primary-teal-ultra-light);
+  width: 46px;
+  height: 46px;
+  background: linear-gradient(135deg, var(--primary-teal-ultra-light) 0%, #D8E6F3 100%);
   color: var(--primary-teal);
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  border: 2px solid #FFFFFF;
+  box-shadow: var(--shadow-sm);
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
 }
 
 .author-name {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--primary-teal-dark);
+  margin-bottom: 0.15rem;
 }
 
 .author-role {
-  font-size: 0.8rem;
-  color: var(--text-subtle);
+  font-size: 0.825rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.author-service-tag {
+  display: inline-block;
+  font-size: 0.725rem;
+  font-weight: 600;
+  color: var(--secondary-sage-dark);
+  background-color: var(--bg-warm-white);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-light);
+  width: fit-content;
+}
+
+.slider-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  margin-top: 2.5rem;
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  padding: 0;
+}
+
+.slider-dot:hover {
+  background-color: var(--secondary-sage);
+}
+
+.slider-dot.active {
+  width: 28px;
+  border-radius: var(--radius-full);
+  background-color: var(--primary-teal);
 }
 
 /* ==========================================================================

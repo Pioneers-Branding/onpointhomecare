@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initComingSoonLinks();
   initHeaderScroll();
   initWizard();
+  initTestimonialsSlider();
 });
 
 /**
@@ -239,3 +240,151 @@ function showToast(message) {
     }, 4500);
   }
 }
+
+// Testimonials Carousel / Slider
+let currentTestimonialIndex = 0;
+let testimonialAutoPlayTimer = null;
+
+function getVisibleSlidesCount() {
+  if (window.innerWidth <= 768) return 1;
+  if (window.innerWidth <= 1024) return 2;
+  return 3;
+}
+
+function getMaxTestimonialIndex() {
+  const slides = document.querySelectorAll('.testimonial-slide');
+  const visible = getVisibleSlidesCount();
+  return Math.max(0, slides.length - visible);
+}
+
+function updateTestimonialSlider() {
+  const track = document.getElementById('testimonialTrack');
+  const slides = document.querySelectorAll('.testimonial-slide');
+  if (!track || slides.length === 0) return;
+
+  const maxIndex = getMaxTestimonialIndex();
+  if (currentTestimonialIndex > maxIndex) {
+    currentTestimonialIndex = maxIndex;
+  }
+  if (currentTestimonialIndex < 0) {
+    currentTestimonialIndex = 0;
+  }
+
+  const slideWidth = slides[0].getBoundingClientRect().width;
+  const gap = 28; // 1.75rem gap in px
+  const offset = currentTestimonialIndex * (slideWidth + gap);
+  track.style.transform = `translateX(-${offset}px)`;
+
+  // Update Buttons
+  const prevBtn = document.getElementById('testimonialPrev');
+  const nextBtn = document.getElementById('testimonialNext');
+  if (prevBtn) prevBtn.disabled = currentTestimonialIndex === 0;
+  if (nextBtn) nextBtn.disabled = currentTestimonialIndex >= maxIndex;
+
+  // Update Dots
+  const dots = document.querySelectorAll('.slider-dot');
+  dots.forEach((dot, idx) => {
+    dot.classList.toggle('active', idx === currentTestimonialIndex);
+  });
+}
+
+function renderTestimonialDots() {
+  const dotsContainer = document.getElementById('testimonialDots');
+  const slides = document.querySelectorAll('.testimonial-slide');
+  if (!dotsContainer || slides.length === 0) return;
+
+  const maxIndex = getMaxTestimonialIndex();
+  dotsContainer.innerHTML = '';
+  for (let i = 0; i <= maxIndex; i++) {
+    const dot = document.createElement('button');
+    dot.className = `slider-dot ${i === currentTestimonialIndex ? 'active' : ''}`;
+    dot.setAttribute('aria-label', `Go to testimonial slide ${i + 1}`);
+    dot.onclick = () => goToTestimonialSlide(i);
+    dotsContainer.appendChild(dot);
+  }
+}
+
+function slideTestimonials(direction) {
+  const maxIndex = getMaxTestimonialIndex();
+  currentTestimonialIndex += direction;
+  if (currentTestimonialIndex > maxIndex) {
+    currentTestimonialIndex = 0;
+  } else if (currentTestimonialIndex < 0) {
+    currentTestimonialIndex = maxIndex;
+  }
+  updateTestimonialSlider();
+  resetAutoPlay();
+}
+
+function goToTestimonialSlide(index) {
+  currentTestimonialIndex = index;
+  updateTestimonialSlider();
+  resetAutoPlay();
+}
+
+function initTestimonialsSlider() {
+  const wrapper = document.getElementById('testimonialSliderWrapper');
+  if (!wrapper) return;
+
+  renderTestimonialDots();
+  updateTestimonialSlider();
+
+  window.addEventListener('resize', () => {
+    renderTestimonialDots();
+    updateTestimonialSlider();
+  });
+
+  // Touch Swipe Support
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  wrapper.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+    stopAutoPlay();
+  }, { passive: true });
+
+  wrapper.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    const diff = touchStartX - touchEndX;
+    if (Math.abs(diff) > 40) {
+      if (diff > 0) {
+        slideTestimonials(1);
+      } else {
+        slideTestimonials(-1);
+      }
+    }
+    startAutoPlay();
+  }, { passive: true });
+
+  // Mouse hover pause
+  wrapper.addEventListener('mouseenter', stopAutoPlay);
+  wrapper.addEventListener('mouseleave', startAutoPlay);
+
+  startAutoPlay();
+}
+
+function startAutoPlay() {
+  stopAutoPlay();
+  testimonialAutoPlayTimer = setInterval(() => {
+    const maxIndex = getMaxTestimonialIndex();
+    if (currentTestimonialIndex >= maxIndex) {
+      currentTestimonialIndex = 0;
+    } else {
+      currentTestimonialIndex++;
+    }
+    updateTestimonialSlider();
+  }, 5500);
+}
+
+function stopAutoPlay() {
+  if (testimonialAutoPlayTimer) {
+    clearInterval(testimonialAutoPlayTimer);
+    testimonialAutoPlayTimer = null;
+  }
+}
+
+function resetAutoPlay() {
+  stopAutoPlay();
+  startAutoPlay();
+}
+
