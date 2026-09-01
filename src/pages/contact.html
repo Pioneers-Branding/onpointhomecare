@@ -1,0 +1,120 @@
+<div class="page-header-banner">
+      <div class="container">
+        <div class="breadcrumb"><a href="{{base}}">Home</a> / <span>Contact Us</span></div>
+        <h1 class="page-title">Contact OnPoint Nurse &amp; Home Care</h1>
+        <p class="page-tagline">We are here to answer your questions and support your family with warmth and
+          professionalism.</p>
+      </div>
+    </div>
+
+    <div class="container page-content-block">
+      <div class="contact-grid">
+        <div class="contact-info-col">
+          <div class="section-tag">Direct Communication</div>
+          <h2 class="section-heading">Get in Touch With Our Care Team</h2>
+          <p class="contact-lead">
+            Our clinical nursing team is ready to listen to your family's situation and guide you toward the most
+            appropriate, dignified care plan.
+          </p>
+
+          <div class="contact-details-list">
+            <div class="contact-detail-item">
+              <div class="c-icon-box">📞</div>
+              <div>
+                <h4 class="c-item-title">Telephone</h4>
+                <p class="c-item-val">+254 (0) 700 000 000 <span class="placeholder-tag">[Phone placeholder]</span>
+                </p>
+                <p class="c-item-note">Direct line to our Care Coordinators</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="c-icon-box">✉️</div>
+              <div>
+                <h4 class="c-item-title">Email Address</h4>
+                <p class="c-item-val">care@onpointhomecare.care <span class="placeholder-tag">[Email
+                    placeholder]</span></p>
+                <p class="c-item-note">For general inquiries and care assessment bookings</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="c-icon-box">📍</div>
+              <div>
+                <h4 class="c-item-title">Headquarters &amp; Service Region</h4>
+                <p class="c-item-val">Nairobi &amp; Surrounding Areas, Kenya <span class="placeholder-tag">[Address
+                    placeholder]</span></p>
+                <p class="c-item-note">Serving families across the greater Nairobi metropolitan area</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="c-icon-box">⏰</div>
+              <div>
+                <h4 class="c-item-title">Operating Hours</h4>
+                <p class="c-item-val">Mon – Sat: 8:00 AM – 6:00 PM <span class="placeholder-tag">[Hours
+                    placeholder]</span></p>
+                <p class="c-item-note">24/7 on-call nursing support for registered care clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-col">
+          <div class="lead-form-card">
+            <h3 class="form-card-title">Send a Message</h3>
+            <p class="form-card-sub">Fill out the form below and our nursing team will contact you within 24 hours.
+            </p>
+
+            <form id="contactPageForm" onsubmit="handleLeadFormSubmit(event, 'contactPageForm')">
+              <div class="form-group">
+                <label for="c_fullName">Full Name <span class="req">*</span></label>
+                <input type="text" id="c_fullName" name="fullName" required placeholder="e.g. Grace Wanjiku"
+                  class="form-input">
+              </div>
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="c_phone">Phone Number <span class="req">*</span></label>
+                  <input type="tel" id="c_phone" name="phone" required placeholder="+254 7XX XXX XXX"
+                    class="form-input">
+                </div>
+                <div class="form-group">
+                  <label for="c_email">Email Address <span class="req">*</span></label>
+                  <input type="email" id="c_email" name="email" required placeholder="you@example.com"
+                    class="form-input">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="c_relationship">Your Relationship to Senior <span class="req">*</span></label>
+                <select id="c_relationship" name="relationship" required class="form-select">
+                  <option value="">Select relationship...</option>
+                  <option value="Adult Child (Son/Daughter)">Adult Child (Son / Daughter)</option>
+                  <option value="Spouse">Spouse / Partner</option>
+                  <option value="Self (Senior)">Self (Senior)</option>
+                  <option value="Sibling or Relative">Sibling or Relative</option>
+                  <option value="Family Caregiver">Primary Family Caregiver</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="c_service">Care Service Needed <span class="req">*</span></label>
+                <select id="c_service" name="careService" required class="form-select">
+                  <option value="">Select service...</option>
+                  <option value="Dementia & Memory Care">Dementia &amp; Memory Care</option>
+                  <option value="Personal Care & Daily Living">Personal Care &amp; Daily Living</option>
+                  <option value="Nursing & Health Monitoring">Nursing &amp; Health Monitoring</option>
+                  <option value="Fall Prevention & Safety">Fall Prevention &amp; Safety</option>
+                  <option value="Companionship & Emotional Support">Companionship &amp; Emotional Support</option>
+                  <option value="Wound Care">Specialized Wound Care</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="c_message">Message / Questions</label>
+                <textarea id="c_message" name="message" rows="4"
+                  placeholder="How can our clinical care team assist you and your family?"
+                  class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block btn-lg">
+                <span>Send Inquiry</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>

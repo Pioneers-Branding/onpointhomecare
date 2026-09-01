@@ -1,81 +1,35 @@
 /**
- * OnPoint Nurse & Home Care Kenya - Core Client Application
- * Single Page Architecture, Dynamic View Router, Interactive Tools & Modals
+ * OnPoint Nurse & Home Care - Core Client Application
+ *
+ * Each page is its own document at its own URL (built by build.js), so there is
+ * no router here. This file only handles on-page behaviour: the drawer, forms,
+ * accordions, the assessment wizard, modals and toasts.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  initRouter();
+  initComingSoonLinks();
   initHeaderScroll();
   initWizard();
 });
 
-// View Navigation & SPA Router
-function navigateTo(pageId, subTargetId = null) {
-  const views = document.querySelectorAll('.page-view');
-  views.forEach(view => view.classList.remove('active'));
-
-  const targetView = document.getElementById(`view-${pageId}`);
-  if (targetView) {
-    targetView.classList.add('active');
-  } else {
-    // Route exists in the sitemap but the page has not been built yet:
-    // show Home and tell the visitor rather than failing silently.
-    document.getElementById('view-home').classList.add('active');
-    showToast(`${formatRouteLabel(pageId)} is coming soon. Call us or book a care assessment and our team will help right away.`);
-  }
-
-  // Update active nav links
-  const navItems = document.querySelectorAll('.nav-item');
-  navItems.forEach(item => {
-    if (item.getAttribute('data-page') === pageId) {
-      item.classList.add('active');
-    } else {
-      item.classList.remove('active');
-    }
-  });
-
-  // Handle scrolling to subtarget or top
-  if (subTargetId) {
-    setTimeout(() => {
-      const el = document.getElementById(subTargetId);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+/**
+ * Links to pages in the sitemap that have not been built yet carry data-soon.
+ * They keep their real destination in the markup, so launching a page is just a
+ * routes.js change, but until then a click is answered with a toast rather than
+ * a 404.
+ */
+function initComingSoonLinks() {
+  document.querySelectorAll('[data-soon]').forEach(el => {
+    el.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopPropagation();
+      const label = el.getAttribute('data-soon');
+      showToast(`${label} is coming soon. Call us or book a care assessment and our team will help right away.`);
+      const drawer = document.getElementById('mobileDrawer');
+      if (drawer && drawer.classList.contains('open')) {
+        toggleMobileMenu();
       }
-    }, 100);
-  } else {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  // Update URL hash
-  if (history.pushState) {
-    history.pushState(null, null, `#${pageId}`);
-  }
-}
-
-// Turns a route slug ("post-discharge-nursing") into a readable label
-function formatRouteLabel(pageId) {
-  return pageId
-    .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
-}
-
-// Router Initialization via URL Hash
-function initRouter() {
-  const hash = window.location.hash.replace('#', '');
-  if (hash) {
-    const parts = hash.split('/');
-    const page = parts[0];
-    const subTarget = parts[1] || null;
-    navigateTo(page, subTarget);
-  }
-
-  window.addEventListener('hashchange', () => {
-    const currentHash = window.location.hash.replace('#', '');
-    if (currentHash) {
-      const parts = currentHash.split('/');
-      navigateTo(parts[0], parts[1] || null);
-    }
+    });
   });
 }
 

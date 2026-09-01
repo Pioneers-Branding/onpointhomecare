@@ -842,15 +842,8 @@ button, input, select, textarea {
    Page Views (SPA Architecture)
    ========================================================================== */
 
-.page-view {
-  display: none;
-  animation: fadeInView 0.35s ease forwards;
-}
-
-.page-view.active {
-  display: block;
-}
-
+/* Pages are separate documents now; the SPA .page-view show/hide rules are gone.
+   fadeInView is still used by the wizard panels below. */
 @keyframes fadeInView {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }

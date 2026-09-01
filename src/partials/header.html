@@ -1,0 +1,302 @@
+  <!-- Top Announcement / Hotline Bar -->
+  <div class="top-bar" id="topBar">
+    <div class="container top-bar-container">
+      <div class="top-bar-left">
+        <span class="pulse-dot"></span>
+        <span class="top-bar-text"><strong>Now serving Vancouver, Richmond, Burnaby &amp; Surrey</strong></span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+16040000000" class="top-bar-link" id="topBarPhone">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          <span>Direct Care Inquiries: +1 (604) 000-0000</span>
+        </a>
+        <button class="top-bar-btn" onclick="openWhatsAppModal()">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
+          </svg>
+          <span>WhatsApp Us</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header-container">
+      <a href="{{base}}" class="logo-link">
+        <img src="{{base}}assets/images/logo-mark.png" alt="" class="logo-mark-img" width="304" height="320">
+        <div class="logo-text-group">
+          <span class="logo-brand">OnPoint</span>
+          <span class="logo-sub">Nurse &amp; Home Care</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="navMenu">
+        <!-- All three care pillars in one panel -->
+        <div class="nav-dropdown has-mega">
+          <a href="{{base}}services/" class="nav-item nav-dropdown-trigger" data-page="services">
+            Our Services
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <span class="mega-col-title">Home Nursing</span>
+              <a data-soon="Home Nursing" href="{{base}}home-nursing/">Home Nursing Overview</a>
+              <a data-soon="Post-Discharge Nursing" href="{{base}}home-nursing/post-discharge-nursing/">Post-Discharge
+                Nursing</a>
+              <a data-soon="Post-Operative Care" href="{{base}}home-nursing/post-operative-care/">Post-Operative Care</a>
+              <a href="{{base}}services/#wound-care">Wound Care</a>
+              <a data-soon="Private Nursing" href="{{base}}home-nursing/private-nursing/">Private Nursing</a>
+              <a href="{{base}}services/#nursing-care">Nursing &amp; Health Monitoring</a>
+              <a data-soon="24-Hour Nursing Care" href="{{base}}home-nursing/24-hour-nursing-care/">24-Hour Nursing Care</a>
+              <a data-soon="Palliative & End-of-Life Care" href="{{base}}home-nursing/palliative-care/">Palliative &amp; End-of-Life Care</a>
+            </div>
+
+            <div class="mega-col">
+              <span class="mega-col-title">Home Care</span>
+              <a href="{{base}}services/">Home Care Overview</a>
+              <a href="{{base}}services/#personal-care">Personal Care &amp; Daily Living</a>
+              <a href="{{base}}services/#companionship">Companion Care</a>
+              <a data-soon="Respite Care" href="{{base}}home-care/respite-care/">Respite Care</a>
+              <a href="{{base}}dementia-care/">Dementia &amp; Alzheimer's Care</a>
+              <a data-soon="24-Hour Home Care" href="{{base}}home-care/24-hour-home-care/">24-Hour Home Care</a>
+              <a data-soon="Overnight Care" href="{{base}}home-care/overnight-care/">Overnight Care</a>
+            </div>
+
+            <div class="mega-col">
+              <span class="mega-col-title">Specialized Care</span>
+              <a data-soon="Hospital to Home Care" href="{{base}}specialized-care/hospital-to-home-care/">Hospital to Home Care</a>
+              <a href="{{base}}services/#fall-prevention">Care After a Fall</a>
+              <a data-soon="Caregiver Burnout & Support" href="{{base}}specialized-care/caregiver-burnout/">Caregiver Burnout &amp; Support</a>
+              <a data-soon="Aging in Place" href="{{base}}specialized-care/aging-in-place/">Aging in Place</a>
+              <a data-soon="Complex Care at Home" href="{{base}}specialized-care/complex-care-at-home/">Complex Care at Home</a>
+              <a href="{{base}}services/#emergency-support">Emergency &amp; First-Aid
+                Response</a>
+            </div>
+
+            <div class="mega-cta">
+              <span class="mega-cta-title">Not sure what your parent needs?</span>
+              <p class="mega-cta-text">Our Lead Registered Nurse will walk you through the options in a free,
+                no-pressure conversation.</p>
+              <a href="{{base}}care-assessment/" class="btn btn-primary btn-sm btn-block">Book a
+                Care Assessment</a>
+              <a data-soon="Get Care Now" href="{{base}}get-care-now/" class="mega-cta-link">Need care urgently?
+                &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Geographic architecture -->
+        <div class="nav-dropdown">
+          <a data-soon="Areas We Serve" href="{{base}}locations/" class="nav-item nav-dropdown-trigger" data-page="locations">
+            Areas We Serve
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a data-soon="Areas We Serve" href="{{base}}locations/">All Areas We Serve</a>
+            <a data-soon="Home Care Vancouver" href="{{base}}locations/vancouver/">Vancouver</a>
+            <a data-soon="Home Care Richmond" href="{{base}}locations/richmond/">Richmond</a>
+            <a data-soon="Home Care Burnaby" href="{{base}}locations/burnaby/">Burnaby</a>
+            <a data-soon="Home Care Surrey" href="{{base}}locations/surrey/">Surrey</a>
+          </div>
+        </div>
+
+        <!-- Referral funnel -->
+        <div class="nav-dropdown">
+          <a data-soon="For Healthcare Professionals" href="{{base}}healthcare-professionals/" class="nav-item nav-dropdown-trigger" data-page="healthcare-professionals">
+            For Professionals
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a data-soon="For Healthcare Professionals" href="{{base}}healthcare-professionals/">For Healthcare
+              Professionals</a>
+            <a data-soon="Refer a Patient" href="{{base}}refer-a-patient/">Refer a Patient</a>
+            <a data-soon="Referral Process" href="{{base}}healthcare-referral-process/">Referral
+              Process</a>
+            <a data-soon="For Hospital Discharge Planners" href="{{base}}healthcare-professionals/hospital-discharge-planners/">For Hospital
+              Discharge Planners</a>
+          </div>
+        </div>
+
+        <!-- Trust layer -->
+        <div class="nav-dropdown dropdown-right">
+          <a href="{{base}}about-us/" class="nav-item nav-dropdown-trigger" data-page="about">
+            About
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="{{base}}about-us/">About Us</a>
+            <a href="{{base}}our-care-team/">Our Care Team</a>
+            <a data-soon="Why OnPoint" href="{{base}}why-onpoint/">Why OnPoint</a>
+            <a data-soon="How It Works" href="{{base}}how-it-works/">How It Works</a>
+            <a data-soon="Reviews & Testimonials" href="{{base}}reviews/">Reviews &amp; Testimonials</a>
+            <a data-soon="Home Care Cost" href="{{base}}home-care-cost/">Home Care Cost</a>
+          </div>
+        </div>
+
+        <!-- Resource hub -->
+        <div class="nav-dropdown dropdown-right">
+          <a href="{{base}}resources/" class="nav-item nav-dropdown-trigger" data-page="resources">
+            Resources
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="{{base}}resources/">Resources &amp; Family Guides</a>
+            <a href="{{base}}faqs/">Frequently Asked Questions</a>
+            <a data-soon="Care Stories" href="{{base}}care-stories/">Care Stories</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header CTA (phone lives in the top bar, so only one button here) -->
+      <div class="header-actions">
+        <a href="{{base}}contact/" class="btn btn-primary btn-sm">
+          <span>Contact</span>
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu"
+          onclick="toggleMobileMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="logo-text-group">
+        <span class="logo-brand">OnPoint</span>
+        <span class="logo-sub">Nurse &amp; Home Care</span>
+      </div>
+      <button class="drawer-close-btn" onclick="toggleMobileMenu()">&times;</button>
+    </div>
+    <div class="drawer-links">
+      <a href="{{base}}">Home</a>
+
+      <details class="drawer-group">
+        <summary>Home Nursing</summary>
+        <div class="drawer-sublinks">
+          <a data-soon="Home Nursing" href="{{base}}home-nursing/">Home Nursing Overview</a>
+          <a data-soon="Post-Discharge Nursing" href="{{base}}home-nursing/post-discharge-nursing/">Post-Discharge Nursing</a>
+          <a data-soon="Post-Operative Care" href="{{base}}home-nursing/post-operative-care/">Post-Operative
+            Care</a>
+          <a href="{{base}}services/#wound-care">Wound Care</a>
+          <a data-soon="Private Nursing" href="{{base}}home-nursing/private-nursing/">Private Nursing</a>
+          <a href="{{base}}services/#nursing-care">Nursing &amp; Health
+            Monitoring</a>
+          <a data-soon="24-Hour Nursing Care" href="{{base}}home-nursing/24-hour-nursing-care/">24-Hour
+            Nursing Care</a>
+          <a data-soon="Palliative & End-of-Life Care" href="{{base}}home-nursing/palliative-care/">Palliative &amp;
+            End-of-Life Care</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Home Care</summary>
+        <div class="drawer-sublinks">
+          <a href="{{base}}services/">Home Care Overview</a>
+          <a href="{{base}}services/#personal-care">Personal Care &amp;
+            Daily Living</a>
+          <a href="{{base}}services/#companionship">Companion Care</a>
+          <a data-soon="Respite Care" href="{{base}}home-care/respite-care/">Respite Care</a>
+          <a href="{{base}}dementia-care/">Dementia &amp; Alzheimer's
+            Care</a>
+          <a data-soon="24-Hour Home Care" href="{{base}}home-care/24-hour-home-care/">24-Hour Home
+            Care</a>
+          <a data-soon="Overnight Care" href="{{base}}home-care/overnight-care/">Overnight Care</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Specialized Care</summary>
+        <div class="drawer-sublinks">
+          <a data-soon="Hospital to Home Care" href="{{base}}specialized-care/hospital-to-home-care/">Hospital
+            to Home Care</a>
+          <a href="{{base}}services/#fall-prevention">Care After a Fall
+            &amp; Fall Prevention</a>
+          <a data-soon="Caregiver Burnout & Support" href="{{base}}specialized-care/caregiver-burnout/">Caregiver Burnout
+            &amp; Support</a>
+          <a data-soon="Aging in Place" href="{{base}}specialized-care/aging-in-place/">Aging in Place</a>
+          <a data-soon="Complex Care at Home" href="{{base}}specialized-care/complex-care-at-home/">Complex Care
+            at Home</a>
+          <a href="{{base}}services/#emergency-support">Emergency &amp;
+            First-Aid Response</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Areas We Serve</summary>
+        <div class="drawer-sublinks">
+          <a data-soon="Areas We Serve" href="{{base}}locations/">All Areas We Serve</a>
+          <a data-soon="Home Care Vancouver" href="{{base}}locations/vancouver/">Vancouver</a>
+          <a data-soon="Home Care Richmond" href="{{base}}locations/richmond/">Richmond</a>
+          <a data-soon="Home Care Burnaby" href="{{base}}locations/burnaby/">Burnaby</a>
+          <a data-soon="Home Care Surrey" href="{{base}}locations/surrey/">Surrey</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>For Healthcare Professionals</summary>
+        <div class="drawer-sublinks">
+          <a data-soon="For Healthcare Professionals" href="{{base}}healthcare-professionals/">For
+            Healthcare Professionals</a>
+          <a data-soon="Refer a Patient" href="{{base}}refer-a-patient/">Refer a Patient</a>
+          <a data-soon="Referral Process" href="{{base}}healthcare-referral-process/">Referral Process</a>
+          <a data-soon="For Hospital Discharge Planners" href="{{base}}healthcare-professionals/hospital-discharge-planners/">For Hospital Discharge Planners</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>About OnPoint</summary>
+        <div class="drawer-sublinks">
+          <a href="{{base}}about-us/">About Us</a>
+          <a href="{{base}}our-care-team/">Our Care Team</a>
+          <a data-soon="Why OnPoint" href="{{base}}why-onpoint/">Why OnPoint</a>
+          <a data-soon="How It Works" href="{{base}}how-it-works/">How It Works</a>
+          <a data-soon="Reviews & Testimonials" href="{{base}}reviews/">Reviews &amp; Testimonials</a>
+          <a data-soon="Home Care Cost" href="{{base}}home-care-cost/">Home Care Cost</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Resources</summary>
+        <div class="drawer-sublinks">
+          <a href="{{base}}resources/">Resources &amp; Family Guides</a>
+          <a href="{{base}}faqs/">Frequently Asked Questions</a>
+          <a data-soon="Care Stories" href="{{base}}care-stories/">Care Stories</a>
+        </div>
+      </details>
+
+      <a href="{{base}}contact/">Contact Us</a>
+    </div>
+    <div class="drawer-actions">
+      <a href="{{base}}care-assessment/" class="btn btn-primary btn-block">Book a Care Assessment</a>
+      <a href="tel:+16040000000" class="btn btn-outline btn-block">Call Care Team: +1 (604) 000-0000</a>
+      <button class="btn btn-sage btn-block" onclick="openWhatsAppModal(); toggleMobileMenu();">Chat via
+        WhatsApp</button>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop" onclick="toggleMobileMenu()"></div>
+

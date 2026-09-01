@@ -1,0 +1,254 @@
+<div class="page-header-banner banner-sage">
+      <div class="container">
+        <div class="breadcrumb"><a href="{{base}}">Home</a> / <span>Care Assessment
+            Booking</span></div>
+        <h1 class="page-title">Book an In-Home Care Assessment</h1>
+        <p class="page-tagline">A guided 3-step evaluation to help our Lead Registered Nurse design the ideal care
+          plan for your loved one.</p>
+      </div>
+    </div>
+
+    <div class="container page-content-block">
+      <div class="wizard-container">
+        <!-- Wizard Steps Progress Bar -->
+        <div class="wizard-progress-bar">
+          <div class="w-step active" id="wStep1Badge">
+            <span class="w-step-num">1</span>
+            <span class="w-step-title">Senior's Profile</span>
+          </div>
+          <div class="w-step-line" id="wLine1"></div>
+          <div class="w-step" id="wStep2Badge">
+            <span class="w-step-num">2</span>
+            <span class="w-step-title">Care Needs</span>
+          </div>
+          <div class="w-step-line" id="wLine2"></div>
+          <div class="w-step" id="wStep3Badge">
+            <span class="w-step-num">3</span>
+            <span class="w-step-title">Schedule &amp; Contact</span>
+          </div>
+        </div>
+
+        <!-- Wizard Form Container -->
+        <div class="wizard-form-box">
+          <!-- Step 1: Senior Profile -->
+          <div class="wizard-step-panel active" id="wizardStep1">
+            <h3 class="panel-heading">Step 1: Tell Us About Your Loved One</h3>
+            <p class="panel-desc">Understanding their age and living arrangement helps us assess the right level of
+              support.</p>
+
+            <div class="form-group">
+              <label>Who are you seeking care for?</label>
+              <div class="wizard-option-grid">
+                <label class="wizard-tile">
+                  <input type="radio" name="wizFor" value="Mother / Mother-in-law" checked>
+                  <div class="tile-card">
+                    <span class="tile-icon">👵</span>
+                    <span class="tile-name">Mother / Mother-in-law</span>
+                  </div>
+                </label>
+                <label class="wizard-tile">
+                  <input type="radio" name="wizFor" value="Father / Father-in-law">
+                  <div class="tile-card">
+                    <span class="tile-icon">👴</span>
+                    <span class="tile-name">Father / Father-in-law</span>
+                  </div>
+                </label>
+                <label class="wizard-tile">
+                  <input type="radio" name="wizFor" value="Spouse / Partner">
+                  <div class="tile-card">
+                    <span class="tile-icon">💑</span>
+                    <span class="tile-name">Spouse / Partner</span>
+                  </div>
+                </label>
+                <label class="wizard-tile">
+                  <input type="radio" name="wizFor" value="Myself (Senior)">
+                  <div class="tile-card">
+                    <span class="tile-icon">🙋</span>
+                    <span class="tile-name">Myself (Senior)</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="wizAge">Senior's Approximate Age</label>
+                <input type="number" id="wizAge" placeholder="e.g. 76" min="50" max="115" class="form-input"
+                  value="75">
+              </div>
+              <div class="form-group">
+                <label for="wizLocation">Location in Kenya / City Area</label>
+                <input type="text" id="wizLocation" placeholder="e.g. Nairobi (Kilimani / Karen / Westlands / etc.)"
+                  class="form-input">
+              </div>
+            </div>
+
+            <div class="wizard-btn-row">
+              <div></div>
+              <button type="button" class="btn btn-primary" onclick="goToWizardStep(2)">
+                <span>Next: Select Care Needs</span>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Care Needs -->
+          <div class="wizard-step-panel" id="wizardStep2">
+            <h3 class="panel-heading">Step 2: What Specific Support Does Your Loved One Need?</h3>
+            <p class="panel-desc">Select all that apply. Our registered nurse will tailor the assessment around these
+              priorities.</p>
+
+            <div class="wizard-checkbox-grid">
+              <label class="wizard-chk-tile">
+                <input type="checkbox" name="wizNeeds" value="Dementia & Memory Care">
+                <div class="chk-tile-card">
+                  <span class="chk-icon">🧠</span>
+                  <div>
+                    <strong>Dementia &amp; Memory Care</strong>
+                    <p>Managing cognitive changes, memory lapses, and routine structure.</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="wizard-chk-tile">
+                <input type="checkbox" name="wizNeeds" value="Daily Living & Personal Care" checked>
+                <div class="chk-tile-card">
+                  <span class="chk-icon">🚿</span>
+                  <div>
+                    <strong>Personal Care &amp; Daily Living</strong>
+                    <p>Assistance with bathing, dressing, grooming, and mobility.</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="wizard-chk-tile">
+                <input type="checkbox" name="wizNeeds" value="Nursing & Health Observation">
+                <div class="chk-tile-card">
+                  <span class="chk-icon">🩺</span>
+                  <div>
+                    <strong>Nursing &amp; Health Monitoring</strong>
+                    <p>Vital signs monitoring, medication compliance, and chronic care.</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="wizard-chk-tile">
+                <input type="checkbox" name="wizNeeds" value="Fall Prevention & Safety">
+                <div class="chk-tile-card">
+                  <span class="chk-icon">🛡️</span>
+                  <div>
+                    <strong>Fall Prevention &amp; Home Safety</strong>
+                    <p>Reducing trip hazards, transfer assistance, and mobility support.</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="wizard-chk-tile">
+                <input type="checkbox" name="wizNeeds" value="Companionship & Emotional Support">
+                <div class="chk-tile-card">
+                  <span class="chk-icon">💬</span>
+                  <div>
+                    <strong>Companionship &amp; Social Vitality</strong>
+                    <p>Meaningful conversation, walks, and emotional encouragement.</p>
+                  </div>
+                </div>
+              </label>
+
+              <label class="wizard-chk-tile">
+                <input type="checkbox" name="wizNeeds" value="Wound Care Management">
+                <div class="chk-tile-card">
+                  <span class="chk-icon">🩹</span>
+                  <div>
+                    <strong>Specialized Wound Care</strong>
+                    <p>Clinical dressing changes and pressure sore management.</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+
+            <div class="wizard-btn-row">
+              <button type="button" class="btn btn-outline" onclick="goToWizardStep(1)">&larr; Back</button>
+              <button type="button" class="btn btn-primary" onclick="goToWizardStep(3)">
+                <span>Next: Contact Details</span>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 3: Contact & Confirmation -->
+          <div class="wizard-step-panel" id="wizardStep3">
+            <h3 class="panel-heading">Step 3: Where Should We Send the Assessment Details?</h3>
+            <p class="panel-desc">Our Lead Registered Nurse Risper Murunga will personally review your answers and
+              contact you.</p>
+
+            <form id="assessmentWizardForm" onsubmit="handleWizardSubmit(event)">
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="wName">Your Full Name <span class="req">*</span></label>
+                  <input type="text" id="wName" name="wName" required placeholder="e.g. David Mwangi"
+                    class="form-input">
+                </div>
+                <div class="form-group">
+                  <label for="wPhone">Your Phone Number <span class="req">*</span></label>
+                  <input type="tel" id="wPhone" name="wPhone" required placeholder="+254 7XX XXX XXX"
+                    class="form-input">
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="wEmail">Your Email Address <span class="req">*</span></label>
+                  <input type="email" id="wEmail" name="wEmail" required placeholder="you@example.com"
+                    class="form-input">
+                </div>
+                <div class="form-group">
+                  <label for="wPreferredDate">Preferred Assessment Date</label>
+                  <input type="date" id="wPreferredDate" name="wPreferredDate" class="form-input">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="wNotes">Additional Notes or Immediate Concerns (Optional)</label>
+                <textarea id="wNotes" name="wNotes" rows="3"
+                  placeholder="Any specific requirements, medical diagnoses, or family timing considerations..."
+                  class="form-textarea"></textarea>
+              </div>
+
+              <div class="wizard-btn-row">
+                <button type="button" class="btn btn-outline" onclick="goToWizardStep(2)">&larr; Back</button>
+                <button type="submit" class="btn btn-primary btn-lg">
+                  <span>Confirm &amp; Book Care Assessment</span>
+                  <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Confirmation Success State -->
+          <div class="wizard-step-panel" id="wizardSuccess" style="display:none;">
+            <div class="success-box-center">
+              <div class="success-icon-bubble">✓</div>
+              <h2>Thank You! Your Care Assessment Request Has Been Received.</h2>
+              <p class="success-sub">
+                Lead Registered Nurse <strong>Risper Murunga</strong> and our clinical care team have received your
+                request. We will review your answers and reach out to you within 24 hours to confirm the in-home
+                visit.
+              </p>
+              <div class="success-summary-card" id="wizSummaryDisplay"></div>
+              <div class="success-actions-row">
+                <a href="{{base}}" class="btn btn-primary">Return to Home</a>
+                <button class="btn btn-sage" onclick="openWhatsAppModal()">Follow up on WhatsApp</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
