@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Nursing in Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
+  <meta name="description" content="Registered nursing care delivered at home across Vancouver, Richmond, Burnaby and Surrey — health monitoring, wound care, medication oversight and post-hospital recovery support.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Home Nursing Care",
+      "serviceType": "Home Nursing",
+      "description": "Registered nursing care delivered at home across Vancouver, Richmond, Burnaby and Surrey — health monitoring, wound care, medication oversight and post-hospital recovery support.",
+      "provider": {
+        "@type": "HomeHealthCareService",
+        "name": "OnPoint Nurse & Home Care"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Vancouver"
+        },
+        {
+          "@type": "City",
+          "name": "Richmond"
+        },
+        {
+          "@type": "City",
+          "name": "Burnaby"
+        },
+        {
+          "@type": "City",
+          "name": "Surrey"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between home nursing and home care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Home care covers non-clinical support — personal care, meals, companionship, help around the house. Home nursing is clinical work carried out by nursing staff: wound care, medication administration, health monitoring, post-surgical follow-up. Many families use both, and the two teams coordinate around one care plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we need a doctor's referral to arrange home nursing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Families can contact us directly and book a care assessment. That said, we do ask about the treating physician and any recent hospital discharge paperwork, because nursing care works best when it lines up with the wider medical plan. We are also happy to take referrals from hospital discharge planners and community clinicians."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often would a nurse visit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends entirely on the need. Some clients are seen daily during a recovery period and then step down to weekly. Others need a single weekly visit for monitoring and medication review over a long stretch. Visit frequency is set at the assessment and adjusted as things change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve Vancouver, Richmond, Burnaby and Surrey. If you are just outside those areas, call us anyway — we will tell you honestly whether we can reach you reliably."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can home nursing be combined with non-clinical home care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and it very often is. A typical arrangement has care aides providing personal care, meals and companionship on most days, with a nurse attending on a set schedule for the clinical work. Both work from the same care plan so that nothing falls between them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your nurses insured and background checked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All staff attending a client's home are screened before they start and work under our Lead Registered Nurse's clinical oversight. Ask us at the care assessment and we will walk you through exactly what our vetting covers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if our needs change suddenly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call us. Care plans are meant to be revisited, not filed away — a deterioration, a fall, a new diagnosis or a hospital admission all warrant reassessment. Where the change is urgent, we will prioritise getting a nurse out to reassess."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+
+  <!-- Top Announcement / Hotline Bar -->
+  <div class="top-bar" id="topBar">
+    <div class="container top-bar-container">
+      <div class="top-bar-left">
+        <span class="pulse-dot"></span>
+        <span class="top-bar-text"><strong>Now serving Vancouver, Richmond, Burnaby &amp; Surrey</strong></span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+16040000000" class="top-bar-link" id="topBarPhone">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          <span>Direct Care Inquiries: +1 (604) 000-0000</span>
+        </a>
+        <button class="top-bar-btn" onclick="openWhatsAppModal()">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
+          </svg>
+          <span>WhatsApp Us</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/logo-mark.png" alt="" class="logo-mark-img" width="304" height="320">
+        <div class="logo-text-group">
+          <span class="logo-brand">OnPoint</span>
+          <span class="logo-sub">Nurse &amp; Home Care</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="navMenu">
+        <!-- All three care pillars in one panel -->
+        <div class="nav-dropdown has-mega">
+          <a href="services.html" class="nav-item nav-dropdown-trigger" data-page="services">
+            Our Services
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <span class="mega-col-title">Home Nursing</span>
+              <a href="home-nursing.html">Home Nursing Overview</a>
+              <a href="post-discharge-nursing.html">Post-Discharge
+                Nursing</a>
+              <a href="post-operative-care.html">Post-Operative Care</a>
+              <a href="wound-care.html">Wound Care</a>
+              <a href="private-nursing.html">Private Nursing</a>
+              <a href="nursing-health-monitoring.html">Nursing &amp; Health Monitoring</a>
+              <a href="24-hour-nursing-care.html">24-Hour Nursing Care</a>
+              <a href="palliative-care.html">Palliative &amp; End-of-Life Care</a>
+            </div>
+
+            <div class="mega-col">
+              <span class="mega-col-title">Home Care</span>
+              <a href="services.html">Home Care Overview</a>
+              <a href="personal-care.html">Personal Care &amp; Daily Living</a>
+              <a href="companion-care.html">Companion Care</a>
+              <a href="respite-care.html">Respite Care</a>
+              <a href="dementia-care.html">Dementia &amp; Alzheimer's Care</a>
+              <a href="24-hour-home-care.html">24-Hour Home Care</a>
+              <a href="overnight-care.html">Overnight Care</a>
+            </div>
+
+            <div class="mega-col">
+              <span class="mega-col-title">Specialized Care</span>
+              <a data-soon="Hospital to Home Care" href="hospital-to-home-care.html">Hospital to Home Care</a>
+              <a href="services.html#fall-prevention">Care After a Fall</a>
+              <a data-soon="Caregiver Burnout & Support" href="caregiver-burnout.html">Caregiver Burnout &amp; Support</a>
+              <a data-soon="Aging in Place" href="aging-in-place.html">Aging in Place</a>
+              <a data-soon="Complex Care at Home" href="complex-care-at-home.html">Complex Care at Home</a>
+              <a href="services.html#emergency-support">Emergency &amp; First-Aid
+                Response</a>
+            </div>
+
+            <div class="mega-cta">
+              <span class="mega-cta-title">Not sure what your parent needs?</span>
+              <p class="mega-cta-text">Our Lead Registered Nurse will walk you through the options in a free,
+                no-pressure conversation.</p>
+              <a href="care-assessment.html" class="btn btn-primary btn-sm btn-block">Book a
+                Care Assessment</a>
+              <a data-soon="Get Care Now" href="get-care-now.html" class="mega-cta-link">Need care urgently?
+                &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Geographic architecture -->
+        <div class="nav-dropdown">
+          <a data-soon="Areas We Serve" href="locations.html" class="nav-item nav-dropdown-trigger" data-page="locations">
+            Areas We Serve
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a data-soon="Areas We Serve" href="locations.html">All Areas We Serve</a>
+            <a data-soon="Home Care Vancouver" href="vancouver.html">Vancouver</a>
+            <a data-soon="Home Care Richmond" href="richmond.html">Richmond</a>
+            <a data-soon="Home Care Burnaby" href="burnaby.html">Burnaby</a>
+            <a data-soon="Home Care Surrey" href="surrey.html">Surrey</a>
+          </div>
+        </div>
+
+        <!-- Referral funnel -->
+        <div class="nav-dropdown">
+          <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html" class="nav-item nav-dropdown-trigger" data-page="healthcare-professionals">
+            For Professionals
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">For Healthcare
+              Professionals</a>
+            <a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a>
+            <a data-soon="Referral Process" href="healthcare-referral-process.html">Referral
+              Process</a>
+            <a data-soon="For Hospital Discharge Planners" href="hospital-discharge-planners.html">For Hospital
+              Discharge Planners</a>
+          </div>
+        </div>
+
+        <!-- Trust layer -->
+        <div class="nav-dropdown dropdown-right">
+          <a href="about-us.html" class="nav-item nav-dropdown-trigger active" data-page="about">
+            About
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="about-us.html">About Us</a>
+            <a href="our-care-team.html">Our Care Team</a>
+            <a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a>
+            <a data-soon="How It Works" href="how-it-works.html">How It Works</a>
+            <a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a>
+            <a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a>
+          </div>
+        </div>
+
+        <!-- Resource hub -->
+        <div class="nav-dropdown dropdown-right">
+          <a href="resources.html" class="nav-item nav-dropdown-trigger" data-page="resources">
+            Resources
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="resources.html">Resources &amp; Family Guides</a>
+            <a href="faqs.html">Frequently Asked Questions</a>
+            <a data-soon="Care Stories" href="care-stories.html">Care Stories</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header CTA (phone lives in the top bar, so only one button here) -->
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <span>Contact</span>
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu"
+          onclick="toggleMobileMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="logo-text-group">
+        <span class="logo-brand">OnPoint</span>
+        <span class="logo-sub">Nurse &amp; Home Care</span>
+      </div>
+      <button class="drawer-close-btn" onclick="toggleMobileMenu()">&times;</button>
+    </div>
+    <div class="drawer-links">
+      <a href="index.html">Home</a>
+
+      <details class="drawer-group">
+        <summary>Home Nursing</summary>
+        <div class="drawer-sublinks">
+          <a href="home-nursing.html">Home Nursing Overview</a>
+          <a href="post-discharge-nursing.html">Post-Discharge Nursing</a>
+          <a href="post-operative-care.html">Post-Operative
+            Care</a>
+          <a href="wound-care.html">Wound Care</a>
+          <a href="private-nursing.html">Private Nursing</a>
+          <a href="nursing-health-monitoring.html">Nursing &amp; Health
+            Monitoring</a>
+          <a href="24-hour-nursing-care.html">24-Hour
+            Nursing Care</a>
+          <a href="palliative-care.html">Palliative &amp;
+            End-of-Life Care</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Home Care</summary>
+        <div class="drawer-sublinks">
+          <a href="services.html">Home Care Overview</a>
+          <a href="personal-care.html">Personal Care &amp;
+            Daily Living</a>
+          <a href="companion-care.html">Companion Care</a>
+          <a href="respite-care.html">Respite Care</a>
+          <a href="dementia-care.html">Dementia &amp; Alzheimer's
+            Care</a>
+          <a href="24-hour-home-care.html">24-Hour Home
+            Care</a>
+          <a href="overnight-care.html">Overnight Care</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Specialized Care</summary>
+        <div class="drawer-sublinks">
+          <a data-soon="Hospital to Home Care" href="hospital-to-home-care.html">Hospital
+            to Home Care</a>
+          <a href="services.html#fall-prevention">Care After a Fall
+            &amp; Fall Prevention</a>
+          <a data-soon="Caregiver Burnout & Support" href="caregiver-burnout.html">Caregiver Burnout
+            &amp; Support</a>
+          <a data-soon="Aging in Place" href="aging-in-place.html">Aging in Place</a>
+          <a data-soon="Complex Care at Home" href="complex-care-at-home.html">Complex Care
+            at Home</a>
+          <a href="services.html#emergency-support">Emergency &amp;
+            First-Aid Response</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Areas We Serve</summary>
+        <div class="drawer-sublinks">
+          <a data-soon="Areas We Serve" href="locations.html">All Areas We Serve</a>
+          <a data-soon="Home Care Vancouver" href="vancouver.html">Vancouver</a>
+          <a data-soon="Home Care Richmond" href="richmond.html">Richmond</a>
+          <a data-soon="Home Care Burnaby" href="burnaby.html">Burnaby</a>
+          <a data-soon="Home Care Surrey" href="surrey.html">Surrey</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>For Healthcare Professionals</summary>
+        <div class="drawer-sublinks">
+          <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">For
+            Healthcare Professionals</a>
+          <a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a>
+          <a data-soon="Referral Process" href="healthcare-referral-process.html">Referral Process</a>
+          <a data-soon="For Hospital Discharge Planners" href="hospital-discharge-planners.html">For Hospital Discharge Planners</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>About OnPoint</summary>
+        <div class="drawer-sublinks">
+          <a href="about-us.html">About Us</a>
+          <a href="our-care-team.html">Our Care Team</a>
+          <a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a>
+          <a data-soon="How It Works" href="how-it-works.html">How It Works</a>
+          <a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a>
+          <a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a>
+        </div>
+      </details>
+
+      <details class="drawer-group">
+        <summary>Resources</summary>
+        <div class="drawer-sublinks">
+          <a href="resources.html">Resources &amp; Family Guides</a>
+          <a href="faqs.html">Frequently Asked Questions</a>
+          <a data-soon="Care Stories" href="care-stories.html">Care Stories</a>
+        </div>
+      </details>
+
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="drawer-actions">
+      <a href="care-assessment.html" class="btn btn-primary btn-block">Book a Care Assessment</a>
+      <a href="tel:+16040000000" class="btn btn-outline btn-block">Call Care Team: +1 (604) 000-0000</a>
+      <button class="btn btn-sage btn-block" onclick="openWhatsAppModal(); toggleMobileMenu();">Chat via
+        WhatsApp</button>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop" onclick="toggleMobileMenu()"></div>
+
+  <main id="mainContent">
+    <div class="page-header-banner banner-teal">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / <a href="services.html">Services</a> / <span>Home Nursing</span></div>
+        <h1 class="page-title">Home Nursing Care</h1>
+        <p class="page-tagline">Clinical nursing support delivered in the place your loved one already feels safest — their own home, across Metro Vancouver, BC.</p>
+      </div>
+    </div>
+
+    <div class="container page-content-block">
+
+      <!-- At a glance -->
+      <div class="svc-facts-strip">
+        <div class="svc-fact">
+          <span class="svc-fact-label">Delivered</span>
+          <span class="svc-fact-value">In the client's own home</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Provided by</span>
+          <span class="svc-fact-value">Registered nursing staff</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Oversight</span>
+          <span class="svc-fact-value">Lead Registered Nurse</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Serving</span>
+          <span class="svc-fact-value">Vancouver, Richmond, Burnaby &amp; Surrey</span>
+        </div>
+      </div>
+
+      <!-- Overview -->
+      <div class="about-story-grid">
+        <div class="about-story-text">
+          <div class="section-tag">The Home Nursing Program</div>
+          <h2 class="section-heading">Hospital-Level Attention, Without the Hospital</h2>
+          <p class="text-paragraph">Home nursing is clinical care that comes to the door. Instead of arranging transport to a clinic for a dressing change, a set of vitals or a medication review, a nurse arrives at the home, carries out the visit, and leaves the family with a clear picture of how their loved one is doing.</p>
+          <p class="text-paragraph">For many seniors that difference is more than convenience. Familiar surroundings reduce the confusion and fatigue that travel can cause, and a nurse who visits the home sees things a fifteen-minute appointment never will &mdash; how steady the walk to the kitchen is, whether the pill organizer is being used, whether the fridge is stocked.</p>
+          <p class="text-paragraph">OnPoint's home nursing program sits under the oversight of our Lead Registered Nurse. Every care plan begins with an assessment, is written down, and is reviewed as needs change.</p>
+          <div class="quote-box-accent">
+            <p class="quote-text-small">Our aim is simple: catch the small changes early, while they are still small.</p>
+          </div>
+        </div>
+        <div class="about-story-media">
+          <img src="assets/images/Nursing-Health-Monitoring.webp" alt="An OnPoint home care nurse taking a senior woman's blood pressure with a cuff monitor in her living room" class="rounded-img-shadow" loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      <!-- Signs this service is needed -->
+      <div class="section-header-center">
+        <div class="section-tag">Is This the Right Support?</div>
+        <h2 class="section-heading">Signs a Family May Need Home Nursing</h2>
+        <p class="section-subheading">Home nursing is usually arranged at one of these moments. If more than one sounds familiar, it is worth a conversation.</p>
+      </div>
+      <div class="signals-grid">
+        <div class="signal-card">
+          <h3>Repeated trips to the clinic for routine tasks</h3>
+          <p>If a weekly dressing change, an injection or a set of vitals means arranging transport, a wheelchair and half a day of somebody's time, that task can almost certainly come to the home instead.</p>
+        </div>
+        <div class="signal-card">
+          <h3>A medication list nobody fully understands</h3>
+          <p>Multiple prescribers, changes after a hospital stay, and a dosette box that is not being filled correctly. This is one of the most common reasons an older adult ends up back in hospital.</p>
+        </div>
+        <div class="signal-card">
+          <h3>A wound that is not closing</h3>
+          <p>Pressure areas, surgical incisions, diabetic ulcers or skin tears that have been dressed at home for weeks without clear improvement need proper clinical assessment.</p>
+        </div>
+        <div class="signal-card">
+          <h3>A recent hospital admission</h3>
+          <p>The weeks after discharge carry the highest risk of readmission. Nursing support through that window is one of the most effective things a family can arrange.</p>
+        </div>
+        <div class="signal-card">
+          <h3>A chronic condition that seems to be drifting</h3>
+          <p>Blood pressure, breathlessness, blood sugar or weight moving gradually in the wrong direction, without anyone tracking it systematically.</p>
+        </div>
+        <div class="signal-card">
+          <h3>A family carer at the limit</h3>
+          <p>When a spouse or adult child is doing clinical tasks they were never trained for, and are frightened of getting it wrong.</p>
+        </div>
+      </div>
+
+      <!-- What the service involves, in detail -->
+      <div class="section-header-center">
+        <div class="section-tag">The Service in Detail</div>
+        <h2 class="section-heading">What Home Nursing Actually Involves</h2>
+        <p class="section-subheading">Home nursing is not a single task. These are the components a care plan is built from &mdash; most families use three or four of them.</p>
+      </div>
+      <div class="svc-longform">
+        <div class="svc-block">
+          <span class="svc-block-num">Component 01</span>
+          <h3>Clinical Assessment &amp; Care Planning</h3>
+          <p>Everything starts with a full assessment in the home. Our Lead Registered Nurse reviews the medical history, current medications, recent hospital paperwork and the treating physician's direction, then examines the person themselves &mdash; skin integrity, mobility, cognition, continence, nutrition, pain.</p>
+          <p>Just as importantly, the assessment looks at the house. Where the bathroom is. Whether there are stairs. Whether the bed can be reached from both sides. Whether there is a family carer, and how much they are realistically able to do. A clinically perfect care plan that ignores a flight of stairs is not a care plan.</p>
+          <p>What comes out of it is a written document: what each visit will cover, how often nurses will attend, what the goals are, what warning signs everyone should be watching for, and who to call.</p>
+          <ul class="svc-block-list">
+            <li>Full head-to-toe clinical assessment</li>
+            <li>Medication and medical history review</li>
+            <li>Home environment and safety appraisal</li>
+            <li>Family carer capacity discussion</li>
+            <li>Written, goal-based care plan</li>
+            <li>Scheduled reassessment as needs change</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 02</span>
+          <h3>Health Monitoring &amp; Vital Signs</h3>
+          <p>Regular, consistent observation is the quiet backbone of home nursing. Blood pressure, pulse, temperature, oxygen saturation, blood glucose and weight, taken the same way each visit and written down.</p>
+          <p>The value is not in any single reading. It is in the trend. A blood pressure of 148 means very little on its own; a blood pressure that has climbed steadily across six weeks means something a physician can act on. That comparison is only possible if somebody has been recording it properly.</p>
+          <ul class="svc-block-list">
+            <li>Blood pressure, pulse and temperature</li>
+            <li>Oxygen saturation (SpO2)</li>
+            <li>Blood glucose monitoring</li>
+            <li>Weight, appetite and hydration</li>
+            <li>Pain assessment and scoring</li>
+            <li>Trend reporting to family and physician</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 03</span>
+          <h3>Medication Management</h3>
+          <p>Older adults commonly take several medications prescribed by different clinicians, and the list changes after every hospital stay. Doses get missed, duplicated, or continued long after they should have stopped.</p>
+          <p>Our nurses supervise administration, review the regimen against what has actually been prescribed, watch for side effects and interactions, and flag anything that looks wrong to the prescriber. Where a dosette or blister pack is used, we check it is being filled and taken as intended rather than assuming.</p>
+          <ul class="svc-block-list">
+            <li>Medication administration and supervision</li>
+            <li>Regimen review against current prescriptions</li>
+            <li>Dosette and blister pack checks</li>
+            <li>Side effect and interaction monitoring</li>
+            <li>Injection administration where prescribed</li>
+            <li>Liaison with the prescribing physician and pharmacy</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 04</span>
+          <h3>Wound &amp; Skin Integrity Care</h3>
+          <p>Wound care in the home is one of the most common reasons families call us, and one of the areas where technique matters most. Our nurses assess and stage wounds, change dressings under sterile technique, and measure and document healing at each visit.</p>
+          <p>Prevention gets equal weight. For someone with limited mobility, a repositioning schedule and regular inspection of the heels, sacrum and hips prevents pressure injuries that would take months to heal once established.</p>
+          <ul class="svc-block-list">
+            <li>Wound assessment, staging and measurement</li>
+            <li>Sterile dressing changes</li>
+            <li>Pressure injury prevention and repositioning</li>
+            <li>Diabetic foot and lower limb ulcer care</li>
+            <li>Skin tear and fragile skin management</li>
+            <li>Early infection identification and escalation</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 05</span>
+          <h3>Recovery &amp; Rehabilitation Support</h3>
+          <p>After a hospital stay, a fall or a surgery, most older adults are weaker than they were &mdash; even a few days in a bed causes measurable loss of muscle strength. Recovery does not happen on its own, and the fear of falling often stops people moving at exactly the point they most need to.</p>
+          <p>Nursing support through this period means supervised mobility, safe transfers, and steady progression at a pace the person can manage, with the risks watched rather than ignored.</p>
+          <ul class="svc-block-list">
+            <li>Supervised mobility and gait support</li>
+            <li>Safe transfer technique (bed, chair, bathroom)</li>
+            <li>Fall risk reassessment after hospitalization</li>
+            <li>Progress tracking against recovery goals</li>
+            <li>Equipment and home set-up advice</li>
+            <li>Coordination with physiotherapy where involved</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 06</span>
+          <h3>Family Communication &amp; Care Coordination</h3>
+          <p>A large part of home nursing is making sure everyone involved is looking at the same picture. Families receive written notes after visits. Physicians receive summaries that give them real between-appointment data rather than a recollection.</p>
+          <p>Where other services are involved &mdash; a publicly funded home health team, a specialist clinic, a pharmacy, a physiotherapist &mdash; we coordinate around them rather than duplicating what they are already doing.</p>
+          <ul class="svc-block-list">
+            <li>Written visit notes for the family</li>
+            <li>Health status summaries for physicians</li>
+            <li>Coordination with publicly funded home health</li>
+            <li>Liaison with specialists and clinics</li>
+            <li>A named point of contact for questions</li>
+            <li>Clear escalation pathway when things change</li>
+          </ul>
+        </div>
+      </div>
+
+      <blockquote class="svc-pullquote">Most of what home nursing prevents is invisible &mdash; the readmission that did not happen, the wound that did not get infected, the fall that was designed out of the hallway.</blockquote>
+
+      <!-- Pillars -->
+      <div class="whole-person-section">
+        <div class="section-header-center">
+          <div class="section-tag">What Home Nursing Covers</div>
+          <h2 class="section-heading">One Team for the Clinical Side of Care</h2>
+          <p class="section-subheading">Home nursing is an umbrella. Most families start with one need and add others as circumstances change.</p>
+        </div>
+        <div class="whole-person-grid">
+          <div class="wp-card">
+            <div class="wp-icon">🩺</div>
+            <h3 class="wp-title">Assessment &amp; Monitoring</h3>
+            <p class="wp-desc">Vital signs, chronic condition observation, and a written record families and physicians can both rely on.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon">💊</div>
+            <h3 class="wp-title">Medication Oversight</h3>
+            <p class="wp-desc">Supervision of complex regimens, administration support, and watching for side effects or missed doses.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon">🩹</div>
+            <h3 class="wp-title">Wound &amp; Skin Care</h3>
+            <p class="wp-desc">Sterile dressing changes, pressure injury prevention, and documented tracking of how a wound is healing.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon">🏥</div>
+            <h3 class="wp-title">Recovery Support</h3>
+            <p class="wp-desc">Structured follow-through after a hospital stay, a surgery, a fall or an acute illness.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- What is included -->
+      <div class="detailed-services-container">
+        <div class="service-detail-box featured-box">
+          <div class="s-detail-content">
+            <div class="s-tag">Clinical Nursing</div>
+            <h2 class="s-title">What a Home Nursing Visit Includes</h2>
+            <p class="s-desc">Visits are built around the care plan rather than a fixed script. A first visit is usually longer, since it establishes the baseline everything afterwards is measured against.</p>
+            <div class="s-inclusions">
+              <h4>What Is Included:</h4>
+              <div class="inclusions-grid">
+                <div class="inc-item">✓ Vital signs recording (BP, pulse, temperature, SpO2)</div>
+                <div class="inc-item">✓ Chronic condition observation and trend tracking</div>
+                <div class="inc-item">✓ Medication administration supervision and review</div>
+                <div class="inc-item">✓ Wound assessment and sterile dressing changes</div>
+                <div class="inc-item">✓ Mobility, skin integrity and nutrition checks</div>
+                <div class="inc-item">✓ Written visit notes shared with the family</div>
+                <div class="inc-item">✓ Coordination with physicians and community providers</div>
+                <div class="inc-item">✓ Escalation when something needs a doctor's attention</div>
+              </div>
+            </div>
+            <a href="care-assessment.html" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- What a visit looks like -->
+      <div class="section-header-center">
+        <div class="section-tag">Inside the Service</div>
+        <h2 class="section-heading">What Happens on a Nursing Visit</h2>
+        <p class="section-subheading">Visits follow a consistent shape, so that changes in the person show up as changes in the record rather than differences in who happened to attend.</p>
+      </div>
+      <div class="visit-timeline">
+        <div class="vt-item">
+          <h3>Arrival and check-in</h3>
+          <p>The nurse greets the client, notes how they present compared with last time, and asks how the days since the last visit have gone.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Clinical observations</h3>
+          <p>Vital signs and any condition-specific measurements are taken and recorded, using the same technique every visit.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Planned clinical tasks</h3>
+          <p>The work the care plan calls for &mdash; dressing change, medication administration, injection, catheter or continence care.</p>
+        </div>
+        <div class="vt-item">
+          <h3>General review</h3>
+          <p>A wider look at skin, mobility, appetite, mood, pain and cognition, because these are where gradual decline shows first.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Notes and handover</h3>
+          <p>Findings are documented, the family is updated, and anything needing a physician's attention is escalated before the nurse leaves.</p>
+        </div>
+      </div>
+
+      <!-- Conditions supported -->
+      <div class="section-header-center">
+        <div class="section-tag">Scope of Care</div>
+        <h2 class="section-heading">Conditions and Situations We Commonly Support</h2>
+        <p class="section-subheading">If what your family is facing is not on this list, call us anyway &mdash; we will tell you honestly whether we are the right fit.</p>
+      </div>
+      <div class="condition-cloud">
+        <span class="cond-tag">Post-hospital recovery</span>
+        <span class="cond-tag">Hypertension</span>
+        <span class="cond-tag">Type 1 &amp; Type 2 diabetes</span>
+        <span class="cond-tag">Congestive heart failure</span>
+        <span class="cond-tag">COPD and respiratory conditions</span>
+        <span class="cond-tag">Stroke recovery</span>
+        <span class="cond-tag">Pressure injuries</span>
+        <span class="cond-tag">Diabetic foot ulcers</span>
+        <span class="cond-tag">Surgical wound care</span>
+        <span class="cond-tag">Parkinson's disease</span>
+        <span class="cond-tag">Arthritis and mobility loss</span>
+        <span class="cond-tag">Frailty and deconditioning</span>
+        <span class="cond-tag">Continence management</span>
+        <span class="cond-tag">Chronic kidney disease</span>
+        <span class="cond-tag">Cancer supportive care</span>
+        <span class="cond-tag">Palliative needs</span>
+      </div>
+
+      <!-- Process -->
+      <div class="section-header-center">
+        <div class="section-tag">A Simple, Stress-Free Process</div>
+        <h2 class="section-heading">How Home Nursing Starts</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number-bubble">01</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <h3 class="step-title">Care Conversation</h3>
+          <p class="step-desc">A no-pressure call to understand what is happening at home and whether nursing is the right level of support.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">02</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          </div>
+          <h3 class="step-title">In-Home Assessment</h3>
+          <p class="step-desc">Our Lead Registered Nurse visits, reviews the medical picture, and looks at the home itself.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">03</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          </div>
+          <h3 class="step-title">Written Care Plan</h3>
+          <p class="step-desc">You receive a plan setting out what each visit covers, how often nurses attend, and who to contact.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">04</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+          </div>
+          <h3 class="step-title">Ongoing Review</h3>
+          <p class="step-desc">The plan is revisited as recovery progresses or needs change &mdash; it is not fixed at the first visit.</p>
+        </div>
+      </div>
+
+      <!-- Why OnPoint -->
+      <div class="section-header-center">
+        <div class="section-tag">The OnPoint Standard</div>
+        <h2 class="section-heading">Why Families Choose OnPoint for Home Nursing</h2>
+      </div>
+      <div class="diff-list">
+        <div class="diff-row">
+          <div class="diff-icon">🩺</div>
+          <div>
+            <h3>Registered nursing leadership</h3>
+            <p>Care plans are set and reviewed under our Lead Registered Nurse, who brings over twenty years of clinical healthcare experience.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon">📝</div>
+          <div>
+            <h3>Everything is written down</h3>
+            <p>You get notes after visits, not a vague verbal summary. So does the physician, with your consent.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon">🤝</div>
+          <div>
+            <h3>Continuity of staff</h3>
+            <p>We plan rosters to keep familiar faces attending, which matters enormously to older adults.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon">🗣</div>
+          <div>
+            <h3>Straight answers</h3>
+            <p>If we think you need less care than you asked for, or a different service entirely, we will say so.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon">🏡</div>
+          <div>
+            <h3>Care around the person's routine</h3>
+            <p>Visit times are built around when the person actually eats, sleeps and washes &mdash; not the other way round.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon">🌐</div>
+          <div>
+            <h3>Culturally aware care</h3>
+            <p>Metro Vancouver is diverse. Diet, language, modesty and family expectations are part of the care plan, not an afterthought.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Areas served -->
+      <div class="coverage-strip">
+        <div>
+          <h3>Where We Provide This Service</h3>
+          <p>OnPoint Nurse &amp; Home Care serves families across Metro Vancouver. If you are just outside these communities, call us anyway &mdash; we will tell you honestly whether we can reach you reliably.</p>
+        </div>
+        <div class="coverage-areas">
+          <div class="coverage-area">Vancouver<span>City and surrounding neighbourhoods</span></div>
+          <div class="coverage-area">Richmond<span>Including Steveston and Brighouse</span></div>
+          <div class="coverage-area">Burnaby<span>North and South Burnaby</span></div>
+          <div class="coverage-area">Surrey<span>Including North Surrey and Fleetwood</span></div>
+        </div>
+      </div>
+
+      <!-- FAQs -->
+      <div class="section-header-center">
+        <div class="section-tag">Frequently Asked Questions</div>
+        <h2 class="section-heading">Home Nursing: Common Questions</h2>
+      </div>
+      <div class="faq-accordion-container">
+        <div class="faq-item active">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">What is the difference between home nursing and home care?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Home care covers non-clinical support &mdash; personal care, meals, companionship, help around the house. Home nursing is clinical work carried out by nursing staff: wound care, medication administration, health monitoring, post-surgical follow-up. Many families use both, and the two teams coordinate around one care plan.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Do we need a doctor's referral to arrange home nursing?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>No. Families can contact us directly and book a care assessment. That said, we do ask about the treating physician and any recent hospital discharge paperwork, because nursing care works best when it lines up with the wider medical plan. We are also happy to take referrals from hospital discharge planners and community clinicians.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">How often would a nurse visit?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>It depends entirely on the need. Some clients are seen daily during a recovery period and then step down to weekly. Others need a single weekly visit for monitoring and medication review over a long stretch. Visit frequency is set at the assessment and adjusted as things change.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Which areas do you serve?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>We serve Vancouver, Richmond, Burnaby and Surrey. If you are just outside those areas, call us anyway &mdash; we will tell you honestly whether we can reach you reliably.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Can home nursing be combined with non-clinical home care?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Yes, and it very often is. A typical arrangement has care aides providing personal care, meals and companionship on most days, with a nurse attending on a set schedule for the clinical work. Both work from the same care plan so that nothing falls between them.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Are your nurses insured and background checked?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Yes. All staff attending a client's home are screened before they start and work under our Lead Registered Nurse's clinical oversight. Ask us at the care assessment and we will walk you through exactly what our vetting covers.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">What happens if our needs change suddenly?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Call us. Care plans are meant to be revisited, not filed away &mdash; a deterioration, a fall, a new diagnosis or a hospital admission all warrant reassessment. Where the change is urgent, we will prioritise getting a nurse out to reassess.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related services -->
+      <div class="whole-person-section">
+        <div class="section-header-center">
+          <div class="section-tag">Related Care</div>
+          <h2 class="section-heading">Other Services Families Often Combine</h2>
+        </div>
+        <div class="related-services-grid">
+          <a class="related-service-card" href="post-discharge-nursing.html">
+            <h3 class="wp-title">Post-Discharge Nursing</h3>
+            <p class="wp-desc">Structured support for the first weeks after a hospital stay.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+          <a class="related-service-card" href="nursing-health-monitoring.html">
+            <h3 class="wp-title">Nursing &amp; Health Monitoring</h3>
+            <p class="wp-desc">Ongoing observation of vitals and chronic conditions.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+          <a class="related-service-card" href="wound-care.html">
+            <h3 class="wp-title">Wound Care</h3>
+            <p class="wp-desc">Assessment, dressing changes and healing documentation.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="page-cta-banner">
+        <h3>Not Sure If Home Nursing Is What You Need?</h3>
+        <p>Book a care assessment and our Lead Registered Nurse will walk you through the options honestly &mdash; including when nursing is not the answer.</p>
+        <div class="btn-group">
+          <a href="care-assessment.html" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact.html" class="btn btn-outline-white">Speak With Our Care Team</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="mobile-sticky-bar" id="mobileStickyBar">
+    <a href="tel:+16040000000" class="m-bar-btn m-call-btn">
+      <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+        </path>
+      </svg>
+      <span>Call Us</span>
+    </a>
+    <a href="care-assessment.html" class="m-bar-btn m-book-btn">
+      <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+      <span>Book Assessment</span>
+    </a>
+    <button class="m-bar-btn m-wa-btn" onclick="openWhatsAppModal()" aria-label="Open WhatsApp">
+      <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- WHATSAPP DIRECT CHAT MODAL -->
+  <div class="modal-overlay" id="whatsappModal" onclick="closeModalOnBackdrop(event, 'whatsappModal')">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeWhatsAppModal()">&times;</button>
+      <div class="modal-header-wa">
+        <div class="wa-modal-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
+          </svg>
+        </div>
+        <div>
+          <h3>Chat with OnPoint Nurse Care</h3>
+          <p class="modal-sub">Direct WhatsApp Care Inquiry <span class="placeholder-tag">[WhatsApp placeholder]</span>
+          </p>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p class="modal-lead">Connect with our Lead Registered Nurse or Care Coordinator to discuss care options, assess
+            cognitive symptoms, or check availability.</p>
+        <div class="prefilled-prompts">
+          <label>Choose a starting message:</label>
+          <button class="prompt-chip"
+            onclick="setWaPrompt('Hello OnPoint Care team, I would like to inquire about home care for my parent in Metro Vancouver.')">
+            "I would like to inquire about elder home care for my parent."
+          </button>
+          <button class="prompt-chip"
+            onclick="setWaPrompt('Hello, I have noticed some memory changes in my parent and would like to learn about dementia care.')">
+            "I noticed memory changes in my parent &amp; want to learn about dementia care."
+          </button>
+          <button class="prompt-chip" onclick="setWaPrompt('Hello, I want to book an in-home care assessment.')">
+            "I want to book an in-home care assessment."
+          </button>
+        </div>
+        <textarea id="waCustomMessage" class="form-textarea" rows="3"
+          placeholder="Type your inquiry here...">Hello OnPoint Care team, I would like to inquire about home care for my parent in Metro Vancouver.</textarea>
+        <button class="btn btn-sage btn-block btn-lg" onclick="launchWhatsApp()">
+          <span>Open WhatsApp Chat</span>
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toastNotification">
+    <div class="toast-content">
+      <span class="toast-icon" id="toastIcon">✓</span>
+      <span class="toast-message" id="toastMessage">Your message has been sent successfully.</span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand-col">
+          <div class="footer-logo">
+            <span class="footer-logo-chip">
+              <img src="assets/images/logo-mark.png" alt="" width="304" height="320">
+            </span>
+            <div class="logo-text-group">
+              <span class="logo-brand text-white">OnPoint</span>
+              <span class="logo-sub text-sand">Nurse &amp; Home Care</span>
+            </div>
+          </div>
+          <p class="footer-mission-text">
+            "Professional care. Familiar surroundings. Peace of mind for the whole family."
+          </p>
+          <div class="footer-leadership-badge">
+            <span class="f-badge-title">Clinical Leadership:</span>
+            <span class="f-badge-name">Risper Murunga, RN, BSN, MPH</span>
+            <span class="f-badge-sub">20+ Years Clinical Healthcare Experience</span>
+          </div>
+
+          <ul class="footer-contact-list">
+            <li>
+              <strong>Phone:</strong><br>
+              <a href="tel:+16040000000">+1 (604) 000-0000</a> <span class="placeholder-sub">[Phone placeholder]</span>
+            </li>
+            <li>
+              <strong>Email:</strong><br>
+              <a href="mailto:care@onpointhomecare.care">care@onpointhomecare.care</a> <span
+                class="placeholder-sub">[Email placeholder]</span>
+            </li>
+            <li>
+              <strong>Serving:</strong><br>
+              Vancouver, Richmond, Burnaby &amp; Surrey, BC <span class="placeholder-sub">[Address placeholder]</span>
+            </li>
+            <li>
+              <button class="footer-wa-btn" onclick="openWhatsAppModal()">
+                <span>Chat via WhatsApp</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Navigation Columns — mapped to the sitemap pillars -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Home Nursing</h4>
+          <ul class="footer-links-list">
+            <li><a href="home-nursing.html">Home Nursing</a></li>
+            <li><a href="post-discharge-nursing.html">Post-Discharge
+                Nursing</a></li>
+            <li><a href="post-operative-care.html">Post-Operative Care</a></li>
+            <li><a href="wound-care.html">Wound Care</a></li>
+            <li><a href="private-nursing.html">Private Nursing</a></li>
+            <li><a href="nursing-health-monitoring.html">Nursing &amp; Health
+                Monitoring</a></li>
+            <li><a href="24-hour-nursing-care.html">24-Hour Nursing Care</a>
+            </li>
+            <li><a href="palliative-care.html">Palliative &amp; End-of-Life Care</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Home Care</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html">Home Care</a></li>
+            <li><a href="personal-care.html">Personal Care</a></li>
+            <li><a href="companion-care.html">Companion Care</a></li>
+            <li><a href="respite-care.html">Respite Care</a></li>
+            <li><a href="dementia-care.html">Dementia &amp; Alzheimer's Care</a></li>
+            <li><a href="24-hour-home-care.html">24-Hour Home Care</a></li>
+            <li><a href="overnight-care.html">Overnight Care</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Specialized Care</h4>
+          <ul class="footer-links-list">
+            <li><a data-soon="Hospital to Home Care" href="hospital-to-home-care.html">Hospital to Home Care</a>
+            </li>
+            <li><a href="services.html#fall-prevention">Care After a Fall</a></li>
+            <li><a data-soon="Caregiver Burnout & Support" href="caregiver-burnout.html">Caregiver Burnout &amp;
+                Support</a></li>
+            <li><a data-soon="Aging in Place" href="aging-in-place.html">Aging in Place</a></li>
+            <li><a data-soon="Complex Care at Home" href="complex-care-at-home.html">Complex Care at Home</a>
+            </li>
+            <li><a href="services.html#emergency-support">Emergency &amp; First-Aid
+                Response</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Areas We Serve</h4>
+          <ul class="footer-links-list">
+            <li><a data-soon="Home Care Vancouver" href="vancouver.html">Home Care Vancouver</a></li>
+            <li><a data-soon="Home Care Richmond" href="richmond.html">Home Care Richmond</a></li>
+            <li><a data-soon="Home Care Burnaby" href="burnaby.html">Home Care Burnaby</a></li>
+            <li><a data-soon="Home Care Surrey" href="surrey.html">Home Care Surrey</a></li>
+          </ul>
+
+          <h4 class="footer-col-title footer-col-subtitle">For Professionals</h4>
+          <ul class="footer-links-list">
+            <li><a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">Healthcare
+                Professionals</a></li>
+            <li><a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a></li>
+            <li><a data-soon="Referral Process" href="healthcare-referral-process.html">Referral
+                Process</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Company</h4>
+          <ul class="footer-links-list">
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="our-care-team.html">Our Care Team</a></li>
+            <li><a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a></li>
+            <li><a data-soon="How It Works" href="how-it-works.html">How It Works</a></li>
+            <li><a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a></li>
+            <li><a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a></li>
+          </ul>
+
+          <h4 class="footer-col-title footer-col-subtitle">Resources &amp; Contact</h4>
+          <ul class="footer-links-list">
+            <li><a href="resources.html">Family Guides &amp; Resources</a></li>
+            <li><a href="faqs.html">Frequently Asked Questions</a></li>
+            <li><a href="care-assessment.html">Book a Care Assessment</a></li>
+            <li><a data-soon="Get Care Now" href="get-care-now.html">Get Care Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-left">
+          <p>&copy; 2026 OnPoint Nurse &amp; Home Care. Serving Vancouver, Richmond, Burnaby &amp; Surrey. All rights
+            reserved.</p>
+        </div>
+        <div class="footer-bottom-right">
+          <a data-soon="Privacy Policy" href="privacy-policy.html">Privacy Policy</a>
+          <span class="footer-sep">•</span>
+          <a data-soon="Terms & Conditions" href="terms.html">Terms &amp; Conditions</a>
+          <span class="footer-sep">•</span>
+          <a data-soon="Accessibility Commitment" href="accessibility.html">Accessibility Commitment</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
