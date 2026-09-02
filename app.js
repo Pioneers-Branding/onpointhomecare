@@ -7,12 +7,79 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  initComingSoonLinks();
-  initHeaderScroll();
+  loadIncludes().then(() => {
+    initComingSoonLinks();
+    initHeaderScroll();
+  });
   initWizard();
   initTestimonialsSlider();
   initScrollReveal();
 });
+
+/**
+ * Loads header and footer partials from includes/ folder if placeholders are present.
+ */
+async function loadIncludes() {
+  const headerContainer = document.getElementById('header-include') || document.querySelector('[data-include="header"]');
+  const footerContainer = document.getElementById('footer-include') || document.querySelector('[data-include="footer"]');
+
+  const tasks = [];
+
+  if (headerContainer && headerContainer.innerHTML.trim() === '') {
+    tasks.push(
+      fetch('includes/header.html')
+        .then(res => {
+          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+          return res.text();
+        })
+        .then(html => {
+          headerContainer.innerHTML = html;
+          highlightActiveNavLink();
+        })
+        .catch(err => console.warn('Header include load skipped/failed:', err))
+    );
+  } else {
+    highlightActiveNavLink();
+  }
+
+  if (footerContainer && footerContainer.innerHTML.trim() === '') {
+    tasks.push(
+      fetch('includes/footer.html')
+        .then(res => {
+          if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+          return res.text();
+        })
+        .then(html => {
+          footerContainer.innerHTML = html;
+        })
+        .catch(err => console.warn('Footer include load skipped/failed:', err))
+    );
+  }
+
+  await Promise.all(tasks);
+}
+
+/**
+ * Automatically highlights the active page link and parent dropdown in navigation
+ */
+function highlightActiveNavLink() {
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.nav-menu a, .mobile-drawer a, .footer-links-list a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === currentPath || (currentPath === '' && href === 'index.html')) {
+      link.classList.add('active');
+      const dropdown = link.closest('.nav-dropdown');
+      if (dropdown) {
+        const trigger = dropdown.querySelector('.nav-dropdown-trigger');
+        if (trigger) trigger.classList.add('active');
+      }
+      const drawerGroup = link.closest('.drawer-group');
+      if (drawerGroup) {
+        drawerGroup.setAttribute('open', '');
+      }
+    }
+  });
+}
 
 /**
  * Links to pages in the sitemap that have not been built yet carry data-soon.

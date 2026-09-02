@@ -22,284 +22,141 @@
 
 <body>
 
-  <!-- Top Announcement / Hotline Bar -->
-  <div class="top-bar" id="topBar">
-    <div class="container top-bar-container">
-      <div class="top-bar-left">
-        <span class="pulse-dot"></span>
-        <span class="top-bar-text"><strong>Now serving Vancouver, Richmond, Burnaby &amp; Surrey</strong></span>
-      </div>
-      <div class="top-bar-right">
-        <a href="tel:+16040000000" class="top-bar-link" id="topBarPhone">
-          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path
-              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-            </path>
-          </svg>
-          <span>Direct Care Inquiries: +1 (604) 000-0000</span>
-        </a>
-        <button class="top-bar-btn" onclick="openWhatsAppModal()">
-          <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
-            <path
-              d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
-          </svg>
-          <span>WhatsApp Us</span>
-        </button>
-      </div>
+  <!-- INCLUDE: header -->
+<div id="header-include">
+<!-- Top Announcement / Hotline Bar -->
+<div class="top-bar" id="topBar">
+  <div class="container top-bar-container">
+    <div class="top-bar-left">
+      <span class="pulse-dot"></span>
+      <span class="top-bar-text"><strong>Now serving Vancouver, Richmond, Burnaby &amp; Surrey</strong></span>
+    </div>
+    <div class="top-bar-right">
+      <a href="tel:+16040000000" class="top-bar-link" id="topBarPhone">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+          </path>
+        </svg>
+        <span>Direct Care Inquiries: +1 (604) 000-0000</span>
+      </a>
+      <button class="top-bar-btn" onclick="openWhatsAppModal()">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
+        </svg>
+        <span>WhatsApp Us</span>
+      </button>
     </div>
   </div>
+</div>
 
-  <!-- Header & Navigation -->
-  <header class="main-header" id="mainHeader">
-    <div class="container header-container">
-      <a href="index.html" class="logo-link">
-        <img src="assets/images/logo-mark.png" alt="" class="logo-mark-img" width="304" height="320">
-        <div class="logo-text-group">
-          <span class="logo-brand">OnPoint</span>
-          <span class="logo-sub">Nurse &amp; Home Care</span>
-        </div>
-      </a>
-
-      <!-- Desktop Nav -->
-      <nav class="nav-menu" id="navMenu">
-        <!-- All three care pillars in one panel -->
-        <div class="nav-dropdown has-mega">
-          <a href="services.html" class="nav-item nav-dropdown-trigger" data-page="services">
-            Our Services
-            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </a>
-          <div class="mega-menu">
-            <div class="mega-col">
-              <span class="mega-col-title">Home Nursing</span>
-              <a href="home-nursing.html">Home Nursing Overview</a>
-              <a href="post-discharge-nursing.html">Post-Discharge
-                Nursing</a>
-              <a href="post-operative-care.html">Post-Operative Care</a>
-              <a href="wound-care.html">Wound Care</a>
-              <a href="private-nursing.html">Private Nursing</a>
-              <a href="nursing-health-monitoring.html">Nursing &amp; Health Monitoring</a>
-              <a href="24-hour-nursing-care.html">24-Hour Nursing Care</a>
-              <a href="palliative-care.html">Palliative &amp; End-of-Life
-                Care</a>
-            </div>
-
-            <div class="mega-col">
-              <span class="mega-col-title">Home Care</span>
-              <a href="services.html">Home Care Overview</a>
-              <a href="personal-care.html">Personal Care &amp; Daily Living</a>
-              <a href="companion-care.html">Companion Care</a>
-              <a href="respite-care.html">Respite Care</a>
-              <a href="dementia-care.html">Dementia &amp; Alzheimer's Care</a>
-              <a href="24-hour-home-care.html">24-Hour Home Care</a>
-              <a href="overnight-care.html">Overnight Care</a>
-            </div>
-
-            <div class="mega-col">
-              <span class="mega-col-title">Specialized Care</span>
-              <a data-soon="Hospital to Home Care" href="hospital-to-home-care.html">Hospital to Home Care</a>
-              <a href="services.html#fall-prevention">Care After a Fall</a>
-              <a data-soon="Caregiver Burnout & Support" href="caregiver-burnout.html">Caregiver Burnout &amp;
-                Support</a>
-              <a data-soon="Aging in Place" href="aging-in-place.html">Aging in Place</a>
-              <a data-soon="Complex Care at Home" href="complex-care-at-home.html">Complex Care at Home</a>
-              <a href="services.html#emergency-support">Emergency &amp; First-Aid
-                Response</a>
-            </div>
-
-            <div class="mega-cta">
-              <span class="mega-cta-title">Not sure what your parent needs?</span>
-              <p class="mega-cta-text">Our Lead Registered Nurse will walk you through the options in a free,
-                no-pressure conversation.</p>
-              <a href="care-assessment.html" class="btn btn-primary btn-sm btn-block">Book a
-                Care Assessment</a>
-              <a data-soon="Get Care Now" href="get-care-now.html" class="mega-cta-link">Need care urgently?
-                &rarr;</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Geographic architecture -->
-        <div class="nav-dropdown">
-          <a data-soon="Areas We Serve" href="locations.html" class="nav-item nav-dropdown-trigger"
-            data-page="locations">
-            Areas We Serve
-            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </a>
-          <div class="dropdown-menu">
-            <a data-soon="Areas We Serve" href="locations.html">All Areas We Serve</a>
-            <a data-soon="Home Care Vancouver" href="vancouver.html">Vancouver</a>
-            <a data-soon="Home Care Richmond" href="richmond.html">Richmond</a>
-            <a data-soon="Home Care Burnaby" href="burnaby.html">Burnaby</a>
-            <a data-soon="Home Care Surrey" href="surrey.html">Surrey</a>
-          </div>
-        </div>
-
-        <!-- Referral funnel -->
-        <div class="nav-dropdown">
-          <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html"
-            class="nav-item nav-dropdown-trigger" data-page="healthcare-professionals">
-            For Professionals
-            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </a>
-          <div class="dropdown-menu">
-            <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">For Healthcare
-              Professionals</a>
-            <a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a>
-            <a data-soon="Referral Process" href="healthcare-referral-process.html">Referral
-              Process</a>
-            <a data-soon="For Hospital Discharge Planners" href="hospital-discharge-planners.html">For Hospital
-              Discharge Planners</a>
-          </div>
-        </div>
-
-        <!-- Trust layer -->
-        <div class="nav-dropdown dropdown-right">
-          <a href="about-us.html" class="nav-item nav-dropdown-trigger" data-page="about">
-            About
-            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </a>
-          <div class="dropdown-menu">
-            <a href="about-us.html">About Us</a>
-            <a href="our-care-team.html">Our Care Team</a>
-            <a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a>
-            <a data-soon="How It Works" href="how-it-works.html">How It Works</a>
-            <a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a>
-            <a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a>
-          </div>
-        </div>
-
-        <!-- Resource hub -->
-        <div class="nav-dropdown dropdown-right">
-          <a href="resources.html" class="nav-item nav-dropdown-trigger" data-page="resources">
-            Resources
-            <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </a>
-          <div class="dropdown-menu">
-            <a href="resources.html">Resources &amp; Family Guides</a>
-            <a href="faqs.html">Frequently Asked Questions</a>
-            <a data-soon="Care Stories" href="care-stories.html">Care Stories</a>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Header CTA (phone lives in the top bar, so only one button here) -->
-      <div class="header-actions">
-        <a href="contact.html" class="btn btn-primary btn-sm">
-          <span>Contact</span>
-          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-            <polyline points="12 5 19 12 12 19"></polyline>
-          </svg>
-        </a>
-        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu"
-          onclick="toggleMobileMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Mobile Drawer Menu -->
-  <div class="mobile-drawer" id="mobileDrawer">
-    <div class="drawer-header">
+<!-- Header & Navigation -->
+<header class="main-header" id="mainHeader">
+  <div class="container header-container">
+    <a href="index.html" class="logo-link">
+      <img src="assets/images/logo-mark.png" alt="" class="logo-mark-img" width="304" height="320">
       <div class="logo-text-group">
         <span class="logo-brand">OnPoint</span>
         <span class="logo-sub">Nurse &amp; Home Care</span>
       </div>
-      <button class="drawer-close-btn" onclick="toggleMobileMenu()">&times;</button>
-    </div>
-    <div class="drawer-links">
-      <a href="index.html">Home</a>
+    </a>
 
-      <details class="drawer-group">
-        <summary>Home Nursing</summary>
-        <div class="drawer-sublinks">
-          <a href="home-nursing.html">Home Nursing Overview</a>
-          <a href="post-discharge-nursing.html">Post-Discharge Nursing</a>
-          <a href="post-operative-care.html">Post-Operative
-            Care</a>
-          <a href="wound-care.html">Wound Care</a>
-          <a href="private-nursing.html">Private Nursing</a>
-          <a href="nursing-health-monitoring.html">Nursing &amp; Health
-            Monitoring</a>
-          <a href="24-hour-nursing-care.html">24-Hour
-            Nursing Care</a>
-          <a href="palliative-care.html">Palliative &amp;
-            End-of-Life Care</a>
+    <!-- Desktop Nav -->
+    <nav class="nav-menu" id="navMenu">
+      <!-- All three care pillars in one panel -->
+      <div class="nav-dropdown has-mega">
+        <a href="services.html" class="nav-item nav-dropdown-trigger" data-page="services">
+          Our Services
+          <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+        <div class="mega-menu">
+          <div class="mega-col">
+            <span class="mega-col-title">Home Nursing</span>
+            <a href="home-nursing.html">Home Nursing Overview</a>
+            <a href="post-discharge-nursing.html">Post-Discharge Nursing</a>
+            <a href="post-operative-care.html">Post-Operative Care</a>
+            <a href="wound-care.html">Wound Care</a>
+            <a href="private-nursing.html">Private Nursing</a>
+            <a href="nursing-health-monitoring.html">Nursing &amp; Health Monitoring</a>
+            <a href="24-hour-nursing-care.html">24-Hour Nursing Care</a>
+            <a href="palliative-care.html">Palliative &amp; End-of-Life Care</a>
+          </div>
+
+          <div class="mega-col">
+            <span class="mega-col-title">Home Care</span>
+            <a href="services.html">Home Care Overview</a>
+            <a href="personal-care.html">Personal Care &amp; Daily Living</a>
+            <a href="companion-care.html">Companion Care</a>
+            <a href="respite-care.html">Respite Care</a>
+            <a href="dementia-care.html">Dementia &amp; Alzheimer's Care</a>
+            <a href="24-hour-home-care.html">24-Hour Home Care</a>
+            <a href="overnight-care.html">Overnight Care</a>
+          </div>
+
+          <div class="mega-col">
+            <span class="mega-col-title">Specialized Care</span>
+            <a href="hospital-to-home-care.html">Hospital to Home Care</a>
+            <a href="care-after-a-fall.html">Care After a Fall</a>
+            <a href="caregiver-burnout.html">Caregiver Burnout &amp; Support</a>
+            <a href="aging-in-place.html">Aging in Place</a>
+            <a href="complex-care-at-home.html">Complex Care at Home</a>
+            <a href="emergency-first-aid-response.html">Emergency &amp; First-Aid Response</a>
+          </div>
+
+          <div class="mega-cta">
+            <span class="mega-cta-title">Not sure what your parent needs?</span>
+            <p class="mega-cta-text">Our Lead Registered Nurse will walk you through the options in a free, no-pressure conversation.</p>
+            <a href="care-assessment.html" class="btn btn-primary btn-sm btn-block">Book a Care Assessment</a>
+            <a data-soon="Get Care Now" href="get-care-now.html" class="mega-cta-link">Need care urgently? &rarr;</a>
+          </div>
         </div>
-      </details>
+      </div>
 
-      <details class="drawer-group">
-        <summary>Home Care</summary>
-        <div class="drawer-sublinks">
-          <a href="services.html">Home Care Overview</a>
-          <a href="personal-care.html">Personal Care &amp;
-            Daily Living</a>
-          <a href="companion-care.html">Companion Care</a>
-          <a href="respite-care.html">Respite Care</a>
-          <a href="dementia-care.html">Dementia &amp; Alzheimer's
-            Care</a>
-          <a href="24-hour-home-care.html">24-Hour Home
-            Care</a>
-          <a href="overnight-care.html">Overnight Care</a>
-        </div>
-      </details>
-
-      <details class="drawer-group">
-        <summary>Specialized Care</summary>
-        <div class="drawer-sublinks">
-          <a data-soon="Hospital to Home Care" href="hospital-to-home-care.html">Hospital
-            to Home Care</a>
-          <a href="services.html#fall-prevention">Care After a Fall
-            &amp; Fall Prevention</a>
-          <a data-soon="Caregiver Burnout & Support" href="caregiver-burnout.html">Caregiver Burnout
-            &amp; Support</a>
-          <a data-soon="Aging in Place" href="aging-in-place.html">Aging in Place</a>
-          <a data-soon="Complex Care at Home" href="complex-care-at-home.html">Complex Care
-            at Home</a>
-          <a href="services.html#emergency-support">Emergency &amp;
-            First-Aid Response</a>
-        </div>
-      </details>
-
-      <details class="drawer-group">
-        <summary>Areas We Serve</summary>
-        <div class="drawer-sublinks">
+      <!-- Geographic architecture -->
+      <div class="nav-dropdown">
+        <a data-soon="Areas We Serve" href="locations.html" class="nav-item nav-dropdown-trigger" data-page="locations">
+          Areas We Serve
+          <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+        <div class="dropdown-menu">
           <a data-soon="Areas We Serve" href="locations.html">All Areas We Serve</a>
           <a data-soon="Home Care Vancouver" href="vancouver.html">Vancouver</a>
           <a data-soon="Home Care Richmond" href="richmond.html">Richmond</a>
           <a data-soon="Home Care Burnaby" href="burnaby.html">Burnaby</a>
           <a data-soon="Home Care Surrey" href="surrey.html">Surrey</a>
         </div>
-      </details>
+      </div>
 
-      <details class="drawer-group">
-        <summary>For Healthcare Professionals</summary>
-        <div class="drawer-sublinks">
-          <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">For
-            Healthcare Professionals</a>
+      <!-- Referral funnel -->
+      <div class="nav-dropdown">
+        <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html" class="nav-item nav-dropdown-trigger" data-page="healthcare-professionals">
+          For Professionals
+          <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+        <div class="dropdown-menu">
+          <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">For Healthcare Professionals</a>
           <a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a>
           <a data-soon="Referral Process" href="healthcare-referral-process.html">Referral Process</a>
-          <a data-soon="For Hospital Discharge Planners" href="hospital-discharge-planners.html">For Hospital Discharge
-            Planners</a>
+          <a data-soon="For Hospital Discharge Planners" href="hospital-discharge-planners.html">For Hospital Discharge Planners</a>
         </div>
-      </details>
+      </div>
 
-      <details class="drawer-group">
-        <summary>About OnPoint</summary>
-        <div class="drawer-sublinks">
+      <!-- Trust layer -->
+      <div class="nav-dropdown dropdown-right">
+        <a href="about-us.html" class="nav-item nav-dropdown-trigger" data-page="about">
+          About
+          <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+        <div class="dropdown-menu">
           <a href="about-us.html">About Us</a>
           <a href="our-care-team.html">Our Care Team</a>
           <a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a>
@@ -307,35 +164,156 @@
           <a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a>
           <a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a>
         </div>
-      </details>
+      </div>
 
-      <details class="drawer-group">
-        <summary>Resources</summary>
-        <div class="drawer-sublinks">
+      <!-- Resource hub -->
+      <div class="nav-dropdown dropdown-right">
+        <a href="resources.html" class="nav-item nav-dropdown-trigger" data-page="resources">
+          Resources
+          <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </a>
+        <div class="dropdown-menu">
           <a href="resources.html">Resources &amp; Family Guides</a>
           <a href="faqs.html">Frequently Asked Questions</a>
           <a data-soon="Care Stories" href="care-stories.html">Care Stories</a>
         </div>
-      </details>
+      </div>
+    </nav>
 
-      <a href="contact.html">Contact Us</a>
-    </div>
-    <div class="drawer-actions">
-      <a href="care-assessment.html" class="btn btn-primary btn-block">Book a Care Assessment</a>
-      <a href="tel:+16040000000" class="btn btn-outline btn-block">Call Care Team: +1 (604) 000-0000</a>
-      <button class="btn btn-sage btn-block" onclick="openWhatsAppModal(); toggleMobileMenu();">Chat via
-        WhatsApp</button>
+    <!-- Header CTA -->
+    <div class="header-actions">
+      <a href="contact.html" class="btn btn-primary btn-sm">
+        <span>Contact</span>
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu"
+        onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </div>
-  <div class="drawer-backdrop" id="drawerBackdrop" onclick="toggleMobileMenu()"></div>
+</header>
 
-  <main id="mainContent">
+<!-- Mobile Drawer Menu -->
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-header">
+    <div class="logo-text-group">
+      <span class="logo-brand">OnPoint</span>
+      <span class="logo-sub">Nurse &amp; Home Care</span>
+    </div>
+    <button class="drawer-close-btn" onclick="toggleMobileMenu()">&times;</button>
+  </div>
+  <div class="drawer-links">
+    <a href="index.html">Home</a>
+
+    <details class="drawer-group">
+      <summary>Home Nursing</summary>
+      <div class="drawer-sublinks">
+        <a href="home-nursing.html">Home Nursing Overview</a>
+        <a href="post-discharge-nursing.html">Post-Discharge Nursing</a>
+        <a href="post-operative-care.html">Post-Operative Care</a>
+        <a href="wound-care.html">Wound Care</a>
+        <a href="private-nursing.html">Private Nursing</a>
+        <a href="nursing-health-monitoring.html">Nursing &amp; Health Monitoring</a>
+        <a href="24-hour-nursing-care.html">24-Hour Nursing Care</a>
+        <a href="palliative-care.html">Palliative &amp; End-of-Life Care</a>
+      </div>
+    </details>
+
+    <details class="drawer-group">
+      <summary>Home Care</summary>
+      <div class="drawer-sublinks">
+        <a href="services.html">Home Care Overview</a>
+        <a href="personal-care.html">Personal Care &amp; Daily Living</a>
+        <a href="companion-care.html">Companion Care</a>
+        <a href="respite-care.html">Respite Care</a>
+        <a href="dementia-care.html">Dementia &amp; Alzheimer's Care</a>
+        <a href="24-hour-home-care.html">24-Hour Home Care</a>
+        <a href="overnight-care.html">Overnight Care</a>
+      </div>
+    </details>
+
+    <details class="drawer-group">
+      <summary>Specialized Care</summary>
+      <div class="drawer-sublinks">
+        <a href="hospital-to-home-care.html">Hospital to Home Care</a>
+        <a href="care-after-a-fall.html">Care After a Fall</a>
+        <a href="caregiver-burnout.html">Caregiver Burnout &amp; Support</a>
+        <a href="aging-in-place.html">Aging in Place</a>
+        <a href="complex-care-at-home.html">Complex Care at Home</a>
+        <a href="emergency-first-aid-response.html">Emergency &amp; First-Aid Response</a>
+      </div>
+    </details>
+
+    <details class="drawer-group">
+      <summary>Areas We Serve</summary>
+      <div class="drawer-sublinks">
+        <a data-soon="Areas We Serve" href="locations.html">All Areas We Serve</a>
+        <a data-soon="Home Care Vancouver" href="vancouver.html">Vancouver</a>
+        <a data-soon="Home Care Richmond" href="richmond.html">Richmond</a>
+        <a data-soon="Home Care Burnaby" href="burnaby.html">Burnaby</a>
+        <a data-soon="Home Care Surrey" href="surrey.html">Surrey</a>
+      </div>
+    </details>
+
+    <details class="drawer-group">
+      <summary>For Healthcare Professionals</summary>
+      <div class="drawer-sublinks">
+        <a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">For Healthcare Professionals</a>
+        <a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a>
+        <a data-soon="Referral Process" href="healthcare-referral-process.html">Referral Process</a>
+        <a data-soon="For Hospital Discharge Planners" href="hospital-discharge-planners.html">For Hospital Discharge Planners</a>
+      </div>
+    </details>
+
+    <details class="drawer-group">
+      <summary>About OnPoint</summary>
+      <div class="drawer-sublinks">
+        <a href="about-us.html">About Us</a>
+        <a href="our-care-team.html">Our Care Team</a>
+        <a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a>
+        <a data-soon="How It Works" href="how-it-works.html">How It Works</a>
+        <a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a>
+        <a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a>
+      </div>
+    </details>
+
+    <details class="drawer-group">
+      <summary>Resources</summary>
+      <div class="drawer-sublinks">
+        <a href="resources.html">Resources &amp; Family Guides</a>
+        <a href="faqs.html">Frequently Asked Questions</a>
+        <a data-soon="Care Stories" href="care-stories.html">Care Stories</a>
+      </div>
+    </details>
+
+    <a href="contact.html">Contact Us</a>
+  </div>
+  <div class="drawer-actions">
+    <a href="care-assessment.html" class="btn btn-primary btn-block">Book a Care Assessment</a>
+    <a href="tel:+16040000000" class="btn btn-outline btn-block">Call Care Team: +1 (604) 000-0000</a>
+    <button class="btn btn-sage btn-block" onclick="openWhatsAppModal(); toggleMobileMenu();">Chat via WhatsApp</button>
+  </div>
+</div>
+<div class="drawer-backdrop" id="drawerBackdrop" onclick="toggleMobileMenu()"></div>
+</div>
+<!-- /INCLUDE: header -->
+
+
+<main id="mainContent">
     <!-- HERO SECTION -->
     <section class="hero-section">
       <div class="container hero-container">
         <div class="hero-content">
           <div class="hero-badge">
-            <span class="badge-icon">🌿</span>
+            <span class="badge-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13C4 7 11 2 20 2c0 9-5 16-11 16c-1.5 0-3-.5-4-1.5"></path><path d="M4 22c4-4 7-9 7-14"></path></svg></span>
             <span>Premium In-Home Healthcare • Vancouver, Richmond, Burnaby &amp; Surrey, BC</span>
           </div>
           <h1 class="hero-title">
@@ -865,7 +843,7 @@
 
           <!-- Clinical Disclaimer & Partnership Note -->
           <div class="dementia-disclaimer-box">
-            <div class="disclaimer-icon">⚠️</div>
+            <div class="disclaimer-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
             <div class="disclaimer-content">
               <p>
                 <strong>Clinical Notice:</strong> These signs can have many causes and do not by themselves establish
@@ -1114,8 +1092,8 @@
               <div class="cred-group">
                 <h4 class="cred-group-title">Verified Educational Credentials</h4>
                 <ul class="cred-list">
-                  <li><span class="cred-icon">🎓</span> <strong>Master of Public Health (MPH)</strong></li>
-                  <li><span class="cred-icon">🎓</span> <strong>Bachelor of Science in Nursing (BSN)</strong></li>
+                  <li><span class="cred-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg></span> <strong>Master of Public Health (MPH)</strong></li>
+                  <li><span class="cred-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg></span> <strong>Bachelor of Science in Nursing (BSN)</strong></li>
                 </ul>
               </div>
 
@@ -1323,7 +1301,7 @@
 
             <div class="community-highlights">
               <div class="comm-highlight-item">
-                <span class="comm-icon">🤝</span>
+                <span class="comm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 0 0 1.42 0l4.24-4.24a1 1 0 0 0 0-1.42l-5.66-5.66a1 1 0 0 0-1.42 0L9.46 9.8"></path><path d="m7.8 7.8-3.54 3.54a1 1 0 0 0 0 1.42L8.5 17"></path><path d="m14 6 2-2a1 1 0 0 1 1.41 0l3.54 3.54a1 1 0 0 1 0 1.41L18.8 11.1"></path><path d="M2 18h4"></path><path d="M18 22h4"></path></svg></span>
                 <div>
                   <h4 class="comm-item-title">Collaborative Family Approach</h4>
                   <p class="comm-item-desc">We never replace the family's vital role; we provide the clinical
@@ -1331,7 +1309,7 @@
                 </div>
               </div>
               <div class="comm-highlight-item">
-                <span class="comm-icon">🏡</span>
+                <span class="comm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></span>
                 <div>
                   <h4 class="comm-item-title">Familiar Local Context</h4>
                   <p class="comm-item-desc">Caregivers who appreciate home-cooked meals, diverse cultural preferences,
@@ -1862,7 +1840,7 @@
                 </button>
 
                 <p class="form-privacy-note">
-                  🔒 <strong>Strict Privacy:</strong> Your family's details are held in clinical confidence and will
+                  <span class="inline-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></span><strong>Strict Privacy:</strong> Your family's details are held in clinical confidence and will
                   never be shared.
                 </p>
               </form>
@@ -1952,159 +1930,230 @@
     </div>
   </div>
 
-  <!-- FOOTER -->
-  <footer class="main-footer">
-    <div class="container">
-      <div class="footer-top-grid">
-        <!-- Brand Info -->
-        <div class="footer-brand-col">
-          <div class="footer-logo">
-            <span class="footer-logo-chip">
-              <img src="assets/images/logo-mark.png" alt="" width="304" height="320">
-            </span>
-            <div class="logo-text-group">
-              <span class="logo-brand text-white">OnPoint</span>
-              <span class="logo-sub text-sand">Nurse &amp; Home Care</span>
-            </div>
-          </div>
-          <p class="footer-mission-text">
-            "Professional care. Familiar surroundings. Peace of mind for the whole family."
-          </p>
-          <div class="footer-leadership-badge">
-            <span class="f-badge-title">Clinical Leadership:</span>
-            <span class="f-badge-name">Risper Murunga, RN, BSN, MPH</span>
-            <span class="f-badge-sub">20+ Years Clinical Healthcare Experience</span>
-          </div>
+  <!-- INCLUDE: footer -->
+<div id="footer-include">
+<!-- Sticky Mobile Action Bar -->
+<div class="mobile-action-bar" id="mobileActionBar">
+  <a href="tel:+16040000000" class="m-bar-btn m-call-btn">
+    <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path
+        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+      </path>
+    </svg>
+    <span>Call Us</span>
+  </a>
+  <a href="care-assessment.html" class="m-bar-btn m-book-btn">
+    <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="5" y1="12" x2="19" y2="12"></line>
+      <polyline points="12 5 19 12 12 19"></polyline>
+    </svg>
+    <span>Book Assessment</span>
+  </a>
+  <button class="m-bar-btn m-wa-btn" onclick="openWhatsAppModal()" aria-label="Open WhatsApp">
+    <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
+    </svg>
+  </button>
+</div>
 
-          <ul class="footer-contact-list">
-            <li>
-              <strong>Phone:</strong><br>
-              <a href="tel:+16040000000">+1 (604) 000-0000</a> <span class="placeholder-sub">[Phone placeholder]</span>
-            </li>
-            <li>
-              <strong>Email:</strong><br>
-              <a href="mailto:care@onpointhomecare.care">care@onpointhomecare.care</a> <span
-                class="placeholder-sub">[Email placeholder]</span>
-            </li>
-            <li>
-              <strong>Serving:</strong><br>
-              Vancouver, Richmond, Burnaby &amp; Surrey, BC <span class="placeholder-sub">[Address placeholder]</span>
-            </li>
-            <li>
-              <button class="footer-wa-btn" onclick="openWhatsAppModal()">
-                <span>Chat via WhatsApp</span>
-              </button>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Navigation Columns — mapped to the sitemap pillars -->
-        <div class="footer-links-col">
-          <h4 class="footer-col-title">Home Nursing</h4>
-          <ul class="footer-links-list">
-            <li><a href="home-nursing.html">Home Nursing</a></li>
-            <li><a href="post-discharge-nursing.html">Post-Discharge
-                Nursing</a></li>
-            <li><a href="post-operative-care.html">Post-Operative Care</a></li>
-            <li><a href="wound-care.html">Wound Care</a></li>
-            <li><a href="private-nursing.html">Private Nursing</a></li>
-            <li><a href="nursing-health-monitoring.html">Nursing &amp; Health
-                Monitoring</a></li>
-            <li><a href="24-hour-nursing-care.html">24-Hour Nursing Care</a>
-            </li>
-            <li><a href="palliative-care.html">Palliative &amp; End-of-Life
-                Care</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-links-col">
-          <h4 class="footer-col-title">Home Care</h4>
-          <ul class="footer-links-list">
-            <li><a href="services.html">Home Care</a></li>
-            <li><a href="personal-care.html">Personal Care</a></li>
-            <li><a href="companion-care.html">Companion Care</a></li>
-            <li><a href="respite-care.html">Respite Care</a></li>
-            <li><a href="dementia-care.html">Dementia &amp; Alzheimer's Care</a></li>
-            <li><a href="24-hour-home-care.html">24-Hour Home Care</a></li>
-            <li><a href="overnight-care.html">Overnight Care</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-links-col">
-          <h4 class="footer-col-title">Specialized Care</h4>
-          <ul class="footer-links-list">
-            <li><a data-soon="Hospital to Home Care" href="hospital-to-home-care.html">Hospital to Home Care</a>
-            </li>
-            <li><a href="services.html#fall-prevention">Care After a Fall</a></li>
-            <li><a data-soon="Caregiver Burnout & Support" href="caregiver-burnout.html">Caregiver Burnout &amp;
-                Support</a></li>
-            <li><a data-soon="Aging in Place" href="aging-in-place.html">Aging in Place</a></li>
-            <li><a data-soon="Complex Care at Home" href="complex-care-at-home.html">Complex Care at Home</a>
-            </li>
-            <li><a href="services.html#emergency-support">Emergency &amp; First-Aid
-                Response</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-links-col">
-          <h4 class="footer-col-title">Areas We Serve</h4>
-          <ul class="footer-links-list">
-            <li><a data-soon="Home Care Vancouver" href="vancouver.html">Home Care Vancouver</a></li>
-            <li><a data-soon="Home Care Richmond" href="richmond.html">Home Care Richmond</a></li>
-            <li><a data-soon="Home Care Burnaby" href="burnaby.html">Home Care Burnaby</a></li>
-            <li><a data-soon="Home Care Surrey" href="surrey.html">Home Care Surrey</a></li>
-          </ul>
-
-          <h4 class="footer-col-title footer-col-subtitle">For Professionals</h4>
-          <ul class="footer-links-list">
-            <li><a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">Healthcare
-                Professionals</a></li>
-            <li><a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a></li>
-            <li><a data-soon="Referral Process" href="healthcare-referral-process.html">Referral
-                Process</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-links-col">
-          <h4 class="footer-col-title">Company</h4>
-          <ul class="footer-links-list">
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="our-care-team.html">Our Care Team</a></li>
-            <li><a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a></li>
-            <li><a data-soon="How It Works" href="how-it-works.html">How It Works</a></li>
-            <li><a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a></li>
-            <li><a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a></li>
-          </ul>
-
-          <h4 class="footer-col-title footer-col-subtitle">Resources &amp; Contact</h4>
-          <ul class="footer-links-list">
-            <li><a href="resources.html">Family Guides &amp; Resources</a></li>
-            <li><a href="faqs.html">Frequently Asked Questions</a></li>
-            <li><a href="care-assessment.html">Book a Care Assessment</a></li>
-            <li><a data-soon="Get Care Now" href="get-care-now.html">Get Care Now</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
+<!-- WhatsApp Modal -->
+<div class="modal-overlay" id="whatsappModal" onclick="closeModalOnBackdrop(event, 'whatsappModal')">
+  <div class="modal-card">
+    <button class="modal-close" onclick="closeWhatsAppModal()">&times;</button>
+    <div class="modal-header-wa">
+      <div class="wa-modal-icon">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z" />
+        </svg>
       </div>
-
-      <div class="footer-bottom-bar">
-        <div class="footer-bottom-left">
-          <p>&copy; 2026 OnPoint Nurse &amp; Home Care. Serving Vancouver, Richmond, Burnaby &amp; Surrey. All rights
-            reserved.</p>
-        </div>
-        <div class="footer-bottom-right">
-          <a data-soon="Privacy Policy" href="privacy-policy.html">Privacy Policy</a>
-          <span class="footer-sep">•</span>
-          <a data-soon="Terms & Conditions" href="terms.html">Terms &amp; Conditions</a>
-          <span class="footer-sep">•</span>
-          <a data-soon="Accessibility Commitment" href="accessibility.html">Accessibility Commitment</a>
-        </div>
+      <div>
+        <h3>Chat with OnPoint Nurse Care</h3>
+        <p class="modal-sub">Direct WhatsApp Care Inquiry</p>
       </div>
     </div>
-  </footer>
+    <div class="modal-body">
+      <p class="modal-lead">Connect directly with our Lead Registered Nurse or Care Coordinator.</p>
+      <div class="prefilled-prompts">
+        <label>Choose a starting message:</label>
+        <button class="prompt-chip"
+          onclick="setWaPrompt('Hello OnPoint Care team, I would like to book a free in-home care assessment.')">
+          "I want to book an in-home care assessment."
+        </button>
+        <button class="prompt-chip"
+          onclick="setWaPrompt('Hello, I need information about home nursing and post-hospital discharge support.')">
+          "I need post-hospital discharge support."
+        </button>
+        <button class="prompt-chip"
+          onclick="setWaPrompt('Hello, I would like to speak with a Registered Nurse about my parent\'s care needs.')">
+          "I'd like to speak with a Registered Nurse."
+        </button>
+      </div>
+      <textarea id="waCustomMessage" class="form-textarea" rows="3"
+        placeholder="Type your custom question here...">Hello OnPoint Care team, I would like to learn more about your private home nursing and care services in Metro Vancouver.</textarea>
+      <button class="btn btn-sage btn-block btn-lg" onclick="launchWhatsApp()">
+        <span>Open WhatsApp Chat</span>
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
 
-  <!-- Core JavaScript -->
+<!-- Toast Notification -->
+<div class="toast-notification" id="toastNotification">
+  <div class="toast-content">
+    <span class="toast-icon" id="toastIcon">✓</span>
+    <span class="toast-message" id="toastMessage">Your message has been sent successfully.</span>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+  <div class="container">
+    <div class="footer-top-grid">
+      <!-- Brand Info -->
+      <div class="footer-brand-col">
+        <div class="footer-logo">
+          <span class="footer-logo-chip">
+            <img src="assets/images/logo-mark.png" alt="" width="304" height="320">
+          </span>
+          <div class="logo-text-group">
+            <span class="logo-brand text-white">OnPoint</span>
+            <span class="logo-sub text-sand">Nurse &amp; Home Care</span>
+          </div>
+        </div>
+        <p class="footer-mission-text">
+          "Professional care. Familiar surroundings. Peace of mind for the whole family."
+        </p>
+        <div class="footer-leadership-badge">
+          <span class="f-badge-title">Clinical Leadership:</span>
+          <span class="f-badge-name">Risper Murunga, RN, BSN, MPH</span>
+          <span class="f-badge-sub">20+ Years Clinical Healthcare Experience</span>
+        </div>
+
+        <ul class="footer-contact-list">
+          <li>
+            <strong>Phone:</strong><br>
+            <a href="tel:+16040000000">+1 (604) 000-0000</a>
+          </li>
+          <li>
+            <strong>Email:</strong><br>
+            <a href="mailto:care@onpointhomecare.care">care@onpointhomecare.care</a>
+          </li>
+          <li>
+            <strong>Serving:</strong><br>
+            Vancouver, Richmond, Burnaby &amp; Surrey, BC
+          </li>
+          <li>
+            <button class="footer-wa-btn" onclick="openWhatsAppModal()">
+              <span>Chat via WhatsApp</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Navigation Columns — mapped to the sitemap pillars -->
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Home Nursing</h4>
+        <ul class="footer-links-list">
+          <li><a href="home-nursing.html">Home Nursing</a></li>
+          <li><a href="post-discharge-nursing.html">Post-Discharge Nursing</a></li>
+          <li><a href="post-operative-care.html">Post-Operative Care</a></li>
+          <li><a href="wound-care.html">Wound Care</a></li>
+          <li><a href="private-nursing.html">Private Nursing</a></li>
+          <li><a href="nursing-health-monitoring.html">Nursing &amp; Health Monitoring</a></li>
+          <li><a href="24-hour-nursing-care.html">24-Hour Nursing Care</a></li>
+          <li><a href="palliative-care.html">Palliative &amp; End-of-Life Care</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Home Care</h4>
+        <ul class="footer-links-list">
+          <li><a href="services.html">Home Care</a></li>
+          <li><a href="personal-care.html">Personal Care</a></li>
+          <li><a href="companion-care.html">Companion Care</a></li>
+          <li><a href="respite-care.html">Respite Care</a></li>
+          <li><a href="dementia-care.html">Dementia &amp; Alzheimer's Care</a></li>
+          <li><a href="24-hour-home-care.html">24-Hour Home Care</a></li>
+          <li><a href="overnight-care.html">Overnight Care</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Specialized Care</h4>
+        <ul class="footer-links-list">
+          <li><a href="hospital-to-home-care.html">Hospital to Home Care</a></li>
+          <li><a href="care-after-a-fall.html">Care After a Fall</a></li>
+          <li><a href="caregiver-burnout.html">Caregiver Burnout &amp; Support</a></li>
+          <li><a href="aging-in-place.html">Aging in Place</a></li>
+          <li><a href="complex-care-at-home.html">Complex Care at Home</a></li>
+          <li><a href="emergency-first-aid-response.html">Emergency &amp; First-Aid Response</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Areas We Serve</h4>
+        <ul class="footer-links-list">
+          <li><a data-soon="Home Care Vancouver" href="vancouver.html">Home Care Vancouver</a></li>
+          <li><a data-soon="Home Care Richmond" href="richmond.html">Home Care Richmond</a></li>
+          <li><a data-soon="Home Care Burnaby" href="burnaby.html">Home Care Burnaby</a></li>
+          <li><a data-soon="Home Care Surrey" href="surrey.html">Home Care Surrey</a></li>
+        </ul>
+
+        <h4 class="footer-col-title footer-col-subtitle">For Professionals</h4>
+        <ul class="footer-links-list">
+          <li><a data-soon="For Healthcare Professionals" href="healthcare-professionals.html">Healthcare Professionals</a></li>
+          <li><a data-soon="Refer a Patient" href="refer-a-patient.html">Refer a Patient</a></li>
+          <li><a data-soon="Referral Process" href="healthcare-referral-process.html">Referral Process</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Company</h4>
+        <ul class="footer-links-list">
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="our-care-team.html">Our Care Team</a></li>
+          <li><a data-soon="Why OnPoint" href="why-onpoint.html">Why OnPoint</a></li>
+          <li><a data-soon="How It Works" href="how-it-works.html">How It Works</a></li>
+          <li><a data-soon="Reviews & Testimonials" href="reviews.html">Reviews &amp; Testimonials</a></li>
+          <li><a data-soon="Home Care Cost" href="home-care-cost.html">Home Care Cost</a></li>
+        </ul>
+
+        <h4 class="footer-col-title footer-col-subtitle">Resources &amp; Contact</h4>
+        <ul class="footer-links-list">
+          <li><a href="resources.html">Family Guides &amp; Resources</a></li>
+          <li><a href="faqs.html">Frequently Asked Questions</a></li>
+          <li><a href="care-assessment.html">Book a Care Assessment</a></li>
+          <li><a data-soon="Get Care Now" href="get-care-now.html">Get Care Now</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="footer-bottom-left">
+        <p>&copy; 2026 OnPoint Nurse &amp; Home Care. Serving Vancouver, Richmond, Burnaby &amp; Surrey. All rights reserved.</p>
+      </div>
+      <div class="footer-bottom-right">
+        <a data-soon="Privacy Policy" href="privacy-policy.html">Privacy Policy</a>
+        <span class="footer-sep">•</span>
+        <a data-soon="Terms & Conditions" href="terms.html">Terms &amp; Conditions</a>
+        <span class="footer-sep">•</span>
+        <a data-soon="Accessibility Commitment" href="accessibility.html">Accessibility Commitment</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+<!-- /INCLUDE: footer -->
+
+
+<!-- Core JavaScript -->
   <script src="app.js"></script>
 </body>
 
