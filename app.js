@@ -265,35 +265,12 @@ function handleLeadFormSubmit(e, formId) {
   form.reset();
 }
 
-// WhatsApp Direct Connect Modal
-function openWhatsAppModal() {
-  const modal = document.getElementById('whatsappModal');
-  if (modal) modal.classList.add('open');
-}
-
-function closeWhatsAppModal() {
-  const modal = document.getElementById('whatsappModal');
-  if (modal) modal.classList.remove('open');
-}
-
+// Modal Helpers
 function closeModalOnBackdrop(e, modalId) {
   if (e.target.id === modalId) {
-    document.getElementById(modalId).classList.remove('open');
+    const el = document.getElementById(modalId);
+    if (el) el.classList.remove('open');
   }
-}
-
-function setWaPrompt(text) {
-  const textarea = document.getElementById('waCustomMessage');
-  if (textarea) textarea.value = text;
-}
-
-function launchWhatsApp() {
-  const message = encodeURIComponent(document.getElementById('waCustomMessage').value || 'Hello OnPoint Care Team, I would like to inquire about home care in Metro Vancouver.');
-  // Placeholder number (+1 604 000 0000) — replace with the client's real WhatsApp line
-  const phone = '16040000000';
-  const url = `https://wa.me/${phone}?text=${message}`;
-  window.open(url, '_blank');
-  closeWhatsAppModal();
 }
 
 // Toast System
