@@ -54,12 +54,14 @@ htmlFiles.forEach(file => {
   content = content.replace(/\+16040000000/g, '+17782441332');
 
   // 4. Update Service Areas across content
-  content = content.replace(/Vancouver,\s*Richmond,\s*Burnaby\s*&amp;\s*Surrey/g, 'Burnaby, Surrey, New Westminster &amp; Richmond');
-  content = content.replace(/Vancouver,\s*Richmond,\s*Burnaby\s*&\s*Surrey/g, 'Burnaby, Surrey, New Westminster & Richmond');
-  content = content.replace(/Vancouver,\s*Richmond,\s*Burnaby\s*and\s*Surrey/g, 'Burnaby, Surrey, New Westminster and Richmond');
+  content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*&amp;\s*Richmond/g, 'Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond');
+  content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*&\s*Richmond/g, 'Vancouver, Burnaby, Surrey, New Westminster & Richmond');
+  content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*and\s*Richmond/g, 'Vancouver, Burnaby, Surrey, New Westminster and Richmond');
+  content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster,\s*Richmond/g, 'Vancouver, Burnaby, Surrey, New Westminster, Richmond');
+  content = content.replace(/Vancouver,\s*Richmond,\s*Burnaby,\s*Surrey/g, 'Vancouver, Burnaby, Surrey, New Westminster & Richmond');
 
   // 5. Clean up placeholder tags in content
-  content = content.replace(/\s*<span class="placeholder-tag">\[[^\]]+\]<\/span>/g, '');
+  content = content.replace(/\s*<span[^>]*class="placeholder-tag"[^>]*>[\s\S]*?<\/span>/g, '');
 
   // 6. Handle Index page specific card
   if (file === 'index.html') {
@@ -68,12 +70,13 @@ htmlFiles.forEach(file => {
       const fbCard = `<!-- Facebook Social Connect -->\n            <a href="https://www.facebook.com/profile.php?id=61590981071077" target="_blank" rel="noopener noreferrer" class="social-connect-card">\n              <div class="sc-icon">\n                <svg viewBox="0 0 24 24" fill="currentColor">\n                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>\n                </svg>\n              </div>\n              <div class="sc-info">\n                <h4 class="sc-title">Connect on Facebook</h4>\n                <p class="sc-desc">Follow OnPoint Nurse &amp; Home Care for clinical tips, updates &amp; community support.</p>\n              </div>\n              <span class="sc-btn-tag">Follow Us &rarr;</span>\n            </a>\n          </div>\n\n          `;
       content = content.replace(waCardRegex, fbCard);
     }
+    content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*&amp;\s*Richmond,\s*BC/g, 'Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond, BC');
   }
 
   // 7. Handle Contact page specific layout
   if (file === 'contact.html') {
     content = content.replace(/\+1 \(604\) 000-0000/g, '(778) 244-1332');
-    content = content.replace(/Vancouver, Richmond, Burnaby &amp; Surrey, BC/g, 'Burnaby, Surrey, New Westminster &amp; Richmond, BC');
+    content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*&amp;\s*Richmond,\s*BC/g, 'Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond, BC');
   }
 
   fs.writeFileSync(filePath, content, 'utf8');
