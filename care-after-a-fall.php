@@ -111,7 +111,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-sage">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Care After a Fall</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Care After a Fall</span></div>
         <h1 class="page-title">Care After a Fall &amp; Fall Recovery</h1>
         <p class="page-tagline">Restoring mobility, confidence, and home safety for seniors following a slip, trip, or fracture across Metro Vancouver.</p>
       </div>
@@ -308,8 +308,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment" class="btn btn-primary btn-sm">Book Fall Risk Assessment</a>
-              <a href="contact" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
+              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book Fall Risk Assessment</a>
+              <a href="contact.php" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
             </div>
           </div>
         </div>

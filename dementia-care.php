@@ -48,7 +48,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
           <div class="container">
-            <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Dementia &amp; Memory Care</span></div>
+            <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Dementia &amp; Memory Care</span></div>
             <h1 class="page-title">Specialized Dementia &amp; Memory Care</h1>
             <p class="page-tagline">Person-centered cognitive care, early detection guidance, and compassionate family
               support across Metro Vancouver, BC.</p>
@@ -232,7 +232,7 @@
             <div class="screener-result-box" id="screenerResult">
               <div class="res-badge">Observation Guidance</div>
               <p id="screenerFeedback">Select any checkboxes above to view clinical recommendations for your family.</p>
-              <a href="care-assessment" class="btn btn-primary btn-sm">Book a Professional
+              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Professional
                 Memory Assessment</a>
             </div>
           </div>

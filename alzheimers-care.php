@@ -150,7 +150,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Alzheimer's Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Alzheimer's Care</span></div>
         <h1 class="page-title">Alzheimer's Care &amp; Memory Support</h1>
         <p class="page-tagline">Stage-specific cognitive support, wandering prevention, and compassionate daily assistance allowing seniors with Alzheimer's to thrive safely at home.</p>
       </div>
@@ -430,7 +430,7 @@
           <h2 class="s-title">Give Your Loved One Compassionate Alzheimer's Care</h2>
           <p class="s-desc">Our Lead Registered Nurse is ready to help your family navigate this journey with dignity and peace of mind.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Free Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Free Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

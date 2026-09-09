@@ -111,7 +111,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Aging in Place</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Aging in Place</span></div>
         <h1 class="page-title">Aging in Place with Dignity</h1>
         <p class="page-tagline">Empowering seniors to remain safe, comfortable, and independent in their cherished homes throughout Metro Vancouver.</p>
       </div>
@@ -308,8 +308,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment" class="btn btn-primary btn-sm">Book an Independence Assessment</a>
-              <a href="contact" class="btn btn-outline btn-sm">Talk with Our Nursing Team</a>
+              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book an Independence Assessment</a>
+              <a href="contact.php" class="btn btn-outline btn-sm">Talk with Our Nursing Team</a>
             </div>
           </div>
         </div>

@@ -148,7 +148,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals">For
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals.php">For
             Professionals</a> / <span>Hospital Discharge Planners</span></div>
         <h1 class="page-title">For Hospital Discharge Planners &amp; Coordinators</h1>
         <p class="page-tagline">Rapid-response bedside assessments, medical equipment staging, and skilled nursing care
@@ -493,7 +493,7 @@
           <p class="s-desc">Call our direct discharge coordinator line for immediate hospital bedside response.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
             <a href="tel:+17782441332" class="btn btn-primary btn-lg">Call Coordinator Line: (778) 244-1332</a>
-            <a href="refer-a-patient" class="btn btn-outline btn-lg">Online Patient Referral</a>
+            <a href="refer-a-patient.php" class="btn btn-outline btn-lg">Online Patient Referral</a>
           </div>
         </div>
       </div>

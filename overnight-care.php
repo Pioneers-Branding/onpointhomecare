@@ -146,7 +146,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Overnight Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Overnight Care</span></div>
         <h1 class="page-title">Overnight Care</h1>
         <p class="page-tagline">Somebody there through the night &mdash; so the nights stop being the thing everyone dreads.</p>
       </div>
@@ -372,7 +372,7 @@
                 <div class="inc-item">✓ Morning wake, dressing and breakfast support</div>
               </div>
             </div>
-            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -610,17 +610,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="24-hour-home-care">
+          <a class="related-service-card" href="24-hour-home-care.php">
             <h3 class="wp-title">24-Hour Home Care</h3>
             <p class="wp-desc">Continuous cover where days as well as nights need support.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="respite-care">
+          <a class="related-service-card" href="respite-care.php">
             <h3 class="wp-title">Respite Care</h3>
             <p class="wp-desc">Broader cover so a family carer can rest or get away.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="dementia-care">
+          <a class="related-service-card" href="dementia-care.php">
             <h3 class="wp-title">Dementia &amp; Alzheimer's Care</h3>
             <p class="wp-desc">Specialized memory care, including night-time agitation.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -632,8 +632,8 @@
         <h3>Is Anyone in Your House Actually Sleeping?</h3>
         <p>Book a care assessment and we will work out what the nights really need &mdash; and be straight with you about which type of cover that is.</p>
         <div class="btn-group">
-          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

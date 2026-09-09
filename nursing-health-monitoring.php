@@ -146,7 +146,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Nursing &amp; Health Monitoring</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Nursing &amp; Health Monitoring</span></div>
         <h1 class="page-title">Nursing &amp; Health Monitoring</h1>
         <p class="page-tagline">Regular clinical observation that turns scattered impressions into a record you and the doctor can both act on.</p>
       </div>
@@ -370,7 +370,7 @@
                 <div class="inc-item">✓ Escalation when readings or symptoms fall outside expectations</div>
               </div>
             </div>
-            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -610,17 +610,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="home-nursing">
+          <a class="related-service-card" href="home-nursing.php">
             <h3 class="wp-title">Home Nursing</h3>
             <p class="wp-desc">The wider clinical nursing program this sits within.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="post-discharge-nursing">
+          <a class="related-service-card" href="post-discharge-nursing.php">
             <h3 class="wp-title">Post-Discharge Nursing</h3>
             <p class="wp-desc">Intensive monitoring through the weeks after a hospital stay.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="private-nursing">
+          <a class="related-service-card" href="private-nursing.php">
             <h3 class="wp-title">Private Nursing</h3>
             <p class="wp-desc">Monitoring arranged on your own schedule.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -632,8 +632,8 @@
         <h3>Worried Something Is Slowly Changing?</h3>
         <p>Book a care assessment. A baseline taken now is what makes it possible to prove &mdash; or rule out &mdash; a decline later.</p>
         <div class="btn-group">
-          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

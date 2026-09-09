@@ -111,7 +111,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Hospital to Home Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Hospital to Home Care</span></div>
         <h1 class="page-title">Hospital to Home Care</h1>
         <p class="page-tagline">Safe, seamless bedside-to-home transition and clinical recovery nursing designed to prevent readmission across Metro Vancouver.</p>
       </div>
@@ -309,8 +309,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
-              <a href="contact" class="btn btn-outline btn-sm">Contact Nursing Team</a>
+              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+              <a href="contact.php" class="btn btn-outline btn-sm">Contact Nursing Team</a>
             </div>
           </div>
         </div>

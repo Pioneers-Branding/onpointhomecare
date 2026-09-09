@@ -206,7 +206,7 @@
           </div>
           <h3>Hospital Discharge Teams</h3>
           <p>Bedside consultations, rapid equipment sourcing, DME coordination, and doorstep patient reception for complex surgical and medical discharges.</p>
-          <a href="hospital-discharge-planners" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Discharge Planners &rarr;</a>
+          <a href="hospital-discharge-planners.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Discharge Planners &rarr;</a>
         </div>
         <div class="signal-card">
           <div style="font-size: 1.5rem; color: var(--primary-teal); margin-bottom: 0.5rem;">
@@ -214,7 +214,7 @@
           </div>
           <h3>Physicians &amp; Specialists</h3>
           <p>Direct patient referral portal, medication reconciliation, hypertension/diabetic tracking relays, and routine clinical charting to your clinic.</p>
-          <a href="physician-referrals" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Physician Portal &rarr;</a>
+          <a href="physician-referrals.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Physician Portal &rarr;</a>
         </div>
         <div class="signal-card">
           <div style="font-size: 1.5rem; color: var(--primary-teal); margin-bottom: 0.5rem;">
@@ -222,7 +222,7 @@
           </div>
           <h3>Direct Patient Referral</h3>
           <p>Fast-track electronic referral form with instant confirmation, 2-hour clinical triage, and direct communication with family members.</p>
-          <a href="refer-a-patient" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Refer a Patient &rarr;</a>
+          <a href="refer-a-patient.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Refer a Patient &rarr;</a>
         </div>
         <div class="signal-card">
           <div style="font-size: 1.5rem; color: var(--primary-teal); margin-bottom: 0.5rem;">
@@ -230,7 +230,7 @@
           </div>
           <h3>The Referral Process</h3>
           <p>Transparent step-by-step pathway from initial referral submission to bedside intake, home setup, and scheduled medical debriefs.</p>
-          <a href="healthcare-referral-process" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Process &rarr;</a>
+          <a href="healthcare-referral-process.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Process &rarr;</a>
         </div>
       </div>
 
@@ -429,7 +429,7 @@
           <h2 class="s-title">Need to Refer a Patient Immediately?</h2>
           <p class="s-desc">Call our direct healthcare partner line or submit a digital patient referral.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="refer-a-patient" class="btn btn-primary btn-lg">Submit Patient Referral</a>
+            <a href="refer-a-patient.php" class="btn btn-primary btn-lg">Submit Patient Referral</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Partner Line: (778) 244-1332</a>
           </div>
         </div>

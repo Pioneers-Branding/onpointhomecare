@@ -146,7 +146,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals">For Professionals</a> / <span>Referral Process</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals.php">For Professionals</a> / <span>Referral Process</span></div>
         <h1 class="page-title">The Healthcare Referral Process</h1>
         <p class="page-tagline">A seamless, nurse-coordinated pathway ensuring rapid intake, comprehensive clinical handover, and closed-loop physician communication.</p>
       </div>
@@ -397,7 +397,7 @@
           <h2 class="s-title">Start a Patient Referral Today</h2>
           <p class="s-desc">Use our fast-track online referral form or contact our clinical triage desk directly.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="refer-a-patient" class="btn btn-primary btn-lg">Submit Patient Referral</a>
+            <a href="refer-a-patient.php" class="btn btn-primary btn-lg">Submit Patient Referral</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Triage Desk: (778) 244-1332</a>
           </div>
         </div>

@@ -61,14 +61,14 @@
           </p>
 
           <div class="hero-cta-group">
-            <a href="care-assessment" class="btn btn-primary btn-lg">
+            <a href="care-assessment.php" class="btn btn-primary btn-lg">
               <span>Book a Care Assessment</span>
               <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <a href="services" class="btn btn-secondary btn-lg">
+            <a href="services.php" class="btn btn-secondary btn-lg">
               <span>Explore Our Services</span>
             </a>
           </div>
@@ -257,7 +257,7 @@
             </div>
 
             <div class="intro-action">
-              <a href="about-us" class="btn btn-secondary">
+              <a href="about-us.php" class="btn btn-secondary">
                 <span>Learn About Our Approach</span>
                 <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -487,7 +487,7 @@
         </div>
 
         <div class="services-footer-cta">
-          <a href="services" class="btn btn-primary">
+          <a href="services.php" class="btn btn-primary">
             <span>View All Elder Care Services</span>
             <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -589,14 +589,14 @@
           </div>
 
           <div class="dementia-action-row">
-            <a href="dementia-care" class="btn btn-sand">
+            <a href="dementia-care.php" class="btn btn-sand">
               <span>Learn About Memory &amp; Dementia Care</span>
               <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <a href="care-assessment" class="btn btn-outline-white">
+            <a href="care-assessment.php" class="btn btn-outline-white">
               <span>Request a Cognitive Assessment</span>
             </a>
           </div>
@@ -712,7 +712,7 @@
             <p><strong>Notice persistent or worsening changes in your loved one?</strong> Speak with an experienced
               registered nurse today to explore gentle in-home evaluations.</p>
           </div>
-          <a href="contact" class="btn btn-primary">
+          <a href="contact.php" class="btn btn-primary">
             <span>Talk to Our Care Team</span>
             <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -846,7 +846,7 @@
             </div>
 
             <div class="leader-action">
-              <a href="our-care-team" class="btn btn-primary">
+              <a href="our-care-team.php" class="btn btn-primary">
                 <span>Meet Our Care Team &amp; Clinical Values</span>
                 <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -933,7 +933,7 @@
         </div>
 
         <div class="steps-cta-center">
-          <a href="care-assessment" class="btn btn-primary btn-lg">
+          <a href="care-assessment.php" class="btn btn-primary btn-lg">
             <span>Start Your Care Journey</span>
             <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -1055,7 +1055,7 @@
             </div>
 
             <div class="community-cta">
-              <a href="contact" class="btn btn-secondary">
+              <a href="contact.php" class="btn btn-secondary">
                 <span>Speak With Our Care Team</span>
                 <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -1382,7 +1382,7 @@
               your options.
             </p>
             <div class="cta-buttons-group">
-              <a href="care-assessment" class="btn btn-primary btn-lg">
+              <a href="care-assessment.php" class="btn btn-primary btn-lg">
                 <span>Book a Care Assessment</span>
                 <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>

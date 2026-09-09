@@ -172,7 +172,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="about-us">About</a> / <span>Reviews &amp; Testimonials</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="about-us.php">About</a> / <span>Reviews &amp; Testimonials</span></div>
         <h1 class="page-title">Client Reviews &amp; Family Stories</h1>
         <p class="page-tagline">Real feedback from families across Metro Vancouver who count on OnPoint for clinical nursing, dementia support, and compassionate daily care.</p>
       </div>
@@ -336,7 +336,7 @@
               <line x1="10" y1="14" x2="21" y2="3"></line>
             </svg>
           </a>
-          <a href="contact" class="btn btn-outline">Send Private Feedback</a>
+          <a href="contact.php" class="btn btn-outline">Send Private Feedback</a>
         </div>
       </div>
 
@@ -427,7 +427,7 @@
           <h2 class="s-title">Start Your Family's Care Journey Today</h2>
           <p class="s-desc">Join dozens of Metro Vancouver families who experience peace of mind with our nurse-led care model.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Free Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Free Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

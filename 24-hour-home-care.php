@@ -146,7 +146,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>24-Hour Home Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>24-Hour Home Care</span></div>
         <h1 class="page-title">24-Hour Home Care</h1>
         <p class="page-tagline">Continuous support at home for someone who can no longer safely be left alone &mdash; the alternative worth examining before residential care.</p>
       </div>
@@ -372,7 +372,7 @@
                 <div class="inc-item">✓ Structured shift handover and daily records</div>
               </div>
             </div>
-            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -610,17 +610,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="overnight-care">
+          <a class="related-service-card" href="overnight-care.php">
             <h3 class="wp-title">Overnight Care</h3>
             <p class="wp-desc">Night-only cover where the days are still manageable.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="24-hour-nursing-care">
+          <a class="related-service-card" href="24-hour-nursing-care.php">
             <h3 class="wp-title">24-Hour Nursing Care</h3>
             <p class="wp-desc">Continuous cover where clinical nursing is required.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="respite-care">
+          <a class="related-service-card" href="respite-care.php">
             <h3 class="wp-title">Respite Care</h3>
             <p class="wp-desc">Shorter breaks for a family carer.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -632,8 +632,8 @@
         <h3>Has Caring at Home Stopped Being Manageable?</h3>
         <p>Talk to us before deciding on residential care. Continuous support at home is worth examining properly first.</p>
         <div class="btn-group">
-          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

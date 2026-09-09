@@ -111,7 +111,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Emergency &amp; First-Aid Response</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Emergency &amp; First-Aid Response</span></div>
         <h1 class="page-title">Emergency &amp; First-Aid Response</h1>
         <p class="page-tagline">Rapid in-home clinical triage, certified CPR first-aid protocols, and seamless paramedic handover across Metro Vancouver.</p>
       </div>
@@ -286,8 +286,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment" class="btn btn-primary btn-sm">Book a Clinical Assessment</a>
-              <a href="contact" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
+              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Clinical Assessment</a>
+              <a href="contact.php" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
             </div>
           </div>
         </div>

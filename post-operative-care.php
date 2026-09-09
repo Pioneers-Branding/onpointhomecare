@@ -146,7 +146,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Post-Operative Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Post-Operative Care</span></div>
         <h1 class="page-title">Post-Operative Care</h1>
         <p class="page-tagline">Surgical recovery does not end at the hospital door. Skilled nursing support through the weeks that decide how well someone heals.</p>
       </div>
@@ -372,7 +372,7 @@
                 <div class="inc-item">✓ Reporting back to the surgical team and family</div>
               </div>
             </div>
-            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -612,17 +612,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="wound-care">
+          <a class="related-service-card" href="wound-care.php">
             <h3 class="wp-title">Wound Care</h3>
             <p class="wp-desc">Specialist assessment and dressing management for incisions and complex wounds.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="post-discharge-nursing">
+          <a class="related-service-card" href="post-discharge-nursing.php">
             <h3 class="wp-title">Post-Discharge Nursing</h3>
             <p class="wp-desc">Broader transitional support after any hospital stay.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="24-hour-nursing-care">
+          <a class="related-service-card" href="24-hour-nursing-care.php">
             <h3 class="wp-title">24-Hour Nursing Care</h3>
             <p class="wp-desc">Round-the-clock cover for the highest-dependency early days.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -634,8 +634,8 @@
         <h3>Surgery Coming Up?</h3>
         <p>The best time to arrange post-operative care is before the operation. Book a care assessment and we will plan the recovery with you.</p>
         <div class="btn-group">
-          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

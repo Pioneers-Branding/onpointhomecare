@@ -111,7 +111,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Complex Care at Home</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Complex Care at Home</span></div>
         <h1 class="page-title">Complex Medical Care at Home</h1>
         <p class="page-tagline">Advanced, clinical nursing and multidisciplinary support for high-acuity chronic conditions across Metro Vancouver.</p>
       </div>
@@ -308,8 +308,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment" class="btn btn-primary btn-sm">Book a Complex Care Assessment</a>
-              <a href="contact" class="btn btn-outline btn-sm">Speak with Clinical Leadership</a>
+              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Complex Care Assessment</a>
+              <a href="contact.php" class="btn btn-outline btn-sm">Speak with Clinical Leadership</a>
             </div>
           </div>
         </div>

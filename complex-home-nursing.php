@@ -150,7 +150,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="home-nursing">Home Nursing</a> /
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="home-nursing.php">Home Nursing</a> /
           <span>Complex Home Nursing</span></div>
         <h1 class="page-title">Complex Home Nursing &amp; High-Acuity Care</h1>
         <p class="page-tagline">Specialized, hospital-grade Registered Nurse care delivered in the comfort of home
@@ -489,7 +489,7 @@
           <h2 class="s-title">Need Complex Nursing Care at Home?</h2>
           <p class="s-desc">Our Registered Nurses are available for clinical consultations across Metro Vancouver.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Clinical Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Clinical Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Nurse Team: (778) 244-1332</a>
           </div>
         </div>

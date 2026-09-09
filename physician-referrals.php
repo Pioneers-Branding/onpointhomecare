@@ -149,7 +149,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals">For
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals.php">For
             Professionals</a> / <span>Physicians &amp; Clinics</span></div>
         <h1 class="page-title">For Physicians &amp; Medical Specialists</h1>
         <p class="page-tagline">Extend your clinical reach into the patient's home with closed-loop progress charting,
@@ -484,7 +484,7 @@
           <p class="s-desc">Call our direct healthcare professional line for immediate clinical consultation.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
             <a href="tel:+17782441332" class="btn btn-primary btn-lg">Call Physician Desk: (778) 244-1332</a>
-            <a href="refer-a-patient" class="btn btn-outline btn-lg">Submit Patient Referral</a>
+            <a href="refer-a-patient.php" class="btn btn-outline btn-lg">Submit Patient Referral</a>
           </div>
         </div>
       </div>

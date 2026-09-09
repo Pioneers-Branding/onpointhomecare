@@ -111,7 +111,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Caregiver Burnout &amp; Support</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Caregiver Burnout &amp; Support</span></div>
         <h1 class="page-title">Caregiver Burnout &amp; Family Relief</h1>
         <p class="page-tagline">Restoring balance, emotional well-being, and vital rest for family caregivers caring for aging parents across Metro Vancouver.</p>
       </div>
@@ -286,8 +286,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment" class="btn btn-primary btn-sm">Schedule a Respite Assessment</a>
-              <a href="contact" class="btn btn-outline btn-sm">Discuss Relief Options</a>
+              <a href="care-assessment.php" class="btn btn-primary btn-sm">Schedule a Respite Assessment</a>
+              <a href="contact.php" class="btn btn-outline btn-sm">Discuss Relief Options</a>
             </div>
           </div>
         </div>

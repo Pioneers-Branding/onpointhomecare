@@ -177,7 +177,7 @@
               </svg>
               <span>Call Urgent Hotline: (778) 244-1332</span>
             </a>
-            <a href="care-assessment" class="btn btn-sage btn-lg">
+            <a href="care-assessment.php" class="btn btn-sage btn-lg">
               <span>Book Urgent Assessment</span>
             </a>
           </div>
@@ -476,7 +476,7 @@
           <p class="s-desc">Our Registered Nurse supervisors are on standby to evaluate your family's needs and dispatch trusted care today.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
             <a href="tel:+17782441332" class="btn btn-primary btn-lg">Call Hotline: (778) 244-1332</a>
-            <a href="care-assessment" class="btn btn-sage btn-lg">Book Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-sage btn-lg">Book Care Assessment</a>
           </div>
         </div>
       </div>

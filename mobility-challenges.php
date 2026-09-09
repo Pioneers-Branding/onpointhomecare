@@ -147,7 +147,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions">Conditions</a> / <span>Mobility Challenges</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions.php">Conditions</a> / <span>Mobility Challenges</span></div>
         <h1 class="page-title">Mobility Challenges &amp; Safe Transfer Support</h1>
         <p class="page-tagline">Expert physical transfer assistance, fall mitigation, and gait support that restores confidence and protects against injury at home.</p>
       </div>
@@ -416,7 +416,7 @@
           <h2 class="s-title">Restore Safe Mobility for Your Loved One</h2>
           <p class="s-desc">Contact our nurse-directed team today for a comprehensive mobility evaluation.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment" class="btn btn-primary btn-lg">Book Mobility Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book Mobility Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

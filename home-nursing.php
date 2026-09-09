@@ -146,7 +146,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Home Nursing</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Home Nursing</span></div>
         <h1 class="page-title">Home Nursing Care</h1>
         <p class="page-tagline">Clinical nursing support delivered in the place your loved one already feels safest — their own home, across Metro Vancouver, BC.</p>
       </div>
@@ -371,7 +371,7 @@
                 <div class="inc-item">✓ Escalation when something needs a doctor's attention</div>
               </div>
             </div>
-            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -612,17 +612,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="post-discharge-nursing">
+          <a class="related-service-card" href="post-discharge-nursing.php">
             <h3 class="wp-title">Post-Discharge Nursing</h3>
             <p class="wp-desc">Structured support for the first weeks after a hospital stay.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="nursing-health-monitoring">
+          <a class="related-service-card" href="nursing-health-monitoring.php">
             <h3 class="wp-title">Nursing &amp; Health Monitoring</h3>
             <p class="wp-desc">Ongoing observation of vitals and chronic conditions.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="wound-care">
+          <a class="related-service-card" href="wound-care.php">
             <h3 class="wp-title">Wound Care</h3>
             <p class="wp-desc">Assessment, dressing changes and healing documentation.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -634,8 +634,8 @@
         <h3>Not Sure If Home Nursing Is What You Need?</h3>
         <p>Book a care assessment and our Lead Registered Nurse will walk you through the options honestly &mdash; including when nursing is not the answer.</p>
         <div class="btn-group">
-          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

@@ -139,7 +139,7 @@
           <div class="page-cta-banner">
             <h3>Learn How We Can Help Your Loved One</h3>
             <p>Schedule an in-home clinical care consultation with our Vancouver nursing team.</p>
-            <a href="care-assessment" class="btn btn-primary">Book a Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary">Book a Care Assessment</a>
           </div>
         </div>
   </main>

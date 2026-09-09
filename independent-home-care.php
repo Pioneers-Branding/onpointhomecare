@@ -150,7 +150,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Independent Home Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Independent Home Care</span></div>
         <h1 class="page-title">Independent Home Care &amp; Daily Living Support</h1>
         <p class="page-tagline">Discreet, autonomy-preserving assistance that empowers older adults to maintain their independence, lifestyle, and comfort safely at home.</p>
       </div>
@@ -429,7 +429,7 @@
           <h2 class="s-title">Help Your Parent Stay Safely at Home</h2>
           <p class="s-desc">Contact our care team today to design a light, respectful independent living plan.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Free Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Free Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

@@ -146,7 +146,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Personal Care &amp; Daily Living</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Personal Care &amp; Daily Living</span></div>
         <h1 class="page-title">Personal Care &amp; Daily Living</h1>
         <p class="page-tagline">Dignified help with the everyday tasks that have become difficult &mdash; delivered gently, privately and at the person's own pace.</p>
       </div>
@@ -371,7 +371,7 @@
                 <div class="inc-item">✓ Light housekeeping and laundry</div>
               </div>
             </div>
-            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -611,17 +611,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="companion-care">
+          <a class="related-service-card" href="companion-care.php">
             <h3 class="wp-title">Companion Care</h3>
             <p class="wp-desc">Company, conversation and support getting out of the house.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="respite-care">
+          <a class="related-service-card" href="respite-care.php">
             <h3 class="wp-title">Respite Care</h3>
             <p class="wp-desc">Cover so a family carer can rest, work or take a break.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="home-nursing">
+          <a class="related-service-card" href="home-nursing.php">
             <h3 class="wp-title">Home Nursing</h3>
             <p class="wp-desc">Clinical nursing support where care aide scope is not enough.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -633,8 +633,8 @@
         <h3>Has Everyday Life Become a Struggle?</h3>
         <p>Book a care assessment and we will talk through what support would actually help &mdash; starting small if that is what it takes.</p>
         <div class="btn-group">
-          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

@@ -433,7 +433,7 @@
           <h2 class="s-title">Get an Exact Care Estimate for Your Family</h2>
           <p class="s-desc">Tell us your loved one's care requirements and our nursing team will provide a transparent, personalized breakdown.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Free Assessment</a>
+            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Free Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>
