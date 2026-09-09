@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24-Hour Nursing Care at Home | OnPoint Nurse &amp; Home Care</title>
+  <meta name="description" content="Round-the-clock nursing cover at home across Metro Vancouver for high-dependency needs, unsafe nights and complex care that visits alone cannot support.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "24-Hour Nursing Care",
+      "serviceType": "24-Hour Nursing Care",
+      "description": "Round-the-clock nursing cover at home across Metro Vancouver for high-dependency needs, unsafe nights and complex care that visits alone cannot support.",
+      "provider": {
+        "@type": "HomeHealthCareService",
+        "name": "OnPoint Nurse & Home Care"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Vancouver"
+        },
+        {
+          "@type": "City",
+          "name": "Richmond"
+        },
+        {
+          "@type": "City",
+          "name": "Burnaby"
+        },
+        {
+          "@type": "City",
+          "name": "Surrey"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between 24-hour care and overnight care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Overnight care covers the night alone — typically where days are manageable but nights are not. Twenty-four hour care is continuous cover across the full day and night, provided by a rostered team working in shifts. Many families begin with overnight cover and move to continuous care as dependency increases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it staffed by one person or a team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A team, working in shifts. No single person can safely provide alert, competent care around the clock — anyone offering that is offering something that will fail. Structured handovers between shifts are part of how the service works."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is 24-hour care at home better than a care home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not automatically, and we would rather be honest about that than sell you something. It depends on clinical needs, the suitability of the home, the family's circumstances and cost. What it does offer is familiar surroundings, one-to-one attention and the family's own routine. Our Lead Registered Nurse will give you a straight assessment of whether it is realistic in your case."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can continuous care start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on staffing availability at the time, and continuous cover takes more arranging than a visiting schedule. Call us as early as you can — even before a decision is made — so we can tell you honestly what is possible and when."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this cheaper or more expensive than a care home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Continuous one-to-one nursing at home is generally a significant commitment, and for many families the cost is the deciding factor. We will give you clear written figures at the assessment so you can compare properly rather than guess. What home care offers in exchange is familiar surroundings, one-to-one attention and the family's own routine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide live-in care as well as shift-based cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arrangements vary with the clinical need, and the right structure depends on how much genuine overnight work is involved. Where someone needs an awake nurse through the night, shift cover is the safe answer. Discuss the specifics at the assessment and we will explain what we can and cannot staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can 24-hour care be arranged temporarily?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and it often is — for a crisis period, the weeks after a major admission, a family carer's illness, or the final phase of life. It does not have to be a permanent arrangement, and we would rather it were the right level for now than a default that continues unexamined."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+
+  <?php include 'header.php'; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main id="mainContent">
+    <div class="page-header-banner banner-teal">
+      <div class="container">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>24-Hour Nursing Care</span></div>
+        <h1 class="page-title">24-Hour Nursing Care</h1>
+        <p class="page-tagline">Continuous nursing presence at home, for situations where scheduled visits are no longer enough.</p>
+      </div>
+    </div>
+
+    <div class="container page-content-block">
+
+      <!-- At a glance -->
+      <div class="svc-facts-strip">
+        <div class="svc-fact">
+          <span class="svc-fact-label">Cover</span>
+          <span class="svc-fact-value">Continuous, day and night</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Staffing</span>
+          <span class="svc-fact-value">A rostered team on shifts</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Handover</span>
+          <span class="svc-fact-value">Structured between every shift</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Often chosen</span>
+          <span class="svc-fact-value">Instead of residential care</span>
+        </div>
+      </div>
+
+      <!-- Overview -->
+      <div class="about-story-grid">
+        <div class="about-story-text">
+          <div class="section-tag">Continuous Cover</div>
+          <h2 class="section-heading">When the Gaps Between Visits Become the Problem</h2>
+          <p class="text-paragraph">There is a point at which visiting care stops working. Not because the visits are poor, but because the risk sits in the hours between them &mdash; the nights, the early mornings, the unwitnessed attempt to get to the bathroom alone.</p>
+          <p class="text-paragraph">For families, this is usually the stage where someone has stopped sleeping properly. A daughter listening for movement through a wall. A spouse in their eighties doing lifts they should not be doing. It is not sustainable, and it is often the point at which residential care starts being discussed.</p>
+          <p class="text-paragraph">Twenty-four hour nursing care is the alternative worth examining first. Continuous cover, in the home, so that somebody qualified is present for whatever the night brings &mdash; and the family can go back to being family.</p>
+          <div class="quote-box-accent">
+            <p class="quote-text-small">Round-the-clock care is often what makes staying at home possible rather than merely preferable.</p>
+          </div>
+        </div>
+        <div class="about-story-media">
+          <img src="assets/images/Fall-Prevention-Home-Safety.webp" alt="An OnPoint home care nurse steadying a senior woman as she uses a hallway grab bar to move safely through her home" class="rounded-img-shadow" loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      <!-- Signs this service is needed -->
+      <div class="section-header-center">
+        <div class="section-tag">Is This the Right Support?</div>
+        <h2 class="section-heading">When Continuous Care Becomes the Right Answer</h2>
+        <p class="section-subheading">Round-the-clock nursing is a significant commitment. These are the circumstances where it genuinely earns its place.</p>
+      </div>
+      <div class="signals-grid">
+        <div class="signal-card">
+          <h3>The nights are the problem</h3>
+          <p>Wandering, confusion that worsens after dark, repeated attempts to get up unaided, or falls that happen between midnight and dawn.</p>
+        </div>
+        <div class="signal-card">
+          <h3>A family carer has stopped sleeping</h3>
+          <p>When a spouse or adult child is listening for movement through a wall every night, the arrangement has already failed &mdash; it is only a question of when.</p>
+        </div>
+        <div class="signal-card">
+          <h3>Clinical needs are continuous</h3>
+          <p>Repositioning through the night, medication at intervals around the clock, or a condition that needs genuine observation rather than periodic checks.</p>
+        </div>
+        <div class="signal-card">
+          <h3>Someone cannot safely be left alone</h3>
+          <p>Where even an hour unsupervised carries a real risk of a fall, a wandering episode, or a medical event going unnoticed.</p>
+        </div>
+        <div class="signal-card">
+          <h3>Residential care is being discussed</h3>
+          <p>This is the point at which continuous care at home deserves a proper look, before an irreversible decision is made.</p>
+        </div>
+        <div class="signal-card">
+          <h3>The final period of life</h3>
+          <p>Where the wish is to remain at home, and comfort needs have become continuous rather than scheduled.</p>
+        </div>
+      </div>
+
+      <!-- What the service involves, in detail -->
+      <div class="section-header-center">
+        <div class="section-tag">The Service in Detail</div>
+        <h2 class="section-heading">What 24-Hour Nursing Care Actually Involves</h2>
+        <p class="section-subheading">Continuous care is a different service from frequent visiting, not simply more of it. This is how it works.</p>
+      </div>
+      <div class="svc-longform">
+        <div class="svc-block">
+          <span class="svc-block-num">Component 01</span>
+          <h3>How Round-the-Clock Staffing Actually Works</h3>
+          <p>Continuous care is provided by a rostered team working in shifts. No single person can deliver alert, competent nursing care across twenty-four hours &mdash; anyone offering that is offering something that will fail, usually at the worst moment.</p>
+          <p>A typical arrangement rotates staff across day and night shifts, with the roster planned in advance so that the family knows who is coming and when. We build the roster from as small a team as practical, because continuity matters enormously to a client who is confused, frightened or nearing the end of life.</p>
+          <p>Every shift change involves a structured handover covering what happened, what changed, what was given and what the next shift needs to watch for.</p>
+          <ul class="svc-block-list">
+            <li>A rostered team, not a single individual</li>
+            <li>Planned day and night shift rotation</li>
+            <li>The smallest practical team for continuity</li>
+            <li>Advance rosters so families know who is attending</li>
+            <li>Structured verbal and written handover at each change</li>
+            <li>Contingency cover arranged for illness and leave</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 02</span>
+          <h3>Overnight Care and Night-Time Risk</h3>
+          <p>Nights are where most of the risk sits, and where families are least able to provide cover. Confusion frequently worsens in the evening. Getting to the bathroom in the dark is when falls happen. A deterioration that begins at two in the morning can go unnoticed for six hours in an empty house.</p>
+          <p>Waking overnight care means someone is awake and present through the night &mdash; repositioning, assisting to the bathroom, giving medication at the prescribed times, settling confusion, and responding to anything that happens the moment it happens rather than the following morning.</p>
+          <ul class="svc-block-list">
+            <li>An awake, present nurse through the night</li>
+            <li>Overnight repositioning and pressure care</li>
+            <li>Assistance to the bathroom in the dark</li>
+            <li>Night-time medication administration</li>
+            <li>Response to confusion, distress and sundowning</li>
+            <li>Immediate response to falls or deterioration</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 03</span>
+          <h3>Continuous Clinical Care</h3>
+          <p>Where nursing tasks need to happen at intervals rather than at a scheduled visit, continuous cover is what makes them possible at home at all.</p>
+          <p>That includes regular repositioning to prevent pressure injuries, medication regimens that require doses through the night, catheter and continence care as needed rather than when the round arrives, and observation of a condition that is genuinely unstable.</p>
+          <ul class="svc-block-list">
+            <li>Two-hourly repositioning where indicated</li>
+            <li>Around-the-clock medication administration</li>
+            <li>Catheter, stoma and continence care as needed</li>
+            <li>Continuous observation of unstable conditions</li>
+            <li>Wound and pressure area care at any hour</li>
+            <li>Nutrition and hydration support across the full day</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 04</span>
+          <h3>Immediate Response When Something Happens</h3>
+          <p>The central value of continuous cover is that the interval between an event and a qualified response drops to nothing. A fall is attended immediately. A change in breathing is assessed as it occurs. Distress is answered rather than endured until morning.</p>
+          <p>Staff work to a care plan that sets out in advance what to do in the foreseeable scenarios &mdash; what constitutes an emergency, when to call the physician, when to call an ambulance, and who in the family to contact and at what point.</p>
+          <ul class="svc-block-list">
+            <li>Immediate response to falls and injury</li>
+            <li>Assessment of acute deterioration as it happens</li>
+            <li>Pre-agreed escalation pathways in the care plan</li>
+            <li>Direct contact with physicians and emergency services</li>
+            <li>Defined family notification protocol</li>
+            <li>Documented account of every incident</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 05</span>
+          <h3>Handover and Continuity Between Shifts</h3>
+          <p>The weak point of any continuous care arrangement is the shift change, and it is where poor providers lose information. We treat handover as a formal clinical process rather than a conversation at the door.</p>
+          <p>Each shift documents observations, intake, medication given, incidents and changes. The incoming nurse reads it and takes a verbal briefing. The family can see the same record.</p>
+          <ul class="svc-block-list">
+            <li>Structured written handover at every shift change</li>
+            <li>Verbal briefing between outgoing and incoming staff</li>
+            <li>Continuous daily record accessible to the family</li>
+            <li>Documented medication administration record</li>
+            <li>Incident and change logging</li>
+            <li>Weekly summary for family and physician</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 06</span>
+          <h3>Relief for the Family</h3>
+          <p>By the time families arrive at continuous care, someone in the household is usually exhausted. Often they have been doing lifts they should not be doing, missing sleep for months, and living with a level of vigilance that is not survivable long-term.</p>
+          <p>A large part of what this service delivers is giving those people their nights back, and letting them return to being a spouse or a daughter rather than an unpaid, untrained and frightened carer.</p>
+          <ul class="svc-block-list">
+            <li>Full relief from overnight responsibility</li>
+            <li>Handover of physically demanding care tasks</li>
+            <li>Space for family to visit rather than nurse</li>
+            <li>Practical guidance on what to expect next</li>
+            <li>Regular review conversations with the family</li>
+            <li>Honest advice about sustainability</li>
+          </ul>
+        </div>
+      </div>
+
+      <blockquote class="svc-pullquote">Round-the-clock care is often what makes staying at home possible rather than merely preferable &mdash; and it is worth examining properly before a residential decision is made.</blockquote>
+
+      <!-- Pillars -->
+      <div class="whole-person-section">
+        <div class="section-header-center">
+          <div class="section-tag">When It Is Warranted</div>
+          <h2 class="section-heading">Situations That Call for Continuous Cover</h2>
+          <p class="section-subheading">Round-the-clock nursing is a significant commitment. These are the circumstances where it genuinely earns its place.</p>
+        </div>
+        <div class="whole-person-grid">
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></div>
+            <h3 class="wp-title">Unsafe Nights</h3>
+            <p class="wp-desc">Night-time wandering, falls after dark, or confusion that worsens in the evening.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path><circle cx="20" cy="10" r="2"></circle></svg></div>
+            <h3 class="wp-title">High Clinical Need</h3>
+            <p class="wp-desc">Complex medication regimens, frequent repositioning, or conditions needing continuous observation.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"></path><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path><path d="M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4"></path><line x1="10" y1="9" x2="14" y2="9"></line><line x1="12" y1="7" x2="12" y2="11"></line></svg></div>
+            <h3 class="wp-title">Post-Hospital Crisis</h3>
+            <p class="wp-desc">The early days home after a serious admission, when dependency is highest.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg></div>
+            <h3 class="wp-title">End-of-Life Care</h3>
+            <p class="wp-desc">Continuous comfort and dignity in the final period, at home rather than in hospital.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- What is included -->
+      <div class="detailed-services-container">
+        <div class="service-detail-box featured-box">
+          <div class="s-detail-content">
+            <div class="s-tag">Continuous Nursing</div>
+            <h2 class="s-title">What 24-Hour Nursing Care Provides</h2>
+            <p class="s-desc">Cover is provided by a rostered team working in shifts, so there is always an alert, qualified person present rather than one exhausted individual.</p>
+            <div class="s-inclusions">
+              <h4>What Is Included:</h4>
+              <div class="inclusions-grid">
+                <div class="inc-item">✓ Continuous day and night nursing presence</div>
+                <div class="inc-item">✓ Overnight monitoring, repositioning and toileting support</div>
+                <div class="inc-item">✓ Medication administration around the full clock</div>
+                <div class="inc-item">✓ Immediate response to falls, distress or deterioration</div>
+                <div class="inc-item">✓ Wound care and clinical tasks at any hour</div>
+                <div class="inc-item">✓ Structured shift handovers so nothing is lost between staff</div>
+                <div class="inc-item">✓ Detailed daily records for family and physicians</div>
+                <div class="inc-item">✓ Respite for family caregivers who have been carrying the nights</div>
+              </div>
+            </div>
+            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- What a visit looks like -->
+      <div class="section-header-center">
+        <div class="section-tag">Inside the Service</div>
+        <h2 class="section-heading">How Continuous Care Is Set Up</h2>
+        <p class="section-subheading">These decisions are rarely leisurely, so the process is built to move quickly.</p>
+      </div>
+      <div class="visit-timeline">
+        <div class="vt-item">
+          <h3>Urgent conversation</h3>
+          <p>Call us and we will talk through the situation the same day wherever we can, and tell you honestly what is possible.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Clinical assessment</h3>
+          <p>Our Lead Registered Nurse assesses the clinical need, the suitability of the home, and whether continuous cover is genuinely the right answer.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Roster and care plan</h3>
+          <p>A staffing roster, a written care plan with escalation thresholds, and clear costs, before anything begins.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Care begins</h3>
+          <p>Introductions to the team, an initial settling period, and close contact with the family through the first days.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Ongoing review</h3>
+          <p>Continuous care is intensive and expensive. We review whether it is still the right level rather than letting it run indefinitely.</p>
+        </div>
+      </div>
+
+      <!-- Conditions supported -->
+      <div class="section-header-center">
+        <div class="section-tag">Scope of Care</div>
+        <h2 class="section-heading">Situations We Provide Continuous Cover For</h2>
+        <p class="section-subheading">Continuous care is warranted in a narrower set of circumstances than families often expect. We will tell you if yours is not one of them.</p>
+      </div>
+      <div class="condition-cloud">
+        <span class="cond-tag">Advanced dementia with night-time risk</span>
+        <span class="cond-tag">End-of-life and palliative care</span>
+        <span class="cond-tag">Post-stroke high dependency</span>
+        <span class="cond-tag">Advanced Parkinson's disease</span>
+        <span class="cond-tag">Complex wound and pressure care</span>
+        <span class="cond-tag">Recovery from major surgery</span>
+        <span class="cond-tag">Terminal illness at home</span>
+        <span class="cond-tag">Severe mobility loss</span>
+        <span class="cond-tag">High falls risk</span>
+        <span class="cond-tag">Continuous medication regimens</span>
+        <span class="cond-tag">Bed-bound clients</span>
+        <span class="cond-tag">Carer breakdown or bereavement</span>
+        <span class="cond-tag">Bridging before residential placement</span>
+      </div>
+
+      <!-- Process -->
+      <div class="section-header-center">
+        <div class="section-tag">A Simple, Stress-Free Process</div>
+        <h2 class="section-heading">Setting Up Continuous Care</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number-bubble">01</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <h3 class="step-title">Urgent Conversation</h3>
+          <p class="step-desc">These decisions are rarely leisurely. Call us and we will talk through the situation the same day where we can.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">02</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          </div>
+          <h3 class="step-title">Assessment</h3>
+          <p class="step-desc">Our Lead Registered Nurse assesses clinical need, the home itself, and whether continuous cover is genuinely the right answer.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">03</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          </div>
+          <h3 class="step-title">Roster &amp; Care Plan</h3>
+          <p class="step-desc">A staffing roster and written care plan are put in place, with clear handover between shifts.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">04</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+          </div>
+          <h3 class="step-title">Review</h3>
+          <p class="step-desc">Continuous care is expensive and intensive. We review whether it is still needed rather than letting it run indefinitely.</p>
+        </div>
+      </div>
+
+      <!-- Why OnPoint -->
+      <div class="section-header-center">
+        <div class="section-tag">The OnPoint Standard</div>
+        <h2 class="section-heading">How We Approach Continuous Care</h2>
+      </div>
+      <div class="diff-list">
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          <div>
+            <h3>A team, honestly staffed</h3>
+            <p>Rostered shifts with real cover, not one person stretched across a day and expected to stay alert.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg></div>
+          <div>
+            <h3>Handover as a clinical process</h3>
+            <p>Structured written and verbal handover at every shift change, because that is where information gets lost.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect><path d="m9 14 2 2 4-4"></path></svg></div>
+          <div>
+            <h3>Escalation agreed in advance</h3>
+            <p>The plan states what constitutes an emergency and who gets called, so nobody improvises at 3am.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 0 0 1.42 0l4.24-4.24a1 1 0 0 0 0-1.42l-5.66-5.66a1 1 0 0 0-1.42 0L9.46 9.8"></path><path d="m7.8 7.8-3.54 3.54a1 1 0 0 0 0 1.42L8.5 17"></path><path d="m14 6 2-2a1 1 0 0 1 1.41 0l3.54 3.54a1 1 0 0 1 0 1.41L18.8 11.1"></path><path d="M2 18h4"></path><path d="M18 22h4"></path></svg></div>
+          <div>
+            <h3>The smallest practical team</h3>
+            <p>Continuity matters most to the clients who need this service. We roster for familiar faces.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
+          <div>
+            <h3>An honest view on residential care</h3>
+            <p>We will tell you plainly if we think a care home is the better answer in your circumstances.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"></path><path d="M2 8h18a2 2 0 0 1 2 2v10"></path><path d="M2 17h20"></path><path d="M6 8v9"></path></svg></div>
+          <div>
+            <h3>The family gets its nights back</h3>
+            <p>Relief for exhausted carers is a stated goal of the service, not an incidental benefit.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Areas served -->
+      <div class="coverage-strip">
+        <div>
+          <h3>Where We Provide This Service</h3>
+          <p>OnPoint Nurse &amp; Home Care serves families across Metro Vancouver. If you are just outside these communities, call us anyway &mdash; we will tell you honestly whether we can reach you reliably.</p>
+        </div>
+        <div class="coverage-areas">
+          <div class="coverage-area">Vancouver<span>City and surrounding neighbourhoods</span></div>
+          <div class="coverage-area">Richmond<span>Including Steveston and Brighouse</span></div>
+          <div class="coverage-area">Burnaby<span>North and South Burnaby</span></div>
+          <div class="coverage-area">Surrey<span>Including North Surrey and Fleetwood</span></div>
+        </div>
+      </div>
+
+      <!-- FAQs -->
+      <div class="section-header-center">
+        <div class="section-tag">Frequently Asked Questions</div>
+        <h2 class="section-heading">24-Hour Nursing Care: Common Questions</h2>
+      </div>
+      <div class="faq-accordion-container">
+        <div class="faq-item active">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">What is the difference between 24-hour care and overnight care?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Overnight care covers the night alone &mdash; typically where days are manageable but nights are not. Twenty-four hour care is continuous cover across the full day and night, provided by a rostered team working in shifts. Many families begin with overnight cover and move to continuous care as dependency increases.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Is it staffed by one person or a team?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>A team, working in shifts. No single person can safely provide alert, competent care around the clock &mdash; anyone offering that is offering something that will fail. Structured handovers between shifts are part of how the service works.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Is 24-hour care at home better than a care home?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Not automatically, and we would rather be honest about that than sell you something. It depends on clinical needs, the suitability of the home, the family's circumstances and cost. What it does offer is familiar surroundings, one-to-one attention and the family's own routine. Our Lead Registered Nurse will give you a straight assessment of whether it is realistic in your case.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">How quickly can continuous care start?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>It depends on staffing availability at the time, and continuous cover takes more arranging than a visiting schedule. Call us as early as you can &mdash; even before a decision is made &mdash; so we can tell you honestly what is possible and when.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Is this cheaper or more expensive than a care home?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Continuous one-to-one nursing at home is generally a significant commitment, and for many families the cost is the deciding factor. We will give you clear written figures at the assessment so you can compare properly rather than guess. What home care offers in exchange is familiar surroundings, one-to-one attention and the family's own routine.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Do you provide live-in care as well as shift-based cover?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Arrangements vary with the clinical need, and the right structure depends on how much genuine overnight work is involved. Where someone needs an awake nurse through the night, shift cover is the safe answer. Discuss the specifics at the assessment and we will explain what we can and cannot staff.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Can 24-hour care be arranged temporarily?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Yes, and it often is &mdash; for a crisis period, the weeks after a major admission, a family carer's illness, or the final phase of life. It does not have to be a permanent arrangement, and we would rather it were the right level for now than a default that continues unexamined.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related services -->
+      <div class="whole-person-section">
+        <div class="section-header-center">
+          <div class="section-tag">Related Care</div>
+          <h2 class="section-heading">Other Services Families Often Combine</h2>
+        </div>
+        <div class="related-services-grid">
+          <a class="related-service-card" href="private-nursing">
+            <h3 class="wp-title">Private Nursing</h3>
+            <p class="wp-desc">Privately arranged nursing at any level of intensity.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+          <a class="related-service-card" href="palliative-care">
+            <h3 class="wp-title">Palliative &amp; End-of-Life Care</h3>
+            <p class="wp-desc">Continuous comfort-focused care in the final period.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+          <a class="related-service-card" href="home-nursing">
+            <h3 class="wp-title">Home Nursing</h3>
+            <p class="wp-desc">Visiting nursing care where continuous cover is not yet needed.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="page-cta-banner">
+        <h3>Has Care at Home Stopped Being Manageable?</h3>
+        <p>Talk to us before making a decision about residential care. Continuous nursing at home is worth examining first.</p>
+        <div class="btn-group">
+          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <?php include 'footer.php'; ?>
+
+<!-- Core JavaScript -->
+  <script src="app.js"></script>
+</body>
+
+</html>

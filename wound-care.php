@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specialized Wound Care at Home | OnPoint Nurse &amp; Home Care</title>
+  <meta name="description" content="Nurse-led wound care at home across Metro Vancouver: clinical assessment, sterile dressing changes, pressure injury prevention, diabetic ulcer care and documented healing progress.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Specialized Wound Care",
+      "serviceType": "Wound Care",
+      "description": "Nurse-led wound care at home across Metro Vancouver: clinical assessment, sterile dressing changes, pressure injury prevention, diabetic ulcer care and documented healing progress.",
+      "provider": {
+        "@type": "HomeHealthCareService",
+        "name": "OnPoint Nurse & Home Care"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Vancouver"
+        },
+        {
+          "@type": "City",
+          "name": "Richmond"
+        },
+        {
+          "@type": "City",
+          "name": "Burnaby"
+        },
+        {
+          "@type": "City",
+          "name": "Surrey"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you need a physician's order for wound care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most wound care we work in line with the direction of the treating physician or wound specialist, and we will ask about existing orders and any dressing products already prescribed. Families can still contact us first — we will help work out what is needed and coordinate from there."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you know whether a wound is actually healing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because it is measured and documented at each visit rather than judged from memory. That record is what makes a stalled wound visible early, and it is what we share with the physician when a plan needs to change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you prevent pressure sores rather than just treat them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prevention is a large part of the work — repositioning schedules, offloading, skin inspection of the heels, sacrum and hips, and coaching family caregivers on what to watch for. For someone with limited mobility this is far more valuable than treatment after the fact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who supplies the dressings and wound care products?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This varies with the wound, the prescriber and what has already been arranged at discharge. Raise it at the care assessment and we will be clear about what we supply, what you source, and what is covered elsewhere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the same nurse do the dressing changes each time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We plan rosters for continuity wherever we can, because familiarity with a particular wound genuinely improves care — a nurse who saw it last week notices change faster. Where a different nurse attends, the documented measurements and photographs mean nothing is lost in the handover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you manage wounds for someone who is bed-bound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and this is a substantial part of the work. For a bed-bound client the plan covers repositioning, support surfaces, moisture management and inspection of all pressure points, not just the existing wound."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if the wound gets worse rather than better?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That is exactly what the documentation exists to catch. We escalate to the treating physician or wound specialist with the measurements that show the deterioration, and ask for the plan to be reviewed. We do not simply continue and hope."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+
+  <?php include 'header.php'; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main id="mainContent">
+    <div class="page-header-banner banner-teal">
+      <div class="container">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Wound Care</span></div>
+        <h1 class="page-title">Specialized Wound Care</h1>
+        <p class="page-tagline">Nurse-led wound assessment, sterile dressing management and honest tracking of whether a wound is actually healing.</p>
+      </div>
+    </div>
+
+    <div class="container page-content-block">
+
+      <!-- At a glance -->
+      <div class="svc-facts-strip">
+        <div class="svc-fact">
+          <span class="svc-fact-label">Delivered by</span>
+          <span class="svc-fact-value">Registered nursing staff</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Technique</span>
+          <span class="svc-fact-value">Sterile, consistent, documented</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Tracked</span>
+          <span class="svc-fact-value">Measured at every visit</span>
+        </div>
+        <div class="svc-fact">
+          <span class="svc-fact-label">Works with</span>
+          <span class="svc-fact-value">Physicians and wound specialists</span>
+        </div>
+      </div>
+
+      <!-- Overview -->
+      <div class="about-story-grid">
+        <div class="about-story-text">
+          <div class="section-tag">Clinical Wound Management</div>
+          <h2 class="section-heading">A Wound That Is Not Improving Is Telling You Something</h2>
+          <p class="text-paragraph">Wounds in older adults are rarely simple. Circulation is slower, skin is thinner, diabetes and immobility complicate healing, and a pressure injury can develop in days on a heel or a hip that nobody has looked at.</p>
+          <p class="text-paragraph">The difference between a wound that closes and one that becomes a hospital admission is usually the quality of the assessment, the consistency of technique, and whether anyone is tracking progress week to week rather than judging by memory.</p>
+          <p class="text-paragraph">Our nurses assess the wound properly, manage dressings under sterile technique, and document what they find each visit. When a wound is not responding as it should, that shows up in the record &mdash; and we say so rather than continuing on quietly.</p>
+          <div class="quote-box-accent">
+            <p class="quote-text-small">Consistency matters more than any single dressing. The same technique, the same assessment, every visit.</p>
+          </div>
+        </div>
+        <div class="about-story-media">
+          <img src="assets/images/Specialized-Wound-Care.webp" alt="An OnPoint home care nurse applying a clean dressing to a senior woman's forearm on a sterile field at home" class="rounded-img-shadow" loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      <!-- Signs this service is needed -->
+      <div class="section-header-center">
+        <div class="section-tag">Is This the Right Support?</div>
+        <h2 class="section-heading">Signs a Wound Needs Professional Assessment</h2>
+        <p class="section-subheading">A wound being dressed at home is not the same as a wound being managed. These are the signs it needs clinical eyes.</p>
+      </div>
+      <div class="signals-grid">
+        <div class="signal-card">
+          <h3>It has not improved in two weeks</h3>
+          <p>A wound that looks the same as it did a fortnight ago is not healing slowly &mdash; it is stalled, and something is preventing closure.</p>
+        </div>
+        <div class="signal-card">
+          <h3>Redness, heat or swelling is spreading</h3>
+          <p>Inflammation extending outward from the wound edge, warmth to the touch, or increasing pain, are early infection signs that need same-day attention.</p>
+        </div>
+        <div class="signal-card">
+          <h3>There is new or changed discharge</h3>
+          <p>Increasing exudate, a change in colour, or an odour, are all meaningful changes rather than cosmetic ones.</p>
+        </div>
+        <div class="signal-card">
+          <h3>The person has diabetes</h3>
+          <p>Diabetic wounds, particularly on the feet, deteriorate faster and with less warning than most people expect. Reduced sensation means pain does not provide the usual alarm.</p>
+        </div>
+        <div class="signal-card">
+          <h3>The wound is over a bony area</h3>
+          <p>Heels, sacrum, hips and elbows. Pressure injuries in these locations develop quickly in anyone with limited mobility.</p>
+        </div>
+        <div class="signal-card">
+          <h3>Nobody is measuring it</h3>
+          <p>If progress is being judged by memory and impression rather than measurement, there is no way to know whether the current plan is working.</p>
+        </div>
+      </div>
+
+      <!-- What the service involves, in detail -->
+      <div class="section-header-center">
+        <div class="section-tag">The Service in Detail</div>
+        <h2 class="section-heading">What Specialized Wound Care Actually Involves</h2>
+        <p class="section-subheading">Good wound care is mostly consistency and honest documentation. These are the components of the service.</p>
+      </div>
+      <div class="svc-longform">
+        <div class="svc-block">
+          <span class="svc-block-num">Component 01</span>
+          <h3>Clinical Wound Assessment and Staging</h3>
+          <p>The first visit establishes what is actually being dealt with. The wound is assessed for type, depth, stage, size, wound bed condition, exudate level, edge appearance and the state of the surrounding skin.</p>
+          <p>Equally important is identifying why it is not healing. Poor circulation, pressure that has not been relieved, uncontrolled blood sugar, inadequate nutrition, moisture damage or an underlying infection &mdash; a dressing regimen that ignores the cause will not close the wound no matter how carefully it is applied.</p>
+          <p>The assessment produces a baseline measurement and a plan, both written down.</p>
+          <ul class="svc-block-list">
+            <li>Wound type identification and staging</li>
+            <li>Length, width and depth measurement</li>
+            <li>Wound bed and exudate assessment</li>
+            <li>Periwound skin evaluation</li>
+            <li>Identification of factors preventing healing</li>
+            <li>Baseline documentation for progress comparison</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 02</span>
+          <h3>Sterile Dressing Technique and Product Selection</h3>
+          <p>Dressing changes are carried out under sterile technique, at the frequency the wound requires rather than the frequency that is convenient.</p>
+          <p>Product selection matters and changes as the wound does. A heavily exuding wound needs something different from a dry one; a wound that has developed granulation tissue needs something different from one that has not. Where a wound specialist or physician has specified products, we follow that direction.</p>
+          <ul class="svc-block-list">
+            <li>Sterile dressing changes</li>
+            <li>Wound cleansing and debridement within scope</li>
+            <li>Dressing product selection appropriate to wound phase</li>
+            <li>Periwound skin protection</li>
+            <li>Compression support where prescribed</li>
+            <li>Adjustment of regimen as the wound changes</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 03</span>
+          <h3>Pressure Injury Prevention</h3>
+          <p>For anyone with limited mobility, preventing pressure injuries is far more valuable than treating them. A stage-one area of redness caught and offloaded resolves in days. The same site left another week can become a wound that takes months.</p>
+          <p>This means a repositioning schedule that is actually followed, regular inspection of the high-risk sites, appropriate support surfaces, and coaching whoever is providing daily care on what to look for.</p>
+          <ul class="svc-block-list">
+            <li>Risk assessment for pressure injury development</li>
+            <li>Repositioning schedules and turning support</li>
+            <li>Routine inspection of heels, sacrum, hips and elbows</li>
+            <li>Support surface and cushion recommendations</li>
+            <li>Moisture and incontinence-associated damage prevention</li>
+            <li>Family and care aide education on early signs</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 04</span>
+          <h3>Diabetic Foot and Lower Limb Ulcers</h3>
+          <p>Diabetic foot ulcers deserve separate treatment because they behave differently. Reduced sensation means the person often cannot feel the damage. Reduced circulation means healing is slow. Infection can move from minor to serious in a matter of days.</p>
+          <p>Management centres on offloading pressure from the ulcer site, meticulous inspection of both feet at every visit, tight vigilance for infection, and immediate escalation when anything changes.</p>
+          <ul class="svc-block-list">
+            <li>Ulcer assessment and offloading</li>
+            <li>Full foot inspection at every visit</li>
+            <li>Footwear and pressure redistribution advice</li>
+            <li>Infection vigilance and rapid escalation</li>
+            <li>Coordination with diabetes and vascular care</li>
+            <li>Education on daily foot checks between visits</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 05</span>
+          <h3>Infection Recognition and Escalation</h3>
+          <p>Wound infection in an older adult can present without the classic signs. There may be no fever. The first indication is sometimes confusion, a loss of appetite, or simply that the person is not themselves.</p>
+          <p>Our nurses assess for both local and systemic signs, document what they find, and escalate to the physician promptly. We would rather raise a concern that turns out to be nothing than miss the one that was not.</p>
+          <ul class="svc-block-list">
+            <li>Local infection sign assessment</li>
+            <li>Systemic sign monitoring (temperature, confusion, appetite)</li>
+            <li>Wound swabbing where directed</li>
+            <li>Prompt physician escalation</li>
+            <li>Antibiotic administration where prescribed</li>
+            <li>Response monitoring once treatment begins</li>
+          </ul>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Component 06</span>
+          <h3>Documentation and Honest Progress Reporting</h3>
+          <p>Every visit produces a measurement and a record. That record is what makes it possible to say, with evidence rather than impression, whether this wound is healing.</p>
+          <p>When it is not, we say so &mdash; to the family and to the physician &mdash; and we ask for the plan to be reviewed. Quietly continuing an ineffective regimen for another month is the most common failure in home wound care, and it is entirely avoidable.</p>
+          <ul class="svc-block-list">
+            <li>Measurement and documentation at every visit</li>
+            <li>Photographic records where appropriate and consented</li>
+            <li>Written progress summaries for family and physician</li>
+            <li>Explicit flagging of stalled or deteriorating wounds</li>
+            <li>Requests for specialist review when indicated</li>
+            <li>Clear closure and discharge when healed</li>
+          </ul>
+        </div>
+      </div>
+
+      <blockquote class="svc-pullquote">A wound that has been dressed carefully for six weeks and has not changed size has not been managed. It has been maintained.</blockquote>
+
+      <!-- Pillars -->
+      <div class="whole-person-section">
+        <div class="section-header-center">
+          <div class="section-tag">Wound Types</div>
+          <h2 class="section-heading">Wounds We Commonly Manage</h2>
+          <p class="section-subheading">Each of these behaves differently and needs a different plan. Treating them all the same is how healing stalls.</p>
+        </div>
+        <div class="whole-person-grid">
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4.5 19.5 10l-10 10L4 14.5z"></path><path d="m9 9 6 6"></path><circle cx="11.5" cy="12.5" r=".5" fill="currentColor"></circle><circle cx="12.5" cy="11.5" r=".5" fill="currentColor"></circle></svg></div>
+            <h3 class="wp-title">Pressure Injuries</h3>
+            <p class="wp-desc">Prevention first &mdash; repositioning, offloading, skin inspection &mdash; then staged management where an injury has developed.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16v-2.38C4 11.5 5.5 10 7.5 10H8c2.2 0 4 1.8 4 4v2c0 2.2-1.8 4-4 4s-4-1.8-4-4Z"></path><path d="M20 20v-2.38c0-2.12-1.5-3.62-3.5-3.62h-.5c-2.2 0-4 1.8-4 4v2c0 2.2 1.8 4 4 4s4-1.8 4-4Z"></path><circle cx="6" cy="4" r="1"></circle><circle cx="9" cy="5" r="1"></circle><circle cx="17" cy="8" r="1"></circle><circle cx="14" cy="9" r="1"></circle></svg></div>
+            <h3 class="wp-title">Diabetic Foot Ulcers</h3>
+            <p class="wp-desc">Careful offloading, infection vigilance and foot inspection, given how quickly these can deteriorate.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path><circle cx="20" cy="10" r="2"></circle></svg></div>
+            <h3 class="wp-title">Surgical Incisions</h3>
+            <p class="wp-desc">Post-operative site monitoring, sterile dressing changes and early infection identification.</p>
+          </div>
+          <div class="wp-card">
+            <div class="wp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg></div>
+            <h3 class="wp-title">Chronic &amp; Vascular Wounds</h3>
+            <p class="wp-desc">Venous and arterial ulcers and slow-healing skin tears, managed with consistent technique and clear documentation.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- What is included -->
+      <div class="detailed-services-container">
+        <div class="service-detail-box featured-box">
+          <div class="s-detail-content">
+            <div class="s-tag">Clinical Specialty</div>
+            <h2 class="s-title">What Wound Care Visits Include</h2>
+            <p class="s-desc">Every visit follows the same structure, so changes in the wound show up as changes in the record rather than differences in who happened to attend.</p>
+            <div class="s-inclusions">
+              <h4>What Is Included:</h4>
+              <div class="inclusions-grid">
+                <div class="inc-item">✓ Clinical wound assessment and staging</div>
+                <div class="inc-item">✓ Sterile dressing changes and wound cleansing</div>
+                <div class="inc-item">✓ Pressure injury prevention and repositioning guidance</div>
+                <div class="inc-item">✓ Diabetic foot ulcer care and inspection</div>
+                <div class="inc-item">✓ Surgical incision and post-operative site monitoring</div>
+                <div class="inc-item">✓ Documented measurement and healing progress tracking</div>
+                <div class="inc-item">✓ Early identification of infection and deterioration</div>
+                <div class="inc-item">✓ Coordination with physicians and wound specialists</div>
+              </div>
+            </div>
+            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- What a visit looks like -->
+      <div class="section-header-center">
+        <div class="section-tag">Inside the Service</div>
+        <h2 class="section-heading">What Happens at a Wound Care Visit</h2>
+        <p class="section-subheading">The same sequence every time, which is what makes change visible.</p>
+      </div>
+      <div class="visit-timeline">
+        <div class="vt-item">
+          <h3>Preparation</h3>
+          <p>Hand hygiene, sterile field set-up and preparation of the dressing products the plan specifies.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Dressing removal and inspection</h3>
+          <p>The old dressing is removed and assessed &mdash; the amount and nature of exudate is itself clinical information.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Assessment and measurement</h3>
+          <p>The wound bed, edges and surrounding skin are assessed, and the wound is measured against the baseline.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Cleansing and redressing</h3>
+          <p>The wound is cleansed and redressed under sterile technique using the specified products.</p>
+        </div>
+        <div class="vt-item">
+          <h3>Documentation and reporting</h3>
+          <p>Findings are recorded, the family is updated, and anything concerning is escalated before the nurse leaves.</p>
+        </div>
+      </div>
+
+      <!-- Conditions supported -->
+      <div class="section-header-center">
+        <div class="section-tag">Scope of Care</div>
+        <h2 class="section-heading">Wound Types We Manage</h2>
+        <p class="section-subheading">Each of these behaves differently and needs its own plan.</p>
+      </div>
+      <div class="condition-cloud">
+        <span class="cond-tag">Pressure injuries (all stages)</span>
+        <span class="cond-tag">Diabetic foot ulcers</span>
+        <span class="cond-tag">Venous leg ulcers</span>
+        <span class="cond-tag">Arterial ulcers</span>
+        <span class="cond-tag">Surgical incisions</span>
+        <span class="cond-tag">Dehisced surgical wounds</span>
+        <span class="cond-tag">Skin tears</span>
+        <span class="cond-tag">Traumatic wounds</span>
+        <span class="cond-tag">Burns (in recovery)</span>
+        <span class="cond-tag">Moisture-associated skin damage</span>
+        <span class="cond-tag">Cellulitis follow-up</span>
+        <span class="cond-tag">Fungating and palliative wounds</span>
+        <span class="cond-tag">Post-amputation sites</span>
+        <span class="cond-tag">Drain and stoma site care</span>
+      </div>
+
+      <!-- Process -->
+      <div class="section-header-center">
+        <div class="section-tag">A Simple, Stress-Free Process</div>
+        <h2 class="section-heading">How Wound Care Is Managed</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number-bubble">01</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <h3 class="step-title">Initial Assessment</h3>
+          <p class="step-desc">The wound is assessed, measured and documented, and the contributing factors are identified.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">02</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          </div>
+          <h3 class="step-title">Care Plan &amp; Products</h3>
+          <p class="step-desc">A dressing regimen and visit schedule are set, in line with the treating physician's direction.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">03</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          </div>
+          <h3 class="step-title">Consistent Visits</h3>
+          <p class="step-desc">Dressing changes under sterile technique, with the wound reassessed and recorded each time.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number-bubble">04</div>
+          <div class="step-icon-area">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+          </div>
+          <h3 class="step-title">Progress Review</h3>
+          <p class="step-desc">Healing is reviewed against the record. If it has stalled, we escalate rather than repeat.</p>
+        </div>
+      </div>
+
+      <!-- Why OnPoint -->
+      <div class="section-header-center">
+        <div class="section-tag">The OnPoint Standard</div>
+        <h2 class="section-heading">Why Families Trust Us With Wound Care</h2>
+      </div>
+      <div class="diff-list">
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.3 15.3l-6.6 6.6a2 2 0 0 1-2.8 0L2.1 12.1a2 2 0 0 1 0-2.8l6.6-6.6a2 2 0 0 1 2.8 0l9.8 9.8a2 2 0 0 1 0 2.8z"></path><path d="M7.5 7.5l2 2"></path><path d="M10.5 4.5l2 2"></path><path d="M4.5 10.5l2 2"></path></svg></div>
+          <div>
+            <h3>We measure, every visit</h3>
+            <p>Progress is evidenced rather than estimated, which is the only way a stalled wound gets caught early.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31L4.75 19.9a2 2 0 0 0 1.75 3.1h11a2 2 0 0 0 1.75-3.1L14 9.31V2"></path><path d="M8.5 2h7"></path><path d="M7 16h10"></path></svg></div>
+          <div>
+            <h3>Consistent sterile technique</h3>
+            <p>The same standard regardless of which nurse attends. Inconsistency is itself a cause of poor healing.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></div>
+          <div>
+            <h3>We look for the cause</h3>
+            <p>A dressing plan that ignores unrelieved pressure or uncontrolled blood sugar will not close the wound.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
+          <div>
+            <h3>We say when it is not working</h3>
+            <p>If a regimen has stalled, we escalate for review rather than quietly continuing it.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+          <div>
+            <h3>Prevention gets equal weight</h3>
+            <p>For anyone with limited mobility, preventing the next pressure injury matters as much as treating the current one.</p>
+          </div>
+        </div>
+        <div class="diff-row">
+          <div class="diff-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 0 0 1.42 0l4.24-4.24a1 1 0 0 0 0-1.42l-5.66-5.66a1 1 0 0 0-1.42 0L9.46 9.8"></path><path d="m7.8 7.8-3.54 3.54a1 1 0 0 0 0 1.42L8.5 17"></path><path d="m14 6 2-2a1 1 0 0 1 1.41 0l3.54 3.54a1 1 0 0 1 0 1.41L18.8 11.1"></path><path d="M2 18h4"></path><path d="M18 22h4"></path></svg></div>
+          <div>
+            <h3>We work with your specialists</h3>
+            <p>Where a wound clinic or vascular specialist is involved, we carry out their plan and report back to them.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Areas served -->
+      <div class="coverage-strip">
+        <div>
+          <h3>Where We Provide This Service</h3>
+          <p>OnPoint Nurse &amp; Home Care serves families across Metro Vancouver. If you are just outside these communities, call us anyway &mdash; we will tell you honestly whether we can reach you reliably.</p>
+        </div>
+        <div class="coverage-areas">
+          <div class="coverage-area">Vancouver<span>City and surrounding neighbourhoods</span></div>
+          <div class="coverage-area">Richmond<span>Including Steveston and Brighouse</span></div>
+          <div class="coverage-area">Burnaby<span>North and South Burnaby</span></div>
+          <div class="coverage-area">Surrey<span>Including North Surrey and Fleetwood</span></div>
+        </div>
+      </div>
+
+      <!-- FAQs -->
+      <div class="section-header-center">
+        <div class="section-tag">Frequently Asked Questions</div>
+        <h2 class="section-heading">Wound Care: Common Questions</h2>
+      </div>
+      <div class="faq-accordion-container">
+        <div class="faq-item active">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Do you need a physician's order for wound care?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>For most wound care we work in line with the direction of the treating physician or wound specialist, and we will ask about existing orders and any dressing products already prescribed. Families can still contact us first &mdash; we will help work out what is needed and coordinate from there.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">How do you know whether a wound is actually healing?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Because it is measured and documented at each visit rather than judged from memory. That record is what makes a stalled wound visible early, and it is what we share with the physician when a plan needs to change.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Can you prevent pressure sores rather than just treat them?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Prevention is a large part of the work &mdash; repositioning schedules, offloading, skin inspection of the heels, sacrum and hips, and coaching family caregivers on what to watch for. For someone with limited mobility this is far more valuable than treatment after the fact.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Who supplies the dressings and wound care products?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>This varies with the wound, the prescriber and what has already been arranged at discharge. Raise it at the care assessment and we will be clear about what we supply, what you source, and what is covered elsewhere.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Will the same nurse do the dressing changes each time?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>We plan rosters for continuity wherever we can, because familiarity with a particular wound genuinely improves care &mdash; a nurse who saw it last week notices change faster. Where a different nurse attends, the documented measurements and photographs mean nothing is lost in the handover.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">Can you manage wounds for someone who is bed-bound?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>Yes, and this is a substantial part of the work. For a bed-bound client the plan covers repositioning, support surfaces, moisture management and inspection of all pressure points, not just the existing wound.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" onclick="toggleFaq(this)">
+            <span class="faq-q-text">What if the wound gets worse rather than better?</span>
+            <span class="faq-q-icon">+</span>
+          </button>
+          <div class="faq-content">
+            <p>That is exactly what the documentation exists to catch. We escalate to the treating physician or wound specialist with the measurements that show the deterioration, and ask for the plan to be reviewed. We do not simply continue and hope.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related services -->
+      <div class="whole-person-section">
+        <div class="section-header-center">
+          <div class="section-tag">Related Care</div>
+          <h2 class="section-heading">Other Services Families Often Combine</h2>
+        </div>
+        <div class="related-services-grid">
+          <a class="related-service-card" href="post-operative-care">
+            <h3 class="wp-title">Post-Operative Care</h3>
+            <p class="wp-desc">Full surgical recovery support, of which incision care is one part.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+          <a class="related-service-card" href="home-nursing">
+            <h3 class="wp-title">Home Nursing</h3>
+            <p class="wp-desc">The wider clinical nursing program at home.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+          <a class="related-service-card" href="nursing-health-monitoring">
+            <h3 class="wp-title">Nursing &amp; Health Monitoring</h3>
+            <p class="wp-desc">Ongoing observation of the conditions that slow healing.</p>
+            <span class="service-link">Read More &rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="page-cta-banner">
+        <h3>Concerned About a Wound That Is Not Healing?</h3>
+        <p>Book a care assessment and one of our nurses will assess it properly and tell you honestly what they see.</p>
+        <div class="btn-group">
+          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <?php include 'footer.php'; ?>
+
+<!-- Core JavaScript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
