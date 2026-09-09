@@ -53,7 +53,11 @@ htmlFiles.forEach(file => {
   content = content.replace(/16040000000/g, '17782441332');
   content = content.replace(/\+16040000000/g, '+17782441332');
 
-  // 4. Update Service Areas across content
+  // 4. Update Emails across content
+  content = content.replace(/onpointhomecare2026@gmail\.com/g, 'hello@onpointhomecare.care');
+  content = content.replace(/care@onpointhomecare\.care/g, 'hello@onpointhomecare.care');
+
+  // 5. Update Service Areas across content
   content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*&amp;\s*Richmond/g, 'Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond');
   content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*&\s*Richmond/g, 'Vancouver, Burnaby, Surrey, New Westminster & Richmond');
   content = content.replace(/(?:Vancouver,\s*)?Burnaby,\s*Surrey,\s*New Westminster\s*and\s*Richmond/g, 'Vancouver, Burnaby, Surrey, New Westminster and Richmond');
