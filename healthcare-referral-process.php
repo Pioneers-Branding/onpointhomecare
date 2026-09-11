@@ -31,7 +31,7 @@
         {
           "@type": "HowToStep",
           "name": "Intake & Clinical Triage",
-          "text": "The referral is received electronically or via phone, and our Lead Registered Nurse conducts a rapid medical triage within 2 hours."
+          "text": "The referral is received online or via phone, and our Lead Registered Nurse conducts a rapid medical triage within 2 hours."
         },
         {
           "@type": "HowToStep",
@@ -106,7 +106,7 @@
           "name": "How does OnPoint handle referrals for palliative or end-of-life care?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We work in close synchronization with regional Palliative Care Consultation Teams and local hospices, providing skilled symptom control, continuous subcutaneous infusions, pain management, and compassionate family support."
+            "text": "We work in close synchronization with regional Palliative Care Consultation Teams and local hospices, providing skilled symptom control, pain management, and compassionate family support."
           }
         },
         {
@@ -201,7 +201,7 @@
         <div class="svc-block">
           <span class="svc-block-num">Stage 01</span>
           <h3>Secure Intake &amp; Clinical Triage (&lt; 2 Hours)</h3>
-          <p>Upon receipt of an electronic, faxed, or telephone referral, our Clinical Care Desk reviews medical acuity, diagnoses, discharge goals, and timeline parameters.</p>
+          <p>Upon receipt of an online, faxed, or telephone referral, our Clinical Care Desk reviews medical acuity, diagnoses, discharge goals, and timeline parameters.</p>
           <ul class="svc-block-list">
             <li>Immediate confirmation sent to referring clinician or unit coordinator</li>
             <li>Direct contact initiated with the patient's family to confirm care availability</li>
@@ -234,7 +234,7 @@
           <p>Care begins with doorstep reception. We initiate continuous clinical tracking and maintain direct progress reporting back to the primary care physician.</p>
           <ul class="svc-block-list">
             <li>First 48-hour intensive stabilization and vital sign surveillance</li>
-            <li>Electronic nursing progress summaries transmitted to physician clinics</li>
+            <li>Nursing progress summaries transmitted to physician clinics</li>
             <li>Scheduled 30/60/90-day reassessments with family and clinicians</li>
           </ul>
         </div>
@@ -369,14 +369,14 @@
           <div class="faq-content">
             <p>We offer flexible scheduling including 2-hour clinical procedure visits, 8-to-12-hour daytime or overnight shifts, and continuous 24/7 care.</p>
           </div>
-       
+        </div>
         <div class="faq-item">
           <button class="faq-trigger" onclick="toggleFaq(this)">
             <span class="faq-q-text">How does OnPoint handle referrals for palliative or end-of-life care?</span>
             <span class="faq-q-icon">+</span>
           </button>
           <div class="faq-content">
-            <p>We work in close synchronization with regional Palliative Care Consultation Teams and local hospices, providing skilled symptom control, continuous subcutaneous infusions, pain management, and compassionate family support.</p>
+            <p>We work in close synchronization with regional Palliative Care Consultation Teams and local hospices, providing skilled symptom control, pain management, and compassionate family support.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -387,7 +387,7 @@
           <div class="faq-content">
             <p>Yes. Treatment plans are dynamic; physicians can update directives (such as antibiotic taper dates or dressing frequencies) via phone or fax at any time.</p>
           </div>
-        </div> </div>
+        </div>
       </div>
 
       <!-- CTA Box -->

@@ -91,7 +91,7 @@
           "name": "How short or long can visits be?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It depends on what the visit needs to achieve. A shower, dressing and breakfast cannot be done properly in fifteen minutes, and we will not pretend otherwise. At the assessment we will tell you honestly what length the tasks actually require."
+            "text": "Care aide or personal support visit is 3 hours minimum per day. Nursing visits are 45 minutes minimum to 1 hour or more depending on the task/procedure."
           }
         },
         {
@@ -581,7 +581,7 @@
             <span class="faq-q-icon">+</span>
           </button>
           <div class="faq-content">
-            <p>It depends on what the visit needs to achieve. A shower, dressing and breakfast cannot be done properly in fifteen minutes, and we will not pretend otherwise. At the assessment we will tell you honestly what length the tasks actually require.</p>
+            <p>Care aide or personal support visit is 3 hours minimum per day. Nursing visits are 45 minutes minimum to 1 hour or more depending on the task/procedure.</p>
           </div>
         </div>
         <div class="faq-item">

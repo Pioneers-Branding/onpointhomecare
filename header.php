@@ -47,6 +47,18 @@
         </a>
         <div class="mega-menu">
           <div class="mega-col">
+            <span class="mega-col-title">Home Care</span>
+            <a href="services.php">Home Care Overview</a>
+            <a href="personal-care.php">Personal Care &amp; Daily Living</a>
+            <a href="companion-care.php">Companion Care</a>
+            <a href="respite-care.php">Respite Care</a>
+            <a href="dementia-care.php">Dementia &amp; Alzheimer's Care</a>
+            <a href="24-hour-home-care.php">24-Hour Home Care</a>
+            <a href="independent-home-care.php">Independent Home Care</a>
+            <a href="overnight-care.php">Overnight Care</a>
+          </div>
+
+          <div class="mega-col">
             <span class="mega-col-title">Home Nursing</span>
             <a href="home-nursing.php">Home Nursing Overview</a>
             <a href="post-discharge-nursing.php">Post-Discharge Nursing</a>
@@ -56,17 +68,6 @@
             <a href="nursing-health-monitoring.php">Nursing &amp; Health Monitoring</a>
             <a href="24-hour-nursing-care.php">24-Hour Nursing Care</a>
             <a href="palliative-care.php">Palliative &amp; End-of-Life Care</a>
-          </div>
-
-          <div class="mega-col">
-            <span class="mega-col-title">Home Care</span>
-            <a href="services.php">Home Care Overview</a>
-            <a href="personal-care.php">Personal Care &amp; Daily Living</a>
-            <a href="companion-care.php">Companion Care</a>
-            <a href="respite-care.php">Respite Care</a>
-            <a href="dementia-care.php">Dementia &amp; Alzheimer's Care</a>
-            <a href="24-hour-home-care.php">24-Hour Home Care</a>
-            <a href="overnight-care.php">Overnight Care</a>
           </div>
 
           <div class="mega-col">
@@ -98,11 +99,11 @@
         </a>
         <div class="dropdown-menu">
           <a data-soon="Areas We Serve" href="locations.php">All Areas We Serve</a>
-          <a data-soon="Home Care Vancouver" href="vancouver.php">Vancouver</a>
-          <a data-soon="Home Care Burnaby" href="burnaby.php">Burnaby</a>
-          <a data-soon="Home Care Surrey" href="surrey.php">Surrey</a>
-          <a data-soon="Home Care New Westminster" href="new-westminster.php">New Westminster</a>
-          <a data-soon="Home Care Richmond" href="richmond.php">Richmond</a>
+          <a data-soon="Home Care Vancouver" href="vancouver.php">Home Care Vancouver</a>
+          <a data-soon="Home Care Burnaby" href="burnaby.php">Home Care Burnaby</a>
+          <a data-soon="Home Care Surrey" href="surrey.php">Home Care Surrey</a>
+          <a data-soon="Home Care New Westminster" href="new-westminster.php">Home Care New Westminster</a>
+          <a data-soon="Home Care Richmond" href="richmond.php">Home Care Richmond</a>
         </div>
       </div>
 
@@ -189,6 +190,20 @@
     <a href="/">Home</a>
 
     <details class="drawer-group">
+      <summary>Home Care</summary>
+      <div class="drawer-sublinks">
+        <a href="services.php">Home Care Overview</a>
+        <a href="personal-care.php">Personal Care &amp; Daily Living</a>
+        <a href="companion-care.php">Companion Care</a>
+        <a href="respite-care.php">Respite Care</a>
+        <a href="dementia-care.php">Dementia &amp; Alzheimer's Care</a>
+        <a href="24-hour-home-care.php">24-Hour Home Care</a>
+        <a href="independent-home-care.php">Independent Home Care</a>
+        <a href="overnight-care.php">Overnight Care</a>
+      </div>
+    </details>
+
+    <details class="drawer-group">
       <summary>Home Nursing</summary>
       <div class="drawer-sublinks">
         <a href="home-nursing.php">Home Nursing Overview</a>
@@ -199,19 +214,6 @@
         <a href="nursing-health-monitoring.php">Nursing &amp; Health Monitoring</a>
         <a href="24-hour-nursing-care.php">24-Hour Nursing Care</a>
         <a href="palliative-care.php">Palliative &amp; End-of-Life Care</a>
-      </div>
-    </details>
-
-    <details class="drawer-group">
-      <summary>Home Care</summary>
-      <div class="drawer-sublinks">
-        <a href="services.php">Home Care Overview</a>
-        <a href="personal-care.php">Personal Care &amp; Daily Living</a>
-        <a href="companion-care.php">Companion Care</a>
-        <a href="respite-care.php">Respite Care</a>
-        <a href="dementia-care.php">Dementia &amp; Alzheimer's Care</a>
-        <a href="24-hour-home-care.php">24-Hour Home Care</a>
-        <a href="overnight-care.php">Overnight Care</a>
       </div>
     </details>
 
@@ -231,11 +233,11 @@
       <summary>Areas We Serve</summary>
       <div class="drawer-sublinks">
         <a data-soon="Areas We Serve" href="locations.php">All Areas We Serve</a>
-        <a data-soon="Home Care Vancouver" href="vancouver.php">Vancouver</a>
-        <a data-soon="Home Care Burnaby" href="burnaby.php">Burnaby</a>
-        <a data-soon="Home Care Surrey" href="surrey.php">Surrey</a>
-        <a data-soon="Home Care New Westminster" href="new-westminster.php">New Westminster</a>
-        <a data-soon="Home Care Richmond" href="richmond.php">Richmond</a>
+        <a data-soon="Home Care Vancouver" href="vancouver.php">Home Care Vancouver</a>
+        <a data-soon="Home Care Burnaby" href="burnaby.php">Home Care Burnaby</a>
+        <a data-soon="Home Care Surrey" href="surrey.php">Home Care Surrey</a>
+        <a data-soon="Home Care New Westminster" href="new-westminster.php">Home Care New Westminster</a>
+        <a data-soon="Home Care Richmond" href="richmond.php">Home Care Richmond</a>
       </div>
     </details>
 

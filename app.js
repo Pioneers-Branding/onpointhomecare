@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initWizard();
   initTestimonialsSlider();
   initScrollReveal();
+  initFormAntiLinkSecurity();
 });
 
 /**
@@ -475,5 +476,76 @@ function initScrollReveal() {
     // Stagger siblings within a grid so rows cascade rather than pop as one.
     el.style.setProperty('--reveal-delay', `${(i % 4) * 70}ms`);
     observer.observe(el);
+  });
+}
+
+/**
+ * Anti-Phishing & Anti-Spam Link Blocker
+ * Prevents bots and scammers from typing, pasting, or submitting links / URLs in form fields.
+ */
+function containsForbiddenLinks(text) {
+  if (!text || typeof text !== 'string') return false;
+  // Regex to detect http://, https://, ftp://, www., domain names, BBCode links, HTML links
+  const linkRegex = /(https?:\/\/|ftp:\/\/|www\.[a-z0-9]|href\s*=|\[url|\.com\b|\.net\b|\.org\b|\.io\b|\.co\b|\.xyz\b|\.ru\b|\.cn\b|\.biz\b|\.info\b|\.site\b|\.online\b|\.top\b|\.vip\b|\.click\b|\.link\b|\.club\b)/i;
+  return linkRegex.test(text);
+}
+
+function initFormAntiLinkSecurity() {
+  const forms = document.querySelectorAll('form');
+  forms.forEach(form => {
+    // Intercept input / paste on textareas and text inputs
+    const textFields = form.querySelectorAll('input[type="text"], input[type="tel"], input[type="email"], textarea');
+    textFields.forEach(field => {
+      field.addEventListener('input', () => {
+        if (field.tagName.toLowerCase() === 'textarea' || field.type === 'text') {
+          if (containsForbiddenLinks(field.value)) {
+            field.setCustomValidity("Links and URLs are strictly prohibited to prevent phishing and spam.");
+            field.reportValidity();
+            field.style.borderColor = '#EF4444';
+          } else {
+            field.setCustomValidity("");
+            field.style.borderColor = '';
+          }
+        }
+      });
+
+      field.addEventListener('paste', (e) => {
+        const pasteData = (e.clipboardData || window.clipboardData).getData('text');
+        if (containsForbiddenLinks(pasteData)) {
+          e.preventDefault();
+          showToast("Links and URLs are not allowed in this form to prevent phishing/spam.");
+          if (field.setCustomValidity) {
+            field.setCustomValidity("Links and URLs are strictly prohibited.");
+            field.reportValidity();
+          }
+        }
+      });
+    });
+
+    // Validate on submission
+    form.addEventListener('submit', (e) => {
+      let hasLink = false;
+      let offendingField = null;
+
+      textFields.forEach(field => {
+        if (containsForbiddenLinks(field.value)) {
+          hasLink = true;
+          offendingField = field;
+        }
+      });
+
+      if (hasLink) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (offendingField) {
+          offendingField.focus();
+          offendingField.style.borderColor = '#EF4444';
+          offendingField.setCustomValidity("Links and URLs are strictly prohibited to protect against phishing.");
+          offendingField.reportValidity();
+        }
+        showToast("Form submission blocked: Links and URLs are not permitted.");
+        return false;
+      }
+    }, true);
   });
 }

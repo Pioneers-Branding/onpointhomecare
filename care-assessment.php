@@ -303,7 +303,24 @@
                 </div>
                 <div class="form-group">
                   <label for="wPhone">Your Phone Number <span class="req">*</span></label>
-                  <input type="tel" id="wPhone" name="wPhone" required placeholder="(778) XXX-XXXX" class="form-input">
+                  <div class="phone-input-group">
+                    <select name="countryCode" class="form-select country-code-select" aria-label="Country Code">
+                      <option value="+1" selected>🇨🇦/🇺🇸 +1</option>
+                      <option value="+44">🇬🇧 +44</option>
+                      <option value="+61">🇦🇺 +61</option>
+                      <option value="+63">🇵🇭 +63</option>
+                      <option value="+91">🇮🇳 +91</option>
+                      <option value="+86">🇨🇳 +86</option>
+                      <option value="+852">🇭🇰 +852</option>
+                      <option value="+81">🇯🇵 +81</option>
+                      <option value="+49">🇩🇪 +49</option>
+                      <option value="+33">🇫🇷 +33</option>
+                      <option value="+254">🇰🇪 +254</option>
+                      <option value="+234">🇳🇬 +234</option>
+                      <option value="+27">🇿🇦 +27</option>
+                    </select>
+                    <input type="tel" id="wPhone" name="wPhone" required placeholder="(778) XXX-XXXX" class="form-input phone-number-input">
+                  </div>
                 </div>
               </div>
 

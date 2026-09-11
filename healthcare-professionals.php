@@ -270,7 +270,7 @@
           <p>We eliminate discharge communication breakdowns with a structured bedside handover conducted directly by our Lead Registered Nurse.</p>
           <ul class="svc-block-list">
             <li>In-person hospital bedside intake at VGH, St. Paul's, Richmond, Burnaby, and Surrey Memorial</li>
-            <li>Direct physician discharge summary review and electronic medication reconciliation</li>
+            <li>Direct physician discharge summary review and medication reconciliation</li>
             <li>DME staging (hospital bed, Hoyer lift, commode) completed before the patient arrives home</li>
           </ul>
         </div>
@@ -401,7 +401,7 @@
           <div class="faq-content">
             <p>Our RNs and LPNs provide complex wound management, negative pressure wound therapy (NPWT), IV antibiotic infusions, PICC/CVC maintenance, catheter care, G-tube/J-tube enteral nutrition, and palliative symptom management.</p>
           </div>
-       
+        </div>
         <div class="faq-item">
           <button class="faq-trigger" onclick="toggleFaq(this)">
             <span class="faq-q-text">Can OnPoint accept patients with Alternate Level of Care (ALC) designation?</span>
@@ -419,7 +419,7 @@
           <div class="faq-content">
             <p>Every client has an individualized RN Clinical Escalation Plan. If red-flag parameters occur (hypotension, respiratory distress, acute delirium), our nurses initiate immediate clinical protocols and coordinate directly with the primary care physician or BC Emergency Health Services.</p>
           </div>
-        </div> </div>
+        </div>
       </div>
 
       <!-- CTA Box -->

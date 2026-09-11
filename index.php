@@ -284,10 +284,10 @@
 
         <div class="services-grid">
           <!-- Service Card 1 -->
-          <div class="service-card" onclick="location.href='personal-care.html'">
+          <div class="service-card" onclick="location.href='personal-care.php'">
             <div class="service-media">
               <img src="assets/images/Personal-Care-Daily-Living.webp"
-                alt="An OnPoint home care nurse helping a senior woman apply moisturizer during her morning personal care routine at home"
+                alt="An OnPoint care aide helping a senior woman with morning personal care routine at home"
                 width="2528" height="1696" loading="lazy" decoding="async">
               <div class="service-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -297,24 +297,23 @@
               </div>
             </div>
             <h3 class="service-title">1. Personal Care &amp; Daily Living</h3>
-            <p class="service-desc">Support with activities of daily living while protecting dignity and independence.
-            </p>
+            <p class="service-desc">Dignified assistance with bathing, dressing, grooming, and activities of daily living.</p>
             <ul class="service-bullets">
-              <li>Personal hygiene &amp; grooming</li>
-              <li>Dressing assistance</li>
+              <li>Personal hygiene &amp; bathing support</li>
+              <li>Dressing &amp; grooming assistance</li>
               <li>Feeding &amp; hydration support</li>
-              <li>Mobility &amp; transfer assistance</li>
+              <li>Mobility &amp; safe transfer assistance</li>
               <li>Daily routines &amp; schedule management</li>
             </ul>
-            <span class="service-link">View Service Details &rarr;</span>
+            <span class="service-link">View Personal Care &rarr;</span>
           </div>
 
           <!-- Service Card 2 -->
-          <div class="service-card service-card-featured" onclick="location.href='dementia-care.html'">
-            <div class="service-featured-tag">Specialized Clinical Program</div>
+          <div class="service-card service-card-featured" onclick="location.href='dementia-care.php'">
+            <div class="service-featured-tag">Specialized Memory Care</div>
             <div class="service-media">
               <img src="assets/images/Dementia-Memory-Care.webp"
-                alt="An OnPoint home care nurse working through a jigsaw puzzle and a family photo album with a senior woman as part of memory care"
+                alt="Caregiver working through activities with a senior as part of memory care"
                 width="2528" height="1696" loading="lazy" decoding="async">
               <div class="service-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -325,12 +324,11 @@
                 </svg>
               </div>
             </div>
-            <h3 class="service-title">2. Dementia &amp; Memory Care</h3>
-            <p class="service-desc">Compassionate, person-centered support for seniors experiencing memory loss or
-              cognitive changes.</p>
+            <h3 class="service-title">2. Dementia &amp; Alzheimer's Care</h3>
+            <p class="service-desc">Compassionate, routine-based support for seniors experiencing memory loss or cognitive changes.</p>
             <ul class="service-bullets">
               <li>Dementia &amp; Alzheimer's support</li>
-              <li>Behavioral support &amp; de-escalation</li>
+              <li>Behavioral support &amp; gentle de-escalation</li>
               <li>Routine-based structured care</li>
               <li>Family guidance &amp; coping techniques</li>
               <li>Cognitive monitoring &amp; gentle stimulation</li>
@@ -339,10 +337,10 @@
           </div>
 
           <!-- Service Card 3 -->
-          <div class="service-card" onclick="location.href='companion-care.html'">
+          <div class="service-card" onclick="location.href='companion-care.php'">
             <div class="service-media">
               <img src="assets/images/Companionship-Emotional-Support.webp"
-                alt="An OnPoint home care nurse sitting with a senior woman over a warm drink, sharing an unhurried conversation on the sofa"
+                alt="Caregiver sitting with a senior sharing an unhurried conversation"
                 width="2528" height="1696" loading="lazy" decoding="async">
               <div class="service-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -353,46 +351,97 @@
                 </svg>
               </div>
             </div>
-            <h3 class="service-title">3. Companionship &amp; Emotional Support</h3>
-            <p class="service-desc">Meaningful companionship that helps reduce isolation and supports emotional
-              wellbeing.</p>
+            <h3 class="service-title">3. Companion Care &amp; Support</h3>
+            <p class="service-desc">Meaningful companionship that reduces isolation, loneliness, and supports mental wellbeing.</p>
             <ul class="service-bullets">
               <li>Social conversation &amp; storytelling</li>
               <li>Engaging walks &amp; light activities</li>
               <li>Reading, music &amp; memory sharing</li>
-              <li>Support during family visits &amp; events</li>
+              <li>Support during family visits &amp; outings</li>
+              <li>Accompaniment to local appointments</li>
             </ul>
-            <span class="service-link">View Service Details &rarr;</span>
+            <span class="service-link">View Companion Care &rarr;</span>
           </div>
 
           <!-- Service Card 4 -->
-          <div class="service-card" onclick="location.href='services.html#fall-prevention'">
+          <div class="service-card" onclick="location.href='respite-care.php'">
             <div class="service-media">
-              <img src="assets/images/Fall-Prevention-Home-Safety.webp"
-                alt="An OnPoint home care nurse steadying a senior woman as she uses a hallway grab bar to move safely through her home"
+              <img src="assets/images/photos/care-aide-with-client.jpg"
+                alt="Care aide providing attentive in-home care for a senior"
                 width="2528" height="1696" loading="lazy" decoding="async">
               <div class="service-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                 </svg>
               </div>
             </div>
-            <h3 class="service-title">4. Fall Prevention &amp; Safety</h3>
-            <p class="service-desc">Identify everyday risks and create safer home environments for seniors.</p>
+            <h3 class="service-title">4. Respite Care for Families</h3>
+            <p class="service-desc">Reliable relief so family caregivers can rest, work, or recharge knowing their loved one is in safe hands.</p>
             <ul class="service-bullets">
-              <li>Environmental home safety checks</li>
-              <li>Mobility &amp; gait stabilization</li>
-              <li>Transfer assistance (bed to chair)</li>
-              <li>Fall-risk awareness &amp; mitigation</li>
+              <li>Flexible hourly, day, or weekend relief</li>
+              <li>Prevention of primary caregiver burnout</li>
+              <li>Continuity with trusted, familiar aides</li>
+              <li>Seamless continuation of daily care routines</li>
+              <li>Complete peace of mind for family</li>
             </ul>
-            <span class="service-link">View Service Details &rarr;</span>
+            <span class="service-link">View Respite Care &rarr;</span>
           </div>
 
           <!-- Service Card 5 -->
-          <div class="service-card" onclick="location.href='nursing-health-monitoring.html'">
+          <div class="service-card" onclick="location.href='24-hour-home-care.php'">
             <div class="service-media">
-              <img src="assets/images/Nursing-Health-Monitoring.webp"
-                alt="An OnPoint home care nurse taking a senior woman's blood pressure with a cuff monitor in her living room"
+              <img src="assets/images/photos/hero-elder-care.jpg"
+                alt="Caregiver providing continuous 24 hour home care for a senior"
+                width="2528" height="1696" loading="lazy" decoding="async">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+            </div>
+            <h3 class="service-title">5. 24-Hour &amp; Live-In Home Care</h3>
+            <p class="service-desc">Continuous around-the-clock home care and overnight awake supervision for total safety.</p>
+            <ul class="service-bullets">
+              <li>24/7 continuous in-home presence</li>
+              <li>Overnight awake supervision &amp; transfers</li>
+              <li>Day &amp; night safety surveillance</li>
+              <li>Comprehensive personal care &amp; meals</li>
+              <li>Seamless shift handovers &amp; RN check-ins</li>
+            </ul>
+            <span class="service-link">View 24-Hour Care &rarr;</span>
+          </div>
+
+          <!-- Service Card 6 -->
+          <div class="service-card" onclick="location.href='independent-home-care.php'">
+            <div class="service-media">
+              <img src="assets/images/Fall-Prevention-Home-Safety.webp"
+                alt="Senior receiving independent home care and mobility support"
+                width="2528" height="1696" loading="lazy" decoding="async">
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+              </div>
+            </div>
+            <h3 class="service-title">6. Independent Home Care &amp; Support</h3>
+            <p class="service-desc">Help with daily household tasks and routines so seniors can remain self-sufficient in their own homes.</p>
+            <ul class="service-bullets">
+              <li>Meal preparation &amp; nutrition planning</li>
+              <li>Light housekeeping, laundry &amp; bed making</li>
+              <li>Grocery shopping &amp; prescription pickups</li>
+              <li>Medication reminders &amp; hydration tracking</li>
+              <li>Home safety &amp; fall risk minimization</li>
+            </ul>
+            <span class="service-link">View Independent Home Care &rarr;</span>
+          </div>
+
+          <!-- Service Card 7 -->
+          <div class="service-card" onclick="location.href='hospital-to-home-care.php'">
+            <div class="service-media">
+              <img src="assets/images/Specialized-Wound-Care.webp"
+                alt="Nurse coordinating post-hospital discharge care at home"
                 width="2528" height="1696" loading="lazy" decoding="async">
               <div class="service-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -400,89 +449,40 @@
                 </svg>
               </div>
             </div>
-            <h3 class="service-title">5. Nursing &amp; Health Monitoring</h3>
-            <p class="service-desc">Professional nursing support and ongoing observation to help families stay
-              informed about their loved one's wellbeing.</p>
+            <h3 class="service-title">7. Hospital-to-Home &amp; Post-Op Care</h3>
+            <p class="service-desc">Safe bedside-to-doorstep hospital transition, post-surgical recovery, and readmission prevention.</p>
             <ul class="service-bullets">
-              <li>Vital signs tracking &amp; records</li>
-              <li>Medication administration supervision</li>
-              <li>Chronic condition observation</li>
-              <li>Coordination with treating physicians</li>
+              <li>Bedside hospital discharge intake (VGH, Surrey, etc.)</li>
+              <li>Doorstep reception &amp; DME equipment setup</li>
+              <li>Post-op surgical incision care &amp; mobilization</li>
+              <li>Medication reconciliation &amp; doctor updates</li>
+              <li>Proven &lt; 3% hospital readmission rate</li>
             </ul>
-            <span class="service-link">View Service Details &rarr;</span>
+            <span class="service-link">View Hospital Transition &rarr;</span>
           </div>
 
-          <!-- Service Card 6 -->
-          <div class="service-card" onclick="location.href='wound-care.html'">
+          <!-- Service Card 8 -->
+          <div class="service-card" onclick="location.href='home-nursing.php'">
             <div class="service-media">
-              <img src="assets/images/Specialized-Wound-Care.webp"
-                alt="An OnPoint home care nurse applying a clean dressing to a senior woman's forearm on a sterile field at home"
-                width="2528" height="1696" loading="lazy" decoding="async">
-              <div class="service-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                  <line x1="12" y1="8" x2="12" y2="16"></line>
-                  <line x1="8" y1="12" x2="16" y2="12"></line>
-                </svg>
-              </div>
-            </div>
-            <h3 class="service-title">6. Wound Care</h3>
-            <p class="service-desc">Specialized wound-care support based on individual needs and professional clinical
-              assessment.</p>
-            <ul class="service-bullets">
-              <li>Clinical wound assessment &amp; dressing</li>
-              <li>Pressure sore prevention &amp; management</li>
-              <li>Diabetic ulcer management</li>
-              <li>Healing progress documentation</li>
-            </ul>
-            <span class="service-link">View Service Details &rarr;</span>
-          </div>
-
-          <!-- Service Card 7 -->
-          <div class="service-card" onclick="location.href='services.html#infection-prevention'">
-            <div class="service-media">
-              <img src="assets/images/Infection-Prevention-Control.webp"
-                alt="An OnPoint home care nurse guiding a senior woman through hand sanitizing beside gloves and surface disinfectant supplies"
+              <img src="assets/images/Nursing-Health-Monitoring.webp"
+                alt="Registered nurse conducting clinical health monitoring in client home"
                 width="2528" height="1696" loading="lazy" decoding="async">
               <div class="service-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  <path d="M9 12l2 2 4-4"></path>
                 </svg>
               </div>
             </div>
-            <h3 class="service-title">7. Infection Prevention</h3>
-            <p class="service-desc">Care practices designed to maintain clean, safe and healthy environments.</p>
+            <h3 class="service-title">8. Home Nursing &amp; Clinical Oversight</h3>
+            <p class="service-desc">Registered Nurse-led clinical care embedded into every home care plan for medical safety.</p>
             <ul class="service-bullets">
-              <li>Strict hygiene &amp; sanitization protocols</li>
-              <li>Medical equipment cleanliness</li>
-              <li>Cross-contamination risk reduction</li>
-              <li>Vulnerable senior health protection</li>
+              <li>Vital signs monitoring &amp; health tracking</li>
+              <li>Advanced wound care &amp; sterile dressings</li>
+              <li>Chronic disease stabilization (CHF, Diabetes)</li>
+              <li>Physician charting &amp; clinical escalation</li>
+              <li>Direct Lead RN supervision for every client</li>
             </ul>
-            <span class="service-link">View Service Details &rarr;</span>
-          </div>
-
-          <!-- Service Card 8 -->
-          <div class="service-card" onclick="location.href='services.html#emergency-support'">
-            <div class="service-media">
-              <img src="assets/images/Emergency-First-Aid-Support.webp"
-                alt="An OnPoint home care nurse completing a first-aid incident report beside an open home response first-aid kit"
-                width="2528" height="1696" loading="lazy" decoding="async">
-              <div class="service-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                </svg>
-              </div>
-            </div>
-            <h3 class="service-title">8. Emergency &amp; First-Aid Support</h3>
-            <p class="service-desc">Professional response and coordination when unexpected health concerns arise.</p>
-            <ul class="service-bullets">
-              <li>First-aid certified nursing staff</li>
-              <li>Rapid escalation &amp; triage protocols</li>
-              <li>Hospital transit coordination</li>
-              <li>Family emergency communication</li>
-            </ul>
-            <span class="service-link">View Service Details &rarr;</span>
+            <span class="service-link">View Nursing Services &rarr;</span>
           </div>
         </div>
 
@@ -1493,8 +1493,25 @@
                 <div class="form-row-2">
                   <div class="form-group">
                     <label for="phone">Phone Number <span class="req">*</span></label>
-                    <input type="tel" id="phone" name="phone" required placeholder="(778) XXX-XXXX"
-                      class="form-input">
+                    <div class="phone-input-group">
+                      <select name="countryCode" class="form-select country-code-select" aria-label="Country Code">
+                        <option value="+1" selected>🇨🇦/🇺🇸 +1</option>
+                        <option value="+44">🇬🇧 +44</option>
+                        <option value="+61">🇦🇺 +61</option>
+                        <option value="+63">🇵🇭 +63</option>
+                        <option value="+91">🇮🇳 +91</option>
+                        <option value="+86">🇨🇳 +86</option>
+                        <option value="+852">🇭🇰 +852</option>
+                        <option value="+81">🇯🇵 +81</option>
+                        <option value="+49">🇩🇪 +49</option>
+                        <option value="+33">🇫🇷 +33</option>
+                        <option value="+254">🇰🇪 +254</option>
+                        <option value="+234">🇳🇬 +234</option>
+                        <option value="+27">🇿🇦 +27</option>
+                      </select>
+                      <input type="tel" id="phone" name="phone" required placeholder="(778) XXX-XXXX"
+                        class="form-input phone-number-input">
+                    </div>
                   </div>
                   <div class="form-group">
                     <label for="email">Email Address <span class="req">*</span></label>

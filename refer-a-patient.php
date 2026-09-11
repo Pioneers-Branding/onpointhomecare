@@ -49,7 +49,7 @@
           "name": "Can you accept patients with acute complex medical directives?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We accept patients requiring complex sterile wound dressings (NPWT), central venous line/PICC care, IV antibiotics, enteral tube feeding, catheterization, and specialized palliative symptom control under RN supervision."
+            "text": "Yes. We accept patients requiring complex sterile wound dressings (NPWT), enteral tube feeding, catheterization, and specialized palliative symptom control under RN supervision."
           }
         },
         {
@@ -211,16 +211,6 @@
         <div class="signal-card">
           <div style="font-size: 1.5rem; color: var(--primary-teal); margin-bottom: 0.5rem;">
             <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
-          <h3>Central Line &amp; IV Therapy</h3>
-          <p>PICC line, Hickman, and Port-a-Cath maintenance, sterile dressing changes, heparin/saline flushes, IV
-            antibiotic administration, and TPN management.</p>
-        </div>
-        <div class="signal-card">
-          <div style="font-size: 1.5rem; color: var(--primary-teal); margin-bottom: 0.5rem;">
-            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 6 12 12 14 14"></polyline>
             </svg>
@@ -246,8 +236,7 @@
             </svg>
           </div>
           <h3>Catheter &amp; Ostomy Management</h3>
-          <p>Indwelling Foley and suprapubic catheter insertions and irrigations, nephrostomy drainage management, and
-            colostomy/ileostomy appliance care.</p>
+          <p>Indwelling Foley catheter irrigations, nephrostomy drainage management, and colostomy/ileostomy appliance care.</p>
         </div>
       </div>
 
@@ -285,8 +274,25 @@
               <div class="form-row-2">
                 <div class="form-group">
                   <label for="refPhone">Direct Phone / Pager <span class="req">*</span></label>
-                  <input type="tel" id="refPhone" name="refPhone" required placeholder="(778) XXX-XXXX ext 123"
-                    class="form-input">
+                  <div class="phone-input-group">
+                    <select name="refCountryCode" class="form-select country-code-select" aria-label="Country Code">
+                      <option value="+1" selected>🇨🇦/🇺🇸 +1</option>
+                      <option value="+44">🇬🇧 +44</option>
+                      <option value="+61">🇦🇺 +61</option>
+                      <option value="+63">🇵🇭 +63</option>
+                      <option value="+91">🇮🇳 +91</option>
+                      <option value="+86">🇨🇳 +86</option>
+                      <option value="+852">🇭🇰 +852</option>
+                      <option value="+81">🇯🇵 +81</option>
+                      <option value="+49">🇩🇪 +49</option>
+                      <option value="+33">🇫🇷 +33</option>
+                      <option value="+254">🇰🇪 +254</option>
+                      <option value="+234">🇳🇬 +234</option>
+                      <option value="+27">🇿🇦 +27</option>
+                    </select>
+                    <input type="tel" id="refPhone" name="refPhone" required placeholder="(778) XXX-XXXX ext 123"
+                      class="form-input phone-number-input">
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="refEmail">Work Email Address <span class="req">*</span></label>
@@ -401,8 +407,25 @@
                 </div>
                 <div class="form-group">
                   <label for="familyPhone">Family Phone Number <span class="req">*</span></label>
-                  <input type="tel" id="familyPhone" name="familyPhone" required placeholder="(778) XXX-XXXX"
-                    class="form-input">
+                  <div class="phone-input-group">
+                    <select name="familyCountryCode" class="form-select country-code-select" aria-label="Country Code">
+                      <option value="+1" selected>🇨🇦/🇺🇸 +1</option>
+                      <option value="+44">🇬🇧 +44</option>
+                      <option value="+61">🇦🇺 +61</option>
+                      <option value="+63">🇵🇭 +63</option>
+                      <option value="+91">🇮🇳 +91</option>
+                      <option value="+86">🇨🇳 +86</option>
+                      <option value="+852">🇭🇰 +852</option>
+                      <option value="+81">🇯🇵 +81</option>
+                      <option value="+49">🇩🇪 +49</option>
+                      <option value="+33">🇫🇷 +33</option>
+                      <option value="+254">🇰🇪 +254</option>
+                      <option value="+234">🇳🇬 +234</option>
+                      <option value="+27">🇿🇦 +27</option>
+                    </select>
+                    <input type="tel" id="familyPhone" name="familyPhone" required placeholder="(778) XXX-XXXX"
+                      class="form-input phone-number-input">
+                  </div>
                 </div>
               </div>
             </div>
@@ -449,9 +472,7 @@
             <span class="faq-q-icon">+</span>
           </button>
           <div class="faq-content">
-            <p>Yes. We accept patients requiring complex sterile wound dressings (NPWT), central venous line/PICC care,
-              IV antibiotics, enteral tube feeding, catheterization, and specialized palliative symptom control under RN
-              supervision.</p>
+            <p>Yes. We accept patients requiring complex sterile wound dressings (NPWT), enteral tube feeding, catheterization, and specialized palliative symptom control under RN supervision.</p>
           </div>
         </div>
         <div class="faq-item">
