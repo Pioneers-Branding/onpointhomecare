@@ -156,6 +156,9 @@
           <a href="care-stories.php">Care Stories</a>
         </div>
       </div>
+
+      <!-- Blog -->
+      <a href="blog.php" class="nav-item" data-page="blog">Blog</a>
     </nav>
 
     <!-- Header CTA -->
@@ -273,6 +276,7 @@
       </div>
     </details>
 
+    <a href="blog.php">Blog</a>
     <a href="contact.php">Contact Us</a>
   </div>
   <div class="drawer-actions">

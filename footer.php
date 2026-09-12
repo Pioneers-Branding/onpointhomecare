@@ -146,6 +146,7 @@
 
         <h4 class="footer-col-title footer-col-subtitle">Resources &amp; Contact</h4>
         <ul class="footer-links-list">
+          <li><a href="blog.php">Blog</a></li>
           <li><a href="resources.php">Family Guides &amp; Resources</a></li>
           <li><a href="faqs.php">Frequently Asked Questions</a></li>
           <li><a href="care-assessment.php">Book a Care Assessment</a></li>
