@@ -7,6 +7,8 @@
   <title>Elder Care Services | OnPoint Nurse & Home Care</title>
   <meta name="description" content="Personal care, dementia and memory care, companionship, fall prevention, nursing and health monitoring, wound care, infection prevention and emergency support at home.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/services">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -7,6 +7,8 @@
   <title>Get Urgent Care Now | Same-Day &amp; Emergency In-Home Care | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Need urgent home care or same-day nursing in Vancouver, Richmond, Burnaby or Surrey? Rapid 24/7 bedside deployment for hospital discharges, caregiver emergencies, and sudden declines.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/get-care-now">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

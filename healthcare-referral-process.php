@@ -7,6 +7,8 @@
   <title>Healthcare Referral Process | Clinical Workflow | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Step-by-step guide to OnPoint's patient referral and clinical onboarding process in Metro Vancouver. Rapid triage, bedside assessment, and interprofessional reporting.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/healthcare-referral-process">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

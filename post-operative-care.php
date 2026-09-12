@@ -7,6 +7,8 @@
   <title>Post-Operative Care at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Nursing care during surgical recovery at home: incision monitoring, infection prevention, pain and mobility support across Vancouver, Burnaby, Surrey, New Westminster and Richmond.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/post-operative-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -7,6 +7,8 @@
   <title>Supported Health Conditions &amp; Diagnoses | Metro Vancouver | OnPoint</title>
   <meta name="description" content="Explore condition-specific in-home care in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Specialized support for Dementia, Alzheimer's, Parkinson's, Stroke, CHF, COPD, and Post-Op.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/conditions">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

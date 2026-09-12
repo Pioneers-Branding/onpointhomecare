@@ -7,6 +7,8 @@
   <title>Mobility Challenges &amp; Safe Transfers | Metro Vancouver | OnPoint</title>
   <meta name="description" content="Safe patient transfer assistance and mobility support in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Hoyer lift certified, post-fall reconditioning, and bathroom safety.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/mobility-challenges">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -7,6 +7,8 @@
   <title>Why Choose OnPoint | The Nurse-Led Difference in Vancouver | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Discover why Vancouver families trust OnPoint Nurse &amp; Home Care: clinical leadership by a Registered Nurse with 20+ years experience, dedicated primary caregivers, and personalized clinical governance.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/why-onpoint">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

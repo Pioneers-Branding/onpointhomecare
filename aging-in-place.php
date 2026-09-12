@@ -7,6 +7,8 @@
   <title>Aging in Place Home Care Services | Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Long-term independence, dignified living, and progressive home care support for seniors aging in place across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Registered nurse led.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/aging-in-place">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

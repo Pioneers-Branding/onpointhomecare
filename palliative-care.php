@@ -7,6 +7,8 @@
   <title>Palliative &amp; End-of-Life Care at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Compassionate palliative and end-of-life nursing care at home across Metro Vancouver — comfort, dignity and steady support for the person and the family around them.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/palliative-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

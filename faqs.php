@@ -7,6 +7,8 @@
   <title>Frequently Asked Questions | OnPoint Nurse & Home Care</title>
   <meta name="description" content="Answers to the questions families ask most about arranging home nursing and home care — how care starts, who provides it, and what to expect.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/faqs">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

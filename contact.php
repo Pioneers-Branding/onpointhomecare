@@ -7,6 +7,8 @@
   <title>Contact Our Care Team | OnPoint Nurse & Home Care</title>
   <meta name="description" content="Speak with the OnPoint care coordinators about home nursing and home care. Call, email, or send a care request and our nursing team will respond.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/contact">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

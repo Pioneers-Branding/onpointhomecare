@@ -7,6 +7,8 @@
   <title>Family Guides & Resources | OnPoint Nurse & Home Care</title>
   <meta name="description" content="Practical guides for families arranging care for an ageing parent — recognising when help is needed, planning ahead, and supporting a caregiver.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/resources">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

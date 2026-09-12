@@ -7,6 +7,8 @@
   <title>Complex Care at Home | Advanced Clinical Home Nursing | OnPoint Care</title>
   <meta name="description" content="High-acuity, specialized nursing care at home in Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Tracheostomy, catheter management, oxygen therapy, tube feeding, and multi-morbidity care.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/complex-care-at-home">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

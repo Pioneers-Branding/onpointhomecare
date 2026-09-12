@@ -7,6 +7,8 @@
   <title>About Us | OnPoint Nurse & Home Care</title>
   <meta name="description" content="How OnPoint Nurse &amp; Home Care approaches elder care: clinical excellence, personal dignity, and family-centred support led by a registered nurse.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/about-us">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

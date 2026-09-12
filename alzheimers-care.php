@@ -7,6 +7,8 @@
   <title>Alzheimer's Care &amp; Memory Support | Vancouver, Richmond, Burnaby | OnPoint</title>
   <meta name="description" content="Specialized, compassionate Alzheimer's care at home in Metro Vancouver. Stage-specific cognitive support, wandering prevention, gentle redirection, and 24/7 RN oversight.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/alzheimers-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

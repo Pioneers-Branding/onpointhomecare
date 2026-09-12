@@ -7,6 +7,8 @@
   <title>Dementia Home Care &amp; Memory Support | Metro Vancouver | OnPoint</title>
   <meta name="description" content="Compassionate, specialized dementia in-home care in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Person-centered memory care, sundowning routines, and family respite.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/dementia-home-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

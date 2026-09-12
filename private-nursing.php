@@ -7,6 +7,8 @@
   <title>Private Nursing Care at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Privately arranged nursing care at home in Metro Vancouver — dedicated nursing attention on your own schedule, without waitlists or referral queues.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/private-nursing">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

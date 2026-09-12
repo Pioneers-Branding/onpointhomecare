@@ -8,6 +8,8 @@
   <meta name="description"
     content="Secure clinical patient referral form for hospital discharge planners, physicians, and care managers in Metro Vancouver. Fast 2-hour intake and bedside RN assessment.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/refer-a-patient">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

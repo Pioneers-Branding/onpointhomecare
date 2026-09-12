@@ -7,6 +7,8 @@
   <title>Specialized Wound Care at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Nurse-led wound care at home across Metro Vancouver: clinical assessment, sterile dressing changes, pressure injury prevention, diabetic ulcer care and documented healing progress.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/wound-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

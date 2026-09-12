@@ -7,6 +7,8 @@
   <title>How It Works | Step-by-Step Home Care Process | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Discover how arranging home care with OnPoint works: from initial clinical consultation and comprehensive in-home RN assessment to personalized caregiver matching and ongoing care oversight in Vancouver.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/how-it-works">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

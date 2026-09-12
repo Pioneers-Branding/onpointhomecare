@@ -7,6 +7,8 @@
   <title>Hospital to Home Care | Safe Transitional Care in Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Seamless transition from hospital to home across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Dedicated bedside discharge coordination, medication reconciliation, and home recovery nursing.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/hospital-to-home-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

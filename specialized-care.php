@@ -7,6 +7,8 @@
   <title>Specialized Care Services Overview | Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Explore OnPoint's specialized in-home care programs in Vancouver, Burnaby, Surrey, New Westminster and Richmond: hospital-to-home transitions, fall recovery, caregiver burnout relief, and complex medical care.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/specialized-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

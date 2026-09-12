@@ -7,6 +7,8 @@
   <title>Nursing &amp; Health Monitoring at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Ongoing nurse-led health monitoring at home in Metro Vancouver: vital signs, chronic condition tracking, medication oversight and clear reporting to families and physicians.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/nursing-health-monitoring">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

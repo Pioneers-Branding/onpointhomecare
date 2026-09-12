@@ -7,6 +7,8 @@
   <title>For Healthcare Professionals | Clinical In-Home Partnerships | OnPoint</title>
   <meta name="description" content="Collaborate with OnPoint Nurse & Home Care across Vancouver, Burnaby, Surrey, New Westminster and Richmond. Direct RN clinical coordination, rapid hospital discharge support, and patient referrals.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/healthcare-professionals">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

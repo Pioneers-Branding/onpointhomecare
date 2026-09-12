@@ -8,6 +8,8 @@
   <meta name="description"
     content="Dedicated post-acute home care and transitional nursing for hospital discharge planners in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Rapid ALC relief and bedside consultations.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/hospital-discharge-planners">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

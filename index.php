@@ -8,6 +8,8 @@
   <meta name="description"
     content="Compassionate, professional elder care and home nursing led by experienced clinical nursing leadership. Dementia care, daily living support, fall prevention, and health monitoring.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

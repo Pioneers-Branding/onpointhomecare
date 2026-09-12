@@ -7,6 +7,8 @@
   <title>Companion Care for Seniors at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Companionship and social support for older adults across Metro Vancouver &mdash; conversation, shared activities, outings and a reliable friendly presence that reduces isolation.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/companion-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -8,6 +8,8 @@
   <meta name="description"
     content="Registered Nurse-led complex home nursing in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Tracheostomy, TPN, IV therapy, G-tube feeding, catheter care, and high-acuity medical management at home.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/complex-home-nursing">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

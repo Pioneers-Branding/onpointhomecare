@@ -7,6 +7,8 @@
   <title>Overnight Care at Home for Seniors | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Waking and sleeping overnight care across Metro Vancouver &mdash; night-time support for seniors and a full night's sleep for the family carers who have been going without one.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/overnight-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

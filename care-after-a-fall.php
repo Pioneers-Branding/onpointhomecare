@@ -7,6 +7,8 @@
   <title>Care After a Fall &amp; Fall Recovery at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Specialized in-home recovery care after a fall for seniors across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Mobility retraining, fear-of-falling reduction, environmental audit, and clinical safety.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/care-after-a-fall">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

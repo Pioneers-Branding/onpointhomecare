@@ -7,6 +7,8 @@
   <title>Care Stories &amp; Case Studies | Real Care Journeys in Metro Vancouver | OnPoint</title>
   <meta name="description" content="Read in-depth care stories and clinical case studies showing how OnPoint Nurse &amp; Home Care solves complex care challenges, prevents hospital readmissions, and supports aging in place.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/care-stories">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

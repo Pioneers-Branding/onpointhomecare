@@ -7,6 +7,8 @@
   <title>Client Reviews &amp; Family Testimonials | OnPoint Nurse &amp; Home Care Vancouver</title>
   <meta name="description" content="Read verified reviews and heartfelt stories from families across Vancouver, Burnaby, Surrey, New Westminster and Richmond who trust OnPoint Nurse &amp; Home Care for dementia, post-hospital nursing, and daily personal care.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/reviews">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

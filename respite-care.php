@@ -7,6 +7,8 @@
   <title>Respite Care for Family Caregivers | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Short-term and planned respite care at home across Metro Vancouver, so family caregivers can rest, work, travel or recover &mdash; with their loved one safely supported.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/respite-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

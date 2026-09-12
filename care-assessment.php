@@ -8,6 +8,8 @@
   <meta name="description"
     content="Request an in-home care assessment. Tell us about your loved one and our lead registered nurse will review the request and get in touch.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/care-assessment">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

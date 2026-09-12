@@ -7,6 +7,8 @@
   <title>Our Care Team | OnPoint Nurse & Home Care</title>
   <meta name="description" content="Meet the clinical leadership and care team behind OnPoint Nurse &amp; Home Care, and the standards every care plan is held to.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/our-care-team">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

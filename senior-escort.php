@@ -7,6 +7,8 @@
   <title>Senior Escort &amp; Medical Appointments | Vancouver, Richmond, Burnaby | OnPoint</title>
   <meta name="description" content="Door-through-door senior escort and medical appointment accompaniment in Metro Vancouver. Professional support for specialist visits, outpatient procedures, and family updates.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/senior-escort">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

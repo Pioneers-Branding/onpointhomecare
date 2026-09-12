@@ -7,6 +7,8 @@
   <title>Home Nursing in Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Registered nursing care delivered at home across Vancouver, Burnaby, Surrey, New Westminster and Richmond — health monitoring, wound care, medication oversight and post-hospital recovery support.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/home-nursing">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

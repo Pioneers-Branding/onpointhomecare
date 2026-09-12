@@ -7,6 +7,8 @@
   <title>Home Care Cost &amp; Rates Guide | Vancouver, Richmond, Burnaby | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Transparent guide to home care costs and nurse rates in Metro Vancouver. Understand hourly rates, overnight shifts, 24/7 care pricing, insurance coverage, CSIL, and tax credits.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/home-care-cost">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

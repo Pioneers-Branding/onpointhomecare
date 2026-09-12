@@ -7,6 +7,8 @@
   <title>Chronic Condition Support &amp; Disease Management | Metro Vancouver | OnPoint</title>
   <meta name="description" content="Proactive in-home chronic disease management in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Specialized care for CHF, COPD, Diabetes, Hypertension and Kidney Disease.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/chronic-condition-support">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

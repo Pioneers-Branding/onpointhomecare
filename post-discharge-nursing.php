@@ -7,6 +7,8 @@
   <title>Post-Discharge Nursing Care at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Nursing support for the first weeks after a hospital stay: medication reconciliation, wound checks, symptom monitoring and readmission risk reduction across Metro Vancouver.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/post-discharge-nursing">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

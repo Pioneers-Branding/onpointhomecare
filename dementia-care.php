@@ -7,6 +7,8 @@
   <title>Dementia & Memory Care at Home | OnPoint Nurse & Home Care</title>
   <meta name="description" content="Person-centred dementia and memory care at home: recognising the early signs of cognitive change, structured routines, and guidance for families.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/dementia-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

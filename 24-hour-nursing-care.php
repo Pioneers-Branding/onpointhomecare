@@ -7,6 +7,8 @@
   <title>24-Hour Nursing Care at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Round-the-clock nursing cover at home across Metro Vancouver for high-dependency needs, unsafe nights and complex care that visits alone cannot support.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/24-hour-nursing-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

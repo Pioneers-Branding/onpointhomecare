@@ -8,6 +8,8 @@
   <meta name="description"
     content="Collaborate with OnPoint Nurse & Home Care across Vancouver, Burnaby, Surrey, New Westminster and Richmond. Structured physician progress charting, medication compliance, and skilled nursing.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/physician-referrals">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

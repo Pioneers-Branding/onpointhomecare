@@ -7,6 +7,8 @@
   <title>24-Hour Home Care in Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Round-the-clock home care support across Vancouver, Burnaby, Surrey, New Westminster and Richmond &mdash; continuous presence, personal care and supervision for older adults who cannot safely be alone.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/24-hour-home-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

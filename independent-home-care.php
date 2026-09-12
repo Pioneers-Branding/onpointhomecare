@@ -7,6 +7,8 @@
   <title>Independent Home Care &amp; Daily Living Support | Metro Vancouver | OnPoint</title>
   <meta name="description" content="Preserve independence and dignity with non-intrusive home care across Vancouver, Burnaby, Surrey, New Westminster and Richmond. Nutritious meal prep, safety check-ins, and mobility support.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/independent-home-care">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

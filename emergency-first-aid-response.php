@@ -7,6 +7,8 @@
   <title>Emergency &amp; First-Aid Clinical Response at Home | OnPoint Nurse &amp; Home Care</title>
   <meta name="description" content="Rapid in-home clinical first-aid, acute triage, and emergency response protocols for seniors across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. CPR-certified nursing leadership.">
 
+  <link rel="canonical" href="https://onpointhomecare.care/emergency-first-aid-response">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
