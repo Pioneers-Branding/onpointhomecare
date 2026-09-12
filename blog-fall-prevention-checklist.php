@@ -93,7 +93,7 @@
   <main id="mainContent">
     <div class="page-header-banner">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog.php">Blog</a> / <span>Fall-Prevention Checklist</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog">Blog</a> / <span>Fall-Prevention Checklist</span></div>
         <h1 class="page-title">The Complete Home Fall-Prevention Checklist for Seniors</h1>
         <p class="page-tagline">One in four Canadian seniors falls each year, and most falls happen at home. Here's the room-by-room audit our nurses use to catch the hazards families miss.</p>
       </div>
@@ -187,7 +187,7 @@
           <p>Several common medication classes, including sedatives, some blood pressure medications, and certain antidepressants, can cause dizziness or a drop in blood pressure on standing. If falls have started happening around the time a new prescription began, or if there's a long list of medications from multiple doctors, a pharmacist-led medication review is worth requesting.</p>
 
           <h2 id="after-a-fall">What to Do If a Fall Already Happened</h2>
-          <p>Even a "minor" fall matters. Check for pain, confusion, or an inability to put weight on a leg before helping someone up, and arrange a medical assessment regardless of how the fall looks. Some injuries, particularly hip fractures and head injuries, aren't obvious right away. Just as importantly, treat the fall as new information: it's a signal to revisit the checklist above and to ask whether some extra <a href="care-after-a-fall.php">support after a fall</a> would help prevent the next one.</p>
+          <p>Even a "minor" fall matters. Check for pain, confusion, or an inability to put weight on a leg before helping someone up, and arrange a medical assessment regardless of how the fall looks. Some injuries, particularly hip fractures and head injuries, aren't obvious right away. Just as importantly, treat the fall as new information: it's a signal to revisit the checklist above and to ask whether some extra <a href="care-after-a-fall">support after a fall</a> would help prevent the next one.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div class="faq-accordion-container">
@@ -215,7 +215,7 @@
                 <span class="faq-q-icon">+</span>
               </button>
               <div class="faq-content">
-                <p>Check for pain, confusion, or inability to bear weight before helping them up, and seek medical assessment even if they seem fine. A fall is also a signal to review their <a href="care-assessment.php">care plan</a>.</p>
+                <p>Check for pain, confusion, or inability to bear weight before helping them up, and seek medical assessment even if they seem fine. A fall is also a signal to review their <a href="care-assessment">care plan</a>.</p>
               </div>
             </div>
           </div>
@@ -237,17 +237,17 @@
             <h2 class="section-heading">Related Guides for Families</h2>
           </div>
           <div class="related-services-grid">
-            <a class="related-service-card" href="care-after-a-fall.php">
+            <a class="related-service-card" href="care-after-a-fall">
               <h3 class="wp-title">Care After a Fall</h3>
               <p class="wp-desc">Structured recovery support for seniors after a fall, including mobility rebuilding and home safety follow-up.</p>
               <span class="service-link">Explore the Service &rarr;</span>
             </a>
-            <a class="related-service-card" href="mobility-challenges.php">
+            <a class="related-service-card" href="mobility-challenges">
               <h3 class="wp-title">Mobility Challenges</h3>
               <p class="wp-desc">Support for seniors managing balance issues, weakness, or reduced mobility that increase fall risk.</p>
               <span class="service-link">Explore the Service &rarr;</span>
             </a>
-            <a class="related-service-card" href="blog-hospital-discharge-checklist.php">
+            <a class="related-service-card" href="blog-hospital-discharge-checklist">
               <h3 class="wp-title">Bringing a Parent Home After Hospital</h3>
               <p class="wp-desc">A discharge checklist for families, including how to fall-proof the home before a post-surgical return.</p>
               <span class="service-link">Read Article &rarr;</span>
@@ -259,8 +259,8 @@
           <h3>Not Sure Which Fixes Your Parent's Home Actually Needs?</h3>
           <p>Our Lead Registered Nurse can complete a free in-home safety and care assessment, and point out risks a walkthrough alone might miss.</p>
           <div class="btn-group">
-            <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-            <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+            <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
           </div>
         </div>
       </div>

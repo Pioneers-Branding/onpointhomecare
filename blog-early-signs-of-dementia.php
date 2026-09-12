@@ -93,7 +93,7 @@
   <main id="mainContent">
     <div class="page-header-banner">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog.php">Blog</a> / <span>Early Signs of Dementia</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog">Blog</a> / <span>Early Signs of Dementia</span></div>
         <h1 class="page-title">10 Early Warning Signs of Dementia Every Family Should Know</h1>
         <p class="page-tagline">Cognitive decline rarely arrives all at once. Here are the subtle early changes our nursing team looks for, and what to do if you notice them in someone you love.</p>
       </div>
@@ -175,7 +175,7 @@
 
           <h2 id="next-steps">10. When to Seek a Professional Assessment</h2>
           <p>Noticing one or two of these signs occasionally isn't cause for alarm, but a pattern of several, persisting over weeks or months, is worth discussing with a physician. Many treatable conditions (urinary tract infections, thyroid imbalances, medication side effects, depression, vitamin B12 deficiency) can mimic dementia symptoms, so a proper medical evaluation is the essential next step, not a diagnosis you make at home.</p>
-          <p>If the assessment does point toward dementia, an early diagnosis gives your family more time to plan, legally, financially, and practically, while your parent can still take part in those decisions. It also opens the door to <a href="dementia-care.php">structured dementia care</a> that keeps daily routines calm and familiar for as long as possible.</p>
+          <p>If the assessment does point toward dementia, an early diagnosis gives your family more time to plan, legally, financially, and practically, while your parent can still take part in those decisions. It also opens the door to <a href="dementia-care">structured dementia care</a> that keeps daily routines calm and familiar for as long as possible.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div class="faq-accordion-container">
@@ -194,7 +194,7 @@
                 <span class="faq-q-icon">+</span>
               </button>
               <div class="faq-content">
-                <p>Start with their family doctor, who can rule out treatable causes like medication interactions or infections before a cognitive assessment. Our Lead Registered Nurse can also complete a <a href="care-assessment.php">free in-home care assessment</a>.</p>
+                <p>Start with their family doctor, who can rule out treatable causes like medication interactions or infections before a cognitive assessment. Our Lead Registered Nurse can also complete a <a href="care-assessment">free in-home care assessment</a>.</p>
               </div>
             </div>
             <div class="faq-item">
@@ -203,7 +203,7 @@
                 <span class="faq-q-icon">+</span>
               </button>
               <div class="faq-content">
-                <p>Consistent routines, structured daily engagement, and a familiar home environment help reduce agitation and preserve independence longer. Introducing <a href="companion-care.php">companion</a> or dementia care early, even a few hours weekly, eases the transition.</p>
+                <p>Consistent routines, structured daily engagement, and a familiar home environment help reduce agitation and preserve independence longer. Introducing <a href="companion-care">companion</a> or dementia care early, even a few hours weekly, eases the transition.</p>
               </div>
             </div>
           </div>
@@ -225,17 +225,17 @@
             <h2 class="section-heading">Related Guides for Families</h2>
           </div>
           <div class="related-services-grid">
-            <a class="related-service-card" href="blog-caregiver-burnout-signs.php">
+            <a class="related-service-card" href="blog-caregiver-burnout-signs">
               <h3 class="wp-title">Caregiver Burnout: 7 Signs It's Time to Ask for Help</h3>
               <p class="wp-desc">Supporting a parent with cognitive decline is demanding. Learn to recognize burnout before it affects your own health.</p>
               <span class="service-link">Read Article &rarr;</span>
             </a>
-            <a class="related-service-card" href="dementia-care.php">
+            <a class="related-service-card" href="dementia-care">
               <h3 class="wp-title">Dementia &amp; Alzheimer's Care</h3>
               <p class="wp-desc">See how our RN-supervised dementia care plans bring structure, safety, and calm to daily routines at home.</p>
               <span class="service-link">Explore the Service &rarr;</span>
             </a>
-            <a class="related-service-card" href="blog-hospital-discharge-checklist.php">
+            <a class="related-service-card" href="blog-hospital-discharge-checklist">
               <h3 class="wp-title">Bringing a Parent Home After Hospital</h3>
               <p class="wp-desc">A discharge checklist for families, including guidance for patients with cognitive changes or delirium risk.</p>
               <span class="service-link">Read Article &rarr;</span>
@@ -247,8 +247,8 @@
           <h3>Notice Some of These Signs in Someone You Love?</h3>
           <p>Our Lead Registered Nurse can meet with your family for a free, no-pressure in-home assessment to talk through what you're seeing.</p>
           <div class="btn-group">
-            <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-            <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+            <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
           </div>
         </div>
       </div>

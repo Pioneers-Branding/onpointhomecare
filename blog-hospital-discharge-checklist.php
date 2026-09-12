@@ -93,7 +93,7 @@
   <main id="mainContent">
     <div class="page-header-banner">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog.php">Blog</a> / <span>Hospital Discharge Checklist</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog">Blog</a> / <span>Hospital Discharge Checklist</span></div>
         <h1 class="page-title">Bringing a Parent Home After Hospital: A Discharge Checklist for Families</h1>
         <p class="page-tagline">The gap between "medically stable" and "safely set up at home" is where most post-discharge problems happen. Here's how to close it.</p>
       </div>
@@ -158,11 +158,11 @@
           <p>A discharge summary usually recommends follow-up with a family doctor, surgeon, or specialist within one to two weeks. Book this before leaving the hospital if possible. Family doctor calendars fill quickly, and a missed follow-up window is a common reason small problems go unnoticed until they become bigger ones.</p>
 
           <h2 id="who-is-there">Who Will Be There When They Arrive Home?</h2>
-          <p>Someone medically fragile should not be the one unlocking an empty house. Plan who will be present for at least the first 24 to 48 hours, and be honest about whether that person can manage medication schedules, mobility assistance, and meal preparation on top of their own responsibilities. This is often the point where families reach out about <a href="post-discharge-nursing.php">post-discharge nursing</a> or short-term care aide support. Even a temporary arrangement for the first week or two can prevent the crisis of trying to do it all alone.</p>
+          <p>Someone medically fragile should not be the one unlocking an empty house. Plan who will be present for at least the first 24 to 48 hours, and be honest about whether that person can manage medication schedules, mobility assistance, and meal preparation on top of their own responsibilities. This is often the point where families reach out about <a href="post-discharge-nursing">post-discharge nursing</a> or short-term care aide support. Even a temporary arrangement for the first week or two can prevent the crisis of trying to do it all alone.</p>
 
           <h2 id="warning-signs">Warning Signs That Mean Call the Doctor</h2>
           <p>General warning signs worth acting on quickly include a fever, new or worsening confusion, shortness of breath, a wound that becomes red, warm, or draining, chest pain, or an inability to keep food or medication down. When in doubt, call: it's always better to check with a nurse or physician than to wait and see.</p>
-          <p>OnPoint's <a href="hospital-to-home-care.php">hospital-to-home transition service</a> exists specifically to close this gap: our nurses can meet your parent at the hospital, translate the discharge instructions into a daily home schedule, and arrange the right level of nursing or personal care from day one.</p>
+          <p>OnPoint's <a href="hospital-to-home-care">hospital-to-home transition service</a> exists specifically to close this gap: our nurses can meet your parent at the hospital, translate the discharge instructions into a daily home schedule, and arrange the right level of nursing or personal care from day one.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div class="faq-accordion-container">
@@ -212,17 +212,17 @@
             <h2 class="section-heading">Related Guides for Families</h2>
           </div>
           <div class="related-services-grid">
-            <a class="related-service-card" href="hospital-to-home-care.php">
+            <a class="related-service-card" href="hospital-to-home-care">
               <h3 class="wp-title">Hospital to Home Care</h3>
               <p class="wp-desc">Bedside coordination and a nurse-led transition plan for a safe, well-supported return home.</p>
               <span class="service-link">Explore the Service &rarr;</span>
             </a>
-            <a class="related-service-card" href="healthcare-referral-process.php">
+            <a class="related-service-card" href="healthcare-referral-process">
               <h3 class="wp-title">Our Referral Process</h3>
               <p class="wp-desc">How discharge planners, physicians, and families can start a referral quickly and what happens next.</p>
               <span class="service-link">See the Process &rarr;</span>
             </a>
-            <a class="related-service-card" href="blog-fall-prevention-checklist.php">
+            <a class="related-service-card" href="blog-fall-prevention-checklist">
               <h3 class="wp-title">Home Fall-Prevention Checklist</h3>
               <p class="wp-desc">A room-by-room safety walkthrough, essential reading before a post-surgical or post-hospital return home.</p>
               <span class="service-link">Read Article &rarr;</span>
@@ -234,8 +234,8 @@
           <h3>Discharge Coming Up in the Next Few Days?</h3>
           <p>Call our Healthcare Partner Line and our Lead Registered Nurse can help you plan the transition home before it happens, not after.</p>
           <div class="btn-group">
-            <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-            <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+            <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
           </div>
         </div>
       </div>

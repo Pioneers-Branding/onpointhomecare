@@ -95,7 +95,7 @@
     <div class="container page-content-block">
 
       <!-- Featured Post -->
-      <a href="blog-early-signs-of-dementia.php" class="blog-hero-featured" style="text-decoration:none; color:inherit;">
+      <a href="blog-early-signs-of-dementia" class="blog-hero-featured" style="text-decoration:none; color:inherit;">
         <div class="blog-featured-img-wrap">
           <span class="blog-featured-badge">Featured</span>
           <img src="assets/images/Dementia-Memory-Care.webp" alt="Adult daughter gently talking with her aging mother at home" loading="lazy" decoding="async">
@@ -124,7 +124,7 @@
       </div>
 
       <div class="blog-grid">
-        <a href="blog-fall-prevention-checklist.php" class="blog-card">
+        <a href="blog-fall-prevention-checklist" class="blog-card">
           <img src="assets/images/Fall-Prevention-Home-Safety.webp" alt="Grab bar and non-slip mat installed in a senior's bathroom" class="blog-card-img" loading="lazy" decoding="async">
           <div class="blog-card-body">
             <span class="blog-tag-pill">Home Safety</span>
@@ -137,7 +137,7 @@
           </div>
         </a>
 
-        <a href="blog-hospital-discharge-checklist.php" class="blog-card">
+        <a href="blog-hospital-discharge-checklist" class="blog-card">
           <img src="assets/images/photos/lead-registered-nurse-office.jpg" alt="Registered nurse reviewing a discharge summary with a clipboard" class="blog-card-img" loading="lazy" decoding="async">
           <div class="blog-card-body">
             <span class="blog-tag-pill">Hospital to Home</span>
@@ -150,7 +150,7 @@
           </div>
         </a>
 
-        <a href="blog-caregiver-burnout-signs.php" class="blog-card">
+        <a href="blog-caregiver-burnout-signs" class="blog-card">
           <img src="assets/images/family_care_dialogue.jpg" alt="Tired adult daughter sitting with her elderly father" class="blog-card-img" loading="lazy" decoding="async">
           <div class="blog-card-body">
             <span class="blog-tag-pill">Caregiver Support</span>
@@ -168,8 +168,8 @@
         <h3>Have a Question These Articles Didn't Answer?</h3>
         <p>Our Lead Registered Nurse offers a free, no-pressure care assessment to walk through your family's specific situation.</p>
         <div class="btn-group">
-          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

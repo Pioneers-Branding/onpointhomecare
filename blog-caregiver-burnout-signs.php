@@ -93,7 +93,7 @@
   <main id="mainContent">
     <div class="page-header-banner">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog.php">Blog</a> / <span>Caregiver Burnout Signs</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog">Blog</a> / <span>Caregiver Burnout Signs</span></div>
         <h1 class="page-title">Caregiver Burnout: 7 Signs It's Time to Ask for Help</h1>
         <p class="page-tagline">Caring for an aging parent can take an emotional and physical toll that builds quietly. Here's how to recognize it in yourself, before it affects your health or theirs.</p>
       </div>
@@ -169,8 +169,8 @@
           <h2 id="what-helps">What Actually Helps</h2>
           <p>Burnout responds to relief, not willpower. Concretely, that usually means:</p>
           <ul>
-            <li><strong>Scheduled breaks, not "someday" breaks.</strong> A recurring block of <a href="respite-care.php">respite care</a>, even four hours a week to start, restores far more than an occasional, unpredictable one.</li>
-            <li><strong>Sharing the mental load, not just the physical tasks.</strong> Bringing in <a href="companion-care.php">companion care</a> for social engagement and daily supervision frees a family caregiver from being "on call" every waking hour.</li>
+            <li><strong>Scheduled breaks, not "someday" breaks.</strong> A recurring block of <a href="respite-care">respite care</a>, even four hours a week to start, restores far more than an occasional, unpredictable one.</li>
+            <li><strong>Sharing the mental load, not just the physical tasks.</strong> Bringing in <a href="companion-care">companion care</a> for social engagement and daily supervision frees a family caregiver from being "on call" every waking hour.</li>
             <li><strong>An honest conversation with siblings or other family</strong> about what each person can realistically take on, ideally before resentment builds.</li>
             <li><strong>Professional input</strong> on what level of care is actually needed. Sometimes families are managing a workload that would challenge even a trained team.</li>
           </ul>
@@ -224,17 +224,17 @@
             <h2 class="section-heading">Related Guides for Families</h2>
           </div>
           <div class="related-services-grid">
-            <a class="related-service-card" href="caregiver-burnout.php">
+            <a class="related-service-card" href="caregiver-burnout">
               <h3 class="wp-title">Caregiver Burnout &amp; Support</h3>
               <p class="wp-desc">See how our team steps in with respite and companion support to relieve overwhelmed family caregivers.</p>
               <span class="service-link">Explore the Service &rarr;</span>
             </a>
-            <a class="related-service-card" href="respite-care.php">
+            <a class="related-service-card" href="respite-care">
               <h3 class="wp-title">Respite Care</h3>
               <p class="wp-desc">Short-term, scheduled breaks that give family caregivers real, protected time to rest.</p>
               <span class="service-link">Explore the Service &rarr;</span>
             </a>
-            <a class="related-service-card" href="blog-early-signs-of-dementia.php">
+            <a class="related-service-card" href="blog-early-signs-of-dementia">
               <h3 class="wp-title">10 Early Warning Signs of Dementia</h3>
               <p class="wp-desc">Caring for a parent with cognitive changes is especially demanding. Know what to watch for early.</p>
               <span class="service-link">Read Article &rarr;</span>
@@ -246,8 +246,8 @@
           <h3>Recognize Yourself in This Article?</h3>
           <p>Talk to our Lead Registered Nurse about a care plan that gives you real relief, starting with a free, no-pressure assessment.</p>
           <div class="btn-group">
-            <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-            <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+            <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
           </div>
         </div>
       </div>

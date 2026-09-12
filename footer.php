@@ -8,7 +8,7 @@
     </svg>
     <span>Call (778) 244-1332</span>
   </a>
-  <a href="care-assessment.php" class="m-bar-btn m-book-btn">
+  <a href="care-assessment" class="m-bar-btn m-book-btn">
     <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <line x1="5" y1="12" x2="19" y2="12"></line>
       <polyline points="12 5 19 12 12 19"></polyline>
@@ -77,81 +77,81 @@
       <div class="footer-links-col">
         <h4 class="footer-col-title">Home Nursing</h4>
         <ul class="footer-links-list">
-          <li><a href="home-nursing.php">Home Nursing</a></li>
-          <li><a href="post-discharge-nursing.php">Post-Discharge Nursing</a></li>
-          <li><a href="post-operative-care.php">Post-Operative Care</a></li>
-          <li><a href="wound-care.php">Wound Care</a></li>
-          <li><a href="private-nursing.php">Private Nursing</a></li>
-          <li><a href="nursing-health-monitoring.php">Nursing &amp; Health Monitoring</a></li>
-          <li><a href="24-hour-nursing-care.php">24-Hour Nursing Care</a></li>
-          <li><a href="palliative-care.php">Palliative &amp; End-of-Life Care</a></li>
+          <li><a href="home-nursing">Home Nursing</a></li>
+          <li><a href="post-discharge-nursing">Post-Discharge Nursing</a></li>
+          <li><a href="post-operative-care">Post-Operative Care</a></li>
+          <li><a href="wound-care">Wound Care</a></li>
+          <li><a href="private-nursing">Private Nursing</a></li>
+          <li><a href="nursing-health-monitoring">Nursing &amp; Health Monitoring</a></li>
+          <li><a href="24-hour-nursing-care">24-Hour Nursing Care</a></li>
+          <li><a href="palliative-care">Palliative &amp; End-of-Life Care</a></li>
         </ul>
       </div>
 
       <div class="footer-links-col">
         <h4 class="footer-col-title">Home Care</h4>
         <ul class="footer-links-list">
-          <li><a href="services.php">Home Care</a></li>
-          <li><a href="personal-care.php">Personal Care</a></li>
-          <li><a href="companion-care.php">Companion Care</a></li>
-          <li><a href="respite-care.php">Respite Care</a></li>
-          <li><a href="dementia-care.php">Dementia &amp; Alzheimer's Care</a></li>
-          <li><a href="24-hour-home-care.php">24-Hour Home Care</a></li>
-          <li><a href="overnight-care.php">Overnight Care</a></li>
+          <li><a href="services">Home Care</a></li>
+          <li><a href="personal-care">Personal Care</a></li>
+          <li><a href="companion-care">Companion Care</a></li>
+          <li><a href="respite-care">Respite Care</a></li>
+          <li><a href="dementia-care">Dementia &amp; Alzheimer's Care</a></li>
+          <li><a href="24-hour-home-care">24-Hour Home Care</a></li>
+          <li><a href="overnight-care">Overnight Care</a></li>
         </ul>
       </div>
 
       <div class="footer-links-col">
         <h4 class="footer-col-title">Specialized Care</h4>
         <ul class="footer-links-list">
-          <li><a href="hospital-to-home-care.php">Hospital to Home Care</a></li>
-          <li><a href="care-after-a-fall.php">Care After a Fall</a></li>
-          <li><a href="caregiver-burnout.php">Caregiver Burnout &amp; Support</a></li>
-          <li><a href="aging-in-place.php">Aging in Place</a></li>
-          <li><a href="complex-care-at-home.php">Complex Care at Home</a></li>
-          <li><a href="emergency-first-aid-response.php">Emergency &amp; First-Aid Response</a></li>
+          <li><a href="hospital-to-home-care">Hospital to Home Care</a></li>
+          <li><a href="care-after-a-fall">Care After a Fall</a></li>
+          <li><a href="caregiver-burnout">Caregiver Burnout &amp; Support</a></li>
+          <li><a href="aging-in-place">Aging in Place</a></li>
+          <li><a href="complex-care-at-home">Complex Care at Home</a></li>
+          <li><a href="emergency-first-aid-response">Emergency &amp; First-Aid Response</a></li>
         </ul>
       </div>
 
       <div class="footer-links-col">
         <h4 class="footer-col-title">Areas We Serve</h4>
         <ul class="footer-links-list">
-          <li><a data-soon="Home Care Vancouver" href="vancouver.php">Home Care Vancouver</a></li>
-          <li><a data-soon="Home Care Burnaby" href="burnaby.php">Home Care Burnaby</a></li>
-          <li><a data-soon="Home Care Surrey" href="surrey.php">Home Care Surrey</a></li>
-          <li><a data-soon="Home Care New Westminster" href="new-westminster.php">Home Care New Westminster</a></li>
-          <li><a data-soon="Home Care Richmond" href="richmond.php">Home Care Richmond</a></li>
+          <li><a data-soon="Home Care Vancouver" href="vancouver">Home Care Vancouver</a></li>
+          <li><a data-soon="Home Care Burnaby" href="burnaby">Home Care Burnaby</a></li>
+          <li><a data-soon="Home Care Surrey" href="surrey">Home Care Surrey</a></li>
+          <li><a data-soon="Home Care New Westminster" href="new-westminster">Home Care New Westminster</a></li>
+          <li><a data-soon="Home Care Richmond" href="richmond">Home Care Richmond</a></li>
         </ul>
 
         <h4 class="footer-col-title footer-col-subtitle">For Professionals</h4>
         <ul class="footer-links-list">
-          <li><a href="healthcare-professionals.php">Healthcare Professionals</a></li>
-          <li><a href="refer-a-patient.php">Refer a Patient</a></li>
-          <li><a href="healthcare-referral-process.php">Referral Process</a></li>
-          <li><a href="hospital-discharge-planners.php">Hospital Discharge Planners</a></li>
-          <li><a href="physician-referrals.php">Physicians &amp; Clinics</a></li>
+          <li><a href="healthcare-professionals">Healthcare Professionals</a></li>
+          <li><a href="refer-a-patient">Refer a Patient</a></li>
+          <li><a href="healthcare-referral-process">Referral Process</a></li>
+          <li><a href="hospital-discharge-planners">Hospital Discharge Planners</a></li>
+          <li><a href="physician-referrals">Physicians &amp; Clinics</a></li>
         </ul>
       </div>
 
       <div class="footer-links-col">
         <h4 class="footer-col-title">Company</h4>
         <ul class="footer-links-list">
-          <li><a href="about-us.php">About Us</a></li>
-          <li><a href="our-care-team.php">Our Care Team</a></li>
-          <li><a href="why-onpoint.php">Why OnPoint</a></li>
-          <li><a href="how-it-works.php">How It Works</a></li>
-          <li><a href="reviews.php">Reviews &amp; Testimonials</a></li>
-          <li><a href="home-care-cost.php">Home Care Cost</a></li>
+          <li><a href="about-us">About Us</a></li>
+          <li><a href="our-care-team">Our Care Team</a></li>
+          <li><a href="why-onpoint">Why OnPoint</a></li>
+          <li><a href="how-it-works">How It Works</a></li>
+          <li><a href="reviews">Reviews &amp; Testimonials</a></li>
+          <li><a href="home-care-cost">Home Care Cost</a></li>
         </ul>
 
         <h4 class="footer-col-title footer-col-subtitle">Resources &amp; Contact</h4>
         <ul class="footer-links-list">
-          <li><a href="blog.php">Blog</a></li>
-          <li><a href="resources.php">Family Guides &amp; Resources</a></li>
-          <li><a href="faqs.php">Frequently Asked Questions</a></li>
-          <li><a href="care-assessment.php">Book a Care Assessment</a></li>
-          <li><a href="get-care-now.php">Get Care Now</a></li>
-          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="resources">Family Guides &amp; Resources</a></li>
+          <li><a href="faqs">Frequently Asked Questions</a></li>
+          <li><a href="care-assessment">Book a Care Assessment</a></li>
+          <li><a href="get-care-now">Get Care Now</a></li>
+          <li><a href="contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -161,11 +161,11 @@
         <p>&copy; 2026 OnPoint Nurse &amp; Home Care. Serving Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. All rights reserved.</p>
       </div>
       <div class="footer-bottom-right">
-        <a data-soon="Privacy Policy" href="privacy-policy.php">Privacy Policy</a>
+        <a data-soon="Privacy Policy" href="privacy-policy">Privacy Policy</a>
         <span class="footer-sep">•</span>
-        <a data-soon="Terms & Conditions" href="terms.php">Terms &amp; Conditions</a>
+        <a data-soon="Terms & Conditions" href="terms">Terms &amp; Conditions</a>
         <span class="footer-sep">•</span>
-        <a data-soon="Accessibility Commitment" href="accessibility.php">Accessibility Commitment</a>
+        <a data-soon="Accessibility Commitment" href="accessibility">Accessibility Commitment</a>
         <span class="footer-sep">•</span>
         <a href="https://brandingpioneers.com/" target="_blank" rel="noopener noreferrer">Design &amp; Developed by Branding Pioneers</a>
       </div>
