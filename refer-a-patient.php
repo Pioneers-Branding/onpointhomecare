@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Refer a Patient | Healthcare Provider Referral Portal | OnPoint</title>
+  <title>Refer a Patient | Healthcare Provider Portal | OnPoint</title>
   <meta name="description"
-    content="Secure clinical patient referral form for hospital discharge planners, physicians, and care managers in Metro Vancouver. Fast 2-hour intake and bedside RN assessment.">
+    content="Secure clinical patient referral form for hospital discharge planners, physicians, and care managers in Metro Vancouver, with fast intake and RN assessment.">
 
   <link rel="canonical" href="https://onpointhomecare.care/refer-a-patient">
 
@@ -131,7 +131,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals.php">For
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals">For
             Professionals</a> / <span>Refer a Patient</span></div>
         <h1 class="page-title">Secure Patient Referral Portal</h1>
         <p class="page-tagline">Fast-track clinical referral submission for physicians, hospital discharge teams, and
@@ -551,7 +551,7 @@
           </p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
             <a href="tel:+17782441332" class="btn btn-primary btn-lg">Call Direct Line: (778) 244-1332</a>
-            <a href="healthcare-professionals.php" class="btn btn-outline btn-lg">Professional Overview</a>
+            <a href="healthcare-professionals" class="btn btn-outline btn-lg">Professional Overview</a>
           </div>
         </div>
       </div>

@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>For Physicians &amp; Medical Clinics | Nurse-Led In-Home Care | OnPoint</title>
+  <title>For Physicians &amp; Medical Clinics | OnPoint Nurse Care</title>
   <meta name="description"
-    content="Collaborate with OnPoint Nurse & Home Care across Vancouver, Burnaby, Surrey, New Westminster and Richmond. Structured physician progress charting, medication compliance, and skilled nursing.">
+    content="Collaborate with OnPoint Nurse &amp; Home Care across Metro Vancouver: structured physician progress charting, medication compliance, and skilled nursing.">
 
   <link rel="canonical" href="https://onpointhomecare.care/physician-referrals">
 
@@ -103,7 +103,7 @@
           "name": "How do physicians initiate a referral?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Physicians can submit referrals via our secure online portal at onpointhomecare.care/refer-a-patient.html, or telephone our direct provider desk at (778) 244-1332."
+            "text": "Physicians can submit referrals via our secure online portal at onpointhomecare.care/refer-a-patient, or telephone our direct provider desk at (778) 244-1332."
           }
         },
         {
@@ -151,7 +151,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals.php">For
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals">For
             Professionals</a> / <span>Physicians &amp; Clinics</span></div>
         <h1 class="page-title">For Physicians &amp; Medical Specialists</h1>
         <p class="page-tagline">Extend your clinical reach into the patient's home with closed-loop progress charting,
@@ -451,7 +451,7 @@
           </button>
           <div class="faq-content">
             <p>Physicians can submit referrals via our secure online portal at
-              onpointhomecare.care/refer-a-patient.html, or telephone our direct provider desk at (778) 244-1332.</p>
+              onpointhomecare.care/refer-a-patient, or telephone our direct provider desk at (778) 244-1332.</p>
           </div>
 
           <div class="faq-item">
@@ -486,7 +486,7 @@
           <p class="s-desc">Call our direct healthcare professional line for immediate clinical consultation.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
             <a href="tel:+17782441332" class="btn btn-primary btn-lg">Call Physician Desk: (778) 244-1332</a>
-            <a href="refer-a-patient.php" class="btn btn-outline btn-lg">Submit Patient Referral</a>
+            <a href="refer-a-patient" class="btn btn-outline btn-lg">Submit Patient Referral</a>
           </div>
         </div>
       </div>

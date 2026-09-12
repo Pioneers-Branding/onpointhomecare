@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OnPoint Nurse and Home Care | Professional Senior & Elder Care</title>
+  <title>OnPoint Nurse and Home Care | Elder Care Vancouver</title>
   <meta name="description"
-    content="Compassionate, professional elder care and home nursing led by experienced clinical nursing leadership. Dementia care, daily living support, fall prevention, and health monitoring.">
+    content="Compassionate, professional elder care and home nursing across Metro Vancouver, led by experienced clinical leadership: dementia care, support, and monitoring.">
 
   <link rel="canonical" href="https://onpointhomecare.care/">
 
@@ -63,14 +63,14 @@
           </p>
 
           <div class="hero-cta-group">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">
+            <a href="care-assessment" class="btn btn-primary btn-lg">
               <span>Book a Care Assessment</span>
               <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <a href="services.php" class="btn btn-secondary btn-lg">
+            <a href="services" class="btn btn-secondary btn-lg">
               <span>Explore Our Services</span>
             </a>
           </div>
@@ -259,7 +259,7 @@
             </div>
 
             <div class="intro-action">
-              <a href="about-us.php" class="btn btn-secondary">
+              <a href="about-us" class="btn btn-secondary">
                 <span>Learn About Our Approach</span>
                 <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -286,7 +286,7 @@
 
         <div class="services-grid">
           <!-- Service Card 1 -->
-          <div class="service-card" onclick="location.href='personal-care.php'">
+          <div class="service-card" onclick="location.href='personal-care'">
             <div class="service-media">
               <img src="assets/images/Personal-Care-Daily-Living.webp"
                 alt="An OnPoint care aide helping a senior woman with morning personal care routine at home"
@@ -311,7 +311,7 @@
           </div>
 
           <!-- Service Card 2 -->
-          <div class="service-card service-card-featured" onclick="location.href='dementia-care.php'">
+          <div class="service-card service-card-featured" onclick="location.href='dementia-care'">
             <div class="service-featured-tag">Specialized Memory Care</div>
             <div class="service-media">
               <img src="assets/images/Dementia-Memory-Care.webp"
@@ -339,7 +339,7 @@
           </div>
 
           <!-- Service Card 3 -->
-          <div class="service-card" onclick="location.href='companion-care.php'">
+          <div class="service-card" onclick="location.href='companion-care'">
             <div class="service-media">
               <img src="assets/images/Companionship-Emotional-Support.webp"
                 alt="Caregiver sitting with a senior sharing an unhurried conversation"
@@ -366,7 +366,7 @@
           </div>
 
           <!-- Service Card 4 -->
-          <div class="service-card" onclick="location.href='respite-care.php'">
+          <div class="service-card" onclick="location.href='respite-care'">
             <div class="service-media">
               <img src="assets/images/photos/care-aide-with-client.jpg"
                 alt="Care aide providing attentive in-home care for a senior"
@@ -390,7 +390,7 @@
           </div>
 
           <!-- Service Card 5 -->
-          <div class="service-card" onclick="location.href='24-hour-home-care.php'">
+          <div class="service-card" onclick="location.href='24-hour-home-care'">
             <div class="service-media">
               <img src="assets/images/photos/hero-elder-care.jpg"
                 alt="Caregiver providing continuous 24 hour home care for a senior"
@@ -415,7 +415,7 @@
           </div>
 
           <!-- Service Card 6 -->
-          <div class="service-card" onclick="location.href='independent-home-care.php'">
+          <div class="service-card" onclick="location.href='independent-home-care'">
             <div class="service-media">
               <img src="assets/images/Fall-Prevention-Home-Safety.webp"
                 alt="Senior receiving independent home care and mobility support"
@@ -440,7 +440,7 @@
           </div>
 
           <!-- Service Card 7 -->
-          <div class="service-card" onclick="location.href='hospital-to-home-care.php'">
+          <div class="service-card" onclick="location.href='hospital-to-home-care'">
             <div class="service-media">
               <img src="assets/images/Specialized-Wound-Care.webp"
                 alt="Nurse coordinating post-hospital discharge care at home"
@@ -464,7 +464,7 @@
           </div>
 
           <!-- Service Card 8 -->
-          <div class="service-card" onclick="location.href='home-nursing.php'">
+          <div class="service-card" onclick="location.href='home-nursing'">
             <div class="service-media">
               <img src="assets/images/Nursing-Health-Monitoring.webp"
                 alt="Registered nurse conducting clinical health monitoring in client home"
@@ -489,7 +489,7 @@
         </div>
 
         <div class="services-footer-cta">
-          <a href="services.php" class="btn btn-primary">
+          <a href="services" class="btn btn-primary">
             <span>View All Elder Care Services</span>
             <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -591,14 +591,14 @@
           </div>
 
           <div class="dementia-action-row">
-            <a href="dementia-care.php" class="btn btn-sand">
+            <a href="dementia-care" class="btn btn-sand">
               <span>Learn About Memory &amp; Dementia Care</span>
               <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <a href="care-assessment.php" class="btn btn-outline-white">
+            <a href="care-assessment" class="btn btn-outline-white">
               <span>Request a Cognitive Assessment</span>
             </a>
           </div>
@@ -714,7 +714,7 @@
             <p><strong>Notice persistent or worsening changes in your loved one?</strong> Speak with an experienced
               registered nurse today to explore gentle in-home evaluations.</p>
           </div>
-          <a href="contact.php" class="btn btn-primary">
+          <a href="contact" class="btn btn-primary">
             <span>Talk to Our Care Team</span>
             <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -848,7 +848,7 @@
             </div>
 
             <div class="leader-action">
-              <a href="our-care-team.php" class="btn btn-primary">
+              <a href="our-care-team" class="btn btn-primary">
                 <span>Meet Our Care Team &amp; Clinical Values</span>
                 <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -935,7 +935,7 @@
         </div>
 
         <div class="steps-cta-center">
-          <a href="care-assessment.php" class="btn btn-primary btn-lg">
+          <a href="care-assessment" class="btn btn-primary btn-lg">
             <span>Start Your Care Journey</span>
             <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -1057,7 +1057,7 @@
             </div>
 
             <div class="community-cta">
-              <a href="contact.php" class="btn btn-secondary">
+              <a href="contact" class="btn btn-secondary">
                 <span>Speak With Our Care Team</span>
                 <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -1384,7 +1384,7 @@
               your options.
             </p>
             <div class="cta-buttons-group">
-              <a href="care-assessment.php" class="btn btn-primary btn-lg">
+              <a href="care-assessment" class="btn btn-primary btn-lg">
                 <span>Book a Care Assessment</span>
                 <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="5" y1="12" x2="19" y2="12"></line>

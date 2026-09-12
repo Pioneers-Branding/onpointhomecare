@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frequently Asked Questions | OnPoint Nurse & Home Care</title>
-  <meta name="description" content="Answers to the questions families ask most about arranging home nursing and home care — how care starts, who provides it, and what to expect.">
+  <title>Frequently Asked Questions | OnPoint Nurse &amp; Home Care</title>
+  <meta name="description" content="Answers to the questions families ask most about arranging home nursing and home care in Metro Vancouver: how care starts, who provides it, and what to expect.">
 
   <link rel="canonical" href="https://onpointhomecare.care/faqs">
 

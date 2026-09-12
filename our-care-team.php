@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Care Team | OnPoint Nurse & Home Care</title>
-  <meta name="description" content="Meet the clinical leadership and care team behind OnPoint Nurse &amp; Home Care, and the standards every care plan is held to.">
+  <title>Our Clinical Care Team at OnPoint | Metro Vancouver</title>
+  <meta name="description" content="Meet the clinical leadership and care team behind OnPoint Nurse &amp; Home Care, and the standards every care plan is held to across all of Metro Vancouver.">
 
   <link rel="canonical" href="https://onpointhomecare.care/our-care-team">
 

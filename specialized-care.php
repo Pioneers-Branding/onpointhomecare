@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Specialized Care Services Overview | Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Explore OnPoint's specialized in-home care programs in Vancouver, Burnaby, Surrey, New Westminster and Richmond: hospital-to-home transitions, fall recovery, caregiver burnout relief, and complex medical care.">
+  <title>Specialized In-Home Care Programs | OnPoint Nurse Care</title>
+  <meta name="description" content="Explore OnPoint's specialized in-home care programs across Metro Vancouver: hospital-to-home transitions, fall recovery, and family caregiver relief care.">
 
   <link rel="canonical" href="https://onpointhomecare.care/specialized-care">
 
@@ -133,7 +133,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Specialized Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Specialized Care</span></div>
         <h1 class="page-title">Specialized In-Home Care Programs</h1>
         <p class="page-tagline">Clinical, nurse-led care pathways tailored to specific health transitions, recovery milestones, and complex aging challenges across Metro Vancouver.</p>
       </div>
@@ -192,7 +192,7 @@
           </div>
           <h3>Hospital to Home Care</h3>
           <p>Seamless bedside-to-home transition, discharge coordination, medication reconciliation, and post-acute recovery nursing to prevent hospital readmissions.</p>
-          <a href="hospital-to-home-care.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
+          <a href="hospital-to-home-care" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
         </div>
 
         <!-- Service 2 -->
@@ -202,7 +202,7 @@
           </div>
           <h3>Care After a Fall</h3>
           <p>Rapid post-fall rehabilitation, physical deconditioning reversal, bathroom transfer assistance, and comprehensive home hazard mitigation.</p>
-          <a href="care-after-a-fall.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
+          <a href="care-after-a-fall" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
         </div>
 
         <!-- Service 3 -->
@@ -212,7 +212,7 @@
           </div>
           <h3>Caregiver Burnout &amp; Respite</h3>
           <p>Scheduled daytime, weekend, and overnight respite care designed to restore the physical and emotional health of exhausted family caregivers.</p>
-          <a href="caregiver-burnout.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
+          <a href="caregiver-burnout" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
         </div>
 
         <!-- Service 4 -->
@@ -222,7 +222,7 @@
           </div>
           <h3>Aging in Place</h3>
           <p>Long-term holistic support that adapts as seniors age, preserving autonomy, dignity, and familiar routines safely in their cherished homes.</p>
-          <a href="aging-in-place.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
+          <a href="aging-in-place" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
         </div>
 
         <!-- Service 5 -->
@@ -232,7 +232,7 @@
           </div>
           <h3>Complex Care at Home</h3>
           <p>Multi-condition chronic disease management for seniors living with CHF, COPD, Parkinson's, stroke recovery, and diabetes.</p>
-          <a href="complex-care-at-home.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
+          <a href="complex-care-at-home" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
         </div>
 
         <!-- Service 6 -->
@@ -242,7 +242,7 @@
           </div>
           <h3>Emergency &amp; First-Aid Response</h3>
           <p>Rapid acute support, certified first-aid caregivers, and urgent clinical dispatch for sudden medical emergencies and family crises.</p>
-          <a href="emergency-first-aid-response.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
+          <a href="emergency-first-aid-response" class="btn btn-outline btn-sm" style="margin-top: 1rem;">View Program Details &rarr;</a>
         </div>
       </div>
 
@@ -395,7 +395,7 @@
           <h2 class="s-title">Give Your Loved One the Right Specialized Care</h2>
           <p class="s-desc">Contact our Registered Nurse care team today for a free, no-pressure consultation.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Care Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Care Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

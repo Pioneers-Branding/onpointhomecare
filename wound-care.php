@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Specialized Wound Care at Home | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Nurse-led wound care at home across Metro Vancouver: clinical assessment, sterile dressing changes, pressure injury prevention, diabetic ulcer care and documented healing progress.">
+  <title>Specialized Wound Care at Home | OnPoint Nurse Care</title>
+  <meta name="description" content="Nurse-led wound care at home across Metro Vancouver: clinical assessment, sterile dressing changes, pressure injury prevention, and diabetic ulcer care.">
 
   <link rel="canonical" href="https://onpointhomecare.care/wound-care">
 
@@ -148,7 +148,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Wound Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Wound Care</span></div>
         <h1 class="page-title">Specialized Wound Care</h1>
         <p class="page-tagline">Nurse-led wound assessment, sterile dressing management and honest tracking of whether a wound is actually healing.</p>
       </div>
@@ -373,7 +373,7 @@
                 <div class="inc-item">✓ Coordination with physicians and wound specialists</div>
               </div>
             </div>
-            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -612,17 +612,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="post-operative-care.php">
+          <a class="related-service-card" href="post-operative-care">
             <h3 class="wp-title">Post-Operative Care</h3>
             <p class="wp-desc">Full surgical recovery support, of which incision care is one part.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="home-nursing.php">
+          <a class="related-service-card" href="home-nursing">
             <h3 class="wp-title">Home Nursing</h3>
             <p class="wp-desc">The wider clinical nursing program at home.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="nursing-health-monitoring.php">
+          <a class="related-service-card" href="nursing-health-monitoring">
             <h3 class="wp-title">Nursing &amp; Health Monitoring</h3>
             <p class="wp-desc">Ongoing observation of the conditions that slow healing.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -634,8 +634,8 @@
         <h3>Concerned About a Wound That Is Not Healing?</h3>
         <p>Book a care assessment and one of our nurses will assess it properly and tell you honestly what they see.</p>
         <div class="btn-group">
-          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

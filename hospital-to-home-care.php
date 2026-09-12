@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hospital to Home Care | Safe Transitional Care in Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Seamless transition from hospital to home across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Dedicated bedside discharge coordination, medication reconciliation, and home recovery nursing.">
+  <title>Hospital to Home Care &amp; Safe Transitions | OnPoint</title>
+  <meta name="description" content="Seamless transition from hospital to home across Metro Vancouver: dedicated bedside discharge coordination, medication reconciliation, and recovery nursing.">
 
   <link rel="canonical" href="https://onpointhomecare.care/hospital-to-home-care">
 
@@ -113,7 +113,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Hospital to Home Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Hospital to Home Care</span></div>
         <h1 class="page-title">Hospital to Home Care</h1>
         <p class="page-tagline">Safe, seamless bedside-to-home transition and clinical recovery nursing designed to prevent readmission across Metro Vancouver.</p>
       </div>
@@ -311,8 +311,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
-              <a href="contact.php" class="btn btn-outline btn-sm">Contact Nursing Team</a>
+              <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+              <a href="contact" class="btn btn-outline btn-sm">Contact Nursing Team</a>
             </div>
           </div>
         </div>

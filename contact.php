@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Our Care Team | OnPoint Nurse & Home Care</title>
-  <meta name="description" content="Speak with the OnPoint care coordinators about home nursing and home care. Call, email, or send a care request and our nursing team will respond.">
+  <title>Contact Our Care Team at OnPoint | Metro Vancouver</title>
+  <meta name="description" content="Speak with OnPoint's care coordinators about home nursing and home care in Metro Vancouver. Call, email, or send a request, and our team will respond promptly.">
 
   <link rel="canonical" href="https://onpointhomecare.care/contact">
 

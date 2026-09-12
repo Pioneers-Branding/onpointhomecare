@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get Urgent Care Now | Same-Day &amp; Emergency In-Home Care | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Need urgent home care or same-day nursing in Vancouver, Richmond, Burnaby or Surrey? Rapid 24/7 bedside deployment for hospital discharges, caregiver emergencies, and sudden declines.">
+  <title>Get Urgent In-Home Care Now | OnPoint Nurse &amp; Home Care</title>
+  <meta name="description" content="Need urgent home care or same-day nursing in Vancouver, Richmond, Burnaby, or Surrey? Rapid bedside deployment for hospital discharges and sudden declines.">
 
   <link rel="canonical" href="https://onpointhomecare.care/get-care-now">
 
@@ -179,7 +179,7 @@
               </svg>
               <span>Call Urgent Hotline: (778) 244-1332</span>
             </a>
-            <a href="care-assessment.php" class="btn btn-sage btn-lg">
+            <a href="care-assessment" class="btn btn-sage btn-lg">
               <span>Book Urgent Assessment</span>
             </a>
           </div>
@@ -478,7 +478,7 @@
           <p class="s-desc">Our Registered Nurse supervisors are on standby to evaluate your family's needs and dispatch trusted care today.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
             <a href="tel:+17782441332" class="btn btn-primary btn-lg">Call Hotline: (778) 244-1332</a>
-            <a href="care-assessment.php" class="btn btn-sage btn-lg">Book Care Assessment</a>
+            <a href="care-assessment" class="btn btn-sage btn-lg">Book Care Assessment</a>
           </div>
         </div>
       </div>

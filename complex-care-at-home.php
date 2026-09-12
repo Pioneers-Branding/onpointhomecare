@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Complex Care at Home | Advanced Clinical Home Nursing | OnPoint Care</title>
-  <meta name="description" content="High-acuity, specialized nursing care at home in Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Tracheostomy, catheter management, oxygen therapy, tube feeding, and multi-morbidity care.">
+  <title>Complex Medical Care at Home | OnPoint Nurse &amp; Home Care</title>
+  <meta name="description" content="High-acuity, specialized nursing care at home across Metro Vancouver: tracheostomy, catheter management, oxygen therapy, and multi-condition medical care.">
 
   <link rel="canonical" href="https://onpointhomecare.care/complex-care-at-home">
 
@@ -113,7 +113,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Complex Care at Home</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Complex Care at Home</span></div>
         <h1 class="page-title">Complex Medical Care at Home</h1>
         <p class="page-tagline">Advanced, clinical nursing and multidisciplinary support for high-acuity chronic conditions across Metro Vancouver.</p>
       </div>
@@ -310,8 +310,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Complex Care Assessment</a>
-              <a href="contact.php" class="btn btn-outline btn-sm">Speak with Clinical Leadership</a>
+              <a href="care-assessment" class="btn btn-primary btn-sm">Book a Complex Care Assessment</a>
+              <a href="contact" class="btn btn-outline btn-sm">Speak with Clinical Leadership</a>
             </div>
           </div>
         </div>

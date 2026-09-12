@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chronic Condition Support &amp; Disease Management | Metro Vancouver | OnPoint</title>
-  <meta name="description" content="Proactive in-home chronic disease management in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Specialized care for CHF, COPD, Diabetes, Hypertension and Kidney Disease.">
+  <title>Chronic Condition Support &amp; Disease Care | OnPoint</title>
+  <meta name="description" content="Proactive in-home chronic disease management across Metro Vancouver, with specialized nursing support for CHF, COPD, diabetes, and hypertension at home.">
 
   <link rel="canonical" href="https://onpointhomecare.care/chronic-condition-support">
 
@@ -149,7 +149,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions.php">Conditions</a> / <span>Chronic Condition Support</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions">Conditions</a> / <span>Chronic Condition Support</span></div>
         <h1 class="page-title">Chronic Condition Support &amp; Disease Management</h1>
         <p class="page-tagline">Proactive, nurse-led vital sign tracking, medication compliance, and therapeutic lifestyle support that stabilizes chronic illness at home.</p>
       </div>
@@ -425,7 +425,7 @@
           <h2 class="s-title">Achieve Long-Term Health Stability at Home</h2>
           <p class="s-desc">Speak with our Lead Registered Nurse today to establish an in-home chronic care plan.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book Clinical Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book Clinical Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Nurse Team: (778) 244-1332</a>
           </div>
         </div>

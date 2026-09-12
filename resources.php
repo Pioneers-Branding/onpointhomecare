@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Family Guides & Resources | OnPoint Nurse & Home Care</title>
-  <meta name="description" content="Practical guides for families arranging care for an ageing parent — recognising when help is needed, planning ahead, and supporting a caregiver.">
+  <title>Family Elder Care Guides &amp; Resources | OnPoint Care</title>
+  <meta name="description" content="Practical guides for families arranging care for an aging parent: recognizing when help is needed, planning ahead, and supporting a tired family caregiver.">
 
   <link rel="canonical" href="https://onpointhomecare.care/resources">
 
@@ -69,7 +69,7 @@
                 Learn how to respond with empathy and avoid confrontational communication.
               </p>
               <div class="res-meta">Written by Risper Murunga, RN, BSN, MPH • 6 Min Read</div>
-              <button class="btn btn-outline btn-sm" onclick="location.href='dementia-care.html'">Read Guide &rarr;</button>
+              <button class="btn btn-outline btn-sm" onclick="location.href='blog-early-signs-of-dementia'">Read Guide &rarr;</button>
             </div>
 
             <!-- Guide 2 -->
@@ -81,7 +81,7 @@
                 Representation Agreements Section 7 &amp; 9) protects your parent's assets and healthcare wishes.
               </p>
               <div class="res-meta">Family Planning Advisory • 5 Min Read</div>
-              <button class="btn btn-outline btn-sm" onclick="location.href='dementia-care.html'">Read Guide &rarr;</button>
+              <button class="btn btn-outline btn-sm" onclick="location.href='care-assessment'">Read Guide &rarr;</button>
             </div>
 
             <!-- Guide 3 -->
@@ -93,7 +93,7 @@
                 hazards, and bathroom transfer obstacles.
               </p>
               <div class="res-meta">Clinical Safety Checklist • 4 Min Read</div>
-              <button class="btn btn-outline btn-sm" onclick="location.href='services.html#fall-prevention'">Read Guide
+              <button class="btn btn-outline btn-sm" onclick="location.href='blog-fall-prevention-checklist'">Read Guide
                 &rarr;</button>
             </div>
 
@@ -106,7 +106,7 @@
                 respite, share duties, and prioritize their own mental health.
               </p>
               <div class="res-meta">Caregiver Wellness • 5 Min Read</div>
-              <button class="btn btn-outline btn-sm" onclick="location.href='contact.html'">Get Support &rarr;</button>
+              <button class="btn btn-outline btn-sm" onclick="location.href='caregiver-burnout'">Get Support &rarr;</button>
             </div>
           </div>
         </div>

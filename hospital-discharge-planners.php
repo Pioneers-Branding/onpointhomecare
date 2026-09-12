@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>For Hospital Discharge Planners | Post-Acute Home Transitions | OnPoint</title>
+  <title>For Hospital Discharge Planners | OnPoint Nurse Care</title>
   <meta name="description"
-    content="Dedicated post-acute home care and transitional nursing for hospital discharge planners in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Rapid ALC relief and bedside consultations.">
+    content="Dedicated post-acute home care and transitional nursing for hospital discharge planners across Metro Vancouver, with rapid ALC relief and bedside visits.">
 
   <link rel="canonical" href="https://onpointhomecare.care/hospital-discharge-planners">
 
@@ -102,7 +102,7 @@
           "name": "What is the fastest way to initiate a discharge referral?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call our dedicated Healthcare Partner Line at (778) 244-1332 or submit an online referral via our encrypted portal at onpointhomecare.care/refer-a-patient.html."
+            "text": "Call our dedicated Healthcare Partner Line at (778) 244-1332 or submit an online referral via our encrypted portal at onpointhomecare.care/refer-a-patient."
           }
         },
         {
@@ -150,7 +150,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals.php">For
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="healthcare-professionals">For
             Professionals</a> / <span>Hospital Discharge Planners</span></div>
         <h1 class="page-title">For Hospital Discharge Planners &amp; Coordinators</h1>
         <p class="page-tagline">Rapid-response bedside assessments, medical equipment staging, and skilled nursing care
@@ -460,7 +460,7 @@
           </button>
           <div class="faq-content">
             <p>Call our dedicated Healthcare Partner Line at (778) 244-1332 or submit an online referral via our
-              encrypted portal at onpointhomecare.care/refer-a-patient.html.</p>
+              encrypted portal at onpointhomecare.care/refer-a-patient.</p>
           </div>
 
           <div class="faq-item">
@@ -495,7 +495,7 @@
           <p class="s-desc">Call our direct discharge coordinator line for immediate hospital bedside response.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
             <a href="tel:+17782441332" class="btn btn-primary btn-lg">Call Coordinator Line: (778) 244-1332</a>
-            <a href="refer-a-patient.php" class="btn btn-outline btn-lg">Online Patient Referral</a>
+            <a href="refer-a-patient" class="btn btn-outline btn-lg">Online Patient Referral</a>
           </div>
         </div>
       </div>

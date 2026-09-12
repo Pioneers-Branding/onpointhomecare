@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Care After a Fall &amp; Fall Recovery at Home | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Specialized in-home recovery care after a fall for seniors across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Mobility retraining, fear-of-falling reduction, environmental audit, and clinical safety.">
+  <title>Care After a Fall &amp; Fall Recovery at Home | OnPoint</title>
+  <meta name="description" content="In-home recovery care after a fall for seniors across Metro Vancouver: mobility retraining, fear-of-falling reduction, a home safety audit, and clinical care.">
 
   <link rel="canonical" href="https://onpointhomecare.care/care-after-a-fall">
 
@@ -113,7 +113,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-sage">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Care After a Fall</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Care After a Fall</span></div>
         <h1 class="page-title">Care After a Fall &amp; Fall Recovery</h1>
         <p class="page-tagline">Restoring mobility, confidence, and home safety for seniors following a slip, trip, or fracture across Metro Vancouver.</p>
       </div>
@@ -310,8 +310,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book Fall Risk Assessment</a>
-              <a href="contact.php" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
+              <a href="care-assessment" class="btn btn-primary btn-sm">Book Fall Risk Assessment</a>
+              <a href="contact" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
             </div>
           </div>
         </div>

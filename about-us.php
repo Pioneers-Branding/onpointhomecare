@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | OnPoint Nurse & Home Care</title>
-  <meta name="description" content="How OnPoint Nurse &amp; Home Care approaches elder care: clinical excellence, personal dignity, and family-centred support led by a registered nurse.">
+  <title>About Us | OnPoint Nurse &amp; Home Care, Vancouver BC</title>
+  <meta name="description" content="How OnPoint Nurse &amp; Home Care approaches elder care: clinical excellence, personal dignity, and family-centered support led by a Registered Nurse in BC.">
 
   <link rel="canonical" href="https://onpointhomecare.care/about-us">
 
@@ -141,7 +141,7 @@
           <div class="page-cta-banner">
             <h3>Learn How We Can Help Your Loved One</h3>
             <p>Schedule an in-home clinical care consultation with our Vancouver nursing team.</p>
-            <a href="care-assessment.php" class="btn btn-primary">Book a Care Assessment</a>
+            <a href="care-assessment" class="btn btn-primary">Book a Care Assessment</a>
           </div>
         </div>
   </main>

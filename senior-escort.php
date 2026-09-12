@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Senior Escort &amp; Medical Appointments | Vancouver, Richmond, Burnaby | OnPoint</title>
-  <meta name="description" content="Door-through-door senior escort and medical appointment accompaniment in Metro Vancouver. Professional support for specialist visits, outpatient procedures, and family updates.">
+  <title>Senior Escort &amp; Medical Appointments | OnPoint Care</title>
+  <meta name="description" content="Door-through-door senior escort and medical appointment accompaniment across Metro Vancouver: support for specialist visits, procedures, and family updates.">
 
   <link rel="canonical" href="https://onpointhomecare.care/senior-escort">
 
@@ -152,7 +152,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Senior Escort</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Senior Escort</span></div>
         <h1 class="page-title">Senior Escort &amp; Medical Appointments</h1>
         <p class="page-tagline">Door-through-door accompaniment, clinical advocacy, and transfer assistance for medical appointments and community outings across Metro Vancouver.</p>
       </div>
@@ -432,7 +432,7 @@
           <h2 class="s-title">Need Reliable Medical Appointment Support?</h2>
           <p class="s-desc">Our compassionate care team ensures your loved one travels safely and never attends a doctor visit alone.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book Senior Escort</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book Senior Escort</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

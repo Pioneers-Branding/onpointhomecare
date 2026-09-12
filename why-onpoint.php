@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Why Choose OnPoint | The Nurse-Led Difference in Vancouver | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Discover why Vancouver families trust OnPoint Nurse &amp; Home Care: clinical leadership by a Registered Nurse with 20+ years experience, dedicated primary caregivers, and personalized clinical governance.">
+  <title>Why Choose OnPoint | The Nurse-Led Difference in BC</title>
+  <meta name="description" content="Discover why Metro Vancouver families trust OnPoint Nurse &amp; Home Care: clinical leadership from a Registered Nurse with over 20 years of experience in care.">
 
   <link rel="canonical" href="https://onpointhomecare.care/why-onpoint">
 
@@ -135,7 +135,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="about-us.php">About</a> / <span>Why OnPoint</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="about-us">About</a> / <span>Why OnPoint</span></div>
         <h1 class="page-title">Why Choose OnPoint</h1>
         <p class="page-tagline">Clinical leadership, dedicated caregiver continuity, and unwavering family peace of mind across Metro Vancouver.</p>
       </div>
@@ -359,8 +359,8 @@
           <h2 class="s-title">Give Your Parent the Care They Deserve</h2>
           <p class="s-desc">Contact our team today to discuss how our nurse-led care standard can bring relief and security to your family.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Care Assessment</a>
-            <a href="contact.php" class="btn btn-outline btn-lg">Talk with Our Nurse Team</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Care Assessment</a>
+            <a href="contact" class="btn btn-outline btn-lg">Talk with Our Nurse Team</a>
           </div>
         </div>
       </div>

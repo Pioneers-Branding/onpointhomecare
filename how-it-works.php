@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How It Works | Step-by-Step Home Care Process | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Discover how arranging home care with OnPoint works: from initial clinical consultation and comprehensive in-home RN assessment to personalized caregiver matching and ongoing care oversight in Vancouver.">
+  <title>How Arranging Home Care Works | OnPoint Nurse Care</title>
+  <meta name="description" content="See how arranging home care with OnPoint works: from an initial consultation and in-home RN assessment to caregiver matching and ongoing care oversight.">
 
   <link rel="canonical" href="https://onpointhomecare.care/how-it-works">
 
@@ -153,7 +153,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="about-us.php">About</a> / <span>How It Works</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="about-us">About</a> / <span>How It Works</span></div>
         <h1 class="page-title">How Arranging Care Works</h1>
         <p class="page-tagline">A transparent, nurse-led pathway designed to give your family clarity, clinical safety, and confidence at every step.</p>
       </div>
@@ -426,7 +426,7 @@
           <h2 class="s-title">Ready to Arrange Care for Your Loved One?</h2>
           <p class="s-desc">Contact our Registered Nurse care team today for a free, no-pressure consultation.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Care Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Care Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

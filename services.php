@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elder Care Services | OnPoint Nurse & Home Care</title>
-  <meta name="description" content="Personal care, dementia and memory care, companionship, fall prevention, nursing and health monitoring, wound care, infection prevention and emergency support at home.">
+  <title>Elder Care Services in Metro Vancouver | OnPoint Care</title>
+  <meta name="description" content="Personal care, dementia and memory care, companionship, fall prevention, nursing and health monitoring, and specialized wound care, all delivered at home.">
 
   <link rel="canonical" href="https://onpointhomecare.care/services">
 
@@ -89,9 +89,9 @@
                   </div>
                 </div>
                 <div class="btn-group">
-                  <a href="personal-care.php" class="btn btn-secondary btn-sm">View
+                  <a href="personal-care" class="btn btn-secondary btn-sm">View
                     Full Personal Care Page</a>
-                  <a href="care-assessment.php" class="btn btn-primary btn-sm">Request Personal
+                  <a href="care-assessment" class="btn btn-primary btn-sm">Request Personal
                     Care Assessment</a>
                 </div>
               </div>
@@ -119,9 +119,9 @@
                   </div>
                 </div>
                 <div class="btn-group">
-                  <a href="dementia-care.php" class="btn btn-secondary btn-sm">View
+                  <a href="dementia-care" class="btn btn-secondary btn-sm">View
                     Dedicated Memory Care Page</a>
-                  <a href="care-assessment.php" class="btn btn-primary btn-sm">Book Memory
+                  <a href="care-assessment" class="btn btn-primary btn-sm">Book Memory
                     Assessment</a>
                 </div>
               </div>
@@ -148,9 +148,9 @@
                   </div>
                 </div>
                 <div class="btn-group">
-                  <a href="companion-care.php" class="btn btn-secondary btn-sm">View
+                  <a href="companion-care" class="btn btn-secondary btn-sm">View
                     Full Companion Care Page</a>
-                  <a href="care-assessment.php" class="btn btn-primary btn-sm">Request Companion
+                  <a href="care-assessment" class="btn btn-primary btn-sm">Request Companion
                     Care</a>
                 </div>
               </div>
@@ -176,7 +176,7 @@
                     <div class="inc-item">✓ Fall-risk monitoring and regular reassessment</div>
                   </div>
                 </div>
-                <a href="care-assessment.php" class="btn btn-primary btn-sm">Schedule Safety
+                <a href="care-assessment" class="btn btn-primary btn-sm">Schedule Safety
                   Audit</a>
               </div>
             </div>
@@ -202,9 +202,9 @@
                   </div>
                 </div>
                 <div class="btn-group">
-                  <a href="nursing-health-monitoring.php" class="btn btn-secondary btn-sm">View
+                  <a href="nursing-health-monitoring" class="btn btn-secondary btn-sm">View
                     Full Health Monitoring Page</a>
-                  <a href="care-assessment.php" class="btn btn-primary btn-sm">Request Nursing
+                  <a href="care-assessment" class="btn btn-primary btn-sm">Request Nursing
                     Care</a>
                 </div>
               </div>
@@ -231,9 +231,9 @@
                   </div>
                 </div>
                 <div class="btn-group">
-                  <a href="wound-care.php" class="btn btn-secondary btn-sm">View
+                  <a href="wound-care" class="btn btn-secondary btn-sm">View
                     Full Wound Care Page</a>
-                  <a href="care-assessment.php" class="btn btn-primary btn-sm">Consult Wound Care
+                  <a href="care-assessment" class="btn btn-primary btn-sm">Consult Wound Care
                     Nurse</a>
                 </div>
               </div>
@@ -259,7 +259,7 @@
                     <div class="inc-item">✓ Safe disposal of medical consumables</div>
                   </div>
                 </div>
-                <a href="care-assessment.php" class="btn btn-primary btn-sm">Learn More</a>
+                <a href="care-assessment" class="btn btn-primary btn-sm">Learn More</a>
               </div>
             </div>
 
@@ -282,7 +282,7 @@
                     <div class="inc-item">✓ Medical summary handover for hospital staff</div>
                   </div>
                 </div>
-                <a href="care-assessment.php" class="btn btn-primary btn-sm">Inquire About
+                <a href="care-assessment" class="btn btn-primary btn-sm">Inquire About
                   Emergency Protocols</a>
               </div>
             </div>

@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book a Care Assessment | OnPoint Nurse & Home Care</title>
+  <title>Book a Free In-Home Care Assessment Today | OnPoint</title>
   <meta name="description"
-    content="Request an in-home care assessment. Tell us about your loved one and our lead registered nurse will review the request and get in touch.">
+    content="Request a free in-home care assessment in Metro Vancouver. Tell us about your loved one, and our Lead Registered Nurse will reach out personally soon.">
 
   <link rel="canonical" href="https://onpointhomecare.care/care-assessment">
 

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>24-Hour Nursing Care at Home | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Round-the-clock nursing cover at home across Metro Vancouver for high-dependency needs, unsafe nights and complex care that visits alone cannot support.">
+  <meta name="description" content="Round-the-clock nursing cover at home across Metro Vancouver for high-dependency needs, unsafe nights, and complex care scheduled visits alone cannot support.">
 
   <link rel="canonical" href="https://onpointhomecare.care/24-hour-nursing-care">
 
@@ -148,7 +148,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>24-Hour Nursing Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>24-Hour Nursing Care</span></div>
         <h1 class="page-title">24-Hour Nursing Care</h1>
         <p class="page-tagline">Continuous nursing presence at home, for situations where scheduled visits are no longer enough.</p>
       </div>
@@ -373,7 +373,7 @@
                 <div class="inc-item">✓ Respite for family caregivers who have been carrying the nights</div>
               </div>
             </div>
-            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -611,17 +611,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="private-nursing.php">
+          <a class="related-service-card" href="private-nursing">
             <h3 class="wp-title">Private Nursing</h3>
             <p class="wp-desc">Privately arranged nursing at any level of intensity.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="palliative-care.php">
+          <a class="related-service-card" href="palliative-care">
             <h3 class="wp-title">Palliative &amp; End-of-Life Care</h3>
             <p class="wp-desc">Continuous comfort-focused care in the final period.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="home-nursing.php">
+          <a class="related-service-card" href="home-nursing">
             <h3 class="wp-title">Home Nursing</h3>
             <p class="wp-desc">Visiting nursing care where continuous cover is not yet needed.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -633,8 +633,8 @@
         <h3>Has Care at Home Stopped Being Manageable?</h3>
         <p>Talk to us before making a decision about residential care. Continuous nursing at home is worth examining first.</p>
         <div class="btn-group">
-          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

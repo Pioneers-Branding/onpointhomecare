@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dementia Home Care &amp; Memory Support | Metro Vancouver | OnPoint</title>
-  <meta name="description" content="Compassionate, specialized dementia in-home care in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Person-centered memory care, sundowning routines, and family respite.">
+  <title>Dementia Home Care &amp; Memory Support | OnPoint Care</title>
+  <meta name="description" content="Compassionate, specialized dementia in-home care across Metro Vancouver: person-centered memory care, sundowning routines, and real respite for families.">
 
   <link rel="canonical" href="https://onpointhomecare.care/dementia-home-care">
 
@@ -149,7 +149,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions.php">Conditions</a> / <span>Dementia Home Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions">Conditions</a> / <span>Dementia Home Care</span></div>
         <h1 class="page-title">Dementia Home Care &amp; Memory Support</h1>
         <p class="page-tagline">Compassionate, person-centered memory care designed to preserve dignity, reduce anxiety, and support families across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond.</p>
       </div>
@@ -417,7 +417,7 @@
           <h2 class="s-title">Give Your Loved One Dignified Dementia Support</h2>
           <p class="s-desc">Speak with our compassionate Registered Nurse care team today.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Free Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Free Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

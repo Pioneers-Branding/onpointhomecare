@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caregiver Burnout &amp; Family Support in Metro Vancouver | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Compassionate relief and clinical home care support for exhausted family caregivers in Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. Respite scheduling, routine handover, and peace of mind.">
+  <title>Caregiver Burnout &amp; Family Relief | OnPoint Nurse Care</title>
+  <meta name="description" content="Compassionate relief and clinical home care support for exhausted family caregivers across Metro Vancouver, with respite scheduling and full handover.">
 
   <link rel="canonical" href="https://onpointhomecare.care/caregiver-burnout">
 
@@ -113,7 +113,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Caregiver Burnout &amp; Support</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Caregiver Burnout &amp; Support</span></div>
         <h1 class="page-title">Caregiver Burnout &amp; Family Relief</h1>
         <p class="page-tagline">Restoring balance, emotional well-being, and vital rest for family caregivers caring for aging parents across Metro Vancouver.</p>
       </div>
@@ -288,8 +288,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment.php" class="btn btn-primary btn-sm">Schedule a Respite Assessment</a>
-              <a href="contact.php" class="btn btn-outline btn-sm">Discuss Relief Options</a>
+              <a href="care-assessment" class="btn btn-primary btn-sm">Schedule a Respite Assessment</a>
+              <a href="contact" class="btn btn-outline btn-sm">Discuss Relief Options</a>
             </div>
           </div>
         </div>

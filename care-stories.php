@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Care Stories &amp; Case Studies | Real Care Journeys in Metro Vancouver | OnPoint</title>
-  <meta name="description" content="Read in-depth care stories and clinical case studies showing how OnPoint Nurse &amp; Home Care solves complex care challenges, prevents hospital readmissions, and supports aging in place.">
+  <title>Care Stories &amp; Clinical Case Studies | OnPoint Care</title>
+  <meta name="description" content="Real care stories and clinical case studies showing how OnPoint's Registered Nurse-led team solves complex challenges and prevents hospital readmissions.">
 
   <link rel="canonical" href="https://onpointhomecare.care/care-stories">
 
@@ -135,7 +135,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="resources.php">Resources</a> / <span>Care Stories</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="resources">Resources</a> / <span>Care Stories</span></div>
         <h1 class="page-title">Care Stories &amp; Case Studies</h1>
         <p class="page-tagline">Real clinical outcomes demonstrating how registered nurse oversight, custom care plans, and caregiver continuity transform lives in Metro Vancouver.</p>
       </div>
@@ -581,7 +581,7 @@
           <h2 class="s-title">Let Us Help Keep Your Parent Safe at Home</h2>
           <p class="s-desc">Reach out to our Lead Registered Nurse today for a confidential, no-obligation conversation.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book a Care Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book a Care Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

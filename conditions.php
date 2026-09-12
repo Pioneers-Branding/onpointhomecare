@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Supported Health Conditions &amp; Diagnoses | Metro Vancouver | OnPoint</title>
-  <meta name="description" content="Explore condition-specific in-home care in Vancouver, Burnaby, Surrey, New Westminster and Richmond. Specialized support for Dementia, Alzheimer's, Parkinson's, Stroke, CHF, COPD, and Post-Op.">
+  <title>Supported Health Conditions &amp; Diagnoses | OnPoint Care</title>
+  <meta name="description" content="Condition-specific in-home care across Metro Vancouver, with specialized nursing support for dementia, Parkinson's, stroke, CHF, COPD, and recovery care.">
 
   <link rel="canonical" href="https://onpointhomecare.care/conditions">
 
@@ -203,7 +203,7 @@
           </div>
           <h3>Dementia &amp; Memory Loss</h3>
           <p>Person-centered cognitive care, validation communication, wandering mitigation, sundowning sensory routines, and family respite.</p>
-          <a href="dementia-home-care.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Dementia Care &rarr;</a>
+          <a href="dementia-home-care" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Dementia Care &rarr;</a>
         </div>
 
         <!-- 2. Alzheimer's Disease -->
@@ -213,7 +213,7 @@
           </div>
           <h3>Alzheimer's Disease</h3>
           <p>Stage-specific care protocols from mild cognitive impairment to advanced memory loss, awake overnight supervision, and dignified hygiene support.</p>
-          <a href="alzheimers-home-care.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Alzheimer's Care &rarr;</a>
+          <a href="alzheimers-home-care" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Alzheimer's Care &rarr;</a>
         </div>
 
         <!-- 3. Mobility Challenges & Fall Recovery -->
@@ -223,7 +223,7 @@
           </div>
           <h3>Mobility Challenges &amp; Transfers</h3>
           <p>Post-fall physical reconditioning, safe 1-person and 2-person mechanical transfers (Hoyer), bathroom safety, and gait support.</p>
-          <a href="mobility-challenges.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Mobility Support &rarr;</a>
+          <a href="mobility-challenges" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Mobility Support &rarr;</a>
         </div>
 
         <!-- 4. Chronic Conditions (CHF, COPD, Diabetes) -->
@@ -233,7 +233,7 @@
           </div>
           <h3>Chronic Condition Support</h3>
           <p>Daily vitals surveillance for Congestive Heart Failure, COPD oxygen management, diabetic glucometry, sliding-scale insulin, and renal diet monitoring.</p>
-          <a href="chronic-condition-support.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Chronic Care &rarr;</a>
+          <a href="chronic-condition-support" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Chronic Care &rarr;</a>
         </div>
 
         <!-- 5. Complex Home Nursing & Medical -->
@@ -243,7 +243,7 @@
           </div>
           <h3>Complex Nursing &amp; High-Acuity</h3>
           <p>Licensed RN/LPN procedures: sterile PICC/IV infusions, enteral G-tube feeding, tracheostomy airway care, and complex catheter management.</p>
-          <a href="complex-home-nursing.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Complex Nursing &rarr;</a>
+          <a href="complex-home-nursing" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Complex Nursing &rarr;</a>
         </div>
 
         <!-- 6. Post-Surgical & Wound Care -->
@@ -253,7 +253,7 @@
           </div>
           <h3>Post-Surgical &amp; Wound Recovery</h3>
           <p>Orthopedic hip/knee rehab, surgical drain care, negative pressure wound therapy (VAC), and doorstep post-hospital recovery support.</p>
-          <a href="post-operative-care.php" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Post-Op Care &rarr;</a>
+          <a href="post-operative-care" class="btn btn-outline btn-sm" style="margin-top: 1rem;">Post-Op Care &rarr;</a>
         </div>
       </div>
 
@@ -447,7 +447,7 @@
           <h2 class="s-title">Get Specialized Care for Your Loved One</h2>
           <p class="s-desc">Book a free, no-obligation consultation with our Lead Registered Nurse today.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book Clinical Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book Clinical Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Care Team: (778) 244-1332</a>
           </div>
         </div>

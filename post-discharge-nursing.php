@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Post-Discharge Nursing Care at Home | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Nursing support for the first weeks after a hospital stay: medication reconciliation, wound checks, symptom monitoring and readmission risk reduction across Metro Vancouver.">
+  <title>Post-Discharge Nursing Care at Home | OnPoint Care</title>
+  <meta name="description" content="Nursing support for the first weeks after a hospital stay: medication reconciliation, wound checks, symptom monitoring, and readmission risk reduction.">
 
   <link rel="canonical" href="https://onpointhomecare.care/post-discharge-nursing">
 
@@ -148,7 +148,7 @@
 <main id="mainContent">
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Post-Discharge Nursing</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Post-Discharge Nursing</span></div>
         <h1 class="page-title">Post-Discharge Nursing</h1>
         <p class="page-tagline">The weeks after a hospital stay are when things most often go wrong. This is the service built for exactly that window.</p>
       </div>
@@ -373,7 +373,7 @@
                 <div class="inc-item">✓ Clear escalation to the physician when something changes</div>
               </div>
             </div>
-            <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Care Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-sm">Book a Care Assessment</a>
           </div>
         </div>
       </div>
@@ -612,17 +612,17 @@
           <h2 class="section-heading">Other Services Families Often Combine</h2>
         </div>
         <div class="related-services-grid">
-          <a class="related-service-card" href="post-operative-care.php">
+          <a class="related-service-card" href="post-operative-care">
             <h3 class="wp-title">Post-Operative Care</h3>
             <p class="wp-desc">Nursing support built around surgical recovery specifically.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="wound-care.php">
+          <a class="related-service-card" href="wound-care">
             <h3 class="wp-title">Wound Care</h3>
             <p class="wp-desc">Sterile dressing changes and incision monitoring.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="nursing-health-monitoring.php">
+          <a class="related-service-card" href="nursing-health-monitoring">
             <h3 class="wp-title">Nursing &amp; Health Monitoring</h3>
             <p class="wp-desc">Longer-term observation once recovery settles.</p>
             <span class="service-link">Read More &rarr;</span>
@@ -634,8 +634,8 @@
         <h3>Coming Home From Hospital Soon?</h3>
         <p>Call us as soon as you have a discharge date. Early notice gives us the best chance of having a nurse there when it matters most.</p>
         <div class="btn-group">
-          <a href="care-assessment.php" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-          <a href="contact.php" class="btn btn-outline-white">Speak With Our Care Team</a>
+          <a href="care-assessment" class="btn btn-primary"><span>Book a Care Assessment</span><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a href="contact" class="btn btn-outline-white">Speak With Our Care Team</a>
         </div>
       </div>
     </div>

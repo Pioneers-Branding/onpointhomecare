@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alzheimer's Home Care &amp; Memory Support | Metro Vancouver | OnPoint</title>
-  <meta name="description" content="Dedicated in-home Alzheimer's care across Vancouver, Burnaby, Surrey, New Westminster and Richmond. Stage-specific care plans, wandering prevention, and dignified daily living assistance.">
+  <title>Alzheimer's Home Care &amp; Memory Support | OnPoint Care</title>
+  <meta name="description" content="Dedicated in-home Alzheimer's care across Vancouver, Burnaby, Surrey, New Westminster, and Richmond, with stage-specific care plans and daily support.">
 
   <link rel="canonical" href="https://onpointhomecare.care/alzheimers-home-care">
 
@@ -149,7 +149,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions.php">Conditions</a> / <span>Alzheimer's Home Care</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="conditions">Conditions</a> / <span>Alzheimer's Home Care</span></div>
         <h1 class="page-title">Alzheimer's In-Home Care &amp; Memory Support</h1>
         <p class="page-tagline">Compassionate, stage-tailored support that preserves independence, reduces family caregiver stress, and keeps your loved one safely at home.</p>
       </div>
@@ -417,7 +417,7 @@
           <h2 class="s-title">Preserve Your Loved One's Comfort and Routine</h2>
           <p class="s-desc">Contact our specialized Alzheimer's care team for a free, in-home consultation.</p>
           <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
-            <a href="care-assessment.php" class="btn btn-primary btn-lg">Book Assessment</a>
+            <a href="care-assessment" class="btn btn-primary btn-lg">Book Assessment</a>
             <a href="tel:+17782441332" class="btn btn-outline btn-lg">Call Us: (778) 244-1332</a>
           </div>
         </div>

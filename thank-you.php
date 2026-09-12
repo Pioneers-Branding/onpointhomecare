@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You | OnPoint Nurse & Home Care</title>
+  <title>Thank You for Reaching Out | OnPoint Nurse &amp; Home Care</title>
   <meta name="description"
-    content="Thank you for contacting OnPoint Nurse & Home Care. Our Lead Registered Nurse and clinical team have received your request and will be in touch shortly.">
+    content="Thank you for contacting OnPoint Nurse &amp; Home Care. Our Lead Registered Nurse and clinical team have received your request and will follow up shortly.">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -140,7 +140,7 @@
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <a href="services.php" class="btn btn-outline btn-lg">
+            <a href="services" class="btn btn-outline btn-lg">
               <span>Explore Care Services</span>
             </a>
             <a href="https://www.facebook.com/profile.php?id=61590981071077" target="_blank" rel="noopener noreferrer"
@@ -163,21 +163,21 @@
 
         <div class="signals-grid"
           style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); text-align: left;">
-          <a href="our-care-team.php" style="text-decoration: none; color: inherit;" class="signal-card">
+          <a href="our-care-team" style="text-decoration: none; color: inherit;" class="signal-card">
             <h3 style="color: var(--primary-teal, #0D9488); font-size: 1.15rem; margin-bottom: 0.5rem;">Meet Our Care
               Team &rarr;</h3>
             <p style="font-size: 0.95rem; color: var(--text-muted, #64748B); margin: 0;">Learn about our Registered
               Nurses, Licensed Practical Nurses, and Certified Care Aides.</p>
           </a>
 
-          <a href="how-it-works.php" style="text-decoration: none; color: inherit;" class="signal-card">
+          <a href="how-it-works" style="text-decoration: none; color: inherit;" class="signal-card">
             <h3 style="color: var(--primary-teal, #0D9488); font-size: 1.15rem; margin-bottom: 0.5rem;">How It Works
               &rarr;</h3>
             <p style="font-size: 0.95rem; color: var(--text-muted, #64748B); margin: 0;">Understand our 4-step
               onboarding process from initial assessment to ongoing nurse supervision.</p>
           </a>
 
-          <a href="reviews.php" style="text-decoration: none; color: inherit;" class="signal-card">
+          <a href="reviews" style="text-decoration: none; color: inherit;" class="signal-card">
             <h3 style="color: var(--primary-teal, #0D9488); font-size: 1.15rem; margin-bottom: 0.5rem;">Client Reviews
               &rarr;</h3>
             <p style="font-size: 0.95rem; color: var(--text-muted, #64748B); margin: 0;">Read genuine feedback and

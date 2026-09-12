@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emergency &amp; First-Aid Clinical Response at Home | OnPoint Nurse &amp; Home Care</title>
-  <meta name="description" content="Rapid in-home clinical first-aid, acute triage, and emergency response protocols for seniors across Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. CPR-certified nursing leadership.">
+  <title>Emergency &amp; First-Aid Response at Home | OnPoint Care</title>
+  <meta name="description" content="Rapid in-home clinical first aid, acute triage, and emergency response for seniors across Metro Vancouver, led by CPR-certified Registered Nurse staff.">
 
   <link rel="canonical" href="https://onpointhomecare.care/emergency-first-aid-response">
 
@@ -113,7 +113,7 @@
     <!-- HERO / BANNER -->
     <div class="page-header-banner banner-teal">
       <div class="container">
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="services.php">Services</a> / <span>Emergency &amp; First-Aid Response</span></div>
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="services">Services</a> / <span>Emergency &amp; First-Aid Response</span></div>
         <h1 class="page-title">Emergency &amp; First-Aid Response</h1>
         <p class="page-tagline">Rapid in-home clinical triage, certified CPR first-aid protocols, and seamless paramedic handover across Metro Vancouver.</p>
       </div>
@@ -288,8 +288,8 @@
               </div>
             </div>
             <div class="btn-group">
-              <a href="care-assessment.php" class="btn btn-primary btn-sm">Book a Clinical Assessment</a>
-              <a href="contact.php" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
+              <a href="care-assessment" class="btn btn-primary btn-sm">Book a Clinical Assessment</a>
+              <a href="contact" class="btn btn-outline btn-sm">Speak with Our Care Team</a>
             </div>
           </div>
         </div>
