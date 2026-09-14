@@ -2912,6 +2912,47 @@ button, input, select, textarea {
   box-shadow: 0 0 0 3px rgba(14, 55, 105, 0.12);
 }
 
+.form-input.has-link-error,
+.form-select.has-link-error,
+.form-textarea.has-link-error,
+.phone-number-input.has-link-error {
+  border-color: #DC2626 !important;
+  background-color: #FEF2F2 !important;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15) !important;
+}
+
+.form-input.has-link-error:focus,
+.form-select.has-link-error:focus,
+.form-textarea.has-link-error:focus,
+.phone-number-input.has-link-error:focus {
+  border-color: #B91C1C !important;
+  box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.25) !important;
+}
+
+.field-link-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  color: #991B1B;
+  background-color: #FEF2F2;
+  border: 1px solid #FCA5A5;
+  border-radius: var(--radius-sm, 6px);
+  padding: 0.45rem 0.75rem;
+  margin-top: 0.4rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.35;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.field-link-error svg {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+  color: #DC2626;
+}
+
 .phone-input-group {
   display: flex;
   gap: 0.5rem;

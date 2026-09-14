@@ -454,7 +454,6 @@ function initScrollReveal() {
   if (!targets.length) return;
 
   const DURATION = 700;
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
@@ -483,67 +482,194 @@ function initScrollReveal() {
  * Anti-Phishing & Anti-Spam Link Blocker
  * Prevents bots and scammers from typing, pasting, or submitting links / URLs in form fields.
  */
-function containsForbiddenLinks(text) {
+function containsForbiddenLinks(text, isEmailField = false) {
   if (!text || typeof text !== 'string') return false;
-  // Regex to detect http://, https://, ftp://, www., domain names, BBCode links, HTML links
-  const linkRegex = /(https?:\/\/|ftp:\/\/|www\.[a-z0-9]|href\s*=|\[url|\.com\b|\.net\b|\.org\b|\.io\b|\.co\b|\.xyz\b|\.ru\b|\.cn\b|\.biz\b|\.info\b|\.site\b|\.online\b|\.top\b|\.vip\b|\.click\b|\.link\b|\.club\b)/i;
-  return linkRegex.test(text);
+
+  // Clean string of zero-width and invisible control characters used to bypass regex
+  const cleanedText = text.replace(/[\u200B-\u200D\uFEFF\u00A0]/g, '').trim();
+  if (!cleanedText) return false;
+
+  if (isEmailField) {
+    // For email inputs: ensure it doesn't contain URL schemes, slashes, HTML tags, or multiple @
+    const badEmailPattern = /(?:https?:\/\/|ftp:\/\/|\/\/|www\.|<\s*a\b|href\s*=|\[url|\/|\s|[?#])/i;
+    if (badEmailPattern.test(cleanedText)) return true;
+    // Legitimate email format check
+    const validEmailPattern = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/;
+    return !validEmailPattern.test(cleanedText);
+  }
+
+  // 1. URI Schemes / Protocols (http, https, ftp, file, ws, hxxp, telegram, etc.)
+  const schemePattern = /\b(?:https?|ftp|ftps|file|ws|wss|tg|mailto|data|javascript|hxxps?|h[\*_]ps?):\/\//i;
+  if (schemePattern.test(cleanedText)) return true;
+
+  // 2. www. prefix
+  const wwwPattern = /\bwww\.[a-z0-9\-]+(?:\.[a-z0-9\-]+)*/i;
+  if (wwwPattern.test(cleanedText)) return true;
+
+  // 3. Domain names with popular/spam/generic TLDs (com, net, org, io, xyz, top, site, online, ru, cn, etc.)
+  const tldList = 'com|net|org|edu|gov|mil|biz|info|io|co|me|tv|ai|app|dev|xyz|top|site|online|tech|store|shop|club|vip|icu|live|work|space|cloud|link|click|buzz|fun|fit|press|host|today|agency|digital|solutions|world|guru|rocks|trade|bid|loan|win|download|stream|review|date|best|rest|page|group|design|media|news|blog|zone|lat|wiki|ltd|cc|ws|to|pw|tk|ml|ga|cf|gq|us|uk|ca|au|nz|de|fr|es|it|nl|be|ch|at|se|no|fi|dk|pt|gr|tr|il|ae|sa|eg|in|pk|bd|cn|jp|kr|ru|su|ua|by|kz|ir|br|mx|ar|cl|pe|za|ng|ke|gh|ug|tz|rw|et|vn|th|id|ph|my|sg|hk|tw|pro|mobi|asia|int|xxx|porn|adult|casino|bet|gdn|mom|men|kim|accountant|faith|cricket|party|science|uno';
+  const domainPattern = new RegExp(`(?:^|[^\\w@])(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+(?:${tldList})(?=[/\\?:;#\\s\\.,!\\)]|$)`, 'i');
+  if (domainPattern.test(cleanedText)) return true;
+
+  // 4. Common URL Shorteners & Messaging Invites
+  const shortenerPattern = /\b(?:t\.me|telegram\.me|wa\.me|api\.whatsapp\.com|chat\.whatsapp\.com|bit\.ly|tinyurl\.com|cutt\.ly|rb\.gy|shorturl\.at|goo\.gl|ow\.ly|is\.gd|buff\.ly|adf\.ly|rebrand\.ly|linktr\.ee|discord\.gg)\b/i;
+  if (shortenerPattern.test(cleanedText)) return true;
+
+  // 5. HTML tags / attributes (<a>, <iframe>, <script>, href=, src=)
+  const htmlPattern = /<\s*(?:a\b|iframe\b|script\b|embed\b|object\b)|href\s*=|src\s*=/i;
+  if (htmlPattern.test(cleanedText)) return true;
+
+  // 6. BBCode & Markdown link formatting
+  const bbcodePattern = /\[(?:url|link)[=\s\]]|\[\/?url\]|\[\/?link\]|\]\s*\(\s*https?:/i;
+  if (bbcodePattern.test(cleanedText)) return true;
+
+  // 7. Obfuscated domains ([dot], (dot), {dot}, dot com, [slash], hxxp)
+  const obfuscatedPattern = /\[dot\]|\(dot\)|\{dot\}|<dot>|\s+dot\s+|\.dot\.|\/dot\/|\[slash\]|\(slash\)|\{slash\}|hxxp|h\*\*p|h__p/i;
+  if (obfuscatedPattern.test(cleanedText)) return true;
+
+  // 8. Raw IPv4 Addresses
+  const ipPattern = /\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?::\d{1,5})?(?:[/?#]|\b)/;
+  if (ipPattern.test(cleanedText)) return true;
+
+  return false;
+}
+
+function showFieldLinkError(field, message = "Links and URLs are not permitted in this form to protect against spam.") {
+  field.classList.add('has-link-error');
+  field.setCustomValidity(message);
+
+  // Position error message relative to phone group container or field itself
+  const parentGroup = field.closest('.phone-input-group') || field;
+  let existingError = parentGroup.parentElement ? parentGroup.parentElement.querySelector('.field-link-error') : null;
+
+  if (!existingError) {
+    const errorEl = document.createElement('div');
+    errorEl.className = 'field-link-error';
+    errorEl.setAttribute('role', 'alert');
+    errorEl.innerHTML = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="8" x2="12" y2="12"></line>
+        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+      </svg>
+      <span>${message}</span>
+    `;
+    if (parentGroup.nextSibling) {
+      parentGroup.parentNode.insertBefore(errorEl, parentGroup.nextSibling);
+    } else {
+      parentGroup.parentNode.appendChild(errorEl);
+    }
+  }
+}
+
+function clearFieldLinkError(field) {
+  field.classList.remove('has-link-error');
+  field.setCustomValidity("");
+
+  const parentGroup = field.closest('.phone-input-group') || field;
+  if (parentGroup.parentElement) {
+    const existingError = parentGroup.parentElement.querySelector('.field-link-error');
+    if (existingError) {
+      existingError.remove();
+    }
+  }
+}
+
+function validateFieldForLinks(field) {
+  const isEmail = field.type === 'email';
+  const val = field.value || '';
+
+  if (val.trim() === '') {
+    clearFieldLinkError(field);
+    return true;
+  }
+
+  if (containsForbiddenLinks(val, isEmail)) {
+    const errorMsg = isEmail
+      ? "Please enter a valid email address without links or URLs."
+      : "Links and web addresses are strictly prohibited in this field.";
+    showFieldLinkError(field, errorMsg);
+    return false;
+  } else {
+    clearFieldLinkError(field);
+    return true;
+  }
 }
 
 function initFormAntiLinkSecurity() {
   const forms = document.querySelectorAll('form');
   forms.forEach(form => {
-    // Intercept input / paste on textareas and text inputs
-    const textFields = form.querySelectorAll('input[type="text"], input[type="tel"], input[type="email"], textarea');
-    textFields.forEach(field => {
+    // Add invisible honeypot field for bot trap if not present
+    if (!form.querySelector('input[name="_hp_sec_check"]')) {
+      const hpWrap = document.createElement('div');
+      hpWrap.style.cssText = 'display:none!important;position:absolute!important;left:-9999px!important;visibility:hidden!important;';
+      hpWrap.setAttribute('aria-hidden', 'true');
+      hpWrap.innerHTML = '<input type="text" name="_hp_sec_check" tabindex="-1" autocomplete="off" value="">';
+      form.appendChild(hpWrap);
+    }
+
+    // Intercept input / paste on textareas, text inputs, email, and tel
+    const formFields = form.querySelectorAll('input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]), textarea');
+
+    formFields.forEach(field => {
+      // Real-time validation on user keystrokes
       field.addEventListener('input', () => {
-        if (field.tagName.toLowerCase() === 'textarea' || field.type === 'text') {
-          if (containsForbiddenLinks(field.value)) {
-            field.setCustomValidity("Links and URLs are strictly prohibited to prevent phishing and spam.");
-            field.reportValidity();
-            field.style.borderColor = '#EF4444';
-          } else {
-            field.setCustomValidity("");
-            field.style.borderColor = '';
-          }
-        }
+        validateFieldForLinks(field);
       });
 
+      field.addEventListener('blur', () => {
+        validateFieldForLinks(field);
+      });
+
+      // Prevent pasting links
       field.addEventListener('paste', (e) => {
-        const pasteData = (e.clipboardData || window.clipboardData).getData('text');
-        if (containsForbiddenLinks(pasteData)) {
+        const pasteData = (e.clipboardData || window.clipboardData)?.getData('text') || '';
+        const isEmail = field.type === 'email';
+        if (containsForbiddenLinks(pasteData, isEmail)) {
           e.preventDefault();
-          showToast("Links and URLs are not allowed in this form to prevent phishing/spam.");
-          if (field.setCustomValidity) {
-            field.setCustomValidity("Links and URLs are strictly prohibited.");
-            field.reportValidity();
-          }
+          showFieldLinkError(field, "Pasting links and URLs is not allowed.");
+          showToast("Links and URLs are not permitted in this form to prevent spam.");
         }
       });
     });
 
-    // Validate on submission
+    // Form submission blocker
     form.addEventListener('submit', (e) => {
-      let hasLink = false;
-      let offendingField = null;
+      // Check honeypot
+      const hpField = form.querySelector('input[name="_hp_sec_check"]');
+      if (hpField && hpField.value.trim() !== '') {
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+      }
 
-      textFields.forEach(field => {
-        if (containsForbiddenLinks(field.value)) {
-          hasLink = true;
-          offendingField = field;
+      let hasLinkError = false;
+      let firstOffender = null;
+
+      formFields.forEach(field => {
+        const isValid = validateFieldForLinks(field);
+        if (!isValid) {
+          hasLinkError = true;
+          if (!firstOffender) {
+            firstOffender = field;
+          }
         }
       });
 
-      if (hasLink) {
+      if (hasLinkError) {
         e.preventDefault();
+        e.stopImmediatePropagation();
         e.stopPropagation();
-        if (offendingField) {
-          offendingField.focus();
-          offendingField.style.borderColor = '#EF4444';
-          offendingField.setCustomValidity("Links and URLs are strictly prohibited to protect against phishing.");
-          offendingField.reportValidity();
+
+        if (firstOffender) {
+          firstOffender.focus();
+          firstOffender.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          if (firstOffender.reportValidity) {
+            firstOffender.reportValidity();
+          }
         }
-        showToast("Form submission blocked: Links and URLs are not permitted.");
+
+        showToast("⚠️ Form submission blocked: Links and URLs are not permitted.");
         return false;
       }
     }, true);
