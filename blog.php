@@ -95,12 +95,13 @@
     <div class="container page-content-block">
 
       <!-- Featured Post -->
-      <a href="blog-early-signs-of-dementia" class="blog-hero-featured" style="text-decoration:none; color:inherit;">
+      <a href="blog-early-signs-of-dementia" class="blog-hero-featured" aria-label="Featured article: 10 Early Warning Signs of Dementia Every Family Should Know">
         <div class="blog-featured-img-wrap">
           <span class="blog-featured-badge">Featured</span>
-          <img src="assets/images/Dementia-Memory-Care.webp" alt="Adult daughter gently talking with her aging mother at home" loading="lazy" decoding="async">
+          <img src="assets/images/Dementia-Memory-Care.webp" alt="Adult daughter gently talking with her aging mother at home" fetchpriority="high" decoding="async">
         </div>
-        <div>
+        <div class="blog-featured-content">
+          <span class="blog-featured-kicker">Latest from our care team</span>
           <span class="blog-tag-pill">Memory &amp; Dementia Care</span>
           <h2 class="blog-featured-title">10 Early Warning Signs of Dementia Every Family Should Know</h2>
           <p class="blog-featured-excerpt">Cognitive decline rarely arrives all at once. Our Lead Registered Nurse breaks down the subtle early changes in memory, judgment, and mood that families often miss, and the difference it makes to notice them sooner.</p>
@@ -111,7 +112,7 @@
               <span>September 10, 2026 &middot; 7 Min Read</span>
             </div>
           </div>
-          <span class="btn btn-primary btn-sm">
+          <span class="btn btn-primary btn-sm blog-featured-action" aria-hidden="true">
             <span>Read the Full Article</span>
             <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </span>
@@ -120,7 +121,11 @@
 
       <!-- Article Grid -->
       <div class="blog-section-label">
-        <h2 class="section-heading" style="margin-bottom:0;">More Guides for Families</h2>
+        <div>
+          <span class="section-tag">Practical care resources</span>
+          <h2 class="section-heading">Recent guides for families</h2>
+          <p>Clear, nurse-led advice to help you make confident care decisions at home.</p>
+        </div>
       </div>
 
       <div class="blog-grid">

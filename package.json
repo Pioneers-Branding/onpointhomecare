@@ -4,7 +4,7 @@
   "private": true,
   "description": "Static website for OnPoint Nurse & Home Care",
   "scripts": {
-    "serve": "npx --yes serve . -l 3000",
+    "serve": "php -S 127.0.0.1:3000 router.php",
     "sync": "node sync-includes.js"
   }
 }
