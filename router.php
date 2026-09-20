@@ -11,6 +11,11 @@ if ($path === '/') {
     return true;
 }
 
+if ($path === '/sitemap.xml') {
+    require __DIR__ . '/sitemap.php';
+    return true;
+}
+
 $documentRoot = realpath(__DIR__);
 $requestedFile = realpath(__DIR__ . $path);
 if ($requestedFile !== false && str_starts_with($requestedFile, $documentRoot . DIRECTORY_SEPARATOR) && is_file($requestedFile)) {
