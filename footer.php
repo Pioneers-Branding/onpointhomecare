@@ -116,11 +116,12 @@
       <div class="footer-links-col">
         <h4 class="footer-col-title">Areas We Serve</h4>
         <ul class="footer-links-list">
-          <li><a data-soon="Home Care Vancouver" href="vancouver">Home Care Vancouver</a></li>
-          <li><a data-soon="Home Care Burnaby" href="burnaby">Home Care Burnaby</a></li>
-          <li><a data-soon="Home Care Surrey" href="surrey">Home Care Surrey</a></li>
-          <li><a data-soon="Home Care New Westminster" href="new-westminster">Home Care New Westminster</a></li>
-          <li><a data-soon="Home Care Richmond" href="richmond">Home Care Richmond</a></li>
+          <li><a href="locations">All Areas We Serve</a></li>
+          <li><a href="vancouver">Home Care Vancouver</a></li>
+          <li><a href="burnaby">Home Care Burnaby</a></li>
+          <li><a href="surrey">Home Care Surrey</a></li>
+          <li><a href="new-westminster">Home Care New Westminster</a></li>
+          <li><a href="richmond">Home Care Richmond</a></li>
         </ul>
 
         <h4 class="footer-col-title footer-col-subtitle">For Professionals</h4>

@@ -91,19 +91,19 @@
 
       <!-- Geographic architecture -->
       <div class="nav-dropdown">
-        <a data-soon="Areas We Serve" href="locations" class="nav-item nav-dropdown-trigger" data-page="locations">
+        <a href="locations" class="nav-item nav-dropdown-trigger" data-page="locations">
           Areas We Serve
           <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </a>
         <div class="dropdown-menu">
-          <a data-soon="Areas We Serve" href="locations">All Areas We Serve</a>
-          <a data-soon="Home Care Vancouver" href="vancouver">Home Care Vancouver</a>
-          <a data-soon="Home Care Burnaby" href="burnaby">Home Care Burnaby</a>
-          <a data-soon="Home Care Surrey" href="surrey">Home Care Surrey</a>
-          <a data-soon="Home Care New Westminster" href="new-westminster">Home Care New Westminster</a>
-          <a data-soon="Home Care Richmond" href="richmond">Home Care Richmond</a>
+          <a href="locations">All Areas We Serve</a>
+          <a href="vancouver">Home Care Vancouver</a>
+          <a href="burnaby">Home Care Burnaby</a>
+          <a href="surrey">Home Care Surrey</a>
+          <a href="new-westminster">Home Care New Westminster</a>
+          <a href="richmond">Home Care Richmond</a>
         </div>
       </div>
 
@@ -235,12 +235,12 @@
     <details class="drawer-group">
       <summary>Areas We Serve</summary>
       <div class="drawer-sublinks">
-        <a data-soon="Areas We Serve" href="locations">All Areas We Serve</a>
-        <a data-soon="Home Care Vancouver" href="vancouver">Home Care Vancouver</a>
-        <a data-soon="Home Care Burnaby" href="burnaby">Home Care Burnaby</a>
-        <a data-soon="Home Care Surrey" href="surrey">Home Care Surrey</a>
-        <a data-soon="Home Care New Westminster" href="new-westminster">Home Care New Westminster</a>
-        <a data-soon="Home Care Richmond" href="richmond">Home Care Richmond</a>
+        <a href="locations">All Areas We Serve</a>
+        <a href="vancouver">Home Care Vancouver</a>
+        <a href="burnaby">Home Care Burnaby</a>
+        <a href="surrey">Home Care Surrey</a>
+        <a href="new-westminster">Home Care New Westminster</a>
+        <a href="richmond">Home Care Richmond</a>
       </div>
     </details>
 
