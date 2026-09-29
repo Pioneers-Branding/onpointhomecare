@@ -243,7 +243,6 @@
           <p>Assessment continues throughout, because needs in palliative care change quickly and a regimen that was right last week may not be right today.</p>
           <ul class="svc-block-list">
             <li>Systematic pain assessment and scoring</li>
-            <li>Administration of prescribed comfort medication</li>
             <li>Breathlessness and respiratory distress management</li>
             <li>Nausea, appetite and bowel symptom care</li>
             <li>Agitation and restlessness support</li>

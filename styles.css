@@ -4319,6 +4319,65 @@ button, input, select, textarea {
   color: #FFFFFF;
 }
 
+/* Full-width neighborhood link block, grouped by city, below the main footer columns.
+   Shares the exact column tracks of .footer-top-grid (skipping the brand + Company
+   tracks) so the two grids stay visually aligned instead of reading as separate blocks. */
+.footer-neighborhoods {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-neighborhoods-title {
+  font-size: 0.95rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.footer-neighborhoods-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.05fr;
+  gap: 2.5rem;
+}
+
+.footer-neighborhoods-col {
+  grid-column: span 1;
+}
+
+.footer-neighborhoods-col:nth-child(1) { grid-column: 2; }
+.footer-neighborhoods-col:nth-child(2) { grid-column: 3; }
+.footer-neighborhoods-col:nth-child(3) { grid-column: 4; }
+.footer-neighborhoods-col:nth-child(4) { grid-column: 5; }
+
+.footer-neighborhoods-col h5 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-sage-light);
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+}
+
+.footer-neighborhoods-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-neighborhoods-col a {
+  font-size: 0.8rem;
+  color: #CBD5E1;
+  transition: color var(--transition-fast);
+}
+
+.footer-neighborhoods-col a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 .footer-fb-btn {
   background: #1877F2;
   color: #FFFFFF;
@@ -4396,6 +4455,17 @@ button, input, select, textarea {
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem 2rem;
   }
+
+  .footer-neighborhoods-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-neighborhoods-col:nth-child(1),
+  .footer-neighborhoods-col:nth-child(2),
+  .footer-neighborhoods-col:nth-child(3),
+  .footer-neighborhoods-col:nth-child(4) {
+    grid-column: auto;
+  }
 }
 
 /* Below this the menu no longer fits alongside the logo and CTA */
@@ -4440,7 +4510,11 @@ button, input, select, textarea {
   .footer-top-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
+  .footer-neighborhoods-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .leadership-container-card, .leader-full-profile-card {
     grid-template-columns: 1fr;
   }
@@ -4532,7 +4606,12 @@ button, input, select, textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
+  .footer-neighborhoods-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
   .wizard-form-box, .lead-form-card {
     padding: 1.75rem 1.25rem;
   }

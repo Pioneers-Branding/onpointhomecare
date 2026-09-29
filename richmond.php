@@ -164,6 +164,40 @@
         </div>
       </div>
 
+      <!-- Premium neighborhood pages -->
+      <div class="section-header-center">
+        <div class="section-tag">Neighborhood Guides</div>
+        <h2 class="section-heading">Home Care in Richmond's Established Neighborhoods</h2>
+        <p class="section-subheading">A closer look at care planning in the specific neighborhoods we're asked about most.</p>
+      </div>
+      <div class="related-services-grid">
+        <a class="related-service-card" href="terra-nova">
+          <h3 class="wp-title">Home Care in Terra Nova</h3>
+          <p class="wp-desc">Spacious family lots near Terra Nova Rural Park.</p>
+          <span class="service-link">Explore Terra Nova Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="seafair">
+          <h3 class="wp-title">Home Care in Seafair</h3>
+          <p class="wp-desc">Established riverside homes near London Heritage Farm.</p>
+          <span class="service-link">Explore Seafair Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="broadmoor">
+          <h3 class="wp-title">Home Care in Broadmoor</h3>
+          <p class="wp-desc">Larger lots, a mix of older homes and new luxury rebuilds.</p>
+          <span class="service-link">Explore Broadmoor Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="woodwards">
+          <h3 class="wp-title">Home Care in Woodwards</h3>
+          <p class="wp-desc">A quiet, settled community of long-time homeowners.</p>
+          <span class="service-link">Explore Woodwards Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="steveston">
+          <h3 class="wp-title">Home Care in Steveston &amp; Westwind</h3>
+          <p class="wp-desc">Quiet residential streets beside the historic fishing village.</p>
+          <span class="service-link">Explore Steveston Care &rarr;</span>
+        </a>
+      </div>
+
       <!-- Local healthcare -->
       <div class="section-header-center">
         <div class="section-tag">Local Healthcare</div>

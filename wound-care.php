@@ -302,7 +302,6 @@
             <li>Systemic sign monitoring (temperature, confusion, appetite)</li>
             <li>Wound swabbing where directed</li>
             <li>Prompt physician escalation</li>
-            <li>Antibiotic administration where prescribed</li>
             <li>Response monitoring once treatment begins</li>
           </ul>
         </div>

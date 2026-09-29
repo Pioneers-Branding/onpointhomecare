@@ -230,7 +230,6 @@
           <p>We review every pill bottle in the home, cross-reference them with the hospital discharge orders, remove outdated prescriptions, organize blister packs or dosette boxes, and liaise with the community pharmacy.</p>
           <ul class="svc-block-list">
             <li>Elimination of duplicate and discontinued medications</li>
-            <li>Coordination with community pharmacist for delivery</li>
             <li>Dosette box setup and administration tracking</li>
             <li>Side effect surveillance and physician alert protocols</li>
           </ul>

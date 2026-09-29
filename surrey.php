@@ -164,6 +164,45 @@
         </div>
       </div>
 
+      <!-- Premium neighborhood pages -->
+      <div class="section-header-center">
+        <div class="section-tag">Neighborhood Guides</div>
+        <h2 class="section-heading">Home Care in South Surrey and White Rock</h2>
+        <p class="section-subheading">A closer look at care planning in the specific neighborhoods we're asked about most.</p>
+      </div>
+      <div class="related-services-grid">
+        <a class="related-service-card" href="white-rock">
+          <h3 class="wp-title">Home Care in White Rock</h3>
+          <p class="wp-desc">Waterfront condos and hillside homes above Semiahmoo Bay.</p>
+          <span class="service-link">Explore White Rock Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="elgin-chantrell">
+          <h3 class="wp-title">Home Care in Elgin Chantrell</h3>
+          <p class="wp-desc">Gated executive estates near Crescent Beach.</p>
+          <span class="service-link">Explore Elgin Chantrell Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="morgan-creek">
+          <h3 class="wp-title">Home Care in Morgan Creek</h3>
+          <p class="wp-desc">Large luxury homes around the golf course community.</p>
+          <span class="service-link">Explore Morgan Creek Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="ocean-park">
+          <h3 class="wp-title">Home Care in Ocean Park</h3>
+          <p class="wp-desc">Established homes for families who've stayed decades.</p>
+          <span class="service-link">Explore Ocean Park Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="crescent-beach">
+          <h3 class="wp-title">Home Care in Crescent Beach</h3>
+          <p class="wp-desc">A small, exclusive waterfront peninsula community.</p>
+          <span class="service-link">Explore Crescent Beach Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="panorama-ridge">
+          <h3 class="wp-title">Home Care in Panorama Ridge</h3>
+          <p class="wp-desc">Newer executive homes for busy multi-generational families.</p>
+          <span class="service-link">Explore Panorama Ridge Care &rarr;</span>
+        </a>
+      </div>
+
       <!-- Local healthcare -->
       <div class="section-header-center">
         <div class="section-tag">Local Healthcare</div>

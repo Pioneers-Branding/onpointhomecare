@@ -256,7 +256,6 @@
           <p>Nights are where most of the risk sits, and where families are least able to provide cover. Confusion frequently worsens in the evening. Getting to the bathroom in the dark is when falls happen. A deterioration that begins at two in the morning can go unnoticed for six hours in an empty house.</p>
           <p>Waking overnight care means someone is awake and present through the night &mdash; repositioning, assisting to the bathroom, giving medication at the prescribed times, settling confusion, and responding to anything that happens the moment it happens rather than the following morning.</p>
           <ul class="svc-block-list">
-            <li>An awake, present nurse through the night</li>
             <li>Overnight repositioning and pressure care</li>
             <li>Assistance to the bathroom in the dark</li>
             <li>Night-time medication administration</li>

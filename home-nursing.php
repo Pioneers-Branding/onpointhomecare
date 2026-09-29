@@ -274,7 +274,6 @@
             <li>Regimen review against current prescriptions</li>
             <li>Dosette and blister pack checks</li>
             <li>Side effect and interaction monitoring</li>
-            <li>Injection administration where prescribed</li>
             <li>Liaison with the prescribing physician and pharmacy</li>
           </ul>
         </div>

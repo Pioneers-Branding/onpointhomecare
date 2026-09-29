@@ -164,6 +164,40 @@
         </div>
       </div>
 
+      <!-- Premium neighborhood pages -->
+      <div class="section-header-center">
+        <div class="section-tag">Neighborhood Guides</div>
+        <h2 class="section-heading">Home Care in Burnaby's Established Neighborhoods</h2>
+        <p class="section-subheading">A closer look at care planning in the specific neighborhoods we're asked about most.</p>
+      </div>
+      <div class="related-services-grid">
+        <a class="related-service-card" href="brentwood">
+          <h3 class="wp-title">Home Care in Brentwood</h3>
+          <p class="wp-desc">Luxury high-rise living near the redeveloping town centre.</p>
+          <span class="service-link">Explore Brentwood Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="buckingham-heights">
+          <h3 class="wp-title">Home Care in Buckingham Heights</h3>
+          <p class="wp-desc">One of Burnaby's quietest, most private estate enclaves.</p>
+          <span class="service-link">Explore Buckingham Heights Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="government-road">
+          <h3 class="wp-title">Home Care in Government Road</h3>
+          <p class="wp-desc">Larger lots near Burnaby Mountain and SFU.</p>
+          <span class="service-link">Explore Government Road Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="deer-lake-place">
+          <h3 class="wp-title">Home Care in Deer Lake Place</h3>
+          <p class="wp-desc">Executive homes on quiet cul-de-sacs beside Deer Lake Park.</p>
+          <span class="service-link">Explore Deer Lake Place Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="capitol-hill">
+          <h3 class="wp-title">Home Care in Capitol Hill</h3>
+          <p class="wp-desc">Hillside homes with sweeping views over Burrard Inlet.</p>
+          <span class="service-link">Explore Capitol Hill Care &rarr;</span>
+        </a>
+      </div>
+
       <!-- Local healthcare -->
       <div class="section-header-center">
         <div class="section-tag">Local Healthcare</div>

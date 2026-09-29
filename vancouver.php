@@ -164,6 +164,45 @@
         </div>
       </div>
 
+      <!-- Premium neighborhood pages -->
+      <div class="section-header-center">
+        <div class="section-tag">Neighborhood Guides</div>
+        <h2 class="section-heading">Home Care in Vancouver's Established Neighborhoods</h2>
+        <p class="section-subheading">A closer look at care planning in the specific neighborhoods we're asked about most.</p>
+      </div>
+      <div class="related-services-grid">
+        <a class="related-service-card" href="shaughnessy">
+          <h3 class="wp-title">Home Care in Shaughnessy</h3>
+          <p class="wp-desc">Discreet care for heritage estates and legacy families.</p>
+          <span class="service-link">Explore Shaughnessy Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="west-point-grey">
+          <h3 class="wp-title">Home Care in West Point Grey</h3>
+          <p class="wp-desc">Character homes near Jericho Beach and Spanish Banks.</p>
+          <span class="service-link">Explore West Point Grey Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="kerrisdale">
+          <h3 class="wp-title">Home Care in Kerrisdale</h3>
+          <p class="wp-desc">A village neighborhood favored by families who'd rather not downsize.</p>
+          <span class="service-link">Explore Kerrisdale Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="southlands">
+          <h3 class="wp-title">Home Care in Southlands</h3>
+          <p class="wp-desc">Equestrian acreage properties along the Fraser River.</p>
+          <span class="service-link">Explore Southlands Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="point-grey-road">
+          <h3 class="wp-title">Home Care in Point Grey Road</h3>
+          <p class="wp-desc">Waterfront homes along English Bay.</p>
+          <span class="service-link">Explore Point Grey Road Care &rarr;</span>
+        </a>
+        <a class="related-service-card" href="mount-pleasant">
+          <h3 class="wp-title">Home Care in Mount Pleasant</h3>
+          <p class="wp-desc">For adult children coordinating a parent's care from a busy career.</p>
+          <span class="service-link">Explore Mount Pleasant Care &rarr;</span>
+        </a>
+      </div>
+
       <!-- Local healthcare -->
       <div class="section-header-center">
         <div class="section-tag">Local Healthcare</div>

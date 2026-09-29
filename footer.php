@@ -157,6 +157,55 @@
       </div>
     </div>
 
+    <!-- Neighborhood Guides, grouped by city -->
+    <div class="footer-neighborhoods">
+      <h4 class="footer-neighborhoods-title">Neighborhood Guides</h4>
+      <div class="footer-neighborhoods-grid">
+        <div class="footer-neighborhoods-col">
+          <h5>Vancouver</h5>
+          <ul>
+            <li><a href="shaughnessy">Shaughnessy</a></li>
+            <li><a href="west-point-grey">West Point Grey</a></li>
+            <li><a href="kerrisdale">Kerrisdale</a></li>
+            <li><a href="southlands">Southlands</a></li>
+            <li><a href="point-grey-road">Point Grey Road</a></li>
+            <li><a href="mount-pleasant">Mount Pleasant</a></li>
+          </ul>
+        </div>
+        <div class="footer-neighborhoods-col">
+          <h5>Burnaby</h5>
+          <ul>
+            <li><a href="brentwood">Brentwood</a></li>
+            <li><a href="buckingham-heights">Buckingham Heights</a></li>
+            <li><a href="government-road">Government Road</a></li>
+            <li><a href="deer-lake-place">Deer Lake Place</a></li>
+            <li><a href="capitol-hill">Capitol Hill</a></li>
+          </ul>
+        </div>
+        <div class="footer-neighborhoods-col">
+          <h5>Surrey &amp; White Rock</h5>
+          <ul>
+            <li><a href="white-rock">White Rock</a></li>
+            <li><a href="elgin-chantrell">Elgin Chantrell</a></li>
+            <li><a href="morgan-creek">Morgan Creek</a></li>
+            <li><a href="ocean-park">Ocean Park</a></li>
+            <li><a href="crescent-beach">Crescent Beach</a></li>
+            <li><a href="panorama-ridge">Panorama Ridge</a></li>
+          </ul>
+        </div>
+        <div class="footer-neighborhoods-col">
+          <h5>Richmond</h5>
+          <ul>
+            <li><a href="terra-nova">Terra Nova</a></li>
+            <li><a href="seafair">Seafair</a></li>
+            <li><a href="broadmoor">Broadmoor</a></li>
+            <li><a href="woodwards">Woodwards</a></li>
+            <li><a href="steveston">Steveston &amp; Westwind</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="footer-bottom-bar">
       <div class="footer-bottom-left">
         <p>&copy; 2026 OnPoint Nurse &amp; Home Care. Serving Vancouver, Burnaby, Surrey, New Westminster &amp; Richmond. All rights reserved.</p>
