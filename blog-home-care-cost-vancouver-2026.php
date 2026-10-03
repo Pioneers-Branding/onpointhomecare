@@ -37,7 +37,7 @@ blog_require_published('2026-10-02');
       "description": "What does home care cost in Vancouver in 2026? Real hourly ranges for companion, personal, and nursing-level care, plus what actually moves your price.",
       "image": "https://onpointhomecare.care/assets/images/photos/care-team-blood-pressure-check.jpg",
       "datePublished": "2026-10-02",
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-03",
       "author": {
         "@type": "Person",
         "name": "Risper Murunga, RN, BSN, MPH",
@@ -65,7 +65,7 @@ blog_require_published('2026-10-02');
           "name": "How much does home care cost per hour in Vancouver?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Private home care in the Vancouver area typically runs in the range of $35 to $65 per hour, depending on whether you need companionship, personal care, or skilled nursing support. Always confirm current rates directly with an agency."
+            "text": "Private home care in Vancouver typically runs $35 to $55 per hour for companionship and personal care. Clinical tasks performed by a Registered Nurse are billed separately. Confirm current rates with an agency."
           }
         },
         {
@@ -147,15 +147,15 @@ blog_require_published('2026-10-02');
           <p>"How much is this actually going to cost?" is usually the second question a family asks us, right after "can you help my parent stay at home safely?" It is also one of the harder questions to answer with a single number, because <strong>home care cost in Vancouver</strong> depends heavily on the type of care, the number of hours needed, and how quickly a family needs support to begin. This guide breaks down real 2026 pricing ranges so you can budget with more confidence before your first conversation with an agency.</p>
 
           <h2 id="quick-answer">The Quick Answer</h2>
-          <p>Across British Columbia, private home care generally runs in a broad range of roughly $32 to $55 per hour, with rates in Metro Vancouver often landing at the higher end of provincial ranges, and sometimes above it for specialized or nursing-level care. Companionship and light homemaking support tend to sit at the lower end, personal care in the middle, and skilled nursing services toward the top. Exact pricing varies by agency, caregiver qualifications, time of day, and how many hours you book, so treat every number in this guide as a planning range, not a quote, and confirm current pricing directly with any agency you're considering.</p>
+          <p>Across British Columbia, private home care for companionship and personal care generally runs in a broad range of roughly $35 to $55 per hour, with rates in Metro Vancouver often landing at the higher end of that range. Companionship and light homemaking support tend to sit at the lower end, and personal care toward the top. Clinical tasks performed by a Registered Nurse, such as wound care, medication administration, and health monitoring, are billed separately from personal care and companionship. Exact pricing varies by agency, caregiver qualifications, time of day, and how many hours you book, so treat every number in this guide as a planning range, not a quote, and confirm current pricing directly with any agency you're considering.</p>
 
           <h2 id="hourly-rates">Hourly Rates by Type of Care</h2>
           <p>Home care is not one product with one price. It generally breaks into three broad tiers:</p>
           <p><strong>Companionship and homemaking:</strong> Conversation, light housekeeping, meal preparation, errands, and transportation. This is typically the most affordable tier, since it doesn't require clinical training.</p>
           <p><strong>Personal care:</strong> Bathing, dressing, grooming, mobility assistance, and toileting support. Because this work involves more hands-on physical care and a higher duty of supervision, it typically costs more per hour than companionship.</p>
-          <p><strong>Nursing and specialized care:</strong> Wound care, medication management, chronic disease monitoring, and post-surgical support delivered by a Registered Nurse or Licensed Practical Nurse. This is the highest tier, reflecting the clinical training and regulatory scope required.</p>
+          <p><strong>Nursing and specialized care:</strong> Wound care, medication management, chronic disease monitoring, and post-surgical support delivered by a Registered Nurse or Licensed Practical Nurse. Clinical tasks at this level are billed separately from personal care and companionship, reflecting the clinical training and regulatory scope required.</p>
           <p>Most families end up needing a blend rather than a single tier: for example, personal care visits most days, with occasional nursing check-ins after a hospital discharge or surgery. Our <a href="home-care-cost">home care cost guide</a> outlines how these tiers are typically priced and combined.</p>
-          <p>It's also worth understanding that these tiers are not always billed as separate services. Many agencies structure their pricing so a single caregiver can handle a blend of companionship and light personal care within one visit, while a distinct, higher rate applies specifically when a Licensed Practical Nurse or Registered Nurse is required for clinical tasks. Ask any agency you're comparing to walk you through exactly which staff level is assigned to which part of your parent's care plan, since that assignment, more than anything else, determines the blended rate you'll actually pay.</p>
+          <p>It's worth understanding how these tiers are actually billed. Companionship and personal care are typically billed at a single standard hourly rate, since a care aide can handle both within one visit, while clinical tasks performed by a Registered Nurse are billed separately at a distinct nursing rate. Ask any agency you're comparing to walk you through exactly which staff level is assigned to which part of your parent's care plan, since that assignment, more than anything else, determines what you'll actually pay.</p>
 
           <div class="article-callout">
             <div class="article-callout-title">
@@ -216,7 +216,7 @@ blog_require_published('2026-10-02');
                 <span class="faq-q-icon">+</span>
               </button>
               <div class="faq-content">
-                <p>Private home care in the Vancouver area typically runs in the range of $35 to $65 per hour, depending on whether you need companionship, personal care, or skilled nursing support. Always confirm current rates directly with an agency.</p>
+                <p>Private home care in Vancouver typically runs $35 to $55 per hour for companionship and personal care. Clinical tasks performed by a Registered Nurse are billed separately. Confirm current rates with an agency.</p>
               </div>
             </div>
             <div class="faq-item">

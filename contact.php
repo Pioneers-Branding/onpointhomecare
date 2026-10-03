@@ -107,7 +107,7 @@
                   <div class="c-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
                   <div>
                     <h4 class="c-item-title">Operating Hours</h4>
-                    <p class="c-item-val">Mon – Sat: 8:00 AM – 6:00 PM</p>
+                    <p class="c-item-val">Mon – Sun: 8:00 AM – 6:00 PM</p>
                     <p class="c-item-note">24/7 on-call nursing support for registered care clients</p>
                   </div>
                 </div>

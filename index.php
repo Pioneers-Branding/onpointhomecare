@@ -1432,7 +1432,7 @@
                   <h4 class="c-item-title">Phone Inquiries</h4>
                   <p class="c-item-val">(778) 244-1332
                   </p>
-                  <p class="c-item-note">Monday – Saturday: 8:00 AM – 6:00 PM</p>
+                  <p class="c-item-note">Monday – Sunday: 8:00 AM – 6:00 PM</p>
                 </div>
               </div>
 
