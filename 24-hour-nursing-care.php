@@ -416,7 +416,6 @@
       </div>
       <div class="condition-cloud">
         <span class="cond-tag">Advanced dementia with night-time risk</span>
-        <span class="cond-tag">End-of-life and palliative care</span>
         <span class="cond-tag">Post-stroke high dependency</span>
         <span class="cond-tag">Advanced Parkinson's disease</span>
         <span class="cond-tag">Complex wound and pressure care</span>
@@ -617,9 +616,9 @@
             <p class="wp-desc">Privately arranged nursing at any level of intensity.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
-          <a class="related-service-card" href="palliative-care">
-            <h3 class="wp-title">Palliative &amp; End-of-Life Care</h3>
-            <p class="wp-desc">Continuous comfort-focused care in the final period.</p>
+          <a class="related-service-card" href="post-discharge-nursing">
+            <h3 class="wp-title">Post-Discharge Nursing</h3>
+            <p class="wp-desc">Skilled clinical nursing following hospital discharge.</p>
             <span class="service-link">Read More &rarr;</span>
           </a>
           <a class="related-service-card" href="home-nursing">

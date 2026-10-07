@@ -426,7 +426,6 @@
         <span class="cond-tag">Burns (in recovery)</span>
         <span class="cond-tag">Moisture-associated skin damage</span>
         <span class="cond-tag">Cellulitis follow-up</span>
-        <span class="cond-tag">Fungating and palliative wounds</span>
         <span class="cond-tag">Post-amputation sites</span>
         <span class="cond-tag">Drain and stoma site care</span>
       </div>

@@ -317,10 +317,10 @@
             <svg class="icon-sm" viewBox="0 0 24 24" fill="#D97706" stroke="#D97706"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
             <svg class="icon-sm" viewBox="0 0 24 24" fill="#D97706" stroke="#D97706"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
           </div>
-          <h3>"Compassionate Palliative Support"</h3>
-          <p>"During my mother's final weeks, OnPoint provided around-the-clock comfort nursing. Their gentle presence and calm guidance helped us focus on being a loving family rather than stressed medical managers. We will forever be grateful."</p>
+          <h3>"Compassionate 24-Hour Care"</h3>
+          <p>"When my mother needed around-the-clock attention, OnPoint provided exceptional nursing and personal support. Their gentle presence and calm guidance helped us focus on being a loving family rather than stressed caregivers. We will forever be grateful."</p>
           <div style="margin-top: 1rem; font-weight: 700; color: var(--primary-teal-dark);">
-            — Brian &amp; Laura C. <span style="font-weight: normal; color: var(--text-muted); font-size: 0.85rem;">(North Vancouver • Palliative Care)</span>
+            — Brian &amp; Laura C. <span style="font-weight: normal; color: var(--text-muted); font-size: 0.85rem;">(North Vancouver • 24-Hour Nursing)</span>
           </div>
         </div>
       </div>

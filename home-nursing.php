@@ -430,7 +430,6 @@
         <span class="cond-tag">Continence management</span>
         <span class="cond-tag">Chronic kidney disease</span>
         <span class="cond-tag">Cancer supportive care</span>
-        <span class="cond-tag">Palliative needs</span>
       </div>
 
       <!-- Process -->

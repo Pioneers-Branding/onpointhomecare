@@ -427,7 +427,6 @@
         <span class="cond-tag">Living alone unsafely</span>
         <span class="cond-tag">After a serious hospital admission</span>
         <span class="cond-tag">Bridging before residential placement</span>
-        <span class="cond-tag">Palliative and end-of-life needs</span>
         <span class="cond-tag">Bereavement of a spouse-carer</span>
         <span class="cond-tag">Complex behavioural needs</span>
       </div>

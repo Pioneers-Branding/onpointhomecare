@@ -424,7 +424,6 @@
         <span class="cond-tag">Medication administration</span>
         <span class="cond-tag">Wound and dressing care</span>
         <span class="cond-tag">Chronic disease monitoring</span>
-        <span class="cond-tag">Palliative support</span>
         <span class="cond-tag">Dementia care continuity</span>
         <span class="cond-tag">Cover during a carer's holiday</span>
         <span class="cond-tag">Short-term crisis support</span>

@@ -315,8 +315,7 @@
             </svg>
           </div>
           <h3>Surrey &amp; Fraser South</h3>
-          <p>Surrey Memorial Hospital and Peace Arch Hospital — high-acuity chronic disease stabilization, palliative
-            transitions, and fall mitigation staging.</p>
+          <p>Surrey Memorial Hospital and Peace Arch Hospital — high-acuity chronic disease stabilization, complex transition support, and fall mitigation staging.</p>
         </div>
       </div>
 
@@ -363,7 +362,6 @@
                   <option value="Complex Nursing (Wounds / IV / G-Tube)">Complex Nursing (Wounds / IV / G-Tube)</option>
                   <option value="Dementia / Fall Risk">Dementia / Wandering / High Fall Risk</option>
                   <option value="Sub-Acute 24-Hour Watch">Sub-Acute 24-Hour Watch &amp; Vitals</option>
-                  <option value="Palliative Comfort Care">Palliative Comfort Care</option>
                 </select>
               </div>
             </div>

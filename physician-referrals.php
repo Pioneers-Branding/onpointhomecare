@@ -357,7 +357,6 @@
                     Blister-Pack Oversight</option>
                   <option value="Dementia & Safety Check-ins">Dementia Memory Care &amp; Safety Supervision</option>
                   <option value="Sub-Acute Post-Op Recovery">Post-Surgical In-Home Nursing</option>
-                  <option value="Palliative Care">Palliative Symptom Management</option>
                 </select>
               </div>
             </div>

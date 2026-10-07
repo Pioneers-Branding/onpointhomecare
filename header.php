@@ -67,7 +67,6 @@
             <a href="private-nursing">Private Nursing</a>
             <a href="nursing-health-monitoring">Nursing &amp; Health Monitoring</a>
             <a href="24-hour-nursing-care">24-Hour Nursing Care</a>
-            <a href="palliative-care">Palliative &amp; End-of-Life Care</a>
           </div>
 
           <div class="mega-col">
@@ -216,7 +215,6 @@
         <a href="private-nursing">Private Nursing</a>
         <a href="nursing-health-monitoring">Nursing &amp; Health Monitoring</a>
         <a href="24-hour-nursing-care">24-Hour Nursing Care</a>
-        <a href="palliative-care">Palliative &amp; End-of-Life Care</a>
       </div>
     </details>
 

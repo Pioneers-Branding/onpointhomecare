@@ -233,7 +233,7 @@
               <tr style="border-bottom: 1px solid var(--border-color); background: #FFFFFF;">
                 <td style="padding: 1rem; font-weight: 700; color: var(--primary-teal-dark);">24-Hour Continuous Care</td>
                 <td style="padding: 1rem;">Rotational Primary Team of RNs &amp; Aides</td>
-                <td style="padding: 1rem;">Continuous, round-the-clock presence for high-acuity, fall-risk, or palliative individuals.</td>
+                <td style="padding: 1rem;">Continuous, round-the-clock presence for high-acuity, fall-risk, or complex care individuals.</td>
                 <td style="padding: 1rem;">Discounted daily / weekly 24-hour care packages</td>
               </tr>
             </tbody>

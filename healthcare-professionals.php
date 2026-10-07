@@ -33,8 +33,7 @@
       "medicalSpecialty": [
         "HomeHealthCare",
         "Nursing",
-        "PostSurgicalCare",
-        "PalliativeCare"
+        "PostSurgicalCare"
       ],
       "areaServed": [
         {
@@ -103,7 +102,7 @@
           "name": "What scopes of nursing practice does OnPoint support in the home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our RNs and LPNs provide complex wound management, negative pressure wound therapy (NPWT), IV antibiotic infusions, PICC/CVC maintenance, catheter care, G-tube/J-tube enteral nutrition, and palliative symptom management."
+            "text": "Our RNs and LPNs provide complex wound management, negative pressure wound therapy (NPWT), IV antibiotic infusions, PICC/CVC maintenance, catheter care, G-tube/J-tube enteral nutrition, and complex chronic disease management."
           }
         },
         {
@@ -403,7 +402,7 @@
             <span class="faq-q-icon">+</span>
           </button>
           <div class="faq-content">
-            <p>Our RNs and LPNs provide complex wound management, negative pressure wound therapy (NPWT), IV antibiotic infusions, PICC/CVC maintenance, catheter care, G-tube/J-tube enteral nutrition, and palliative symptom management.</p>
+            <p>Our RNs and LPNs provide complex wound management, negative pressure wound therapy (NPWT), IV antibiotic infusions, PICC/CVC maintenance, catheter care, G-tube/J-tube enteral nutrition, and complex chronic disease management.</p>
           </div>
         </div>
         <div class="faq-item">

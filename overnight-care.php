@@ -427,7 +427,6 @@
         <span class="cond-tag">Repositioning through the night</span>
         <span class="cond-tag">Living alone and anxious at night</span>
         <span class="cond-tag">Recent bereavement</span>
-        <span class="cond-tag">Palliative and end-of-life care</span>
         <span class="cond-tag">Temporary cover while a carer is away</span>
         <span class="cond-tag">Post-fall confidence loss</span>
       </div>

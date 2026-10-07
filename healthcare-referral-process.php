@@ -106,14 +106,6 @@
         },
         {
           "@type": "Question",
-          "name": "How does OnPoint handle referrals for palliative or end-of-life care?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We work in close synchronization with regional Palliative Care Consultation Teams and local hospices, providing skilled symptom control, pain management, and compassionate family support."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Can referrals be modified once care has commenced?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -372,15 +364,6 @@
           </button>
           <div class="faq-content">
             <p>We offer flexible scheduling including 2-hour clinical procedure visits, 8-to-12-hour daytime or overnight shifts, and continuous 24/7 care.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-trigger" onclick="toggleFaq(this)">
-            <span class="faq-q-text">How does OnPoint handle referrals for palliative or end-of-life care?</span>
-            <span class="faq-q-icon">+</span>
-          </button>
-          <div class="faq-content">
-            <p>We work in close synchronization with regional Palliative Care Consultation Teams and local hospices, providing skilled symptom control, pain management, and compassionate family support.</p>
           </div>
         </div>
         <div class="faq-item">

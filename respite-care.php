@@ -423,7 +423,6 @@
         <span class="cond-tag">Work commitments</span>
         <span class="cond-tag">Overnight relief</span>
         <span class="cond-tag">Weekend cover</span>
-        <span class="cond-tag">Palliative caregiving</span>
         <span class="cond-tag">Post-stroke caring</span>
         <span class="cond-tag">Caring for a spouse</span>
         <span class="cond-tag">Sandwich-generation carers</span>

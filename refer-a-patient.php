@@ -52,7 +52,7 @@
           "name": "Can you accept patients with acute complex medical directives?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We accept patients requiring complex sterile wound dressings (NPWT), enteral tube feeding, catheterization, and specialized palliative symptom control under RN supervision."
+            "text": "Yes. We accept patients requiring complex sterile wound dressings (NPWT), enteral tube feeding, catheterization, and specialized chronic symptom management under RN supervision."
           }
         },
         {
@@ -371,7 +371,6 @@
                     <option value="24-Hour Nursing / Home Care">24-Hour Continuous Care / Overnight Watch</option>
                     <option value="Dementia & Memory Care">Dementia & Alzheimer's Care</option>
                     <option value="Fall Recovery & Mobility">Post-Fall Rehabilitation & Personal Care</option>
-                    <option value="Palliative Care">Palliative & End-of-Life Comfort Care</option>
                   </select>
                 </div>
                 <div class="form-group">
@@ -476,7 +475,7 @@
             <span class="faq-q-icon">+</span>
           </button>
           <div class="faq-content">
-            <p>Yes. We accept patients requiring complex sterile wound dressings (NPWT), enteral tube feeding, catheterization, and specialized palliative symptom control under RN supervision.</p>
+            <p>Yes. We accept patients requiring complex sterile wound dressings (NPWT), enteral tube feeding, catheterization, and specialized chronic symptom management under RN supervision.</p>
           </div>
         </div>
         <div class="faq-item">
