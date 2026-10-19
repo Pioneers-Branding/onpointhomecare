@@ -18,7 +18,7 @@
     rel="stylesheet">
 
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261019">
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
   <!-- Structured data -->
