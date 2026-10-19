@@ -6699,3 +6699,14 @@ button, input, select, textarea {
 @media (hover: none) {
   .blog-hero-featured:hover, .blog-card:hover { transform: none; }
 }
+
+.svc-block p a.text-link {
+  color: var(--primary-teal-light);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.svc-block p a.text-link:hover {
+  color: var(--primary-teal-dark);
+}

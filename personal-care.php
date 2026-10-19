@@ -309,7 +309,7 @@
         <div class="svc-block">
           <span class="svc-block-num">Component 06</span>
           <h3>Daily Routine, Household and Company</h3>
-          <p>A visit is rarely only the task it was booked for. Beds get made, laundry gets done, the fridge gets checked, the mail gets opened, and somebody has a conversation with a person who may not otherwise speak to anyone that day.</p>
+          <p>A visit is rarely only the task it was booked for. Beds get made, laundry gets done, the fridge gets checked, the mail gets opened, prescriptions get collected from a local pharmacy such as <a href="https://surreymeds.ca/" class="text-link" rel="nofollow" target="_blank">Surrey Meds</a>, and somebody has a conversation with a person who may not otherwise speak to anyone that day.</p>
           <p>Keeping a familiar daily rhythm intact is one of the most protective things a care plan can do, particularly where there is memory impairment. Routine is orientation.</p>
           <ul class="svc-block-list">
             <li>Support with daily routines and structure</li>
