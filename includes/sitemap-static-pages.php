@@ -51,6 +51,7 @@ return [
     ["path" => "/our-care-team", "lastmod" => "2026-09-12", "changefreq" => "monthly", "priority" => "0.7"],
     ["path" => "/overnight-care", "lastmod" => "2026-09-12", "changefreq" => "monthly", "priority" => "0.8"],
     ["path" => "/panorama-ridge", "lastmod" => "2026-09-29", "changefreq" => "monthly", "priority" => "0.6"],
+    ["path" => "/partners", "lastmod" => "2026-10-28", "changefreq" => "weekly", "priority" => "0.7"],
     ["path" => "/personal-care", "lastmod" => "2026-09-12", "changefreq" => "monthly", "priority" => "0.8"],
     ["path" => "/physician-referrals", "lastmod" => "2026-09-12", "changefreq" => "monthly", "priority" => "0.7"],
     ["path" => "/point-grey-road", "lastmod" => "2026-09-29", "changefreq" => "monthly", "priority" => "0.6"],

@@ -141,6 +141,9 @@
         </div>
       </div>
 
+      <!-- Partners -->
+      <a href="partners" class="nav-item" data-page="partners">Partners</a>
+
       <!-- Resource hub -->
       <div class="nav-dropdown dropdown-right">
         <a href="resources" class="nav-item nav-dropdown-trigger" data-page="resources">
@@ -150,14 +153,13 @@
           </svg>
         </a>
         <div class="dropdown-menu">
+          <a href="blog">Blog</a>
           <a href="resources">Resources &amp; Family Guides</a>
           <a href="faqs">Frequently Asked Questions</a>
           <a href="care-stories">Care Stories</a>
         </div>
       </div>
 
-      <!-- Blog -->
-      <a href="blog" class="nav-item" data-page="blog">Blog</a>
     </nav>
 
     <!-- Header CTA -->
@@ -265,16 +267,18 @@
       </div>
     </details>
 
+    <a href="partners">Partners</a>
+
     <details class="drawer-group">
       <summary>Resources</summary>
       <div class="drawer-sublinks">
+        <a href="blog">Blog</a>
         <a href="resources">Resources &amp; Family Guides</a>
         <a href="faqs">Frequently Asked Questions</a>
         <a href="care-stories">Care Stories</a>
       </div>
     </details>
 
-    <a href="blog">Blog</a>
     <a href="contact">Contact Us</a>
   </div>
   <div class="drawer-actions">
