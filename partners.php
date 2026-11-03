@@ -44,6 +44,12 @@
             "position": 1,
             "name": "Herbacy Pharmacy",
             "url": "https://surreymeds.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Regency Medical Supplies",
+            "url": "https://regencymed.com/"
           }
         ]
       }
@@ -115,11 +121,11 @@
       <p class="text-paragraph">OnPoint Nurse &amp; Home Care supports seniors across Vancouver, Burnaby, Surrey, New Westminster and Richmond. The people we care for often rely on other local providers too, and we would rather know them and work alongside them than leave families to sort it out alone.</p>
       <p class="text-paragraph">This page is updated whenever a new partner joins, so check back to see who we are working with.</p>
 
-      <!-- Partner: Herbacy -->
+      <!-- Partners -->
       <div class="section-header-center">
-        <div class="section-tag">Pharmacy Partner</div>
-        <h2 class="section-heading">Herbacy Pharmacy</h2>
-        <p class="section-subheading">A community pharmacy in Surrey, BC, and our first listed partner.</p>
+        <div class="section-tag">Who We Work With</div>
+        <h2 class="section-heading">Our Listed Partners</h2>
+        <p class="section-subheading">A pharmacy and a medical supply provider, each with a role in keeping seniors comfortable at home.</p>
       </div>
       <div class="svc-longform">
         <div class="svc-block">
@@ -135,6 +141,18 @@
             <li>Immunizations and travel health</li>
           </ul>
           <p><a href="https://surreymeds.ca/" class="text-link" rel="nofollow noopener" target="_blank">Visit Herbacy Pharmacy</a> to see current services, delivery areas and hours.</p>
+        </div>
+        <div class="svc-block">
+          <span class="svc-block-num">Partner 02</span>
+          <h3>Regency Medical Supplies, Burnaby</h3>
+          <p>Regency Medical Supplies is a provider of medical and rehabilitation products that has served the community for 60 years. Through our partnership, clients can access compression stockings and professional fitting services from Regency's trained compression specialists.</p>
+          <p>Fittings are available at home, at a care facility, or at Regency's store in Burnaby. That convenience matters most for seniors and for anyone who finds travel difficult.</p>
+          <ul class="svc-block-list">
+            <li>Off-the-shelf compression stockings in a range of levels, sizes and styles</li>
+            <li>Personalized measurements and fitting by trained specialists</li>
+            <li>In-home, in-store and care facility fittings</li>
+          </ul>
+          <p><a href="https://regencymed.com/" class="text-link" rel="nofollow noopener" target="_blank">Visit Regency Medical Supplies</a> to see its products and services, or <a href="compression-stockings" class="text-link">read about compression stockings and fittings</a> on our site.</p>
         </div>
         <!-- ADD NEW PARTNERS ABOVE THIS LINE: copy the svc-block above, change the number, name and details -->
       </div>
